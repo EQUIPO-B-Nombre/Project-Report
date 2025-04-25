@@ -590,6 +590,71 @@ https://oncontigo-upc.github.io/Landing-Page/
 
 ### 5.2.1. Sprint Backlogs
 
+<ul>
+         <il><h3>5.2.1.1. Sprint Backlog 1</a></h3></il>
+         <table border="1">
+  <tr>
+    <th>Sprint #</th>
+    <th>User Story</th>
+    <th>Work-item/Task</th>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Estimation (Hours)</th>
+    <th>Assigned To</th>
+    <th>Status (To-do / In-Process / To-Review / Done)</th>
+  </tr>
+  <tr>
+    <td rowspan="4">Sprint 1</td>
+    <td rowspan="4">HU22: Visualización de Landing Page</td>
+    <td>TA01</td>
+    <td>#182062223</td>
+    <td>Agregar call-to-action hacia la Web App</td>
+    <td>Se creará un botón que dirija a la aplicación web en el inicio; asimismo, debe incluir un párrafo llamativo que acompañe a la opción.</td>
+    <td>2</td>
+    <td>Ruben Mallma</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA02</td>
+    <td>#182062223</td>
+    <td>Añadir planes</td>
+    <td>Para la seccion de planes, se podra ver los planes que ofrece nuestra aplicacion.</td>
+    <td>2</td>
+    <td>Paolo Martinez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA03</td>
+    <td>#182062223</td>
+    <td>Mostrar servicio a clientes</td>
+    <td>Para la sección de ‘servicios para pacientes', se añadirá un listado que muestren los servicios que ofrece la app.</td>
+    <td>2</td>
+    <td>Juan Ramos</td>
+    <td>Done</td>
+  </tr>
+   <tr>
+    <td>TA04</td>
+    <td>#182062273</td>
+    <td>Mostrar miembros y sobre nosotros</td>
+    <td>Para la sección de sobre nosotros, explicara nuestra mision y vision de equipo. Tambien la seccion miembros, sobre quienes son los que conforman el grupo</td>
+    <td>4</td>
+    <td>Christian Matos</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="1">Sprint 1</td>
+    <td rowspan="1">HU13: Contacto con OnContigo</td>
+    <td>TA01</td>
+    <td>#182062235</td>
+    <td>Añadir sección de footer</td>
+    <td>Se creará una sección al final del Landing Page que esté dedicada totalmente al contacto con la empresa.(footer)</td>
+    <td>2</td>
+    <td>Luiggi Paredes</td>
+    <td>Done</td>
+  </tr>
+ 
+</table>
 ### 5.2.2. Implemented Landing Page Evidence
 
 ### 5.2.3. Implemented Frontend-Web Application Evidence
