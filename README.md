@@ -1073,9 +1073,14 @@ https://oncontigo-upc.github.io/Landing-Page/
 #### SideBar del FrontEND <br>
 <img src="./img/frontend-web/side.png"/> <br>
 
+#### Lista y detalles de medicamentos<br>
+<img src="./img/frontend-web/medicamentos-new.png"/> <br>
+
 ### 5.2.4. Implemented Native-Mobile Application Evidence
 
 ### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
+
+
 
 ### 5.2.6. RESTful API documentation
 
