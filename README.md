@@ -483,6 +483,79 @@ A continuación, se presenta la gestión de código fuente o como es conocido po
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
+#### Nomenclatura General
+
+  - Utilizaremos términos en inglés para nombrar variables, objetos, elementos y funciones que describan claramente su propósito.
+    - No se utilizarán mayúsculas arbitrarias para mantener la legibilidad del código.
+
+    Ejemplo de nomenclatura estándar:
+    ```css
+    .gallery {}
+    .video {}
+    .login {}
+    ```
+
+    #### Sangria
+    - En HTML, CSS y JavaScript, aplicaremos espacios antes de cada línea dentro de un bloque.
+    - Se recomienda usar dos espacios y evitar la tecla “Tabulación”.
+    - Ejemplo de sangría en HTML:
+        ```css
+        <table>
+        <tr>
+            <th>Name</th>
+            <th>Description</th>
+        </tr>
+        </table>
+        ```
+    - Ejemplo de sangría en CSS:
+        ```css
+        html {
+        background: #fff;
+        color: #404;
+        }
+        ```
+    -Ejemplo de sangría en JavaScript:
+        ```css
+        function toCelsius(fahrenheit) {
+            return (5 / 9) * (fahrenheit - 32);
+        }
+        ```
+
+    #### HTML
+
+    - Declare Document Type: Siempre declare el tipo de documento como HTML5 con <!DOCTYPE html>.
+    - Blank Lines: Deje líneas en blanco después de bloques de gran longitud.
+    Quote Attribute Values: Utilice comillas dobles alrededor de los valores de los atributos.
+    - Multimedia Fallback: Asegure acceso alternativo para multimedia y añada dimensiones a los elementos.
+    - Never Skip the <tittle> Element: El título de la página es crucial para SEO y se muestra en los resultados de búsqueda.
+    - HTML Line-Wrapping: Evite líneas de código extensas. Utilice espacios para diferenciar elementos hijos.
+    #### CSS
+    - Shorthand Properties: Utilice la menor cantidad de líneas posibles para declarar propiedades.
+    - Declaration Stops: Ponga un punto y coma después de cada declaración.
+    - Property Name Stops: Incluya un espacio después de los dos puntos en una declaración de propiedad.
+    - Declaration Block Separation: Separe el nombre de un selector y el inicio de un bloque con un espacio.
+    - CSS Quotation Marks: Utilice comillas simples para valores de atributos y selectores.
+    #### JavaScript
+    - Spaces around operators: Incluya un espacio alrededor de los operadores.
+    - Simple Statement’s End: Finalice las declaraciones simples con un punto y coma.
+    - Beginning and End of a Function: Coloque una llave al final de la primera línea de una función y la llave de cierre sola en la última línea.
+    #### Gherkin
+    - Discernible Given-When-Then Blocks: Utilice la sangría para identificar fácilmente los pasos de un escenario.
+    - Step with Tables: Para los pasos que requieran valores, utilice tablas.
+    - Reducing Noise: Use valores por defecto en los pasos y coloque valores "estándar" entre comillas simples.
+    - Scenarios Separator: Separe escenarios con saltos de línea y comentarios para facilitar la visualización.
+    #### TypeScript
+    - UpperCamelCase: Para clases, interfaces, tipos, enums y decoradores.
+    - lowerCamelCase: Para variables, parámetros, funciones, métodos y alias de módulo.
+    - CONSTANT_CASE: Para valores constantes globales, incluidos los valores de enumeración.
+    - Evite identificadores privados.
+    #### Vue.js
+    - Nombres de Componentes: Utilice camelCase y nombres en singular.
+    - Nombres de Servicios: Añada el sufijo "Service" y utilice mayúsculas al inicio de cada palabra.
+    - Nombres de Archivos de Pruebas Unitarias: Incluya ".spec" antes de ".vue".
+    - Declaración de Funciones: Especifique la visibilidad y evite el uso innecesario de "this".
+    - División de Líneas: Haga un salto de línea después de una coma y divida antes de un operador.
+
 ### 5.1.4. Software Deployment Configuration
 
 ## 5.2. Product Implementation & Deployment
