@@ -933,6 +933,81 @@ https://oncontigo-upc.github.io/Landing-Page/
     <td>To-do</td>
   </tr>
 </table>
+
+<il><h3>5.2.1.4. Sprint Backlog 4</a></h3></il>
+         <table border="1">
+  <tr>
+    <th>Sprint #</th>
+    <th>User Story</th>
+    <th>Work-item/Task</th>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Estimation (Hours)</th>
+    <th>Assigned To</th>
+    <th>Status (To-do / In-Process / To-Review / Done)</th>
+  </tr>
+  <tr>
+    <td rowspan="6">Sprint 4</td>
+    <td>TS01: Registro de usuario</td>
+    <td>TA02</td>
+    <td>#182062223</td>
+    <td> Crear los endpoints de Profiles y documentarlos en SwaggerUI</td>
+    <td>Desarrollar los controladores del Bounded Context</td>
+    <td>4</td>
+    <td>Luiggi Paredes</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TS02: Autenticación de usuario</td>
+    <td>TA01</td>
+    <td>#182062235</td>
+    <td>Desarrollar el Bounded Context Authentication</td>
+    <td>Crear el bounded context de Authentication con su respectiva estructura</td>
+    <td>4</td>
+    <td>Christian Matos</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">TS03:  Registro de medicamentos</td>
+    <td>TA01</td>
+    <td>#182062235</td>
+    <td> Desarrollar el Bounded Context HealthTracking</td>
+    <td>Crear los aggregates,entities,commands,queries, services y repositories del Bounded Context HealthTraking</td>
+    <td>6</td>
+    <td>Paolo Martinez</td>
+    <td>In process</td>
+  </tr>
+  <tr>
+    <td>TA02</td>
+    <td>#182062348</td>
+    <td> Realizar los endpoints con los métodos http GET POST DELETE PATCH de Medications</td>
+    <td> Crear los controladores para documentar los endpoints de Medications</td>
+    <td>4</td>
+    <td>Ruben Mallma</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td rowspan="2">TS04:  Registro de citas</td>
+    <td>TA01</td>
+    <td>#182062173</td>
+    <td> Desarrollar el Bounded Context Appointments</td>
+    <td>Crear los aggregates,entities,commands,queries, services y repositories del Bounded Context Appointments</td>
+    <td>6</td>
+    <td>Juan Ramos</td>
+    <td>In process</td>
+  </tr>
+  <tr>
+    <td>TA02</td>
+    <td>#182062223</td>
+    <td> Realizar los endpoints con los métodos http GET POST DELETE PATCH de Citas</td>
+    <td> Crear los controladores para documentar los endpoints de Citas</td>
+    <td>4</td>
+    <td>Christian Matos</td>
+    <td>To-do</td>
+  </tr>
+</table>
+
 ### 5.2.2. Implemented Landing Page Evidence
 
 ### 5.2.3. Implemented Frontend-Web Application Evidence
