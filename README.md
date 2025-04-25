@@ -1010,6 +1010,24 @@ https://oncontigo-upc.github.io/Landing-Page/
 
 ### 5.2.2. Implemented Landing Page Evidence
 
+#### Desktop Web Browser
+ <img src="./img/execution-evidence/desktop.png"/>
+
+ #### About us
+ <img src="./img/execution-evidence/about-us.png"/>
+
+ #### Members
+ <img src="./img/execution-evidence/members.png"/>
+
+ #### Services
+ <img src="./img/execution-evidence/services.png"/>
+
+ #### Plans
+ <img src="./img/execution-evidence/plans.png "/>
+
+  #### Footer
+ <img src="./img/execution-evidence/footer.png"/>
+
 ### 5.2.3. Implemented Frontend-Web Application Evidence
 
 ### 5.2.4. Implemented Native-Mobile Application Evidence
