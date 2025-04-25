@@ -1080,6 +1080,8 @@ https://oncontigo-upc.github.io/Landing-Page/
 
 ### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
 
+<img src="./img/services/health.png"/> <br>
+<img src="./img/services/profiles.png"/> <br>
 
 
 ### 5.2.6. RESTful API documentation
