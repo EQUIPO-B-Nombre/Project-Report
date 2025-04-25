@@ -655,6 +655,229 @@ https://oncontigo-upc.github.io/Landing-Page/
   </tr>
  
 </table>
+
+<il><h3>5.2.1.2. Sprint Backlog 2</a></h3></il>
+         <table border="1">
+  <tr>
+    <th>Sprint #</th>
+    <th>User Story</th>
+    <th>Work-item/Task</th>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Estimation (Hours)</th>
+    <th>Assigned To</th>
+    <th>Status (To-do / In-Process / To-Review / Done)</th>
+  </tr>
+  <tr>
+    <td rowspan="3">Sprint 2</td>
+    <td rowspan="3">HU01: Registrar cuenta</td>
+    <td>TA01</td>
+    <td>#182031223</td>
+    <td>Crear formulario de registro</td>
+    <td>Desarrollar un formulario en la interfaz de usuario que permita a los usuarios ingresar sus datos</td>
+    <td>2</td>
+    <td>Ruben Mallma</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA02</td>
+    <td>#182062223</td>
+    <td>Implementar validación de datos en el formulario</td>
+    <td>Añadir validaciones al formulario de registro para asegurarse de que todos los campos sean ingresados correctamente antes de permitir que el usuario envíe el formulario</td>
+    <td>2</td>
+    <td>Paolo Martinez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA03</td>
+    <td>#182062223</td>
+    <td>Configurar FakeAPI para registro de usuarios</td>
+    <td>Desarrollar la lógica en el servidor para recibir los datos del formulario de registro, validarlos y almacenarlos en la base de datos.</td>
+    <td>1</td>
+    <td>Christian Ramos</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Sprint 2</td>
+    <td rowspan="2">HU02: Iniciar sesión</td>
+    <td>TA01</td>
+    <td>#182062235</td>
+    <td>Crear pantalla de inicio de sesión</td>
+    <td>Desarrollar una pantalla que permita a los usuarios ingresar sus credenciales para iniciar sesión.</td>
+    <td>2</td>
+    <td>Luiggi Paredes</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA02</td>
+    <td>#182062223</td>
+    <td>Integrar autenticación</td>
+    <td>Programar la lógica necesaria en el servidor para autenticar a los usuarios basándose en las credenciales proporcionadas.</td>
+    <td>1</td>
+    <td>Luiggi Paredes</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="1">Sprint 2</td>
+    <td rowspan="1">HU08: Acceso al calendario</td>
+    <td>TA01</td>
+    <td>#182062235</td>
+    <td>Desarrollar vista de calendario</td>
+    <td>Implementar una vista de calendario en la aplicación que pueda ser accesible tanto por médicos como por pacientes para visualizar fechas importantes.</td>
+    <td>3</td>
+    <td>Luiggi Paredes</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="1">Sprint 2</td>
+    <td rowspan="1">HU09:  Registrar fecha de cita</td>
+    <td>TA01</td>
+    <td>#182062235</td>
+    <td> Implementar funcionalidad de selección de fecha</td>
+    <td>Añadir al calendario la capacidad de seleccionar una fecha y hora específica para agendar una cita médica.</td>
+    <td>2</td>
+    <td>Luiggi Paredes</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="1">Sprint 2</td>
+    <td rowspan="1">HU10:  Registrar fecha de procedimiento</td>
+    <td>TA01</td>
+    <td>#182062235</td>
+    <td>Desarrollar interfaz para registro de procedimientos</td>
+    <td>Crear una interfaz en el calendario donde los médicos puedan registrar fechas y horas de procedimientos médicos realizados a los pacientes.</td>
+    <td>3</td>
+    <td>Christian Matos</td>
+    <td>Done</td>
+  </tr>
+   <tr>
+    <td rowspan="1">Sprint 2</td>
+    <td rowspan="1">HU11:  Registrar periodo de tratamiento</td>
+    <td>TA01</td>
+    <td>#182062235</td>
+    <td>Implementar registro de inicio y finalización de tratamiento</td>
+    <td>Desarrollar funcionalidades para que los médicos puedan registrar la fecha de inicio y de finalización de los tratamientos de los pacientes</td>
+    <td>3</td>
+    <td>Christian Matos</td>
+    <td>Done</td>
+  </tr>
+   <tr>
+    <td rowspan="1">Sprint 2</td>
+    <td rowspan="1">HU12: Registrar horario de medicamentos</td>
+    <td>TA01</td>
+    <td>#182062235</td>
+    <td>Crear funcionalidad de programación de medicamentos</td>
+    <td>Implementar una interfaz donde los médicos puedan registrar y programar los horarios de los medicamentos para cada paciente.</td>
+    <td>1</td>
+    <td>Christian Matos</td>
+    <td>Done</td>
+  </tr>
+    <tr>
+    <td rowspan="1">Sprint 2</td>
+    <td rowspan="1">HU12: Registrar horario de medicamentos</td>
+    <td>TA01</td>
+    <td>#182062235</td>
+    <td>Crear funcionalidad de programación de medicamentos</td>
+    <td>Implementar una interfaz donde los médicos puedan registrar y programar los horarios de los medicamentos para cada paciente.</td>
+    <td>1</td>
+    <td>Paolo Martinez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="1">Sprint 2</td>
+    <td rowspan="1">HU19: Revisar consultas</td>
+    <td>TA01</td>
+    <td>#182062235</td>
+    <td>Desarrollar historial de consultas médicas</td>
+    <td>Crear una sección dentro de la aplicación donde los pacientes puedan revisar su historial de consultas médicas, tanto pasadas como futuras.</td>
+    <td>1</td>
+    <td>Paolo Martinez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="1">Sprint 2</td>
+    <td rowspan="1">HU20: Ver lista de medicamentos</td>
+    <td>TA01</td>
+    <td>#182062235</td>
+    <td>Implementar visualización de detalles de medicamentos</td>
+    <td>Crear una interfaz que permita a los pacientes acceder a una lista detallada de todos los medicamentos prescritos, incluyendo dosis y frecuencia.</td>
+    <td>1</td>
+    <td>Paolo Martinez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="1">Sprint 2</td>
+    <td rowspan="1">HU14:  Alarmas para pacientes</td>
+    <td>TA01</td>
+    <td>#182062235</td>
+    <td>Diseñar interfaz para la gestión de alarmas</td>
+    <td>Crear una interfaz dentro de la pestaña de cada paciente que permita al médico establecer alarmas. Esta interfaz deberá incluir opciones para configurar la hora, la fecha y el motivo de la alarma.</td>
+    <td>2</td>
+    <td>Ruben Mallma</td>
+    <td>Done</td>
+  </tr>
+   <tr>
+    <td rowspan="2">Sprint 2</td>
+    <td rowspan="2">HU23:  Lista de mis pacientes</td>
+    <td>TA01</td>
+    <td>#182062235</td>
+    <td>Crear vista de lista de pacientes</td>
+    <td>Desarrollar una vista en la pantalla principal para el médico que muestre la lista de todos sus pacientes. Esta lista debe incluir información relevante como el nombre del paciente, detalles de contacto, próxima cita y cualquier otra información pertinente.</td>
+    <td>3</td>
+    <td>Ruben Mallma</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA02</td>
+    <td>#182062223</td>
+    <td>Implementar funcionalidades de gestión</td>
+    <td>Añadir funcionalidades en la lista de pacientes que permitan al médico gestionar las alarmas, acceder a los datos del paciente y eliminar paciente. Esto puede incluir botones o enlaces para cada paciente que dirijan a las vistas detalladas.</td>
+    <td>2</td>
+    <td>Ruben Mallma</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Sprint 2</td>
+    <td rowspan="2">HU24:  Agregar Paciente</td>
+    <td>TA01</td>
+    <td>#182062235</td>
+    <td> Diseñar formulario de agregación de pacientes</td>
+    <td>Crear un formulario en la interfaz de usuario que permita al médico ingresar el DNI del paciente para agregarlo a su lista.</td>
+    <td>2</td>
+    <td>Juan Ramos</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA02</td>
+    <td>#182062223</td>
+    <td> Implementar la funcionalidad de agregación en a la FakeAPI</td>
+    <td>Desarrollar la lógica en el servidor para procesar la información ingresada en el formulario</td>
+    <td>1</td>
+    <td>Juan Ramos</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Sprint 2</td>
+    <td rowspan="2">HU25:  Eliminar Paciente</td>
+    <td>TA01</td>
+    <td>#182062235</td>
+    <td> Implementar la opción de eliminación en la interfaz de usuario</td>
+    <td>Añadir un botón o enlace "Eliminar Paciente" en la interfaz de usuario, al lado de cada paciente en la lista, que permita al médico eliminar a un paciente específico.</td>
+    <td>2</td>
+    <td>Juan Ramos</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA02</td>
+    <td>#182062223</td>
+    <td> Desarrollar la lógica de eliminación en la FakeAPI</td>
+    <td> Programar la lógica en el servidor para manejar la solicitud de eliminación.</td>
+    <td>1</td>
+    <td>Juan Ramos</td>
+    <td>Done</td>
+  </tr>
+</table>
 ### 5.2.2. Implemented Landing Page Evidence
 
 ### 5.2.3. Implemented Frontend-Web Application Evidence
