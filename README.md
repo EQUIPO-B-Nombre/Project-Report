@@ -878,6 +878,61 @@ https://oncontigo-upc.github.io/Landing-Page/
     <td>Done</td>
   </tr>
 </table>
+
+<il><h3>5.2.1.3. Sprint Backlog 3</a></h3></il>
+         <table border="1">
+  <tr>
+    <th>Sprint #</th>
+    <th>User Story</th>
+    <th>Work-item/Task</th>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Estimation (Hours)</th>
+    <th>Assigned To</th>
+    <th>Status (To-do / In-Process / To-Review / Done)</th>
+  </tr>
+  <tr>
+    <td rowspan="2">Sprint 3</td>
+    <td rowspan="2">HU01:  Registrar Cuenta</td>
+    <td>TA01</td>
+    <td>#182062235</td>
+    <td>Desarrollar el Bounded Context Authentication</td>
+    <td>Crear el bounded context de Authentication con su respectiva estructura</td>
+    <td>4</td>
+    <td>Ruben Mallma</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA02</td>
+    <td>#182062223</td>
+    <td> Crear los endpoints de Profiles y documentarlos en SwaggerUI</td>
+    <td>Desarrollar los controladores del Bounded Context</td>
+    <td>4</td>
+    <td>Juan Ramos</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Sprint 3</td>
+    <td rowspan="2">HU01:  Listar medicamentos</td>
+    <td>TA01</td>
+    <td>#182062235</td>
+    <td> Desarrollar el Bounded Context HealthTracking</td>
+    <td>Crear los aggregates,entities,commands,queries, services y repositories del Bounded Context HealthTraking</td>
+    <td>6</td>
+    <td>Luiggi Paredes</td>
+    <td>In process</td>
+  </tr>
+  <tr>
+    <td>TA02</td>
+    <td>#182062223</td>
+    <td> Realizar los endpoints con los métodos http GET POST DELETE PATCH de Medications</td>d
+    <td> Crear los controladores para documentar los endpoints de Medications</td>
+    <td>4</td>
+    <td>Christian Matos</td>
+    <td>To-do</td>
+  </tr>
+</table>
 ### 5.2.2. Implemented Landing Page Evidence
 
 ### 5.2.3. Implemented Frontend-Web Application Evidence
