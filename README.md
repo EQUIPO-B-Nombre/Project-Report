@@ -472,7 +472,6 @@ El wireframe de la vista desktop web browser de la landing page tuvo su utilidad
 Desde la vista de un user mobile web browser codse logra ver el contenido de la landing page. Se evidencia la tipografia,colores e imagenes añadidas y adaptadas al margen de los dispositivos mobiles.
 <img src="img/chapter-4/LandingpageMc/LP1mc.png"/><br>
 <img src="img/chapter-4/LandingpageMc/LP2mc.png"/><br>
-<img src="img/chapter-4/LandingpageMc/LP3mc.png"/><br>
 <img src="img/chapter-4/LandingpageMc/LP4mc.png"/><br>
 <img src="img/chapter-4/LandingpageMc/LP5mc.png"/><br>
 <img src="img/chapter-4/LandingpageMc/LP6mc.png"/><br>
