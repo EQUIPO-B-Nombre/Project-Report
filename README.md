@@ -1086,6 +1086,8 @@ https://oncontigo-upc.github.io/Landing-Page/
 
 ### 5.2.6. RESTful API documentation
 
+<img src="./img/services/swagger.png">
+
 ### 5.2.7. Team Collaboration Insights
 
 ## 5.3. Video About-the-Product
