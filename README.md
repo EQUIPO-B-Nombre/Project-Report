@@ -1030,6 +1030,49 @@ https://oncontigo-upc.github.io/Landing-Page/
 
 ### 5.2.3. Implemented Frontend-Web Application Evidence
 
+#### Agregar Paciente
+<img src="./img/frontend-web/agregar-paciente.png"/>
+
+#### Alarma Paciente
+<img src="./img/frontend-web/alarma.png"/>
+
+#### Calendario Paciente
+<img src="./img/frontend-web/calendario-paciente.png"/>
+
+#### Crear Cuenta
+<img src="./img/frontend-web/crear-cuenta.png"/>
+
+#### Eliminar Paciente
+<img src="./img/frontend-web/eliminar-paciente.png"/>
+
+#### Iniciar sesion
+<img src="./img/frontend-web/iniciar-sesion.png"/>
+
+
+#### Medicamentos
+<img src="./img/frontend-web/medicamentos.png"/>
+
+#### Menu doctor
+<img src="./img/frontend-web/menu-doctor.png"/>
+
+#### Menu paciente
+<img src="./img/frontend-web/menu-paciente.png"/>
+
+#### Nueva cita
+<img src="./img/frontend-web/nueva-cita.png"/>
+
+#### Nueva cita
+<img src="./img/frontend-web/tabla-paciente.png"/>
+
+#### Implementacion de la Landing page en el FrontEnd<br>
+<img src="./img/frontend-web/lamding.png"/> <br>
+
+#### Responsive Modals<br>
+<img src="./img/frontend-web/modals.png"/> <br>
+
+#### SideBar del FrontEND <br>
+<img src="./img/frontend-web/side.png"/> <br>
+
 ### 5.2.4. Implemented Native-Mobile Application Evidence
 
 ### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
