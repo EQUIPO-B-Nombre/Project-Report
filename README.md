@@ -1114,6 +1114,8 @@ https://oncontigo-upc.github.io/Landing-Page/
 
 ### 5.2.7. Team Collaboration Insights
 
+<img src="./img/overview.jpg">
+
 ## 5.3. Video About-the-Product
 
 <img src="./img/video.png"> <br>
