@@ -485,17 +485,212 @@ Desde la vista de un user mobile web browser codse logra ver el contenido de la 
 
 ### 4.4.1. Mobile Applications Wireframes
 
+**Iniciar Sesión**
+
+El usuario escribe sus datos en esta sección para poder acceder a la aplicación.
+
+  <img src="img/Chapter-4/figma-mobile/WF1.png">
+
+**Pantalla Principal - Doctor**
+
+La pantalla inicial para los médicos mostrando las opciones principales.
+
+  <img src="img/Chapter-4/figma-mobile/WF9.png">
+
+  **Calendario - Doctor**
+
+En esta pantalla se muestra la herramienta de calendario para los médicos, mostrando sus pacientes y las horas y días que tienen citas con ellos.
+
+  <img src="img/Chapter-4/figma-mobile/WF10.png">
+
+  **Lista de Pacientes**
+
+Pantalla para los doctores que muestra una lista de todos sus pacientes, con botones para agregar más pacientes, ver detalles, etc.
+
+  <img src="img/Chapter-4/figma-mobile/WF11.png">
+
+  **Chat - Doctor a Paciente**
+
+Pantalla para los doctores que muestra una pequeña lista de sus pacientes y un chat privado con cada uno de ellos.
+
+  <img src="img/Chapter-4/figma-mobile/WF12.png">
+
+  **Detalles de Tratamiento - Doctor**
+
+Pantalla con detalles del tratamiento y de los procedimientos de un paciente seleccionado.
+
+  <img src="img/Chapter-4/figma-mobile/WF8.png">
+
+  **Agregar Alarma - Doctor**
+
+Pantalla con opciones para modificar y agregar alarmas y recordatorios para sus pacientes.
+
+  <img src="img/Chapter-4/figma-mobile/WF2.png">
+
+  **Detalles del Paciente**
+
+Pantalla para el doctor con los detalles de un paciente seleccionado.
+
+  <img src="img/Chapter-4/figma-mobile/WF3.png">
+
+  **Eliminar Paciente**
+
+Opción para el doctor para eliminar un paciente, usado al final de un tratamiento completo.
+
+  <img src="img/Chapter-4/figma-mobile/WF4.png">
+
+  **Agregar Paciente**
+
+Opción para el doctor para agregar un paciente nuevo escribiendo su DNI, con lo que el sistema lo agrega automáticamente.
+
+  <img src="img/Chapter-4/figma-mobile/WF5.png">
+
+  **Listado de Medicamentos para Paciente - Doctor**
+
+Muestra los medicamentos que un paciente toma, con opciones para agregar o eliminarlos.
+
+  <img src="img/Chapter-4/figma-mobile/WF6.png">
+
+  **Agregar Nueva Cita**
+
+Pantalla para los doctores para agregar una cita en un horario específico en el calendario.
+
+  <img src="img/Chapter-4/figma-mobile/WF7.png">
+
+  **Pantalla Principal - Paciente**
+
+Pantalla principal de los pacientes, mostrando los detalles más importantes para ellos y con acceso sencillo a las opciones.
+
+  <img src="img/Chapter-4/figma-mobile/WF13.png">
+
+  **Chat - Paciente a Doctor**
+
+Pantalla de chat entre el paciente y un médico.
+
+  <img src="img/Chapter-4/figma-mobile/WF14.png">
+
+  **Calendario - Paciente**
+
+Pantalla que muestra el calendario del paciente, mostrando las fechas y horas de procedimientos y citas con su médico.
+
+  <img src="img/Chapter-4/figma-mobile/WF15.png">
+
+  **Detalles de Doctor**
+
+Pantalla que muestra los detalles del doctor para el paciente, con una opción para acceder directamente al chat.
+
+  <img src="img/Chapter-4/figma-mobile/WF16.png">
+
+
 ### 4.4.2. Mobile Applications Wireflow Diagrams
+
+  <img src="img/Chapter-4/figma-mobile/WFFlow.png">
 
 ### 4.4.3. Mobile Applications Mock-ups
 
+**Iniciar Sesión**
+
+El usuario escribe sus datos en esta sección para poder acceder a la aplicación.
+
+  <img src="img/Chapter-4/figma-mobile/MU1.png">
+
+**Pantalla Principal - Doctor**
+
+La pantalla inicial para los médicos mostrando las opciones principales.
+
+  <img src="img/Chapter-4/figma-mobile/MU9.png">
+
+  **Calendario - Doctor**
+
+En esta pantalla se muestra la herramienta de calendario para los médicos, mostrando sus pacientes y las horas y días que tienen citas con ellos.
+
+  <img src="img/Chapter-4/figma-mobile/MU10.png">
+
+  **Lista de Pacientes**
+
+Pantalla para los doctores que muestra una lista de todos sus pacientes, con botones para agregar más pacientes, ver detalles, etc.
+
+  <img src="img/Chapter-4/figma-mobile/MU11.png">
+
+  **Chat - Doctor a Paciente**
+
+Pantalla para los doctores que muestra una pequeña lista de sus pacientes y un chat privado con cada uno de ellos.
+
+  <img src="img/Chapter-4/figma-mobile/MU12.png">
+
+  **Detalles de Tratamiento - Doctor**
+
+Pantalla con detalles del tratamiento y de los procedimientos de un paciente seleccionado.
+
+  <img src="img/Chapter-4/figma-mobile/MU8.png">
+
+  **Agregar Alarma - Doctor**
+
+Pantalla con opciones para modificar y agregar alarmas y recordatorios para sus pacientes.
+
+  <img src="img/Chapter-4/figma-mobile/MU2.png">
+
+  **Detalles del Paciente**
+
+Pantalla para el doctor con los detalles de un paciente seleccionado.
+
+  <img src="img/Chapter-4/figma-mobile/MU3.png">
+
+  **Eliminar Paciente**
+
+Opción para el doctor para eliminar un paciente, usado al final de un tratamiento completo.
+
+  <img src="img/Chapter-4/figma-mobile/MU4.png">
+
+  **Agregar Paciente**
+
+Opción para el doctor para agregar un paciente nuevo escribiendo su DNI, con lo que el sistema lo agrega automáticamente.
+
+  <img src="img/Chapter-4/figma-mobile/MU5.png">
+
+  **Listado de Medicamentos para Paciente - Doctor**
+
+Muestra los medicamentos que un paciente toma, con opciones para agregar o eliminarlos.
+
+  <img src="img/Chapter-4/figma-mobile/MU6.png">
+
+  **Agregar Nueva Cita**
+
+Pantalla para los doctores para agregar una cita en un horario específico en el calendario.
+
+  <img src="img/Chapter-4/figma-mobile/MU7.png">
+
+  **Pantalla Principal - Paciente**
+
+Pantalla principal de los pacientes, mostrando los detalles más importantes para ellos y con acceso sencillo a las opciones.
+
+  <img src="img/Chapter-4/figma-mobile/MU13.png">
+
+  **Chat - Paciente a Doctor**
+
+Pantalla de chat entre el paciente y un médico.
+
+  <img src="img/Chapter-4/figma-mobile/MU14.png">
+
+  **Calendario - Paciente**
+
+Pantalla que muestra el calendario del paciente, mostrando las fechas y horas de procedimientos y citas con su médico.
+
+  <img src="img/Chapter-4/figma-mobile/MU15.png">
+
+  **Detalles de Doctor**
+
+Pantalla que muestra los detalles del doctor para el paciente, con una opción para acceder directamente al chat.
+
+  <img src="img/Chapter-4/figma-mobile/MU16.png">
+
 ### 4.4.4. Mobile Applications User Flow Diagrams
+
+<img src="img/Chapter-4/figma-mobile/MUFlow.png">
 
 ## 4.5. Mobile Applications Prototyping
 
-### 4.5.1. Android Mobile Applications Prototyping
-
-### 4.5.2. iOS Mobile Applications Prototyping
+Enlace al video demostrativo:
 
 ## 4.6. Web Applications UX/UI Design
 
