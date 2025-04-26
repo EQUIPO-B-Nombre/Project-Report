@@ -1016,9 +1016,6 @@ https://oncontigo-upc.github.io/Landing-Page/
  #### About us
  <img src="./img/execution-evidence/about-us.png"/>
 
- #### Members
- <img src="./img/execution-evidence/members.png"/>
-
  #### Services
  <img src="./img/execution-evidence/services.png"/>
 
