@@ -1078,10 +1078,37 @@ https://oncontigo-upc.github.io/Landing-Page/
 
 ### 5.2.4. Implemented Native-Mobile Application Evidence
 
+#### Registrar
+<img src="./img/frontend-mobile/register.jpg">
+
+#### Iniciar de sesión
+<img src="./img/frontend-mobile/login.jpg">
+
+#### Citas
+<img src="./img/frontend-mobile/appointments.jpg">
+
+#### Perfil 
+<img src="./img/frontend-mobile/register.jpg">
+
+#### Barra de navegación
+<img src="./img/frontend-mobile/sidebar.jpg">
+
+#### Lista de pacientes
+<img src="./img/frontend-mobile/patient-list.jpg">
+
+#### Agregar paciente
+<img src="./img/frontend-mobile/add-patient.jpg">
+
+#### Detalles de paciente
+<img src="./img/frontend-mobile/patient-detail.jpg">
+
+#### Eliminar paciente
+<img src="./img/frontend-mobile/delete-patient.jpg">
+
 ### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
 
 <img src="./img/services/health.png"/> <br>
-<img src="./img/services/profiles.png"/> <br>
+<img src="./img/services/profiles.png"/> <br> 
 
 
 ### 5.2.6. RESTful API documentation
