@@ -1119,6 +1119,12 @@ https://oncontigo-upc.github.io/Landing-Page/
 
 ## 5.3. Video About-the-Product
 
+<img src="./img/video.png"> <br>
+
+[AboutTheTeam](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202010039_upc_edu_pe/ETa2T8CopMhIhMNjfJiqUs8B-NfneGcPa9SXo9WJXsCXFg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ab7LO7)
+
+
+
 # Conclusiones y recomendaciones
 
 # Bibliografía
