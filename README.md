@@ -690,7 +690,7 @@ Pantalla que muestra los detalles del doctor para el paciente, con una opción p
 
 ## 4.5. Mobile Applications Prototyping
 
-Enlace al video demostrativo:
+Enlace al video demostrativo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202019545_upc_edu_pe/EanFVYtvxLhDp1akPn4EJe4BWyXOjF2ypqqk3B2PduYEDQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=f30Dt1
 
 ## 4.6. Web Applications UX/UI Design
 
