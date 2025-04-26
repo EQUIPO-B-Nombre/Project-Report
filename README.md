@@ -429,7 +429,7 @@ de aumentar su visibilidad en los motores de búsqueda
 #### Título de la Página
 `<title>OnContigo</title>`: Define el título de la página, visible en la pestaña del navegador y utilizado por los motores de búsqueda en los resultados.
 
-<img src="img/chapter-4/information-architecture/meta-tags.png"/>
+<img src="img/Chapter-4/information-architecture/meta-tags.png"/>
 
 ### 4.2.4. Searching Systems
 
@@ -450,34 +450,34 @@ Para el Landing Page, no se ha implementado un sistema de búsqueda, ya que la i
 
  **Landing Page desktop**<br>
  Se presenta la landing page vista desde el desktop browser. Donde se muestran la mision,vision,integrantes,caracteristicas,planes, testimonios y por ultimo el footer.<br>
-      <img src="img/chapter-4/Landingpage-Desktop-mobile/LandinpageDesktop.png"/><br>
+      <img src="img/Chapter-4/Landingpage-Desktop-mobile/LandinpageDesktop.png"/><br>
 **Landing pages Mobile**<br>
 Se presenta la landing page vista desde el mobile web browser. Incluye el diseño desktop browser, pero adaptados a las dimensiones del dispositivo móvil.
-<img src="img/chapter-4/Landingpage-Desktop-mobile/LP1.png"/><br>
-<img src="img/chapter-4/Landingpage-Desktop-mobile/LP2.png"/><br>
-<img src="img/chapter-4/Landingpage-Desktop-mobile/LP3.png"/><br>
-<img src="img/chapter-4/Landingpage-Desktop-mobile/LP4.png"/><br>
-<img src="img/chapter-4/Landingpage-Desktop-mobile/LP5.png"/><br>
-<img src="img/chapter-4/Landingpage-Desktop-mobile/LP6.png"/><br>
-<img src="img/chapter-4/Landingpage-Desktop-mobile/LP7.png"/><br>
-<img src="img/chapter-4/Landingpage-Desktop-mobile/LP8.png"/><br>
+<img src="img/Chapter-4/Landingpage-Desktop-mobile/LP1.png"/><br>
+<img src="img/Chapter-4/Landingpage-Desktop-mobile/LP2.png"/><br>
+<img src="img/Chapter-4/Landingpage-Desktop-mobile/LP3.png"/><br>
+<img src="img/Chapter-4/Landingpage-Desktop-mobile/LP4.png"/><br>
+<img src="img/Chapter-4/Landingpage-Desktop-mobile/LP5.png"/><br>
+<img src="img/Chapter-4/Landingpage-Desktop-mobile/LP6.png"/><br>
+<img src="img/Chapter-4/Landingpage-Desktop-mobile/LP7.png"/><br>
+<img src="img/Chapter-4/Landingpage-Desktop-mobile/LP8.png"/><br>
 
 ### 4.3.2. Landing Page Mock-up
 
 **Landing Page para desktop Web browser**<br>
 El wireframe de la vista desktop web browser de la landing page tuvo su utilidad para partir de un esquema definido y al elaborar la landing page mock up, la cual cuenta con los mismo contenidos previos mostrados.<br>
-<img src="img/chapter-4/LandingpageMc/LPmockup.png"/><br>
+<img src="img/Chapter-4/LandingpageMc/LPmockup.png"/><br>
 
 **Landing Page para Mobile Web browser**<br>
 Desde la vista de un user mobile web browser codse logra ver el contenido de la landing page. Se evidencia la tipografia,colores e imagenes añadidas y adaptadas al margen de los dispositivos mobiles.
-<img src="img/chapter-4/LandingpageMc/LP1mc.png"/><br>
-<img src="img/chapter-4/LandingpageMc/LP2mc.png"/><br>
-<img src="img/chapter-4/LandingpageMc/LP4mc.png"/><br>
-<img src="img/chapter-4/LandingpageMc/LP5mc.png"/><br>
-<img src="img/chapter-4/LandingpageMc/LP6mc.png"/><br>
-<img src="img/chapter-4/LandingpageMc/LP7mc.png"/><br>
-<img src="img/chapter-4/LandingpageMc/LP8mc.png"/><br>
-<img src="img/chapter-4/LandingpageMc/LPfooter.png"/><br>
+<img src="img/Chapter-4/LandingpageMc/LP1mc.png"/><br>
+<img src="img/Chapter-4/LandingpageMc/LP2mc.png"/><br>
+<img src="img/Chapter-4/LandingpageMc/LP4mc.png"/><br>
+<img src="img/Chapter-4/LandingpageMc/LP5mc.png"/><br>
+<img src="img/Chapter-4/LandingpageMc/LP6mc.png"/><br>
+<img src="img/Chapter-4/LandingpageMc/LP7mc.png"/><br>
+<img src="img/Chapter-4/LandingpageMc/LP8mc.png"/><br>
+<img src="img/Chapter-4/LandingpageMc/LPfooter.png"/><br>
       
    </ul>
 
@@ -703,48 +703,48 @@ Enlace del [Figma](https://www.figma.com/file/9fLXXyhFtxOwF2iFs8gBdM/Oncontigo-M
 **Iniciar sesión**<br>
 La siguiente imagen evidencia el wireframe de la sección de " inicio de sesion" desde la vista de desktop web browser. En ella, los usuario podra registrarse brindando sus credenciales necesarias para acceder a la aplicación.<br>
 
-   <img src="img/chapter-4/figma/IniciarSesion.png"><br> 
+   <img src="img/Chapter-4/figma/IniciarSesion.png"><br> 
 
 **Menu Doctores**<br>
 La siguiente imagen muestra el wireframe de la seccion de "Menu de doctores" desde la vista de desktops web browser. En ella, el usuario medico podra acceder desde ahi a la lsita de pacientes y al calendario.<br>
 
-   <img src="img//chapter-4/figma/MenuDoctores.png"><br> 
+   <img src="img//Chapter-4/figma/MenuDoctores.png"><br> 
 
 **Lista de Pacientes**<br>
 La siguiente imagen muestra el wireframe de la seccion de "Medico Alarma" . En ella el medico podra establecer una nota y la hora que se le envie la notificacion a su paciente.<br>
 
-   <img src="img//chapter-4/figma/ListaPacientes.png"><br> 
+   <img src="img//Chapter-4/figma/ListaPacientes.png"><br> 
 
 **Agregar Paciente**<br>
 La imagen muestra la seccion "agregar paciente".En ella el medico puede registrar los datos de su paciente solo colocando su Dni.<br>
 
 
-   <img src="img//chapter-4/figma/AgregarPaciente.png"><br> 
+   <img src="img//Chapter-4/figma/AgregarPaciente.png"><br> 
 
 **Eliminar Paciente**<br>
 La imagen se muestra la seccion " Eliminar Paciente". En ella el medico podra eliminar pacientes de su lista una ves ya seleccionado.<br>
 
-   <img src="img//chapter-4/figma/EliminarPaciente.png"><br> 
+   <img src="img//Chapter-4/figma/EliminarPaciente.png"><br> 
 
 **Tratamiento/Procedimeinto**<br>
 La imagen muestra la seccion "Tratamiento/Procedimiento".En esta seccion el medico podra acceder a elejir y añadir los tratamiento y/o procedimientos que esta siguiendo su paciente.<br>
 
-   <img src="img//chapter-4/figma/TRATAMIENTO.png"><br> 
+   <img src="img//Chapter-4/figma/TRATAMIENTO.png"><br> 
 
 **Recetar Medicamento** <br>
 La imagen muestra la seccion "Recetar medicamento". En ella el medico una vez presionado el boton correcto le mostrara para que añada, quite o describa el medicamento que deba optar el paciente<br>
 
-   <img src="img//chapter-4/figma/Recmedicamento.png"><br> 
+   <img src="img//Chapter-4/figma/Recmedicamento.png"><br> 
 
 **Chat Medico**<br>
 La imagen muestra la seccion "Chat del medico". En ella el medico podra acceder a una comunicacion privada con su paciente.<br>
 
-   <img src="img//chapter-4/figma/chatmedico.png"><br> 
+   <img src="img//Chapter-4/figma/chatmedico.png"><br> 
 
 **Medico alarma**<br>
 La imagen muestra la seccion "Medico Alarma". En ella el usuario medico podra acceder a una funcion de notificacion a su paciente con los medicament,tratamiento,procedimiento y proximas citas.
 
-   <img src="img//chapter-4/figma/Alarma.png"><br> 
+   <img src="img//Chapter-4/figma/Alarma.png"><br> 
 
 ### 4.6.2. Web Applications Wireflow Diagrams
 
@@ -756,7 +756,7 @@ Enlace del [Figma](https://www.figma.com/file/9fLXXyhFtxOwF2iFs8gBdM/Oncontigo-M
 
    Explicación: Cuando el usuario haga click a "Mi Doctor", le aparecerá la interfaz con sus datos y un botón que dice "Chat". Cuando haga click en ese botón, ingresará al apartado de chat para que puedan comunicarse.
 
-   <img src="img/chapter-4/information-architecture/diagrams/wireflow/Acceder-Chat-Paciente.png"/><br>
+   <img src="img/Chapter-4/information-architecture/diagrams/wireflow/Acceder-Chat-Paciente.png"/><br>
 
 
 **User Goal: Acceder al Calendario**
@@ -765,7 +765,7 @@ Enlace del [Figma](https://www.figma.com/file/9fLXXyhFtxOwF2iFs8gBdM/Oncontigo-M
 
    Explicación: Cuando el usuario se encuentre en la menú de inicio. Va aparecer en la izquierda una opción llamada "Calendario". Cuando haga click en ese botón lo redirigirá a la una interfaz con el calendario y las próximas citas o tratamientos a lo largo de la semana.
 
-   <img src="img/chapter-4/information-architecture/diagrams/wireflow/User Goal Calendario Paciente.png"/><br> 
+   <img src="img/Chapter-4/information-architecture/diagrams/wireflow/User Goal Calendario Paciente.png"/><br> 
 
 **User Goal: Poder agregar y/o eliminar a pacientes en la lista** 
 
@@ -773,7 +773,7 @@ Enlace del [Figma](https://www.figma.com/file/9fLXXyhFtxOwF2iFs8gBdM/Oncontigo-M
 
    Explicación: Cuando el usuario haga click en "Lista de pacientes", lo llevará a una tabla con sus pacientes y una lista de botones en la parte derecha. Si quiere agregar un paciente, tendrá que hacer click al botón "Agregar pacientes". Pero si quiere eliminarlo tendrá que escoger el último botón que dice "Eliminar paciente".
 
-   <img src="img/chapter-4/information-architecture/diagrams/wireflow/Añadir o eliminar paciente Medico.png"/><br> 
+   <img src="img/Chapter-4/information-architecture/diagrams/wireflow/Añadir o eliminar paciente Medico.png"/><br> 
 
 **User Goal: Poder usar un chat privado con un paciente**
 
@@ -781,7 +781,7 @@ Enlace del [Figma](https://www.figma.com/file/9fLXXyhFtxOwF2iFs8gBdM/Oncontigo-M
 
    Explicación: Cuando el usuario haga click en "Lista de pacientes", lo llevará a una tabla con sus pacientes y una lista de botones en la parte derecha. Tendrá que seleccionar un paciente y darle al botón "Ver detalles". Le aparecerá el perfil del paciente y un botón que dice "Chat". El usuario tendrá que pulsarlo para iniciar un chat con el paciente.
 
-   <img src="img/chapter-4/information-architecture/diagrams/wireflow/Acceder-Chat-Medico.png"/><br> 
+   <img src="img/Chapter-4/information-architecture/diagrams/wireflow/Acceder-Chat-Medico.png"/><br> 
 
 **User Goal: Registrar medicamentos de un paciente**
 
@@ -789,7 +789,7 @@ Enlace del [Figma](https://www.figma.com/file/9fLXXyhFtxOwF2iFs8gBdM/Oncontigo-M
 
    Explicación: El usuario deberá hacer click en "Lista de pacientes", lo dirigirá a una tabla con sus pacientes y una lista de botones en la parte derecha. Tendrá que seleccionar un paciente y darle al botón "Recetar medicamento". Después le aparecerá una ventana emergente donde colocará toda la información acerca del medicamento.
 
-   <img src="img/chapter-4/information-architecture/diagrams/wireflow/Registrar Medicamento a paciente Medico.png"/><br> 
+   <img src="img/Chapter-4/information-architecture/diagrams/wireflow/Registrar Medicamento a paciente Medico.png"/><br> 
 
 **User Goal: Registrar tratamiento y procedimiento de un paciente**
 
@@ -797,7 +797,7 @@ Enlace del [Figma](https://www.figma.com/file/9fLXXyhFtxOwF2iFs8gBdM/Oncontigo-M
 
    Explicación: El usuario deberá hacer click en "Lista de pacientes", lo dirigirá a una tabla con sus pacientes y una lista de botones en la parte derecha. Tendrá que seleccionar un paciente y darle al botón "Tratamientos y Procedimientos". Después le aparecerá una ventana emergente donde habrá dos tablas para describir los procedimientos y tratamientos respectivamente.
 
-   <img src="img/chapter-4/information-architecture/diagrams/wireflow/Registrar procedimiento y tratamiento Medico.png"/><br> 
+   <img src="img/Chapter-4/information-architecture/diagrams/wireflow/Registrar procedimiento y tratamiento Medico.png"/><br> 
 
 **User Goal Enviar alarma como notificacion a mis pacientes:**
 
@@ -805,7 +805,7 @@ Enlace del [Figma](https://www.figma.com/file/9fLXXyhFtxOwF2iFs8gBdM/Oncontigo-M
 
    Explicación: El usuario deberá hacer click en "Lista de pacientes", lo dirigirá a una tabla con sus pacientes.Cada paciente tiene un botón de alarma en la última columna. Cuando hace click a la alarma de un paciente, aparecerá una ventana donde el usuario tendrá que indicar la hora y el mensaje correspondiente que normalmente es un recordatorio.
 
-   <img src="img/chapter-4/information-architecture/diagrams/wireflow/Alarma para pacientes Medico.png"/><br> 
+   <img src="img/Chapter-4/information-architecture/diagrams/wireflow/Alarma para pacientes Medico.png"/><br> 
 
 **User goal: Registrar una nueva cita**
    
@@ -813,54 +813,54 @@ Enlace del [Figma](https://www.figma.com/file/9fLXXyhFtxOwF2iFs8gBdM/Oncontigo-M
 
    Explicación: Cuando el usuario se encuentre en la menú de inicio. Va a hacer click en una opción llamada "Calendario". Después va a poder visualizar el calendario de las citas programadas. Finalmente tendrá que escoger un espacio libre en el calendario. Esto le dará acceso a una interfaz para elegir al paciente y escoger la modalidad de cita.
 
-   <img src="img/chapter-4/information-architecture/diagrams/wireflow/Registrar una nueva cita Medico.png"/><br>   
+   <img src="img/Chapter-4/information-architecture/diagrams/wireflow/Registrar una nueva cita Medico.png"/><br>   
 
 ### 4.6.3. Web Applications Mock-ups
 
 **Iniciar sesión**<br>
 La siguiente imagen se logra evidenciar el wireframe de la sección de " inicio de sesion" ya aplicado. En ella, los usuario podra registrarse brindando sus credenciales necesarias para acceder a la aplicación siempre y cuando posean con una cuenta previament creada.<br>
 
-<img src="img/chapter-4/figma/IniciarSesionmc.png"/><br>   
+<img src="img/Chapter-4/figma/IniciarSesionmc.png"/><br>   
 
 **Menu Doctores**<br>
 La siguiente imagen muestra el wireframe de la seccion de "Menu de doctores" desde la vista de desktops web browser. En ella, el usuario medico podra acceder desde ahi a la lista de pacientes y al calendario.<br>
 
-<img src="img/chapter-4/figma/MenuDocmc.png"/><br>   
+<img src="img/Chapter-4/figma/MenuDocmc.png"/><br>   
 
 **Lista de Pacientes**<br>
 La siguiente imagen evidencia el wireframe de la seccion de "Lista de Pacientes" . En ella el medico podra observar los detalles sobre citas proximas de sus pacientes ya añadidos.<br>
 
-<img src="img/chapter-4/figma/Listapacientesmc.png"/><br>   
+<img src="img/Chapter-4/figma/Listapacientesmc.png"/><br>   
 
 
 **Agregar Paciente**<br>
 La imagen evidencia la seccion "agregar paciente".En ella el medico puede registrar los datos de su paciente solo colocando su Dni.<br>
 
-<img src="img/chapter-4/figma/AgregarPacientemc.png"/><br>   
+<img src="img/Chapter-4/figma/AgregarPacientemc.png"/><br>   
 
 **Eliminar Paciente**<br>
 La imagen evidencia la seccion " Eliminar Paciente". En ella el medico podra eliminar pacientes de su lista una ves ya seleccionado.<br>
 
-<img src="img/chapter-4/figma/EliminarPacientemc.png"/><br>  
+<img src="img/Chapter-4/figma/EliminarPacientemc.png"/><br>  
 
 **Tratamiento/Procedimeinto**<br>
 La imagen evidencia la seccion "Tratamiento/Procedimiento".En esta seccion el medico podra acceder a elejir y añadir los tratamiento y/o procedimientos que esta siguiendo su paciente.<br>
 
-<img src="img/chapter-4/figma/Tratamientomc.png"/><br>  
+<img src="img/Chapter-4/figma/Tratamientomc.png"/><br>  
 
 **Recetar Medicamento** <br>
 La imagen evidencia la seccion "Recetar medicamento". En ella el medico una vez presionado el boton correcto le mostrara para que añada, quite o describa el medicamento que deba optar el paciente<br>
 
-<img src="img/chapter-4/figma/RECmedmc.png"/><br>
+<img src="img/Chapter-4/figma/RECmedmc.png"/><br>
 
 **Chat Medico**<br>
 La imagen evidenciala seccion "Chat del medico". En ella el medico podra acceder a una comunicacion privada con su paciente.<br>
 
-<img src="img/chapter-4/figma/Chatmedmc.png"/><br>
+<img src="img/Chapter-4/figma/Chatmedmc.png"/><br>
 
 **Medico alarma**<br>
 La imagen evidencia la sección "Medico Alarma" ya aplicada. En ella el usuario médico podrá acceder a una función de notificación a su paciente con los medicamentos,tratamiento,procedimiento y próximas citas.
-<img src="img/chapter-4/figma/MedAlarma.png"/><br>
+<img src="img/Chapter-4/figma/MedAlarma.png"/><br>
 
 ### 4.6.4. Web Applications User Flow Diagrams
 
@@ -870,7 +870,7 @@ La imagen evidencia la sección "Medico Alarma" ya aplicada. En ella el usuario 
 
    Explicación:Explicación: Cuando el usuario se encuentre en la menú de inicio. Va a hacer click en una opción llamada "Calendario". Después va a poder visualizar el calendario de las citas programadas. Finalmente tendrá que escoger un espacio libre en el calendario. Esto le dará acceso a una interfaz para elegir al paciente y escoger la modalidad de cita. En caso que haga click a un espacio lleno del calendario, solamente le mostrará los detalles de aquel horario ocupado.
 
-<img src="img/chapter-4/information-architecture/diagrams/user-flow/Agendar cita Medico.jpeg"/><br> 
+<img src="img/Chapter-4/information-architecture/diagrams/user-flow/Agendar cita Medico.jpeg"/><br> 
 
 **User Goal: Poder agregar y/o eliminar a pacientes en la lista**
 
@@ -878,7 +878,7 @@ La imagen evidencia la sección "Medico Alarma" ya aplicada. En ella el usuario 
 
    Explicación: Cuando el usuario esté en la página principal, va ir a la "Lista de Pacientes". Luego podrá seleccionar un paciente y eliminarlo con el botón "Eliminar Paciente"
 
-   <img src="img/chapter-4/information-architecture/diagrams/user-flow/Agregar o eliminar pacientes Medico.jpeg"/><br> 
+   <img src="img/Chapter-4/information-architecture/diagrams/user-flow/Agregar o eliminar pacientes Medico.jpeg"/><br> 
 
 **User Goal: Poder usar un chat privado con un paciente**
 
@@ -886,7 +886,7 @@ La imagen evidencia la sección "Medico Alarma" ya aplicada. En ella el usuario 
 
    Explicación: Cuando el usuario haga click en "Lista de pacientes", lo llevará a una tabla con sus pacientes y una lista de botones en la parte derecha. Tendrá que seleccionar un paciente y darle al botón "Ver detalles". Le aparecerá el perfil del paciente y un botón que dice "Chat". El usuario tendrá que pulsarlo para iniciar un chat con el paciente.
 
-<img src="img/chapter-4/information-architecture/diagrams/user-flow/Chat Medico.png"/><br> 
+<img src="img/Chapter-4/information-architecture/diagrams/user-flow/Chat Medico.png"/><br> 
 
 **User Goal: Registrar medicamentos de un paciente**
 
@@ -894,7 +894,7 @@ La imagen evidencia la sección "Medico Alarma" ya aplicada. En ella el usuario 
 
    El usuario deberá hacer click en "Lista de pacientes", lo dirigirá a una tabla con sus pacientes y una lista de botones en la parte derecha. Tendrá que seleccionar un paciente y darle al botón "Recetar medicamento". Después le aparecerá una ventana emergente donde colocará toda la información acerca del medicamento. Si el usuario quiere crear un recordatorio, puede usar la alarma que se encuentra en la columna final de cada paciente.
 
-   <img src="img/chapter-4/information-architecture/diagrams/user-flow/Asignar medicinas y su respectiva alarma.jpeg"/><br> 
+   <img src="img/Chapter-4/information-architecture/diagrams/user-flow/Asignar medicinas y su respectiva alarma.jpeg"/><br> 
 
 
    </ul>
@@ -916,25 +916,25 @@ En esta sección, se presentarán los respectivos diagramas correspondientes al 
 ### 4.8.1. Software Architecture Context Diagram
 
 Este apartado, mayormente se centra en la presentacion del diagrama de contexto del cual abarca nuestro software. Esto nos permite identificar el sistema y sus multiples relaciones con el mundo de su alrededor (en referencia a los usuarios con la aplicación), mostrando los principales puntos en su arquitectura:
- <img src="img/chapter-4/software-architecture/context.png"/>
+ <img src="img/Chapter-4/software-architecture/context.png"/>
 
 ### 4.8.2. Software Architecture Container Diagrams
 
 A continuación, se mostrará el respectivo diagrama de contenedores lo cual esta basado en nuestro sistema; es por ello, que este artefacto presenta los componentes técnicos de alto nivel - generando un enfoque más maximizado acerca de la visión de la arquitectura del software.
-<img src="img/chapter-4/software-architecture/container.png"/>
+<img src="img/Chapter-4/software-architecture/container.png"/>
 
 ### 4.8.3. Software Architecture Components Diagrams
 En este último apartado, se presenta el diagrma de componentes de nuestra arquitectura de software en que se detallan los componentes de nuestros contenedores ya maquetados anteriormente; por consiguiente, se señalan sus responsabilidades y los detalles en veredicto al enlace tecnológico e
 implementación 
 ##### Log-in Bounded Context
-   <img src="img/chapter-4/software-architecture/log-in-bounded.png"/>
+   <img src="img/Chapter-4/software-architecture/log-in-bounded.png"/>
    </ul>
 
 ## 4.9. Software Object-Oriented Design
 
 ### 4.9.1. Class Diagrams
 
-<image src="img/chapter-4/Class Diagram.png"> <br>
+<image src="img/Chapter-4/Class Diagram.png"> <br>
 
 ### 4.9.2. Class Dictionary
 
@@ -1016,7 +1016,7 @@ implementación
 
 ### 4.10.1. Relational/Non-Relational Database Diagram
 
-<image src="img/chapter-4/Database_Model.png"> <br>
+<image src="img/Chapter-4/Database_Model.png"> <br>
 
 # Capítulo V: Product Implementation
 
