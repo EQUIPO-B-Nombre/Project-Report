@@ -1085,7 +1085,7 @@ https://oncontigo-upc.github.io/Landing-Page/
 <img src="./img/frontend-mobile/appointments.jpg">
 
 #### Perfil 
-<img src="./img/frontend-mobile/register.jpg">
+<img src="./img/frontend-mobile/profile-data.jpg">
 
 #### Barra de navegación
 <img src="./img/frontend-mobile/sidebar.jpg">
@@ -1121,7 +1121,6 @@ https://oncontigo-upc.github.io/Landing-Page/
 <img src="./img/video.png"> <br>
 
 [AboutTheTeam](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202010039_upc_edu_pe/ETa2T8CopMhIhMNjfJiqUs8B-NfneGcPa9SXo9WJXsCXFg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ab7LO7)
-
 
 
 # Conclusiones y recomendaciones
