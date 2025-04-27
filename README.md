@@ -81,7 +81,22 @@
   </tbody>
 </table>
 
+Link del Repositorio: [Repositorio](https://github.com/EQUIPO-B-Nombre/Project-Report)
+
+
 # Project Report Collaboration Insights
+
+En esta entrega cada uno de los integrantes realizo los siguientes puntos:
+
+- Mallma Quispe, Ruben Elias: Capítulo 1 Introducción
+- Paredes Zapata, Luiggi Gianfranco: Capítulo 2 Requirements Elicitation & Analysis
+- Matos Fernandez, Christian Andre: Capítulo 3 Requirements Specification
+- Ramos Mendoza, Juan Pablo: Capítulo 4 Product Design
+- Martinez Villanueva, Paolo Del Carmen: Capítulo 5: Product Implementation
+
+<img src="img/collaboration_insights_tb1.png" alt="Collaboration Insight tb1" >
+
+<img src="img/collaboration_tb1.png" alt="Collaboration Insight tb1" >
 
 # Tabla de Contenido
 
