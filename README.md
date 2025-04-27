@@ -2214,33 +2214,762 @@ implementación
 
 ## 5.1. Software Configuration Management
 
-### 5.1.1. Software Development Environment Configuration
+A continuación, se presentará un repositorio central y organizado que servirá como guía para el desarrollo enfocado y consistente de nuestra solución
+
+   <ul>
+      <il><h3><a href="./content/chapter-5/chapter-5.md">5.1.1. Software Development Environment Configuration</a></h3></il>
+
+
+#### Requirements Management
+
+Es el proceso de garantizar que una organización documente, verifique y satisfaga las necesidades y expectativas de sus clientes con las partes interesadas internas o externas.
+
+- Trello: Plataforma de gestión de user stories, organización en epics y clasificación por puntaje. Permite compartir una vista en tiempo real del progreso del proyecto entre miembros del equipo.  
+
+[https://trello.com/invite/b/gx5i8rKM/ATTI09d174300e2bf371f3e5625280ecdb95A762E269/product-backlog-oncontigo ](https://trello.com/invite/b/gx5i8rKM/ATTI09d174300e2bf371f3e5625280ecdb95A762E269/product-backlog-oncontigo )
+
+
+#### Product UX/UI Design
+
+- Uxpressia: Herramienta en línea para mapeo de trayectoria del cliente, creación de mapas de impacto y personas.  
+EMPATHY MAP(PACIENTES)[https://uxpressia.com/w/mDdvz/p/JzlFH](https://uxpressia.com/w/mDdvz/p/JzlFH)
+EMPATHY MAP(DOCTOR)[https://uxpressia.com/w/mDdvz/p/lg65v](https://uxpressia.com/w/mDdvz/p/lg65v)
+JOURNEY MAP(DOCTOR)[https://uxpressia.com/w/mDdvz/m/196Tw](https://uxpressia.com/w/mDdvz/m/196Tw)
+JOURNEY MAP(PACIENTE) [ https://uxpressia.com/w/mDdvz/m/FDtCu]( https://uxpressia.com/w/mDdvz/m/FDtCu)
+- Figma: Pizarra digital colaborativa en línea para investigación, ideación, lluvias de ideas y mapas mentales.  
+[https://www.figma.com/file/9fLXXyhFtxOwF2iFs8gBdM/Oncontigo-Mockups?type=design&node-id=0-1&mode=design&t=HkEWLTZnf3N6FtXp-0](https://www.figma.com/file/9fLXXyhFtxOwF2iFs8gBdM/Oncontigo-Mockups?type=design&node-id=0-1&mode=design&t=HkEWLTZnf3N6FtXp-0)
+
+- Structurizr: Herramienta de diseño que soporta el modelo C4 para visualizar arquitecturas de software.  
+[https://structurizr.com/](https://structurizr.com/)
+
+- Lucid Chart: Herramienta de diagramación en línea para la colaboración en tiempo real.  
+[https://lucid.app/lucidchart/84ff4b37-35d8-4d28-96f5-8e7fc2ef6c93/edit?viewport_loc=-10%2C-10%2C1813%2C789%2C0_0&invitationId=inv_f86e0e0e-cfe1-48c8-a60d-869b7a147a57](https://lucid.app/lucidchart/84ff4b37-35d8-4d28-96f5-8e7fc2ef6c93/edit?viewport_loc=-10%2C-10%2C1813%2C789%2C0_0&invitationId=inv_f86e0e0e-cfe1-48c8-a60d-869b7a147a57)
+
+- MIRO: Pizarra digital colaborativa en línea para diversas actividades colaborativas.  
+[https://miro.com/app/dashboard/](https://miro.com/app/dashboard/)
+
+#### Software Development
+
+Estructura aplicada al desarrollo de un producto de software.
+
+- Github: Repositorio comunitario para almacenar avances de proyectos colaborativos.  
+[https://github.com/OnContigo-upc](https://github.com/OnContigo-upc)
+
+- Web Storm: Entorno de desarrollo orientado en JavaScript, ofrece integración con lenguajes web como HTML, CSS y TypeScript.  
+[https://www.jetbrains.com/webstorm/promo/](https://www.jetbrains.com/webstorm/promo/)
+
+- Visual Studio Code: Editor de código que ofrece extensiones y funcionalidades para el desarrollo eficiente, utilizado para construir backend de aplicaciones web.  
+[https://code.visualstudio.com/](https://code.visualstudio.com/)
+
+- HTML: Lenguaje para el desarrollo de plataformas web, será utilizado para la documentación de la página web.  
+[https://www.jetbrains.com/help/webstorm/editing-html-files.html](https://www.jetbrains.com/help/webstorm/editing-html-files.html)
+
+- CSS: Lenguaje de diseño gráfico para la elaboración de interfaces de usuario.  
+[https://www.jetbrains.com/help/webstorm/style-sheets.html#ws_css_completion](https://www.jetbrains.com/help/webstorm/style-sheets.html#ws_css_completion)
+
+#### Software Deployment
+
+- Github pages: Servicio para alojar páginas web estáticas y aplicaciones web.  
+[https://pages.github.com/](https://pages.github.com/)
 
 ### 5.1.2. Source Code Management
 
+A continuación, se presenta la gestión de código fuente o como es conocido por sus siglas en ingles SCM (Source Code Management). Su función principal es realizar un seguimiento de las modificaciones que el equipo realizara a lo largo del desarrollo de sus proyectos en los repositorios de código fuente. Se empleará como un sistema de control de versiones que permite dar seguimiento a los cambios que cada integrante o desarrollador realice en el proyecto. Asimismo, cabe resaltar que para el sistema de control de versiones emplearemos GitHub.
+
+#### Enlaces Importantes
+
+  - **Organización en GitHub**: [OnContigo](https://github.com/OnContigo-upc)
+    - **Repositorio del Landing Page**: [OnContigo Landing Page](https://github.com/OnContigo-upc/Landing-Page)
+
+    #### GitFlow
+
+    GitFlow es un flujo de trabajo de control de versiones que facilita la gestión de ramas durante el desarrollo:
+
+    #### Main Branches
+
+    - `main`: Rama principal que contiene el historial de publicación oficial y todas las versiones.
+    - `develop`: Rama creada desde `main`, integra todas las funciones estables y prepara la próxima versión.
+
+    #### Support Branches
+
+    Estas ramas son temporales y se eliminan después de integrarse en sus ramas principales.
+
+    ##### Feature
+
+    - **Origen**: `develop`
+    - **Destino**: `develop`
+    - Se utilizan para el desarrollo de nuevas funcionalidades, existen mientras están en desarrollo y luego se integran a `develop`.
+
+    ##### Release
+
+    - **Origen**: `develop`
+    - **Destino**: `develop` / `main`
+    - Preparan la nueva versión de producción, corrigen errores menores y preparan metadatos para el lanzamiento.
+
+    #### Motivos para usar Gitflow
+
+    - Adecuado para proyectos con lanzamientos programados.
+    - Combina los beneficios de un flujo centralizado y descentralizado.
+    - Permite trabajo individual, ideal cuando el equipo tiene horarios diferentes.
+    - Requiere actualización constante en el repositorio central.
+
+    
+  Cada miembro del equipo debe mantener su trabajo al día con el repositorio central en GitHub para garantizar la cohesión y el progreso del proyecto.
+
 ### 5.1.3. Source Code Style Guide & Conventions
 
+#### Nomenclatura General
+
+  - Utilizaremos términos en inglés para nombrar variables, objetos, elementos y funciones que describan claramente su propósito.
+    - No se utilizarán mayúsculas arbitrarias para mantener la legibilidad del código.
+
+    Ejemplo de nomenclatura estándar:
+    ```css
+    .gallery {}
+    .video {}
+    .login {}
+    ```
+
+    #### Sangria
+    - En HTML, CSS y JavaScript, aplicaremos espacios antes de cada línea dentro de un bloque.
+    - Se recomienda usar dos espacios y evitar la tecla “Tabulación”.
+    - Ejemplo de sangría en HTML:
+        ```css
+        <table>
+        <tr>
+            <th>Name</th>
+            <th>Description</th>
+        </tr>
+        </table>
+        ```
+    - Ejemplo de sangría en CSS:
+        ```css
+        html {
+        background: #fff;
+        color: #404;
+        }
+        ```
+    -Ejemplo de sangría en JavaScript:
+        ```css
+        function toCelsius(fahrenheit) {
+            return (5 / 9) * (fahrenheit - 32);
+        }
+        ```
+
+    #### HTML
+
+    - Declare Document Type: Siempre declare el tipo de documento como HTML5 con <!DOCTYPE html>.
+    - Blank Lines: Deje líneas en blanco después de bloques de gran longitud.
+    Quote Attribute Values: Utilice comillas dobles alrededor de los valores de los atributos.
+    - Multimedia Fallback: Asegure acceso alternativo para multimedia y añada dimensiones a los elementos.
+    - Never Skip the <tittle> Element: El título de la página es crucial para SEO y se muestra en los resultados de búsqueda.
+    - HTML Line-Wrapping: Evite líneas de código extensas. Utilice espacios para diferenciar elementos hijos.
+    #### CSS
+    - Shorthand Properties: Utilice la menor cantidad de líneas posibles para declarar propiedades.
+    - Declaration Stops: Ponga un punto y coma después de cada declaración.
+    - Property Name Stops: Incluya un espacio después de los dos puntos en una declaración de propiedad.
+    - Declaration Block Separation: Separe el nombre de un selector y el inicio de un bloque con un espacio.
+    - CSS Quotation Marks: Utilice comillas simples para valores de atributos y selectores.
+    #### JavaScript
+    - Spaces around operators: Incluya un espacio alrededor de los operadores.
+    - Simple Statement’s End: Finalice las declaraciones simples con un punto y coma.
+    - Beginning and End of a Function: Coloque una llave al final de la primera línea de una función y la llave de cierre sola en la última línea.
+    #### Gherkin
+    - Discernible Given-When-Then Blocks: Utilice la sangría para identificar fácilmente los pasos de un escenario.
+    - Step with Tables: Para los pasos que requieran valores, utilice tablas.
+    - Reducing Noise: Use valores por defecto en los pasos y coloque valores "estándar" entre comillas simples.
+    - Scenarios Separator: Separe escenarios con saltos de línea y comentarios para facilitar la visualización.
+    #### TypeScript
+    - UpperCamelCase: Para clases, interfaces, tipos, enums y decoradores.
+    - lowerCamelCase: Para variables, parámetros, funciones, métodos y alias de módulo.
+    - CONSTANT_CASE: Para valores constantes globales, incluidos los valores de enumeración.
+    - Evite identificadores privados.
+    #### Vue.js
+    - Nombres de Componentes: Utilice camelCase y nombres en singular.
+    - Nombres de Servicios: Añada el sufijo "Service" y utilice mayúsculas al inicio de cada palabra.
+    - Nombres de Archivos de Pruebas Unitarias: Incluya ".spec" antes de ".vue".
+    - Declaración de Funciones: Especifique la visibilidad y evite el uso innecesario de "this".
+    - División de Líneas: Haga un salto de línea después de una coma y divida antes de un operador.
+
 ### 5.1.4. Software Deployment Configuration
+
+- Como ya se ha mencionado, la gestión de nuestro código fuente se realizará a través de GitHub. Asimismo, se utilizará GitHub Pages para la publicación y despliegue de la página. Cada sección del Landing Page que se ha creado deberá aparecer en el siguiente vínculo:
+https://oncontigo-upc.github.io/Landing-Page/
+<br>
+- Para el desarrollo del Landing Page de OnContigo se han utilizado las siguientes herramientas:
+    - Html: Es el lenguaje de marcado que estructuro nuestro Landing Page.
+        Evidencia: Archivos HTML, el principal es index.html donde todos los integrantes juntaron el contenido
+        realizado en su rama individual.
+     - Css: Es aquel que nos ayudó con el diseño gráfico para que el Landing Page sea agradable e interactúale
+        Evidencia: Se presenta el file styles.css, donde el grupo implemento el diseño de toda la estructura realizada con html.
+    - JS: Nos ayudó a desarrollar la lógica necesaria para el Landing Page.
+        Evidencia: Se muestra el documento main.js.
+<br>
+- El despliegue del Landing Page de OnContigo no pudo ser posible sin utilizar las siguientes tecnologías:
+    - Git: Sistema de control de versiones que está pensado en la eficiencia y compatibilidad de versiones.
+El cual nos ayudó a trabajar en equipo durante el desarrollo del Landing Page
+    - Github: Plataforma de desarrollo colaborativo
+    - Git Flow:Nos permitió controlar el avance de cada uno de nuestros integrantes con respecto al
+desarrollo del Landing Page
+    -  Git Hub PagesServicio de Github que nos permitió alojar nuestra Landing page.
+- Asimismo, se han realizado los siguientes pasos:
+    - Dirigirse al repositorio de la página: Dado que se ha empleado Github, debemos ir al repositorio creado en este sitio web para publicar el Landing Page que ha desarrollado el equipo. Desde aquí, se podrá iniciar la configuración del vínculo de la página dirigiéndonos al apartado de Settings.
+    - Ir a la opción de páginas: Una vez presentes la configuración del repositorio, debemos dirigirnos a la sección de Pages. Esto se debe a que ahí se encuentran todas las opciones de configuración de publicación de la página en un link o vínculo
+
+    -   Elección de rama y carpeta de guardado: Dentro de pages, se debe seleccionar la rama o branch que se va a publicar en el vínculo. De la misma manera, se tiene que elegir la carpeta donde se localizará esta publicación a realizar. Finalmente podremos acceder a nuestra página con el link que aparece en la parte superior de este apartado de configuración
+
+-   Siguiendo los pasos, obtenemos el siguiente enlace:
+https://oncontigo-upc.github.io/Landing-Page/
 
 ## 5.2. Product Implementation & Deployment
 
 ### 5.2.1. Sprint Backlogs
 
+<ul>
+         <il><h3>5.2.1.1. Sprint Backlog 1</a></h3></il>
+         <table border="1">
+  <tr>
+    <th>Sprint #</th>
+    <th>User Story</th>
+    <th>Work-item/Task</th>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Estimation (Hours)</th>
+    <th>Assigned To</th>
+    <th>Status (To-do / In-Process / To-Review / Done)</th>
+  </tr>
+  <tr>
+    <td rowspan="4">Sprint 1</td>
+    <td rowspan="4">HU22: Visualización de Landing Page</td>
+    <td>TA01</td>
+    <td>#182062223</td>
+    <td>Agregar call-to-action hacia la Web App</td>
+    <td>Se creará un botón que dirija a la aplicación web en el inicio; asimismo, debe incluir un párrafo llamativo que acompañe a la opción.</td>
+    <td>2</td>
+    <td>Ruben Mallma</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA02</td>
+    <td>#182062223</td>
+    <td>Añadir planes</td>
+    <td>Para la seccion de planes, se podra ver los planes que ofrece nuestra aplicacion.</td>
+    <td>2</td>
+    <td>Paolo Martinez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA03</td>
+    <td>#182062223</td>
+    <td>Mostrar servicio a clientes</td>
+    <td>Para la sección de ‘servicios para pacientes', se añadirá un listado que muestren los servicios que ofrece la app.</td>
+    <td>2</td>
+    <td>Juan Ramos</td>
+    <td>Done</td>
+  </tr>
+   <tr>
+    <td>TA04</td>
+    <td>#182062273</td>
+    <td>Mostrar miembros y sobre nosotros</td>
+    <td>Para la sección de sobre nosotros, explicara nuestra mision y vision de equipo. Tambien la seccion miembros, sobre quienes son los que conforman el grupo</td>
+    <td>4</td>
+    <td>Christian Matos</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="1">Sprint 1</td>
+    <td rowspan="1">HU13: Contacto con OnContigo</td>
+    <td>TA01</td>
+    <td>#182062235</td>
+    <td>Añadir sección de footer</td>
+    <td>Se creará una sección al final del Landing Page que esté dedicada totalmente al contacto con la empresa.(footer)</td>
+    <td>2</td>
+    <td>Luiggi Paredes</td>
+    <td>Done</td>
+  </tr>
+ 
+</table>
+
+<il><h3>5.2.1.2. Sprint Backlog 2</a></h3></il>
+         <table border="1">
+  <tr>
+    <th>Sprint #</th>
+    <th>User Story</th>
+    <th>Work-item/Task</th>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Estimation (Hours)</th>
+    <th>Assigned To</th>
+    <th>Status (To-do / In-Process / To-Review / Done)</th>
+  </tr>
+  <tr>
+    <td rowspan="3">Sprint 2</td>
+    <td rowspan="3">HU01: Registrar cuenta</td>
+    <td>TA01</td>
+    <td>#182031223</td>
+    <td>Crear formulario de registro</td>
+    <td>Desarrollar un formulario en la interfaz de usuario que permita a los usuarios ingresar sus datos</td>
+    <td>2</td>
+    <td>Ruben Mallma</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA02</td>
+    <td>#182062223</td>
+    <td>Implementar validación de datos en el formulario</td>
+    <td>Añadir validaciones al formulario de registro para asegurarse de que todos los campos sean ingresados correctamente antes de permitir que el usuario envíe el formulario</td>
+    <td>2</td>
+    <td>Paolo Martinez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA03</td>
+    <td>#182062223</td>
+    <td>Configurar FakeAPI para registro de usuarios</td>
+    <td>Desarrollar la lógica en el servidor para recibir los datos del formulario de registro, validarlos y almacenarlos en la base de datos.</td>
+    <td>1</td>
+    <td>Christian Ramos</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Sprint 2</td>
+    <td rowspan="2">HU02: Iniciar sesión</td>
+    <td>TA01</td>
+    <td>#182062235</td>
+    <td>Crear pantalla de inicio de sesión</td>
+    <td>Desarrollar una pantalla que permita a los usuarios ingresar sus credenciales para iniciar sesión.</td>
+    <td>2</td>
+    <td>Luiggi Paredes</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA02</td>
+    <td>#182062223</td>
+    <td>Integrar autenticación</td>
+    <td>Programar la lógica necesaria en el servidor para autenticar a los usuarios basándose en las credenciales proporcionadas.</td>
+    <td>1</td>
+    <td>Luiggi Paredes</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="1">Sprint 2</td>
+    <td rowspan="1">HU08: Acceso al calendario</td>
+    <td>TA01</td>
+    <td>#182062235</td>
+    <td>Desarrollar vista de calendario</td>
+    <td>Implementar una vista de calendario en la aplicación que pueda ser accesible tanto por médicos como por pacientes para visualizar fechas importantes.</td>
+    <td>3</td>
+    <td>Luiggi Paredes</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="1">Sprint 2</td>
+    <td rowspan="1">HU09:  Registrar fecha de cita</td>
+    <td>TA01</td>
+    <td>#182062235</td>
+    <td> Implementar funcionalidad de selección de fecha</td>
+    <td>Añadir al calendario la capacidad de seleccionar una fecha y hora específica para agendar una cita médica.</td>
+    <td>2</td>
+    <td>Luiggi Paredes</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="1">Sprint 2</td>
+    <td rowspan="1">HU10:  Registrar fecha de procedimiento</td>
+    <td>TA01</td>
+    <td>#182062235</td>
+    <td>Desarrollar interfaz para registro de procedimientos</td>
+    <td>Crear una interfaz en el calendario donde los médicos puedan registrar fechas y horas de procedimientos médicos realizados a los pacientes.</td>
+    <td>3</td>
+    <td>Christian Matos</td>
+    <td>Done</td>
+  </tr>
+   <tr>
+    <td rowspan="1">Sprint 2</td>
+    <td rowspan="1">HU11:  Registrar periodo de tratamiento</td>
+    <td>TA01</td>
+    <td>#182062235</td>
+    <td>Implementar registro de inicio y finalización de tratamiento</td>
+    <td>Desarrollar funcionalidades para que los médicos puedan registrar la fecha de inicio y de finalización de los tratamientos de los pacientes</td>
+    <td>3</td>
+    <td>Christian Matos</td>
+    <td>Done</td>
+  </tr>
+   <tr>
+    <td rowspan="1">Sprint 2</td>
+    <td rowspan="1">HU12: Registrar horario de medicamentos</td>
+    <td>TA01</td>
+    <td>#182062235</td>
+    <td>Crear funcionalidad de programación de medicamentos</td>
+    <td>Implementar una interfaz donde los médicos puedan registrar y programar los horarios de los medicamentos para cada paciente.</td>
+    <td>1</td>
+    <td>Christian Matos</td>
+    <td>Done</td>
+  </tr>
+    <tr>
+    <td rowspan="1">Sprint 2</td>
+    <td rowspan="1">HU12: Registrar horario de medicamentos</td>
+    <td>TA01</td>
+    <td>#182062235</td>
+    <td>Crear funcionalidad de programación de medicamentos</td>
+    <td>Implementar una interfaz donde los médicos puedan registrar y programar los horarios de los medicamentos para cada paciente.</td>
+    <td>1</td>
+    <td>Paolo Martinez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="1">Sprint 2</td>
+    <td rowspan="1">HU19: Revisar consultas</td>
+    <td>TA01</td>
+    <td>#182062235</td>
+    <td>Desarrollar historial de consultas médicas</td>
+    <td>Crear una sección dentro de la aplicación donde los pacientes puedan revisar su historial de consultas médicas, tanto pasadas como futuras.</td>
+    <td>1</td>
+    <td>Paolo Martinez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="1">Sprint 2</td>
+    <td rowspan="1">HU20: Ver lista de medicamentos</td>
+    <td>TA01</td>
+    <td>#182062235</td>
+    <td>Implementar visualización de detalles de medicamentos</td>
+    <td>Crear una interfaz que permita a los pacientes acceder a una lista detallada de todos los medicamentos prescritos, incluyendo dosis y frecuencia.</td>
+    <td>1</td>
+    <td>Paolo Martinez</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="1">Sprint 2</td>
+    <td rowspan="1">HU14:  Alarmas para pacientes</td>
+    <td>TA01</td>
+    <td>#182062235</td>
+    <td>Diseñar interfaz para la gestión de alarmas</td>
+    <td>Crear una interfaz dentro de la pestaña de cada paciente que permita al médico establecer alarmas. Esta interfaz deberá incluir opciones para configurar la hora, la fecha y el motivo de la alarma.</td>
+    <td>2</td>
+    <td>Ruben Mallma</td>
+    <td>Done</td>
+  </tr>
+   <tr>
+    <td rowspan="2">Sprint 2</td>
+    <td rowspan="2">HU23:  Lista de mis pacientes</td>
+    <td>TA01</td>
+    <td>#182062235</td>
+    <td>Crear vista de lista de pacientes</td>
+    <td>Desarrollar una vista en la pantalla principal para el médico que muestre la lista de todos sus pacientes. Esta lista debe incluir información relevante como el nombre del paciente, detalles de contacto, próxima cita y cualquier otra información pertinente.</td>
+    <td>3</td>
+    <td>Ruben Mallma</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA02</td>
+    <td>#182062223</td>
+    <td>Implementar funcionalidades de gestión</td>
+    <td>Añadir funcionalidades en la lista de pacientes que permitan al médico gestionar las alarmas, acceder a los datos del paciente y eliminar paciente. Esto puede incluir botones o enlaces para cada paciente que dirijan a las vistas detalladas.</td>
+    <td>2</td>
+    <td>Ruben Mallma</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Sprint 2</td>
+    <td rowspan="2">HU24:  Agregar Paciente</td>
+    <td>TA01</td>
+    <td>#182062235</td>
+    <td> Diseñar formulario de agregación de pacientes</td>
+    <td>Crear un formulario en la interfaz de usuario que permita al médico ingresar el DNI del paciente para agregarlo a su lista.</td>
+    <td>2</td>
+    <td>Juan Ramos</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA02</td>
+    <td>#182062223</td>
+    <td> Implementar la funcionalidad de agregación en a la FakeAPI</td>
+    <td>Desarrollar la lógica en el servidor para procesar la información ingresada en el formulario</td>
+    <td>1</td>
+    <td>Juan Ramos</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Sprint 2</td>
+    <td rowspan="2">HU25:  Eliminar Paciente</td>
+    <td>TA01</td>
+    <td>#182062235</td>
+    <td> Implementar la opción de eliminación en la interfaz de usuario</td>
+    <td>Añadir un botón o enlace "Eliminar Paciente" en la interfaz de usuario, al lado de cada paciente en la lista, que permita al médico eliminar a un paciente específico.</td>
+    <td>2</td>
+    <td>Juan Ramos</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA02</td>
+    <td>#182062223</td>
+    <td> Desarrollar la lógica de eliminación en la FakeAPI</td>
+    <td> Programar la lógica en el servidor para manejar la solicitud de eliminación.</td>
+    <td>1</td>
+    <td>Juan Ramos</td>
+    <td>Done</td>
+  </tr>
+</table>
+
+<il><h3>5.2.1.3. Sprint Backlog 3</a></h3></il>
+         <table border="1">
+  <tr>
+    <th>Sprint #</th>
+    <th>User Story</th>
+    <th>Work-item/Task</th>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Estimation (Hours)</th>
+    <th>Assigned To</th>
+    <th>Status (To-do / In-Process / To-Review / Done)</th>
+  </tr>
+  <tr>
+    <td rowspan="2">Sprint 3</td>
+    <td rowspan="2">HU01:  Registrar Cuenta</td>
+    <td>TA01</td>
+    <td>#182062235</td>
+    <td>Desarrollar el Bounded Context Authentication</td>
+    <td>Crear el bounded context de Authentication con su respectiva estructura</td>
+    <td>4</td>
+    <td>Ruben Mallma</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TA02</td>
+    <td>#182062223</td>
+    <td> Crear los endpoints de Profiles y documentarlos en SwaggerUI</td>
+    <td>Desarrollar los controladores del Bounded Context</td>
+    <td>4</td>
+    <td>Juan Ramos</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">Sprint 3</td>
+    <td rowspan="2">HU01:  Listar medicamentos</td>
+    <td>TA01</td>
+    <td>#182062235</td>
+    <td> Desarrollar el Bounded Context HealthTracking</td>
+    <td>Crear los aggregates,entities,commands,queries, services y repositories del Bounded Context HealthTraking</td>
+    <td>6</td>
+    <td>Luiggi Paredes</td>
+    <td>In process</td>
+  </tr>
+  <tr>
+    <td>TA02</td>
+    <td>#182062223</td>
+    <td> Realizar los endpoints con los métodos http GET POST DELETE PATCH de Medications</td>d
+    <td> Crear los controladores para documentar los endpoints de Medications</td>
+    <td>4</td>
+    <td>Christian Matos</td>
+    <td>To-do</td>
+  </tr>
+</table>
+
+<il><h3>5.2.1.4. Sprint Backlog 4</a></h3></il>
+         <table border="1">
+  <tr>
+    <th>Sprint #</th>
+    <th>User Story</th>
+    <th>Work-item/Task</th>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Estimation (Hours)</th>
+    <th>Assigned To</th>
+    <th>Status (To-do / In-Process / To-Review / Done)</th>
+  </tr>
+  <tr>
+    <td rowspan="6">Sprint 4</td>
+    <td>TS01: Registro de usuario</td>
+    <td>TA02</td>
+    <td>#182062223</td>
+    <td> Crear los endpoints de Profiles y documentarlos en SwaggerUI</td>
+    <td>Desarrollar los controladores del Bounded Context</td>
+    <td>4</td>
+    <td>Luiggi Paredes</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td>TS02: Autenticación de usuario</td>
+    <td>TA01</td>
+    <td>#182062235</td>
+    <td>Desarrollar el Bounded Context Authentication</td>
+    <td>Crear el bounded context de Authentication con su respectiva estructura</td>
+    <td>4</td>
+    <td>Christian Matos</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td rowspan="2">TS03:  Registro de medicamentos</td>
+    <td>TA01</td>
+    <td>#182062235</td>
+    <td> Desarrollar el Bounded Context HealthTracking</td>
+    <td>Crear los aggregates,entities,commands,queries, services y repositories del Bounded Context HealthTraking</td>
+    <td>6</td>
+    <td>Paolo Martinez</td>
+    <td>In process</td>
+  </tr>
+  <tr>
+    <td>TA02</td>
+    <td>#182062348</td>
+    <td> Realizar los endpoints con los métodos http GET POST DELETE PATCH de Medications</td>
+    <td> Crear los controladores para documentar los endpoints de Medications</td>
+    <td>4</td>
+    <td>Ruben Mallma</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td rowspan="2">TS04:  Registro de citas</td>
+    <td>TA01</td>
+    <td>#182062173</td>
+    <td> Desarrollar el Bounded Context Appointments</td>
+    <td>Crear los aggregates,entities,commands,queries, services y repositories del Bounded Context Appointments</td>
+    <td>6</td>
+    <td>Juan Ramos</td>
+    <td>In process</td>
+  </tr>
+  <tr>
+    <td>TA02</td>
+    <td>#182062223</td>
+    <td> Realizar los endpoints con los métodos http GET POST DELETE PATCH de Citas</td>
+    <td> Crear los controladores para documentar los endpoints de Citas</td>
+    <td>4</td>
+    <td>Christian Matos</td>
+    <td>To-do</td>
+  </tr>
+</table>
+
 ### 5.2.2. Implemented Landing Page Evidence
+
+#### Desktop Web Browser
+ <img src="./img/execution-evidence/desktop.png"/>
+
+ #### About us
+ <img src="./img/execution-evidence/about-us.png"/>
+
+ #### Services
+ <img src="./img/execution-evidence/services.png"/>
+
+ #### Plans
+ <img src="./img/execution-evidence/plans.png "/>
+
+  #### Footer
+ <img src="./img/execution-evidence/footer.png"/>
 
 ### 5.2.3. Implemented Frontend-Web Application Evidence
 
+#### Agregar Paciente
+<img src="./img/frontend-web/agregar-paciente.png"/>
+
+#### Alarma Paciente
+<img src="./img/frontend-web/alarma.png"/>
+
+#### Calendario Paciente
+<img src="./img/frontend-web/calendario-paciente.png"/>
+
+#### Crear Cuenta
+<img src="./img/frontend-web/crear-cuenta.png"/>
+
+#### Eliminar Paciente
+<img src="./img/frontend-web/eliminar-paciente.png"/>
+
+#### Iniciar sesion
+<img src="./img/frontend-web/iniciar-sesion.png"/>
+
+
+#### Medicamentos
+<img src="./img/frontend-web/medicamentos.png"/>
+
+#### Menu doctor
+<img src="./img/frontend-web/menu-doctor.png"/>
+
+#### Menu paciente
+<img src="./img/frontend-web/menu-paciente.png"/>
+
+#### Nueva cita
+<img src="./img/frontend-web/nueva-cita.png"/>
+
+#### Nueva cita
+<img src="./img/frontend-web/tabla-paciente.png"/>
+
+#### Implementacion de la Landing page en el FrontEnd<br>
+<img src="./img/frontend-web/lamding.png"/> <br>
+
+#### Responsive Modals<br>
+<img src="./img/frontend-web/modals.png"/> <br>
+
+#### SideBar del FrontEND <br>
+<img src="./img/frontend-web/side.png"/> <br>
+
+#### Lista y detalles de medicamentos<br>
+<img src="./img/frontend-web/medicamentos-new.png"/> <br>
+
 ### 5.2.4. Implemented Native-Mobile Application Evidence
+
+#### Registrar
+<img src="./img/frontend-mobile/register.jpg">
+
+#### Iniciar de sesión
+<img src="./img/frontend-mobile/login.jpg">
+
+#### Citas
+<img src="./img/frontend-mobile/appointments.jpg">
+
+#### Perfil 
+<img src="./img/frontend-mobile/profile-data.jpg">
+
+#### Barra de navegación
+<img src="./img/frontend-mobile/sidebar.jpg">
+
+#### Lista de pacientes
+<img src="./img/frontend-mobile/patient-list.jpg">
+
+#### Agregar paciente
+<img src="./img/frontend-mobile/add-patient.jpg">
+
+#### Detalles de paciente
+<img src="./img/frontend-mobile/patient-detail.jpg">
+
+#### Eliminar paciente
+<img src="./img/frontend-mobile/delete-patient.jpg">
 
 ### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
 
+<img src="./img/services/health.png"/> <br>
+<img src="./img/services/profiles.png"/> <br> 
+
+
 ### 5.2.6. RESTful API documentation
+
+<img src="./img/services/swagger.png">
 
 ### 5.2.7. Team Collaboration Insights
 
+<img src="./img/overview.jpg">
+
 ## 5.3. Video About-the-Product
 
+<img src="./img/video.png"> <br>
+
+[AboutTheTeam](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202010039_upc_edu_pe/ETa2T8CopMhIhMNjfJiqUs8B-NfneGcPa9SXo9WJXsCXFg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ab7LO7)
+
+
 # Conclusiones y recomendaciones
+
+<p>
+  Para finalizar, podemos concluir que, con lo realizado durante el transcurso del proyecto, hemos desarrollado una aplicación funcional con las metas que nos planteamos al inicio, siendo OnContigo una herramienta de gran utilidad para nuestro público objetivo, como se pudo demostrar en las entrevistas de validación. Creemos que, con esta herramienta, ayudaríamos a reducirle el estrés y malestar debido a la incertidumbre de los procesos de recuperación oncológicos a los pacientes y sus familiares, además de mejorar la organziación de los médicos oncólogos.<br>
+
+Además, podemos concluir en la utilidad que la realización de este proyecto tendrá sobre nuestros futuros laborales. Hemos aprendido de forma práctica cómo desarrollar un Front End y Back End, además de conectarlos juntos, para el correcto desarrollo de una aplicación web habilidades de gran utilidad que serán un requerimiento básico en el futuro.<br>
+
+Finalmente, el desarrollo en equipo también es de gran ayuda laboral, puesto que la metodología ágil con Sprints es de gran utilidad para producir un proyecto de forma organizada y coherente, con avances continuos y la capacidad de revisar avances anteriores sin impedir el desarrollo en general. Las habilidades de comunicación como equipo también son de gran utilidad, ya que este tipo de metodología requiere una comunicación constante.<br>
+
+Como recomendaciones, reconocemos que podríamos haber realizado una mejor división de actividades en los primeros sprints realizados, debido que, como un grupo, aún no nos conocíamos tan bien. Recomendamos que, durante un desarrollo en sprints, cada miembro debe tener sus habilidades bien definidas. Además, damos a conocer que hay ciertas funcionalidades planeadas que no están disponibles en esta versión del proyecto, principalmente, la comunicación entre diferentes usuarios.
+  
+</p>
 
 # Bibliografía
 
