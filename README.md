@@ -7,11 +7,11 @@
   <p><strong>Carrera:</strong> Ingeniería de Software</p>
   <p><strong>Ciclo:</strong> 2025 - 1</p>
   <p><strong>Curso:</strong> Diseño de Experimentos de Ingeniería de Software</p>
-  <p><strong>Sección:</strong> 4430 </p>
+  <p><strong>Sección:</strong> xx </p>
   <p><strong>Profesor:</strong> Juan Carlos Tinoco Licas</p>
   <p><strong>"Informe de Trabajo Final"</strong></p>
-  <p><strong>Startup:</strong> OnContigo Team </p>
-  <p><strong>Producto:</strong> OnContigo </p>
+  <p><strong>Startup:</strong> xxx </p>
+  <p><strong>Producto:</strong> xxxx </p>
 </div>
 
 <table align="center">
