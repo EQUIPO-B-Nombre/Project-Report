@@ -93,9 +93,79 @@
 
 [Tabla de contenidos](#tabla-de-contenidos)
 
-[Student Outcome](#student-outcome)
+  <h1>Student Outcome</h1>
+  <table>
+  <tr>
+    <th>Criterio específico</th>
+    <th>Acciones realizadas</th>
+    <th>Conclusiones</th>
+  </tr>
+  <tr>
+    <td>Actualiza conceptos y conocimientos necesarios para su desarrollo profesional y en especial para su proyecto en soluciones de software </td>
+    <td>Matos Fernandez, Christian Andre
 
-[Parte I: As-Is Software Project](#parte-i-as-is-software-project)
+TB1: En el desarrollo de OnContigo, trabajé de manera responsable asegurándome de que las funciones implementadas en la sección de perfil y consultas respetaran la privacidad y el correcto manejo de la información de los usuarios.
+
+
+
+Martinez Villanueva, Paolo Del Carmen
+
+TB1: Durante el desarrollo del proyecto, he investigado y aplicado principios éticos y profesionales, asegurando que el software respete la privacidad de los usuarios, promueva la equidad en el acceso y minimice riesgos potenciales derivados de su uso.
+
+ 
+
+
+Ramos Mendoza, Juan Pablo
+
+TB1: Para esta primera entrega he revisado las herramientas y técnicas para desarrollar wireframes y mockups al expandir el proyecto original con una aplicación móvil, además de repasar junto con mis compañeros los temas vistos previamente sobre la arquitectura de software y style guidelines.
+
+
+
+Paredes Zapata, Luiggi Gianfranco
+
+TB1: A lo largo del desarrollo de mi proyecto, identifiqué la importancia de la responsabilidad ética al asegurar la privacidad y la protección de los datos de los usuarios, siguiendo los principios de confidencialidad y transparencia en la implementación de funciones clave.
+
+
+
+
+Mallma Quispe, Ruben Elias
+
+TB1: Participé en la elaboración de entrevistas y el desarrollo del capítulo correspondiente. Esto me permitió fortalecer mis habilidades de investigación y aplicar conceptos clave sobre necesidades de usuario y estructura funcional para plataformas digitales. </td>
+    <td>El equipo logró actualizar y aplicar conocimientos fundamentales durante el desarrollo del entregable TB1, fortaleciendo su formación profesional a través de actividades como la investigación de metodologías Lean UX, la elaboración de entrevistas, el análisis de usuarios, el diseño de hipótesis y la definición de requerimientos funcionales. Estas acciones permitieron comprender mejor las necesidades del usuario final y cómo diseñar soluciones digitales que respondan a esas necesidades. El trabajo colaborativo, la estructuración de contenidos por capítulos y el enfoque constante en la experiencia del usuario nos permitieron consolidar una base sólida para el desarrollo del proyecto, alineado a estándares profesionales y buenas prácticas de ingeniería de software. </td>
+  </tr>
+  <tr>
+    <td>Reconoce la necesidad del aprendizaje permanente para el desempeño profesional y el desarrollo de proyectos en soluciones de software. </td>
+    <td>Matos Fernandez, Christian Andre
+
+TB1: Durante el desarrollo, tomé decisiones considerando cómo las funcionalidades impactarían en la experiencia de pacientes y médicos, priorizando que la app fuera segura, accesible y de apoyo real en el proceso de tratamiento oncológico.
+
+
+
+Martinez Villanueva, Paolo Del Carmen
+
+TB1: He evaluado junto al equipo los posibles impactos sociales, económicos y ambientales de nuestra solución, priorizando decisiones de diseño que favorezcan la sostenibilidad, accesibilidad y adaptabilidad del software a diferentes realidades globales.
+
+ 
+
+
+Ramos Mendoza, Juan Pablo
+
+TB1: Tomé consideración en cada momento del desarrollo y uso de wireframes y mockups en todo momento para asegurar una base de gran utilidad durante el desarrollo de nuestra aplicación, además de seguir un buen orden durante el desarrollo de las entrevistas, permitiendo obtener resultados que sirvieron de base para nuestro proyecto de nuestros usuarios objetivo.
+
+
+
+Paredes Zapata, Luiggi Gianfranco
+
+TB1: Durante el proceso de desarrollo, evalué cómo las decisiones tecnológicas podían afectar a la sociedad y el medio ambiente, tomando en cuenta la accesibilidad de la aplicación, su impacto en el bienestar de los usuarios y su alineación con los objetivos económicos del proyecto.
+
+
+
+Mallma Quispe, Ruben Elias
+
+TB1: Identifiqué la importancia de mantenerme actualizado en metodologías ágiles y herramientas tecnológicas para mejorar mis competencias y aportar soluciones efectivas en el proyecto y en mi futuro profesional. </td>
+    <td>El equipo logró actualizar y aplicar conocimientos fundamentales durante el desarrollo del entregable TB1, fortaleciendo su formación profesional a través de actividades como la investigación de metodologías Lean UX, la elaboración de entrevistas, el análisis de usuarios, el diseño de hipótesis y la definición de requerimientos funcionales. Estas acciones permitieron comprender mejor las necesidades del usuario final y cómo diseñar soluciones digitales que respondan a esas necesidades. El trabajo colaborativo, la estructuración de contenidos por capítulos y el enfoque constante en la experiencia del usuario nos permitieron consolidar una base sólida para el desarrollo del proyecto, alineado a estándares profesionales y buenas prácticas de ingeniería de software. </td>
+  </tr>
+</table>
 
   <h1><a href="./content/chapter-1/1-startup-profile.md">Capítulo I: Introducción</a></h1>
 
@@ -121,29 +191,31 @@ Otro punto relevante de OnContigo es que proporciona un espacio seguro y compren
     <th>Codigo de usuario</th>
   </tr>
   <tr>
-    <td><img src="../images/chapter-1/perfil_3.jpg"></td>
-    <td>Me llamo Alexandra Belen Ramos Argüelles. Actualmente, estoy cursando la carrera de Ingeniería de Software y me encuentro en el quinto ciclo de la misma. Me considero una persona responsable, creativa y perseverante, con una fuerte capacidad para adaptarme a trabajos en equipo. En cuanto a mis habilidades en programación, tengo experiencia con lenguajes como C++ y C#. Siempre doy lo mejor de mí y me gusta aprender constantemente. Estoy emocionada por tener la oportunidad de demostrar estas habilidades en este trabajo grupal.</td>
-    <td>U202215164</td>
+    <td><img src="./img/christian_matos.jpg"></td>
+    <td>Mi nombre es Christian Andre Matos Fernandez y actualmente curso el séptimo ciclo de la carrera de Ingeniería de Software. Tengo experiencia en desarrollo web y móvil, y a lo largo de mi formación he trabajado con una variedad de lenguajes y tecnologías que me han permitido adaptarme a diferentes tipos de proyectos. Utilizo Python y C++ para resolver problemas algorítmicos y de lógica, Java para aplicaciones estructuradas, JavaScript y TypeScript junto con Vue para el desarrollo frontend dinámico, .NET para servicios backend, y Kotlin para aplicaciones móviles.</td>
+    <td>U202214162</td>
   </tr>
   <tr>
-    <td><img src="../images/chapter-1/perfil_2.png"></td>
-    <td>Me llamo Diego Jose Acuña Gomez, soy estudiante de Ingenieria de Software en la UPC. Me gusta trabajar en equipo y hacer que mis compañeros llegen a dar su máxima capacidad en la resolucion de problemas.  Tengo habilidades en la programación como puede ser C++, C#, Java y Javascript. Finalmente, me considero una persona con muy rápido aprendizaje</td>
-    <td>U20201C794</td>
+    <td><img src="./img/paolo_martinez.jpg"></td>
+    <td>Mi nombre es Paolo Del Carmen Martinez Villanueva con código de estudiante u202010039, soy estudiante de la carrera de Ingeniería de Software. Cuento con conocimientos en lenguajes de programación como C++, C#, JavaScript, Python, HTML y CSS. Como miembro del equipo me comprometo a apoyar y colaborar con mis compañeros durante la realización del proyecto para poder brindar una solución de calidad innovadora.
+</td>
+    <td>U202010039</td>
   </tr>
   <tr>
-    <td><img src="../images/chapter-1/perfil_6.jpg"></td>
-    <td>Mi nombre es Gustavo Adolfo Pardo Zapata, soy estudiante de la carrera de ingeniería de software de la UPC. Soy proactivo, colaborativo,responsable y con habilidades de resolución de problemas.Tengo una excelente capacidad para comunicarme de manera efectiva y clara con los demás miembros de mi equipo y deseo colaborar en todo lo posible con mis demás compañeros en este trabajo.</td>
-    <td>U202120347</td>
-  </tr>
-  <tr>
-    <td><img src="../images/chapter-1/perfil_1.jpg"></td>
-    <td>Soy Juan Pablo Ramos, me encuentro en el quinto ciclo de Ingeniería de Software. En términos de programación tengo precedente en C++. Al momento de trabajar en grupos siempre trato de mantener el orden entre las partes de los miembros y apoyar en el desarrollo de las presentaciones.</td>
+    <td><img src="./img/juan_pablo_ramos.jpg"></td>
+    <td>Me llamo Juan Pablo Ramos, me encuentro actualmente en el sexto ciclo de Ing. de Software, con un ciclo estudiado en el extranjero debido a intercambio universitario. Tengo conocimientos en C++, javascript para el desarrollo de páginas web y estoy empezando a usar Python para el desarrollo de algoritmos. En trabajos grupales me comprometo a realizar mis deberes lo antes posible y mantener un orden y horario en nuestras actividades..</td>
     <td>U202019545</td>
   </tr>
   <tr>
-    <td><img src="../images/chapter-1/perfil_5.png"></td>
-    <td>Mi nombre es Renzo Manuel Ramos Ramirez. Actualmente estoy estudiando la carrera de Ingeniería de Software. Me gusta aportar ideas al equipo y ser de ayuda a mis compañeros. En cuanto a mis experiencias, he aprendido a desarrollar aplicaciones de escritorio y de web empleando tecnologías conocidas (C#, .NET framework, ASP.NET, javascript y python).</td>
-    <td>U202113745</td>
+    <td><img src="./img/luiggi_paredes.jpg"></td>
+    <td>Mi nombre es Luiggi Paredes, estoy cursando el séptimo ciclo de la carrera de Ingeniería de Software. Soy un apasionado de la tecnología y me especializo en backend pero también manejo algunos frameworks de frontend como Angular y Astro. Me considero una persona proactiva, responsable y ambiciosa.
+</td>
+    <td>U202218996</td>
+  </tr>
+  <tr>
+    <td><img src="./img/ruben_mallma.jpg"></td>
+    <td>Tengo 19 años, estudiante de séptimo ciclo estudiando la carrera de ingeniería de software. Soy creativo, activo, afable e ingenioso. Me gusta programar y hacer mis proyectos exitosamente. Actualmente estoy desarrollando un videojuego, y me ha enseñado muchas cosas las cuáles nunca pensé observar en mi carrera e ingeniería como tal. </td>
+    <td>U202214234</td>
   </tr>
 </table>
    </ul>
@@ -220,7 +292,7 @@ Creemos que al proporcionar información detallada sobre los medicamentos utiliz
 
 Creemos que los oncólogos como médicos encargados del cuidado de pacientes con cáncer mejorarán su organización al gestionar el tratamiento de múltiples pacientes, así como otras fechas relevantes. Consideraremos que hemos alcanzado nuestro objetivo cuando, de los médicos entrevistados que utilizan el sistema, al menos el 70% reporten una reducción en la cantidad de errores organizativos entre sus pacientes.
          <il><h3><a href="./content/chapter-1/3-lean-ux-process.md">1.2.2.4. Lean UX Canvas</a></h3></il>
-         <img src="../images/random/LeanUXCanvas.png" >
+         <img src="./img/lean_ux_canvas.png" >
       </ul>
    </ul>
 <ul style="list-style-type: none;">
