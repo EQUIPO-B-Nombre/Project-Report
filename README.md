@@ -41,7 +41,7 @@
   </tr>
 </table>
 
-<p align="center"><b>Noviembre 2024</b></p>
+<p align="center"><b>Abril 2025</b></p>
 
 # Registro de versiones
 
