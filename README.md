@@ -37,7 +37,7 @@
   </tr>
   <tr>
     <td>Ramos Mendoza, Juan Pablo</td>
-    <td>U202019545</td>
+    <td></td>
   </tr>
 </table>
 
