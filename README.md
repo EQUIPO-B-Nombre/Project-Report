@@ -33,7 +33,7 @@
   </tr>
   <tr>
     <td>Paredes Zapata, Luiggi Gianfranco</td>
-    <td>U202218996</td>
+    <td></td>
   </tr>
   <tr>
     <td>Ramos Mendoza, Juan Pablo</td>
@@ -219,14 +219,14 @@ ambientales y sociales.
     <tr>
       <td><strong>4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software</strong></td>
       <td>
-        <strong>Jiménez Rosas, Arturo Eduardo</strong><br><strong>TB1</strong><br><br><strong>Christian Andre Matos Fernandez</strong><br><strong>TB1</strong><br><br><strong>Juan Pablo Ramos Mendoza</strong><br><strong>TB1</strong><br><br><strong>Luiggi Gianfranco Paredes Zapata</strong><br><strong>TB1</strong><br>He realizado investigaciones sobre la responsabilidad ética en el uso de tecnologías, asegurando que el producto final sea accesible, transparente y responsable en su impacto en los usuarios.<br><strong>Paolo Del Carmen Martinez Villanueva</strong><br><strong>TB1</strong><br><br><strong>Ruben Elias Mallma Quispe</strong><br><strong>TB1</strong><br>
+        <strong>Jiménez Rosas, Arturo Eduardo</strong><br><strong>TB1</strong><br><br><strong>Christian Andre Matos Fernandez</strong><br><strong>TB1</strong><br><br><strong>Juan Pablo Ramos Mendoza</strong><br><strong>TB1</strong><br><br><strong>Luiggi Gianfranco Paredes Zapata</strong><br><strong>TB1</strong><br><br><strong>Paolo Del Carmen Martinez Villanueva</strong><br><strong>TB1</strong><br><br><strong>Ruben Elias Mallma Quispe</strong><br><strong>TB1</strong><br>
       </td>
       <td>…</td>
     </tr>
     <tr>
       <td><strong>4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales</strong></td>
       <td>
-        <strong>Jiménez Rosas, Arturo Eduardo</strong><br><strong>TB1</strong><br><br><strong>Christian Andre Matos Fernandez</strong><br><strong>TB1</strong><br><br><strong>Juan Pablo Ramos Mendoza</strong><br><strong>TB1</strong><br><br><strong>Luiggi Gianfranco Paredes Zapata</strong><br><strong>TB1</strong><br>He colaborado estrechamente con el equipo para garantizar que nuestras soluciones sean globalmente relevantes, adaptables a diferentes contextos culturales y accesibles a nivel internacional, de modo que nuestra aplicación pueda ser utilizada por personas de diferentes partes del mundo sin generar barreras económicas o sociales.<br><strong>Paolo Del Carmen Martinez Villanueva</strong><br><strong>TB1</strong><br><br><strong>Ruben Elias Mallma Quispe</strong><br><strong>TB1</strong><br>
+        <strong>Jiménez Rosas, Arturo Eduardo</strong><br><strong>TB1</strong><br><br><strong>Christian Andre Matos Fernandez</strong><br><strong>TB1</strong><br><br><strong>Juan Pablo Ramos Mendoza</strong><br><strong>TB1</strong><br><br><strong>Luiggi Gianfranco Paredes Zapata</strong><br><strong>TB1</strong><br><br><strong>Paolo Del Carmen Martinez Villanueva</strong><br><strong>TB1</strong><br><br><strong>Ruben Elias Mallma Quispe</strong><br><strong>TB1</strong><br>
       </td>
       <td>…</td>
     </tr>
