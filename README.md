@@ -2,17 +2,7 @@
   <img src="img/upc.png" alt="Logo de UPC" width="100%">
 </p>
 
-<div align="center">
-  <h1>Universidad Peruana de Ciencias Aplicadas</h1>
-  <p><strong>Carrera:</strong> Ingeniería de Software</p>
-  <p><strong>Ciclo:</strong> 2025 - 1</p>
-  <p><strong>Curso:</strong> Diseño de Experimentos de Ingeniería de Software</p>
-  <p><strong>Sección:</strong>4430</p>
-  <p><strong>Profesor:</strong> Juan Carlos Tinoco Licas</p>
-  <p><strong>"Informe de Trabajo Final"</strong></p>
-  <p><strong>Startup:</strong> OnContigo Team</p>
-  <p><strong>Producto:</strong> OnContigo</p>
-</div>
+span
 
 <table align="center">
   <tr>
@@ -83,7 +73,6 @@
 
 Link del Repositorio: [Repositorio](https://github.com/EQUIPO-B-Nombre/Project-Report)
 
-
 # Project Report Collaboration Insights
 
 En esta entrega cada uno de los integrantes realizo los siguientes puntos:
@@ -112,126 +101,136 @@ En esta entrega cada uno de los integrantes realizo los siguientes puntos:
 
 [Parte I: As-Is Software Project](#parte-i-as-is-software-project)
 
-[Capítulo I: Introducción](#capítulo-i-introducción)  
-  - [1.1. Startup Profile](#11-startup-profile)  
-    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)  
-    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)  
-  - [1.2. Solution Profile](#12-solution-profile)  
-    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)  
-    - [1.2.2. Lean UX Process](#122-lean-ux-process)  
-      - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)  
-      - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)  
-      - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)  
-      - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)  
-  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
+[Capítulo I: Introducción](#capítulo-i-introducción)
 
-[Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)  
-  - [2.1. Competidores](#21-competidores)  
-    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)  
-    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)  
-  - [2.2. Entrevistas](#22-entrevistas)  
-    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)  
-    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)  
-    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)  
-  - [2.3. Needfinding](#23-needfinding)  
-    - [2.3.1. User Personas](#231-user-personas)  
-    - [2.3.2. User Task Matrix](#232-user-task-matrix)  
-    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)  
-    - [2.3.4. Empathy Mapping](#234-empathy-mapping)  
-    - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)  
-  - [2.4. Ubiquitous Language](#24-ubiquitous-language)
+- [1.1. Startup Profile](#11-startup-profile)
+  - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+  - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+- [1.2. Solution Profile](#12-solution-profile)
+  - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+  - [1.2.2. Lean UX Process](#122-lean-ux-process)
+    - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+    - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+    - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+    - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+- [1.3. Segmentos objetivo](#13-segmentos-objetivo)
 
-[Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)  
-  - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)  
-  - [3.2. User Stories](#32-user-stories)  
-  - [3.3. Product Backlog](#33-product-backlog)  
-  - [3.4. Impact Mapping](#34-impact-mapping)
+[Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
 
-[Capítulo IV: Product Design](#capítulo-iv-product-design)  
-  - [4.1. Style Guidelines](#41-style-guidelines)  
-    - [4.1.1. General Style Guidelines](#411-general-style-guidelines)  
-    - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)  
-    - [4.1.3. Mobile Style Guidelines](#413-mobile-style-guidelines)  
-      - [4.1.3.1. iOS Mobile Style Guidelines](#4131-ios-mobile-style-guidelines)  
-      - [4.1.3.2. Android Mobile Style Guidelines](#4132-android-mobile-style-guidelines)  
-  - [4.2. Information Architecture](#42-information-architecture)  
-    - [4.2.1. Organization Systems](#421-organization-systems)  
-    - [4.2.2. Labeling Systems](#422-labeling-systems)  
-    - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)  
-    - [4.2.4. Searching Systems](#424-searching-systems)  
-    - [4.2.5. Navigation Systems](#425-navigation-systems)  
-  - [4.3. Landing Page UI Design](#43-landing-page-ui-design)  
-    - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)  
-    - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)  
-  - [4.4. Mobile Applications UX/UI Design](#44-mobile-applications-uxui-design)  
-    - [4.4.1. Mobile Applications Wireframes](#441-mobile-applications-wireframes)  
-    - [4.4.2. Mobile Applications Wireflow Diagrams](#442-mobile-applications-wireflow-diagrams)  
-    - [4.4.3. Mobile Applications Mock-ups](#443-mobile-applications-mock-ups)  
-    - [4.4.4. Mobile Applications User Flow Diagrams](#444-mobile-applications-user-flow-diagrams)  
-  - [4.5. Mobile Applications Prototyping](#45-mobile-applications-prototyping)  
-    - [4.5.1. Android Mobile Applications Prototyping](#451-android-mobile-applications-prototyping)  
-    - [4.5.2. iOS Mobile Applications Prototyping](#452-ios-mobile-applications-prototyping)  
-  - [4.6. Web Applications UX/UI Design](#46-web-applications-uxui-design)  
-    - [4.6.1. Web Applications Wireframes](#461-web-applications-wireframes)  
-    - [4.6.2. Web Applications Wireflow Diagrams](#462-web-applications-wireflow-diagrams)  
-    - [4.6.3. Web Applications Mock-ups](#463-web-applications-mock-ups)  
-    - [4.6.4. Web Applications User Flow Diagrams](#464-web-applications-user-flow-diagrams)  
-  - [4.7. Web Applications Prototyping](#47-web-applications-prototyping)  
-  - [4.8. Domain-Driven Software Architecture](#48-domain-driven-software-architecture)
-    - [4.8.1. Software Architecture Context Diagram](#481-software-architecture-context-diagram)  
-    - [4.8.2. Software Architecture Container Diagrams](#482-software-architecture-container-diagrams)  
-    - [4.8.3. Software Architecture Components Diagrams](#483-software-architecture-components-diagrams)
+- [2.1. Competidores](#21-competidores)
+  - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+  - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+- [2.2. Entrevistas](#22-entrevistas)
+  - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+  - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+  - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+- [2.3. Needfinding](#23-needfinding)
+  - [2.3.1. User Personas](#231-user-personas)
+  - [2.3.2. User Task Matrix](#232-user-task-matrix)
+  - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+  - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+  - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
+- [2.4. Ubiquitous Language](#24-ubiquitous-language)
 
-- [4.9. Software Object-Oriented Design](#49-software-object-oriented-design)  
-  - [4.9.1. Class Diagrams](#491-class-diagrams)  
+[Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+
+- [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
+- [3.2. User Stories](#32-user-stories)
+- [3.3. Product Backlog](#33-product-backlog)
+- [3.4. Impact Mapping](#34-impact-mapping)
+
+[Capítulo IV: Product Design](#capítulo-iv-product-design)
+
+- [4.1. Style Guidelines](#41-style-guidelines)
+
+  - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
+  - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
+  - [4.1.3. Mobile Style Guidelines](#413-mobile-style-guidelines)
+    - [4.1.3.1. iOS Mobile Style Guidelines](#4131-ios-mobile-style-guidelines)
+    - [4.1.3.2. Android Mobile Style Guidelines](#4132-android-mobile-style-guidelines)
+- [4.2. Information Architecture](#42-information-architecture)
+
+  - [4.2.1. Organization Systems](#421-organization-systems)
+  - [4.2.2. Labeling Systems](#422-labeling-systems)
+  - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
+  - [4.2.4. Searching Systems](#424-searching-systems)
+  - [4.2.5. Navigation Systems](#425-navigation-systems)
+- [4.3. Landing Page UI Design](#43-landing-page-ui-design)
+
+  - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
+  - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
+- [4.4. Mobile Applications UX/UI Design](#44-mobile-applications-uxui-design)
+
+  - [4.4.1. Mobile Applications Wireframes](#441-mobile-applications-wireframes)
+  - [4.4.2. Mobile Applications Wireflow Diagrams](#442-mobile-applications-wireflow-diagrams)
+  - [4.4.3. Mobile Applications Mock-ups](#443-mobile-applications-mock-ups)
+  - [4.4.4. Mobile Applications User Flow Diagrams](#444-mobile-applications-user-flow-diagrams)
+- [4.5. Mobile Applications Prototyping](#45-mobile-applications-prototyping)
+
+  - [4.5.1. Android Mobile Applications Prototyping](#451-android-mobile-applications-prototyping)
+  - [4.5.2. iOS Mobile Applications Prototyping](#452-ios-mobile-applications-prototyping)
+- [4.6. Web Applications UX/UI Design](#46-web-applications-uxui-design)
+
+  - [4.6.1. Web Applications Wireframes](#461-web-applications-wireframes)
+  - [4.6.2. Web Applications Wireflow Diagrams](#462-web-applications-wireflow-diagrams)
+  - [4.6.3. Web Applications Mock-ups](#463-web-applications-mock-ups)
+  - [4.6.4. Web Applications User Flow Diagrams](#464-web-applications-user-flow-diagrams)
+- [4.7. Web Applications Prototyping](#47-web-applications-prototyping)
+- [4.8. Domain-Driven Software Architecture](#48-domain-driven-software-architecture)
+
+  - [4.8.1. Software Architecture Context Diagram](#481-software-architecture-context-diagram)
+  - [4.8.2. Software Architecture Container Diagrams](#482-software-architecture-container-diagrams)
+  - [4.8.3. Software Architecture Components Diagrams](#483-software-architecture-components-diagrams)
+- [4.9. Software Object-Oriented Design](#49-software-object-oriented-design)
+
+  - [4.9.1. Class Diagrams](#491-class-diagrams)
   - [4.9.2. Class Dictionary](#492-class-dictionary)
+- [4.10. Database Design](#410-database-design)
 
-- [4.10. Database Design](#410-database-design)  
   - [4.10.1. Relational/Non-Relational Database Diagram](#4101-relationalnon-relational-database-diagram)
+- [Capítulo V: Product Implementation](#capítulo-v-product-implementation)
 
-- [Capítulo V: Product Implementation](#capítulo-v-product-implementation)  
-  - [5.1. Software Configuration Management](#51-software-configuration-management)  
-    - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)  
-    - [5.1.2. Source Code Management](#512-source-code-management)  
-    - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)  
+  - [5.1. Software Configuration Management](#51-software-configuration-management)
+
+    - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
+    - [5.1.2. Source Code Management](#512-source-code-management)
+    - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
     - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
+  - [5.2. Product Implementation & Deployment](#52-product-implementation--deployment)
 
-  - [5.2. Product Implementation & Deployment](#52-product-implementation--deployment)  
-    - [5.2.1. Sprint Backlogs](#521-sprint-backlogs)  
-    - [5.2.2. Implemented Landing Page Evidence](#522-implemented-landing-page-evidence)  
-    - [5.2.3. Implemented Frontend-Web Application Evidence](#523-implemented-frontend-web-application-evidence)  
-    - [5.2.4. Implemented Native-Mobile Application Evidence](#524-implemented-native-mobile-application-evidence)  
-    - [5.2.5. Implemented RESTful API and/or Serverless Backend Evidence](#525-implemented-restful-api-andor-serverless-backend-evidence)  
-    - [5.2.6. RESTful API documentation](#526-restful-api-documentation)  
+    - [5.2.1. Sprint Backlogs](#521-sprint-backlogs)
+    - [5.2.2. Implemented Landing Page Evidence](#522-implemented-landing-page-evidence)
+    - [5.2.3. Implemented Frontend-Web Application Evidence](#523-implemented-frontend-web-application-evidence)
+    - [5.2.4. Implemented Native-Mobile Application Evidence](#524-implemented-native-mobile-application-evidence)
+    - [5.2.5. Implemented RESTful API and/or Serverless Backend Evidence](#525-implemented-restful-api-andor-serverless-backend-evidence)
+    - [5.2.6. RESTful API documentation](#526-restful-api-documentation)
     - [5.2.7. Team Collaboration Insights](#527-team-collaboration-insights)
-
   - [5.3. Video About-the-Product](#53-video-about-the-product)
   - [Conclusiones](#conclusiones)
+- [Capítulo VI: Product Verification & Validation](#capítulo-vi-product-verification--validation)
 
-- [Capítulo VI: Product Verification & Validation](#capítulo-vi-product-verification--validation)  
-  - [6.1. Testing Suites & Validation](#61-testing-suites--validation) 
-    - [6.1.1. Core Entities Unit Tests](#611-core-entities-unit-tests) 
-    - [6.1.2. Core Integration Tests](#612-core-integration-tests) 
-    - [6.1.3. Core Behaviour-Driven Development](#613-core-behaviour-driven-development) 
-    - [6.1.4. Core System Tests](#614-core-system-tests) 
-
+  - [6.1. Testing Suites & Validation](#61-testing-suites--validation)
+    - [6.1.1. Core Entities Unit Tests](#611-core-entities-unit-tests)
+    - [6.1.2. Core Integration Tests](#612-core-integration-tests)
+    - [6.1.3. Core Behaviour-Driven Development](#613-core-behaviour-driven-development)
+    - [6.1.4. Core System Tests](#614-core-system-tests)
 - [Capítulo VII: DevOps Practices](#capítulo-vii-devops-practices)
+
   - [7.1. Continuous Integration](#71-continuous-integration)
-    - [7.1.1. Tools and Practices](#711-tools-and-practices)   
-    - [7.1.2. Builds & Test Suite Pipeline Components](#712-builds--test-suite-pipeline-components)  
+    - [7.1.1. Tools and Practices](#711-tools-and-practices)
+    - [7.1.2. Builds & Test Suite Pipeline Components](#712-builds--test-suite-pipeline-components)
   - [7.2. Continuous Delivery](#72-continuous-delivery)
-    - [7.2.1. Tools and Practices](#721-tools-and-practices)  
-    - [7.2.2. Stages Deployment Pipeline Components](#722-stages-deployment-pipeline-components)  
+    - [7.2.1. Tools and Practices](#721-tools-and-practices)
+    - [7.2.2. Stages Deployment Pipeline Components](#722-stages-deployment-pipeline-components)
   - [7.3. Continuous Deployment](#73-continuous-deployment)
-    - [7.3.1. Tools and Practices](#731-tools-and-practices)    
-    - [7.3.2. Production Deployment Pipeline Components](#732-production-deployment-pipeline-components)   
+    - [7.3.1. Tools and Practices](#731-tools-and-practices)
+    - [7.3.2. Production Deployment Pipeline Components](#732-production-deployment-pipeline-components)
 
 [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
 
 [Bibliografía](#bibliografía)
 
 [Anexos](#anexos)
-
 
 # Student Outcome
 
@@ -250,74 +249,12 @@ ambientales y sociales.
     <td><strong>4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software</strong></td>
     <td>Matos Fernandez, Christian Andre
 
-TB1: En el desarrollo de OnContigo, trabajé de manera responsable asegurándome de que las funciones implementadas en la sección de perfil y consultas respetaran la privacidad y el correcto manejo de la información de los usuarios.
-
-
-
-Martinez Villanueva, Paolo Del Carmen
-
-TB1: Durante el desarrollo del proyecto, he investigado y aplicado principios éticos y profesionales, asegurando que el software respete la privacidad de los usuarios, promueva la equidad en el acceso y minimice riesgos potenciales derivados de su uso.
-
- 
-
-
-Ramos Mendoza, Juan Pablo
-
-TB1: Para esta primera entrega he revisado las herramientas y técnicas para desarrollar wireframes y mockups al expandir el proyecto original con una aplicación móvil, además de repasar junto con mis compañeros los temas vistos previamente sobre la arquitectura de software y style guidelines.
-
-
-
-Paredes Zapata, Luiggi Gianfranco
-
-TB1: A lo largo del desarrollo de mi proyecto, identifiqué la importancia de la responsabilidad ética al asegurar la privacidad y la protección de los datos de los usuarios, siguiendo los principios de confidencialidad y transparencia en la implementación de funciones clave.
-
-
-
-
-Mallma Quispe, Ruben Elias
-
-TB1: Participé en la elaboración de entrevistas y el desarrollo del capítulo correspondiente. Esto me permitió fortalecer mis habilidades de investigación y aplicar conceptos clave sobre necesidades de usuario y estructura funcional para plataformas digitales. </td>
-    <td>El equipo logró actualizar y aplicar conocimientos fundamentales durante el desarrollo del entregable TB1, fortaleciendo su formación profesional a través de actividades como la investigación de metodologías Lean UX, la elaboración de entrevistas, el análisis de usuarios, el diseño de hipótesis y la definición de requerimientos funcionales. Estas acciones permitieron comprender mejor las necesidades del usuario final y cómo diseñar soluciones digitales que respondan a esas necesidades. El trabajo colaborativo, la estructuración de contenidos por capítulos y el enfoque constante en la experiencia del usuario nos permitieron consolidar una base sólida para el desarrollo del proyecto, alineado a estándares profesionales y buenas prácticas de ingeniería de software. </td>
-  </tr>
-  <tr>
-    <td><strong>4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales</strong></td>
-    <td>Matos Fernandez, Christian Andre
-
-TB1: Durante el desarrollo, tomé decisiones considerando cómo las funcionalidades impactarían en la experiencia de pacientes y médicos, priorizando que la app fuera segura, accesible y de apoyo real en el proceso de tratamiento oncológico.
-
-
-
-Martinez Villanueva, Paolo Del Carmen
-
-TB1: He evaluado junto al equipo los posibles impactos sociales, económicos y ambientales de nuestra solución, priorizando decisiones de diseño que favorezcan la sostenibilidad, accesibilidad y adaptabilidad del software a diferentes realidades globales.
-
- 
-
-
-Ramos Mendoza, Juan Pablo
-
-TB1: Tomé consideración en cada momento del desarrollo y uso de wireframes y mockups en todo momento para asegurar una base de gran utilidad durante el desarrollo de nuestra aplicación, además de seguir un buen orden durante el desarrollo de las entrevistas, permitiendo obtener resultados que sirvieron de base para nuestro proyecto de nuestros usuarios objetivo.
-
-
-
-Paredes Zapata, Luiggi Gianfranco
-
-TB1: Durante el proceso de desarrollo, evalué cómo las decisiones tecnológicas podían afectar a la sociedad y el medio ambiente, tomando en cuenta la accesibilidad de la aplicación, su impacto en el bienestar de los usuarios y su alineación con los objetivos económicos del proyecto.
-
-
-
-Mallma Quispe, Ruben Elias
-
-TB1: Identifiqué la importancia de mantenerme actualizado en metodologías ágiles y herramientas tecnológicas para mejorar mis competencias y aportar soluciones efectivas en el proyecto y en mi futuro profesional. </td>
-    <td>El equipo logró actualizar y aplicar conocimientos fundamentales durante el desarrollo del entregable TB1, fortaleciendo su formación profesional a través de actividades como la investigación de metodologías Lean UX, la elaboración de entrevistas, el análisis de usuarios, el diseño de hipótesis y la definición de requerimientos funcionales. Estas acciones permitieron comprender mejor las necesidades del usuario final y cómo diseñar soluciones digitales que respondan a esas necesidades. El trabajo colaborativo, la estructuración de contenidos por capítulos y el enfoque constante en la experiencia del usuario nos permitieron consolidar una base sólida para el desarrollo del proyecto, alineado a estándares profesionales y buenas prácticas de ingeniería de software. </td>
-  </tr>
-</table>
-
 # Capítulo 1: Introducción
 
 ## 1.1. Startup Profile
 
 ### 1.1.1. Descripción de la Startup
+
 OnContigo es una aplicación creada por alumnos de ingeniería de software de la Universidad Peruana de Ciencias Aplicadas (UPC), con el objetivo de ofrecer apoyo y organización tanto a pacientes oncológicos como a médicos oncólogos en el sector de la salud peruano. Reconocemos las complejidades y desafíos que enfrentan estos dos grupos en el proceso de tratamiento del cáncer, por lo que consideramos darle la importancia debida
 
 OnContigo ofrece una plataforma integral que facilita la gestión de pacientes y la organización de su información. Los médicos pueden administrar eficientemente la información y los horarios de una gran cantidad de pacientes, así como asignar medicamentos y procedimientos de manera efectiva. Además, nuestro calendario integrado proporciona recordatorios específicos para cada paciente, incluyendo citas médicas y procedimientos importantes, y facilita la comunicación directa entre médicos y pacientes.
@@ -325,10 +262,10 @@ OnContigo ofrece una plataforma integral que facilita la gestión de pacientes y
 Otro punto relevante de OnContigo es que proporciona un espacio seguro y comprensivo para que los pacientes oncológicos y sus familias gestionen su tratamiento y bienestar. Los pacientes pueden registrar los medicamentos que toman y acceder a información detallada sobre ellos, incluyendo los efectos secundarios. Además, nuestro calendario ofrece recordatorios de citas médicas, procedimientos y la duración de los medicamentos. También facilitamos la búsqueda y el contacto con médicos oncólogos y otros recursos importantes.
 
 - Misión: Nuestra misión es mejorar la calidad de vida y el proceso de tratamiento para pacientes oncológicos y médicos oncólogos en el Perú. Nos esforzamos por ser un aliado confiable en su viaje, proporcionando herramientas tecnológicas innovadoras que simplifiquen la gestión de la atención médica y promuevan una mayor conexión entre pacientes y profesionales de la salud.
-
 - Visión: Nuestra visión es convertirnos en la plataforma líder en el sector peruano de la salud, reconocida por nuestro compromiso con la excelencia en el apoyo a pacientes oncológicos y médicos oncólogos. Buscamos transformar positivamente la experiencia de tratamiento del cáncer al proporcionar soluciones integrales, accesibles y centradas en las necesidades de nuestros usuarios.
 
 ### 1.1.2. Perfiles de integrantes del equipo
+
 <table>
   <tr>
     <th>Miembro del equipo</th>
@@ -367,19 +304,18 @@ Otro punto relevante de OnContigo es que proporciona un espacio seguro y compren
 ## 1.2. Solution Profile
 
 ### 1.2.1. Antecedentes y problemática
+
 **What - ¿Cuál es el problema?**
 El problema es la falta de eficiencia y calidad en el cuidado oncológico en Perú, especialmente en la gestión de citas, seguimiento de tratamientos y comunicación médico-paciente.
 
 **When - ¿Cuándo sucede el problema?**
 El problema ocurre de manera continua debido a las limitaciones en las herramientas y procesos utilizados en el ámbito oncológico.
 
-
 **Where - ¿Dónde surge el problema?**
 El problema surge en el sector de la salud oncológica en Perú, donde los oncólogos y los pacientes enfrentan dificultades para gestionar citas, seguimiento de tratamientos y comunicación médico-paciente.
 
 **Who - ¿Quiénes son afectados por el problema?**
 Los oncólogos, los pacientes con cáncer y sus familiares son los principales afectados por el problema. También puede afectar a otros profesionales de la salud involucrados en el tratamiento oncológico.
-
 
 **Why - ¿Cuál es la causa del problema?**
 La causa del problema radica en la falta de herramientas tecnológicas adecuadas y procesos eficientes para la gestión de citas, seguimiento de tratamientos y comunicación médico-paciente en el ámbito oncológico en Perú.
@@ -393,6 +329,7 @@ El problema tiene una gran magnitud, ya que afecta tanto a los oncólogos como a
 ### 1.2.2. Lean UX Process
 
 #### 1.2.2.1. Lean UX Problem Statements
+
 El tratamiento y atención de los pacientes con cáncer es bastante agotador y agobiante, siendo la falta de información, organización y claridad del tratamiento en sí un factor que incrementa la ansiedad y estrés en los pacientes y en sus familiares.
 
 Además de esto, los médicos oncólogos deben tratar a una gran cantidad de clientes con horarios y tratamientos muy delicados y específicos, causando problemas para ellos también.
@@ -400,6 +337,7 @@ Además de esto, los médicos oncólogos deben tratar a una gran cantidad de cli
 Con el problema de la falta de información sobre medicamentos y tratamientos y de la falta de organización accesible para los pacientes, sus familiares y los médicos, podemos plantear la siguiente pregunta: **¿qué herramientas podríamos brindar para mejorar el acceso de información y organización de los pacientes oncológicos y sus médicos tratantes para reducir el estrés causado por esta situación tan delicada?**
 
 #### 1.2.2.2. Lean UX Assumptions
+
 **Features:**
 
 - Uso y acceso sencillo a las herramientas
@@ -427,6 +365,7 @@ Con el problema de la falta de información sobre medicamentos y tratamientos y 
 - Facilitará una mejor organización para los médicos tratantes en la gestión de sus múltiples casos.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
+
 **Hypothesis 1:**
 
 Creemos que la implementación de esta aplicación (con calendarios y alarmas personalizables) para los tratamientos, podría reducir significativamente el estrés de los pacientes oncológicos, sus familiares y los oncólogos, al disminuir la preocupación por olvidar o confundir fechas importantes. Será considerado un éxito cuando, en entrevistas posteriores, al menos el 70% de los usuarios reporten una mejora en su estado emocional.
@@ -440,22 +379,24 @@ Creemos que al proporcionar información detallada sobre los medicamentos utiliz
 Creemos que los oncólogos como médicos encargados del cuidado de pacientes con cáncer mejorarán su organización al gestionar el tratamiento de múltiples pacientes, así como otras fechas relevantes. Consideraremos que hemos alcanzado nuestro objetivo cuando, de los médicos entrevistados que utilizan el sistema, al menos el 70% reporten una reducción en la cantidad de errores organizativos entre sus pacientes.
 
 #### 1.2.2.4. Lean UX Canvas
+
 <img src="./img/lean_ux_canvas.png" >
 
 ## 1.3. Segmentos objetivo
+
 Dentro del marco de nuestra propuesta innovadora, hemos detectado segmentos fundamentales que están vinculados al ámbito problemático que abordamos.
 
 - Médicos Oncólogos:
   Este grupo incluye a profesionales médicos especializados en el tratamiento del cáncer, que trabajan en hospitales, clínicas oncológicas y consultorios privados en el Perú. Además, es importante destacar que estos médicos se enfrentan a una carga de trabajo intensa, con la necesidad de gestionar la información y los horarios de numerosos pacientes en un entorno altamente exigente.
-
 - Pacientes Oncológicos y Sus Familiares:
   Este grupo abarca a personas de todas las edades que han sido diagnosticadas con cáncer, así como a sus familiares y cuidadores que están involucrados en su proceso de tratamiento y recuperación. Todos comparten la necesidad de acceder a recursos y herramientas que faciliten la gestión de su enfermedad y mejoren su calidad de vida durante el tratamiento.
-  
+
 # Capítulo II: Requirements Elicitation & Analysis
 
 ## 2.1. Competidores
 
 ### 2.1.1. Análisis competitivo
+
 <table>
   <tr>
     <th colspan="6" valign="top"><b>Análisis Competitivo</b></th>
@@ -597,6 +538,7 @@ Dentro del marco de nuestra propuesta innovadora, hemos detectado segmentos fund
 </table>
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
+
 **Estrategias:**
 
 **Desarrollo de una Interfaz de Usuario Intuitiva y Amigable:** <br>
@@ -624,9 +566,11 @@ Dentro del marco de nuestra propuesta innovadora, hemos detectado segmentos fund
 ## 2.2. Entrevistas
 
 ### 2.2.1. Diseño de entrevistas
+
 ### PREGUNTAS GENERALES
 
 #### Información Demográfica
+
 <ul>
 <li>¿Podría decirme su edad y distrito de residencia?</li>
 <li>¿Cuál es su estado civil y composición familiar (número de hijos, personas a cargo, etc.)?</li>
@@ -634,6 +578,7 @@ Dentro del marco de nuestra propuesta innovadora, hemos detectado segmentos fund
 </ul>
 
 #### Hábitos y Preferencias Digitales
+
 <ul>
 <li>¿Qué dispositivos digitales utiliza con más frecuencia (smartphone, tablet, computadora, etc.)?</li>
 <li>¿Cuáles son sus aplicaciones o servicios en línea favoritos y por qué?</li>
@@ -641,18 +586,21 @@ Dentro del marco de nuestra propuesta innovadora, hemos detectado segmentos fund
 </ul>
 
 #### Objetivos y Frustraciones
+
 <ul>
 <li>¿Cuáles son sus principales objetivos al buscar una aplicación relacionada con la salud o el cuidado oncológico?</li>
 <li>¿Ha experimentado frustraciones o dificultades al usar aplicaciones o servicios en línea de salud? Por favor, descríbalas.</li>
 </ul>
 
 #### Experiencia Personal
+
 <ul>
 <li>Relacionado con su salud o la gestión del cuidado oncológico, ¿podría compartir alguna experiencia positiva o negativa que haya tenido?</li>
 <li>¿Qué características considera indispensables en una aplicación de salud?</li>
 </ul>
 
 #### Expectativas y Necesidades Específicas
+
 <ul>
 <li>En términos de ayuda y organización para el cuidado oncológico, ¿qué es lo que más valora o necesitaría?</li>
 <li>¿Cómo cree que una aplicación podría mejorar su experiencia o la gestión del cuidado oncológico?</li>
@@ -661,18 +609,21 @@ Dentro del marco de nuestra propuesta innovadora, hemos detectado segmentos fund
 ### PREGUNTAS ESPECÍFICAS PARA MÉDICOS ONCÓLOGOS
 
 #### Gestión de Pacientes
+
 <ul>
 <li>¿Cuál es su método actual para organizar la información y los horarios de sus pacientes?</li>
 <li>¿Qué desafíos enfrenta al asignar y hacer seguimiento de los medicamentos y procedimientos para sus pacientes?</li>
 </ul>
 
 #### Comunicación y Recordatorios
+
 <ul>
 <li>¿Cómo se comunica actualmente con sus pacientes para recordatorios o información importante?</li>
 <li>¿Qué funcionalidades considera clave en una aplicación para mejorar la comunicación con sus pacientes?</li>
 </ul>
 
 #### Herramientas Digitales
+
 <ul>
 <li>¿Utiliza actualmente alguna herramienta o software de gestión de pacientes? Si es así, ¿qué le gusta y qué le falta a estas herramientas?</li>
 </ul>
@@ -680,6 +631,7 @@ Dentro del marco de nuestra propuesta innovadora, hemos detectado segmentos fund
 ### PREGUNTAS ESPECÍFICAS PARA PACIENTES ONCOLÓGICOS Y SUS FAMILIARES
 
 #### Gestión de la Información Médica
+
 <ul>
 <li>¿Cómo lleva registro de los medicamentos, citas y procedimientos actualmente?</li>
 <li>¿Cuáles son las principales fuentes de información que utiliza para obtener información sobre su cáncer y su tratamiento?</li>
@@ -688,12 +640,14 @@ Dentro del marco de nuestra propuesta innovadora, hemos detectado segmentos fund
 </ul>
 
 #### Comunicación con Profesionales de la Salud
+
 <ul>
 <li>¿Qué tan fácil o difícil ha sido para usted comunicarse con su médico oncólogo o encontrar nuevos especialistas cuando lo necesita?</li>
 <li>¿Qué características valoraría en una aplicación que le facilite el contacto con profesionales de la salud o servicios de apoyo oncológico?</li>
 </ul>
 
 #### Experiencias y Mejoras
+
 <ul>
 <li>¿Qué información te hubiera gustado tener cuando usted o su familiar pasó por el proceso de tratamiento oncológico?</li>
 <li>¿Qué recomendaciones tiene para mejorar la experiencia de los pacientes con cáncer en el sistema de atención médica?</li>
@@ -739,7 +693,7 @@ Con respecto a las herramientas que utiliza actualmente, los programas que brind
 <img src="/img/chapter-2/InterviewsRegister/EntrevistaO3.png"/> <br>
 **Sexo:** Femenino <br>
 **Edad:** 51 años <br>
-**Acerca de la entrevistada:** Profesora de contabilidad en la UPC  
+**Acerca de la entrevistada:** Profesora de contabilidad en la UPC
 **Instante en el que inicia:** 22:43 <br>
 **Duración:** 10:26 <br>
 **Resumen:** <br>
@@ -752,7 +706,7 @@ Finalmente, la entrevistada considera que una aplicación que sea rápida y de f
 <img src="/img/chapter-2/InterviewsRegister/EntrevistaO4.png"/> <br>
 **Sexo:** Masculino <br>
 **Edad:** 52 años <br>
-**Acerca de la entrevistada:** Asistente médico en Resocentro  
+**Acerca de la entrevistada:** Asistente médico en Resocentro
 **Instante en el que inicia:** 33:08 <br>
 **Duración:** 17:41 <br>
 **Resumen:** El entrevistado menciona un gran interés e importancia sobre la comunicación directa con los médicos, explicando que la falta de esta usualmente se daba por la falta de conocimiento sobre la disponibilidad de los doctores. Además, el entrevistado repitió varias veces lo valioso que es la información durante el tratamiento del paciente, como el estado en el que se encuentra, la información sobre efectos negativos de los medicamentos y cómo impactan al paciente, los estados de disponibilidad de los médicos explicado anteriormente y las fechas aproximadas de duración de las etapas del tratamiento. <br>
@@ -762,11 +716,11 @@ El entrevistado explica que el estrés generado por la falta de conocimiento pod
 **Entrevistado N°5 :** Rafael Ramirez <br>
 **Segmento objetivo :** Médico Oncólogo <br>
 <img src="/img/chapter-2/InterviewsRegister/EntrevistaO5.png"/> <br>
-**Sexo:** Masculino   
-**Edad:** 34 años   
+**Sexo:** Masculino
+**Edad:** 34 años
 **Acerca de la entrevistada:** Médico Radiólogo en Oncosalud <br>
-**Instante en el que inicia:** 50:57   
-**Duración:** 14:48   
+**Instante en el que inicia:** 50:57
+**Duración:** 14:48
 **Resumen:** Una de las funcionalidades principales que el doctor menciona que una aplicación de salud que funcione entre los pacientes y médicos es que debería ser similar a una red social en el sentido que varios médicos puedan comunicarse entre sí sobre la información de un paciente, que los pacientes puedan reservar tiempos específicos para llamadas o videollamadas con los médicos y que puedan revisar los tiempos en los que los médicos estén utilizando el aplicativo. Además, el doctor resalta la importancia de que los pacientes puedan registrar información propia de los medicamentos y tratamientos que han recibido, como reacciones adversas a ciertos medicamentos para mostrarle a los médicos o incluso una línea de tiempo de los tratamientos recibidos por el paciente para que los médicos tratantes se encuentren actualizados. <br>
 El doctor menciona que las herramientas actuales que utiliza son de las clínicas en sí, pero toda comunicación con los pacientes es o con herramientas externas como llamadas telefónicas o a través de correos, con los pacientes requiriendo enviar correos a la cuenta de la empresa en sí para que luego sea enviado a los médicos. <br>
 Finalmente, el doctor vuelve a resaltar la importancia de que los datos como tratamientos anteriores y futuros que el paciente haya tenido y tendrá debería ser de fácil acceso para los médicos. <br>
@@ -774,14 +728,13 @@ Finalmente, el doctor vuelve a resaltar la importancia de que los datos como tra
 **Entrevistado N°6 :** Karina Rojas <br>
 **Segmento objetivo :** Médico Oncólogo <br>
 <img src="/img/chapter-2/InterviewsRegister/EntrevistaO6.png"/> <br>
-**Edad:** 52 años   
-**Acerca de la entrevistada:** Médica oncóloga especializada en hematología   
+**Edad:** 52 años
+**Acerca de la entrevistada:** Médica oncóloga especializada en hematología
 **Instante en el que inicia:** 1:05:40 <br>
 **Duración:** 9:37 <br>
 **Resumen:** La doctora muestra un gran interés en que los pacientes oncológicos obtuvieran alertas y recordatorios de sus tratamientos y citas y en mejorar la facilidad en la que ellos pueden ingresar a dichas citas y tratamientos, usando como ejemplo que un médico simplemente encargue un análisis de sangre al paciente y que dicho paciente pueda obtener el análisis simplemente mostrando la cita del doctor. La doctora menciona que los pacientes oncológicos no presentan mucho apoyo actualmente, con la aplicación que utiliza al momento presentando una falta de opciones especiales en los pagos y citas para pacientes oncológicos. <br>
 La doctora también menciona que, actualmente, su única forma de tomar notas para todos los pacientes a quienes trata es con un cuaderno y con su asistente, quien se encarga de realizar llamadas como recordatorios y con quien comparte el cuaderno, causando mucho estrés por su parte al no conocer exactamente si es que los pacientes han recibido sus recordatorios o, incluso, si es que ambas tienen la misma información anotada, por lo que considera que una aplicación enfocada a la organización de los médicos oncólogos con comunicaciones directas a los pacientes ayudaría bastante en su trabajo. <br>
 Finalmente, menciona la importancia en que los pacientes puedan ver un cronograma de las fechas mostradas por los médicos, además de permitirle a los doctores un poco de privacidad, al realizar la comunicación entre ellos con los pacientes a través de la aplicación, ya que actualmente, usando los números personales, la comunicación convierte “el teléfono personal a uno no personal” al ser usado para contactar a todos los pacientes. <br>
-
 
 ### 2.2.3. Análisis de entrevistas
 
@@ -792,7 +745,6 @@ Gracias a las entrevistas realizadas, se pueden identificar los siguientes punto
 - Los entrevistados del grupo de pacientes y parientes de pacientes mostraron gran énfasis en que, si una aplicación como OnContigo hubiera existido mientras ocurría el tratamiento oncológico completo, su estrés hubiera sido mínimo, principalmente por la información encontrada en la aplicación y sus herramientas organizativas.
 - Los médicos entrevistados, por otra parte, creen que una buena comunicación directa y una organización entre tantos pacientes reduciría en gran parte su estrés y les permitiría una mejor experiencia en el cuidado de tantos pacientes a la vez.
 - Los médicos entrevistados también mostraron un enfoque en la organización de tratamientos y medicamentos recibidos anteriormente por sus pacientes para evitar problemas futuros, como las reacciones alérgicas.
-
 
 ## 2.3. Needfinding
 
@@ -935,19 +887,12 @@ Link de UXPressia: https://uxpressia.com/w/mDdvz/p/lg65v
 Esta es la parte donde se explicará el Ubiquitous Language. Este término hace referencia a un lenguaje común entre los desarrolladores y el dominio. En esta ocasión se va presentar un glosario con conceptos y términos comunes que se emplean en el ámbito de la oncología.
 
 1. **Tumor:** Una masa anormal de tejido que puede ser benigna o maligna.
-
 2. **Cáncer:** Un término general para enfermedades caracterizadas por el crecimiento descontrolado de células anormales que pueden invadir tejidos y propagarse a otras partes del cuerpo.
-
 3. **Metástasis:** La propagación del cáncer desde su sitio original a otro órgano del cuerpo.
-
 4. **Quimioterapia:** un tratamiento que utiliza medicamentos para destruir células cancerosas mediante el uso de fármacos.
-
 5. **Radioterapia:** Tratamiento que usa altas dosis de radiación para destruir células cancerosas.
-
 6. **Oncólogo:** Médico especializado en el diagnóstico y tratamiento del cáncer.
-
 7. **Biopsia:** Extracción de tejido para realizar exámenes bajo un microscopio con el fin de diagnósticar el cáncer.
-
 8. **Cuidados paliativos:** Atención médica que se centra en proporcionar alivio del dolor y otros síntomas de una enfermedad grave, como el cáncer.
 
 # Capítulo III: Requirements Specification
@@ -1045,299 +990,9 @@ Acceso Seguro: Asegurar que las consultas virtuales sean seguras y privadas, cum
 Quiero tener acceso a con mayor detalle mi información médica
 Para estar informado
 
-</td>
-    <td>Acceso Detallado a la Información Médica: Los pacientes deben tener acceso a su información médica detallada a través de la plataforma.<br>
-Actualizaciones en Tiempo Real: La información médica debe actualizarse en tiempo real a medida que los médicos ingresan nuevos datos.<br>
-Privacidad y Seguridad: La plataforma debe asegurar la privacidad y seguridad de los datos médicos de los pacientes.</td>
-    <td>EP07</td>
-  </tr>
-    <tr>
-    <td>EP08</td>
-    <td>Visualizacion de la Landing Page</td>
-    <td>Como paciente
-Quiero visualizar la landing page
-Para tener una primera impresion de la aplicacion</td>
-    <td>Diseño Atractivo: La landing page debe tener un diseño atractivo y profesional que ofrezca una buena primera impresión.<br>
-Información Clave Visible: La landing page debe contener información clave sobre la aplicación, incluyendo características y beneficios para los usuarios.<br>
-Facilidad de Navegación: Los usuarios deben poder navegar fácilmente por la landing page para encontrar la información que necesitan.</td>
-    <td>EP08</td>
-  </tr>
-  <tr>
-    <td>US01</td>
-    <td>Registrar cuenta</td>
-    <td>Como usuario general<br>Quiero registrar una cuenta<br>Para acceder a la aplicación OnContigo</td>
-    <td>
-      E01: Ingreso correcto de datos<br>Dado que el usuario se encuentra en el formulario de registro<br>Cuando ingresa su nombre, apellidos, correo, edad, número de celular y contraseña correctamente<br>Entonces se registra su nueva cuenta<br><br>
-      E02: Ingreso incorrecto de datos<br>Dado que el usuario se encuentra en el formulario de registro<br>Cuando ingresa su nombre, apellidos, correo, edad, número de celular y contraseña incorrectamente<br>Entonces el sistema rechazará la solicitud de registro y pedirá completar los datos correctamente.
-    </td>
-    <td>EP01</td>
-  </tr>
-  <tr>
-    <td>US02</td>
-    <td>Iniciar sesión</td>
-    <td>Como usuario general<br>Quiero iniciar sesión en mi cuenta<br>Para acceder a las funciones de la aplicación</td>
-    <td>
-      E01: Inicio de sesión satisfactorio<br>Dado que el usuario se encuentra en el inicio de sesión.<br>Cuando ingrese sus credenciales correctas.<br>Entonces inicia sesión en su cuenta.<br><br>
-      E02: Inicio de sesión sin registrar<br>Dado que el usuario se encuentra en el inicio de sesión.<br>Cuando ingrese las credenciales incorrectas.<br>Entonces le aparece un mensaje indicando que la cuenta no existe.
-    </td>
-    <td>EP01</td>
-  </tr>
-  <tr>
-    <td>US03</td>
-    <td>Cierre de sesión</td>
-    <td>Como usuario general<br>Quiero cerrar mi cuenta al terminar de usar el aplicativo<br>Para evitar que otras personas accedan a mi cuenta</td>
-    <td>
-      E01: Cerrar sesión<br>Dado que el usuario está dentro de la aplicación.<br>Y selecciona el menú de la barra de navegación.<br>Cuando presione la opción “Sign out”.<br>Y confirme la acción.<br>Entonces será dirigido a la landing page.
-    </td>
-    <td>EP01</td>
-  </tr>
-  <tr>
-    <td>US04</td>
-    <td>Recuperación de cuenta</td>
-    <td>Como usuario general<br>Quiero tener la opción de recuperar mi cuenta<br>Para no perder mis datos ya registrados</td>
-    <td>
-      E01: Envío de mensaje a correo<br>Dado que el usuario no pueda acceder a su cuenta<br>Cuando elige la opción “Recuperar cuenta” y la opción “Por email”<br>Entonces el sistema envía un mensaje con una opción de recuperación al correo electrónico asociado a la cuenta<br><br>
-      E02: Envío de mensaje de texto<br>Dado que el usuario no pueda acceder a su cuenta<br>Cuando elige la opción “Recuperar cuenta” y la opción “Por mensaje de texto”<br>Entonces el sistema envía un mensaje con una opción de recuperación al número asociado a la cuenta
-    </td>
-    <td>EP01</td>
-  </tr>
-  <tr>
-    <td>US05</td>
-    <td>Cambio de número telefónico</td>
-    <td>Como usuario general<br>Quiero cambiar el número de teléfono asociado a mi cuenta<br>Para que puedan contactarse conmigo</td>
-    <td>
-      E01: Ingreso correcto de datos<br>Dado que el usuario se encuentra en su perfil de usuario<br>Cuando presiona la opción de modificar número telefónico e ingresa un número correcto<br>Entonces se cambió el número de usuario<br><br>
-      E02: Ingreso incorrecto de datos<br>Dado que el usuario se encuentra en su perfil de usuario<br>Cuando presiona la opción de modificar número telefónico e ingresa caracteres no permitidos o inexistente<br>Entonces sale un mensaje que advierta que se ingresó un número incorrecto.
-    </td>
-    <td>EP02</td>
-  </tr>
-  <tr>
-    <td>US06</td>
-    <td>Cambio de contraseña</td>
-    <td>Como usuario general<br>Quiero cambiar la contraseña asociada a mi cuenta<br>Para mantener la seguridad de mi cuenta</td>
-    <td>
-      E01: Cambio de contraseña exitoso<br>Dado que el usuario se encuentra en su perfil de usuario<br>Cuando presiona la opción de modificar la contraseña<br>Y escribe una nueva contraseña y la confirma<br>Entonces la contraseña se actualiza con éxito<br><br>
-      E02: Cambio de contraseña erróneo<br>Dado que el usuario se encuentra en su perfil de usuario<br>Cuando presiona la opción de modificar la contraseña<br>Y escribe una nueva contraseña, pero no cumple con los parámetros de seguridad<br>Entonces la contraseña no se actualiza
-    </td>
-    <td>EP02</td>
-  </tr>
-  <tr>
-    <td>US07</td>
-    <td>Actualizar foto de perfil</td>
-    <td>Como usuario general<br>Quiero cambiar mi foto de perfil<br>Para mantener mi perfil actualizado</td>
-    <td>
-      E01: Actualizar foto de perfil<br>Dado que el usuario se encuentra en su perfil de usuario.<br>Cuando presiona su perfil.<br>Y presiona la opción “Actualizar foto de perfil”.<br>Y elige una foto de su galería de fotos con el formato correcto.<br>Entonces su foto de perfil se actualizará con éxito.<br><br>
-      E02: Actualización de foto de perfil incorrecta<br>Dado que el usuario se encuentra en su perfil de usuario.<br>Cuando presiona en su perfil de usuario.<br>Y presiona la opción “Actualizar foto de perfil”<br>Y elige una foto de perfil con el formato incorrecto.<br>Entonces le aparece el mensaje que le indica que la foto de perfil tiene el formato incorrecto.
-    </td>
-    <td>EP02</td>
-  </tr>
-  <tr>
-    <td>US08</td>
-    <td>Acceso al calendario</td>
-    <td>Como usuario general<br>Quiero acceder a la herramienta de calendario<br>Para revisar las fechas importantes del tratamiento</td>
-    <td>
-      E01: Acceder al calendario como médico<br>Dado que el médico se encuentra en la pantalla principal de la aplicación.<br>Cuando acceda a la opción de “Calendario”.<br>Entonces podrá visualizar el calendario con las fechas importantes de los tratamientos de sus pacientes.<br><br>
-      E02: Acceder al calendario como paciente/pariente<br>Dado que el paciente se encuentra en la pantalla principal de la aplicación.<br>Cuando acceda a la opción “calendario”<br>Entonces podrá visualizar el calendario con las fechas importantes de su tratamiento.
-    </td>
-    <td>EP03</td>
-  </tr>
-  <tr>
-    <td>US09</td>
-    <td>Registrar fecha de cita</td>
-    <td>Como usuario<br>Quiero registrar una fecha y hora de cita en el calendario<br>Para mantener un orden y registro de las citas con médicos</td>
-    <td>
-      E01: Registrar cita de un paciente como médico<br>Dado que el médico se encuentra en el calendario<br>Cuando selecciona un recuadro del calendario<br>Entonces podrá registrar una fecha y hora de cita en el calendario.
-    </td>
-    <td>EP03</td>
-</tr>
-<tr>
-    <td>US10</td>
-    <td>Registrar fecha de procedimiento</td>
-    <td>Como usuario<br>Quiero registrar una fecha y hora de procedimiento médico en el calendario<br>Para mantener un orden y registro de los procedimientos médicos realizados</td>
-    <td>
-      E01: Registrar fecha de procedimiento de un paciente como médico<br>Dado que el médico se encuentra en la lista de pacientes.<br>Cuando selecciona un paciente.<br>Entonces podrá registrar una fecha y hora de los procedimientos que se realizaron en el paciente.
-    </td>
-    <td>EP03</td>
-</tr>
-<tr>
-    <td>US11</td>
-    <td>Registrar periodo de tratamiento</td>
-    <td>Como usuario médico<br>Quiero registrar el periodo estimado de la etapa de un tratamiento de un paciente<br>Para informar a los pacientes y sus parientes la duración de un tratamiento</td>
-    <td>
-      E01: Registrar fecha de inicio de un periodo de tratamiento<br>Dado que el médico se encuentra en la lista de pacientes.<br>Cuando selecciona un paciente<br>Entonces podrá registrar la fecha de inicio de un tratamiento.<br><br>
-      E02: Registrar fecha de finalización de un periodo de tratamiento<br>Dado que el médico se encuentra en la lista de pacientes.<br>Cuando selecciona un paciente.<br>Entonces podrá registrar la fecha de finalización de un tratamiento.
-    </td>
-    <td>EP03</td>
-</tr>
-<tr>
-    <td>US12</td>
-    <td>Registrar horario de medicamentos</td>
-    <td>Como usuario médico.<br>Quiero registrar el horario de medicamentos.<br>Para que mis pacientes sepan a qué hora deben tomar sus medicamentos.</td>
-    <td>
-      E01: Registrar horario de medicamentos<br>Dado que el médico se encuentra en la lista<br>Cuando selecciona un paciente.<br>Entonces podrá registrar el horario de medicamentos correspondientes al paciente.
-    </td>
-    <td>EP03</td>
-</tr>
-<tr>
-    <td>US24</td>
-    <td>Agregar Paciente</td>
-    <td>Como usuario médico.<br>Quiero agregar pacientes en mi lista de pacientes <br>Para tener de manera mas organizada mi lista de pacientes.</td>
-    <td>
-      E01: Agregar Paciente <br>Dado que el médico se encuentra en la lista de pacientes <br>Cuando selecciona la opcion "Agregar Paciente"<br>T ingrese el DNI del paciente<br> Entonces podrá agregar paciente mediante su DNI
-    </td>
-    <td>EP03</td>
-</tr>
-<tr>
-    <td>US24</td>
-    <td>Eliminar Paciente</td>
-    <td>Como usuario médico.<br>Quiero eliminar pacientes en mi lista de pacientes <br>Para tener de manera mas organizada mi lista de pacientes.</td>
-    <td>
-      E01: Eliminar Paciente <br>Dado que el médico se encuentra en la lista de pacientes <br>Cuando selecciona a un paciente<br> Y seleccione la opcion "Eliminar  Paciente"<br> Entonces podrá eliminar paciente mediante su DNI
-    </td>
-    <td>EP03</td>
-</tr>
-<tr>
-    <td>US13</td>
-    <td>Contactar con OnContigo</td>
-    <td>Como usuario general<br>Quiero visualizar una forma de contacto en el footer de la Landing Page.<br>Para poder comunicarme con OnContigo.</td>
-    <td>
-      E01: Visualizar formas de contacto<br>Dado que el usuario se encuentra visualizando la Landing Page.<br>Cuando se dirija al footer de la página.<br>Entonces podrá visualizar las formas de contacto de OnContigo.
-    </td>
-    <td>EP04</td>
-</tr>
-<tr>
-    <td>US14</td>
-    <td>Alarmas para pacientes</td>
-    <td>Como usuario médico<br>Quiero gestionar alarmas para mis pacientes<br>Para hacerles recordar sus actividades</td>
-    <td>
-      E01: Programando alarma para paciente<br>Dado que el médico se encuentra en la pestaña de paciente<br>Cuando seleccione “Establecer alarma”<br>Entonces la alarma para su paciente estará establecida<br><br>
-      E02: Desprogramar alarma para paciente<br>Dado que el médico se encuentra en la pestaña de paciente<br>Cuando seleccione la “Alarma establecida”<br>Y desactive la alarma<br>Entonces la alarma quedará desactivada
-    </td>
-    <td>EP05</td>
-</tr>
-<tr>
-    <td>US15</td>
-    <td>Aviso de notificación</td>
-    <td>Como paciente<br>Quiero visualizar mis notificaciones<br>Para mantenerme informado por mi doctor.</td>
-    <td>
-      E01: Visualizar notificaciones<br>Dado que el paciente se encuentra en el menú de inicio<br>Cuando seleccione el icono de la alarma<br>Entonces se le mostrará las notificaciones.
-    </td>
-    <td>EP05</td>
-</tr>
-<tr>
-    <td>US16</td>
-    <td>Chat con pacientes</td>
-    <td>Como usuario médico<br>Quiero establecer una comunicación con mis pacientes<br>Para tener una conversación en tiempo real con ellos</td>
-    <td>
-      E01: Abrir chat con el paciente<br>Dado que el médico se encuentra en la pestaña de paciente<br>Cuando seleccione “Chat”<br>Entonces comenzará una conversación con su paciente  
-    </td>
-    <td>EP05</td>
-</tr>
-<tr>
-    <td>US17</td>
-    <td>Chat con médicos</td>
-    <td>Como usuario paciente o pariente<br>Quiero establecer una comunicación con mi médico<br>Para tener una conversación en tiempo real con ellos</td>
-    <td>
-      E01: Abrir chat con el médico<br>Dado que el paciente se encuentra en la pestaña de “Mi doctor”<br>Cuando seleccione “Chat”<br>Entonces comenzará una conversación con su médico 
-    </td>
-    <td>EP05</td>
-</tr>
-<tr>
-    <td>US23</td>
-    <td>Lista de mis pacientes</td>
-    <td>Como medico<br>Quiero ver la lista de mis pacientes en una tabla<br>Para poder gestionar sus alarmas, ver que horarios tengo con el paciente y sus datos</td>
-    <td>
-      E01: Ver lista de pacientes<br>Dado que el medico se encuentra en la pantalla principal<br> Cuando seleccione la opcion de "Lista de Pacientes" <br>Entonces podra ver la lista de pacientes
-    </td>
-    <td>EP05</td>
-</tr>
-<tr>
-    <td>US18</td>
-    <td>Sesión virtual</td>
-    <td>Como médico<br>Quiero poder brindar consultas virtuales<br>Para poder darles esa posibilidad a mis pacientes.</td>
-    <td>
-      E01: Agendar una sesión virtual.<br>Dado que el médico se encuentra en el apartado de nueva cita<br>Cuando seleccione la opción “virtual”<br>Entonces se le abrirá la opción de colocar un link a la sala virtual que proporcione.
-    </td>
-    <td>EP06</td>
-</tr>
-<tr>
-    <td>US19</td>
-    <td>Revisar consultas</td>
-    <td>Como paciente<br>Quiero acceder fácilmente a un registro de consultas médicas pasadas y futuras<br>Para hacer seguimiento a mi historial médico.</td>
-    <td>
-      E01: Acceso al historial de consultas<br>Dado que el paciente se encuentra en la pantalla principal.<br>Cuando se dirige a la sección “Historial médico”.<br>Entonces podrá ver una lista completa de todas sus consultas médicas que incluyen las pasadas y futuras, con los médicos correspondientes.
-    </td>
-    <td>EP07</td>
-</tr>
-<tr>
-    <td>US20</td>
-    <td>Ver lista de medicamentos</td>
-    <td>Como paciente<br>Quiero tener acceso a una lista detallada de medicamentos<br>Para seguir correctamente las indicaciones médicas.</td>
-    <td>
-      E01: Verificación de detalles de la receta<br>Dado que el paciente se encuentra en la pantalla principal de la aplicación.<br>Cuando se dirige a la sección de “Medicamentos recetados”.<br>Entonces podrá revisar los detalles de los medicamentos, incluyendo nombre, dosis y frecuencia de administración.
-    </td>
-    <td>EP07</td>
-</tr>
-<tr>
-    <td>US21</td>
-    <td>Revisar tratamientos</td>
-    <td>Como paciente<br>Quiero revisar los tratamientos que me han realizado<br>Para tener mayor conocimiento de mi condición médica.</td>
-    <td>
-      E01: Revisión de detalles del tratamiento<br>Dado que el paciente se encuentra en la pantalla principal de la aplicación.<br>Cuando acceda a sección “Tratamientos”<br>Entonces podrá revisar todos los detalles del tratamiento.
-    </td>
-    <td>EP07</td>
-</tr>
-<tr>
-    <td>US22</td>
-    <td>Visualizar landing page</td>
-    <td>Como usuario general<br>Quiero visualizar toda la landing page<br>Para conocer la startup</td>
-    <td>
-      E01: Landing page vista<br>Dado que el paciente abre un navegador de búsqueda<br>Cuando busque la empresa de OnContigo<br>Entonces aparecerá en los resultados la Landing Page de OnContigo<br>Y podrá ver la página
-    </td>
-    <td>EP08</td>
-</tr>
-<tr>
-    <td>TS01</td>
-    <td>Crear Endpoint para el registro de usuario</td>
-    <td>Como desarrollador de la aplicación<br>Quiero tener un endpoint de tipo POST<br>Para registrar usuarios nuevos en la aplicación</td>
-    <td>
-      E01: Creación de usuario nuevo<br>Dado que el usuario se encuentra en la pantalla de crear cuenta<br>Cuando ingrese sus datos de forma correcta Y seleccione el botón "registrarse"<br>Entonces su cuenta será creada correctamente
-    </td>
-    <td>EP01</td>
-</tr>
-<tr>
-    <td>TS02</td>
-    <td>Implementación de la autenticación de usuario</td>
-    <td>Como desarrollador<br>Quiero utilizar autenticación en las cuentas de mis usuarios<br>Para garantizar la seguridad de ellos</td>
-    <td>
-      E01: Iniciar sesión con credenciales válidas<br>Dado que el usuario se encuentre en la pantalla de inicio de sesión<br>Cuando ingrese correctamente sus datos Y seleccione el botón "iniciar sesión"<br>Entonces podrá ingresar a la aplicación con su usuario<br><br>
-      E01: Credenciales no válidas<br>Dado que el usuario se encuentre en la pantalla de inicio de sesión<br>Cuando ingrese incorrectamente sus datos Y seleccione el botón "iniciar sesión"<br>Entonces aparecerá un mensaje de que los datos son incorrectos
-    </td>
-    <td>EP01</td>
-</tr>
-<tr>
-    <td>TS03</td>
-    <td>Creación de Endpoint para ingreso de medicamentos</td>
-    <td>Como desarrollador<br>Quiero implementar los endpoints necesarios<br>Para el registro y visualización de los medicamentos de los pacientes</td>
-    <td>
-      E01: Visualización de los medicamentos<br>Dado que el paciente se encuentre en la pantalla principal<br>Cuando escojan la opción de medicamentos<br>Entonces podrán visualizar todos los medicamentos que tengan registrados por su médico.<br><br>
-      E02: Visualización de detalles de un medicamento<br>Dado que el paciente se encuentre en la pantalla de medicamentos<br>Cuando escoja uno de los medicamentos listados<br>Entonces se visualizarán los detalles del medicamento seleccionado
-    </td>
-    <td>EP07</td>
-</tr>
-<tr>
-    <td>TS04</td>
-    <td>Registro de fecha de cita</td>
-    <td>Como desarrollador<br>Quiero implementar los endpoints necesarios<br>Para el registro y visualización de las citas de pacientes y médicos</td>
-    <td>
-      E01: Vista de calendario<br>Dado que el usuario se encuentre en la pantalla principal<br>Cuando elija la opción calendario<br>Entonces se mostrará con detalle las fechas y horas de las citas programadas
-    <td>EP06</td>
-</tr>
-</table>
-
 ## 3.3. Product Backlog
 
-Link del trello:  https://trello.com/invite/b/gx5i8rKM/ATTI09d174300e2bf371f3e5625280ecdb95A762E269/product-backlog-oncontigo 
+Link del trello:  https://trello.com/invite/b/gx5i8rKM/ATTI09d174300e2bf371f3e5625280ecdb95A762E269/product-backlog-oncontigo
 
 <table border="1">
     <tr>
@@ -1508,8 +1163,6 @@ Link del trello:  https://trello.com/invite/b/gx5i8rKM/ATTI09d174300e2bf371f3e56
 En esta sección, se ha llevado a cabo la creación del impact mapping, partiendo de las metas comerciales establecidas para cada user persona. Se han identificado los impactos deseados, los entregables necesarios y se han relacionado con las historias de usuario correspondientes.
 Segmento objetivo: Pacientes y familiares
 
-
-
 **Segmento#1**: Pacientes Oncologicos
 
 Link de UXPressia: https://uxpressia.com/w/mDdvz/i/qzusH
@@ -1542,7 +1195,7 @@ Link de UXPressia: https://uxpressia.com/w/mDdvz/i/f0s3H
 <tr><td valign="top"><b>Promoción</b></td><td valign="top">Se desarrollan estrategias de marketing digital, incluyendo publicidades en redes sociales, para aumentar la visibilidad y el alcance de la aplicación, y se establecen colaboraciones estratégicas con organizaciones oncológicas para proporcionar recursos adicionales y apoyo a los usuarios.</td></tr>
 </table>
 
-   </ul>
+</ul>
 
 ### 4.1.2. Web Style Guidelines
 
@@ -1579,10 +1232,12 @@ organización visual para los dos segmentos de OnContigo: pacientes y doctores o
 #### Segmento: Pacientes
 
 ##### Jerárquica
+
 - **Información de Tratamiento**: Organizada por tipos de tratamiento (quimioterapia, radioterapia, etc.), cada sección desglosa los tratamientos actuales, pendientes y completados.
 - **Medicamentos**: Listado de medicamentos que el paciente debe tomar, organizado por horarios y dosis.
 
 ##### Secuencial
+
 - **Programación de Citas**: Paso a paso desde la selección del especialista hasta la confirmación de la cita.
 - **Guía de Cuidados Post-Tratamiento**: Instrucciones secuenciales para el cuidado en casa después de cada tipo de tratamiento.
 - **Checklist de Síntomas**: Lista de comprobación que los pacientes pueden seguir para monitorizar su estado entre citas.
@@ -1590,10 +1245,12 @@ organización visual para los dos segmentos de OnContigo: pacientes y doctores o
 #### Segmento: Doctores Oncólogos
 
 ##### Jerárquica
+
 - **Panel de Pacientes**: Vista que organiza a los pacientes por urgencia o próxima cita, con detalles expandibles para cada uno.
 - **Agenda Diaria**: Organizada por horarios, con cada sesión de tratamiento o consulta y su duración estimada.
 
 ##### Secuencial
+
 - **Proceso de Diagnóstico**: Etapas para el diagnóstico de un nuevo paciente, desde la recopilación de información hasta la planificación del tratamiento.
 - **Seguimiento de Tratamiento**: Pasos para el seguimiento regular del progreso del tratamiento, con recordatorios y alertas programadas.
 - **Educación Continua**: Cursos y materiales de formación presentados en un formato secuencial para el desarrollo profesional continuo.
@@ -1601,13 +1258,13 @@ organización visual para los dos segmentos de OnContigo: pacientes y doctores o
 ### 4.2.2. Labeling Systems
 
 A continuación, se mostrará el sistema de etiquetado que permitirá a nuestros visitantes recibir la información que nuestra Landing page ofrece a través de una sola palabra. Contamos con cuatro “headings” con fuente sans-serif ubicadas en la parte superior del Landing page:
-    <ul>
-    <li>**Members:** Sección donde el cliente podra ver los integrantes de nuestro equipo de desarrollo.
-    <li>**About us:** Sección dónde el cliente podrá ver nuestra misión, visión, quienes somos y qué hacemos.
-    <li>**Services:** Sección enfocada en listar y detallar los servicios que ofrecemos.
-    <li>**Plans:** Sección dónde se detalla cuales son los planes de OnContigo
-    <li>**Testimonials:** Seccion donde se muestra los testimonios de clientes satisfechos
-    </ul>
+<ul>
+<li>**Members:** Sección donde el cliente podra ver los integrantes de nuestro equipo de desarrollo.
+<li>**About us:** Sección dónde el cliente podrá ver nuestra misión, visión, quienes somos y qué hacemos.
+<li>**Services:** Sección enfocada en listar y detallar los servicios que ofrecemos.
+<li>**Plans:** Sección dónde se detalla cuales son los planes de OnContigo
+<li>**Testimonials:** Seccion donde se muestra los testimonios de clientes satisfechos
+</ul>
 
 ### 4.2.3. SEO Tags and Meta Tags
 
@@ -1615,43 +1272,55 @@ A continuación, se mostrarán los SEO Tags y Meta Tags utilizados en el Landing
 de aumentar su visibilidad en los motores de búsqueda
 
 #### Estructura del Documento
+
 `<!DOCTYPE html>`: Declara el documento como HTML5.
 
 `<html lang="en">`: Define el idioma de la página como inglés.
 
 #### Codificación de Caracteres
+
 `<meta charset="UTF-8">`: Establece la codificación de caracteres para el documento a UTF-8, soportando la mayoría de los caracteres de idiomas escritos.
 
 #### Compatibilidad con Navegadores
+
 `<meta http-equiv="X-UA-Compatible" content="IE=edge">`: Asegura que Internet Explorer utilice la última versión de su motor de renderizado.
 
 #### Visualización en Dispositivos Móviles
+
 `<meta name="viewport" content="width=device-width, initial-scale=1.0">`: Define cómo se visualiza la página en dispositivos móviles, ajustando el ancho de la página al ancho del dispositivo y la escala inicial a 1.
 
 #### Descripción de la Página
+
 `<meta name="description" content="...">`: Proporciona una descripción concisa de la página, crucial para los resultados de los motores de búsqueda.
 
 #### Palabras Clave
+
 `<meta name="keywords" content="...">`: Enumera palabras clave relevantes para el contenido de la página, aunque su impacto en el SEO moderno es limitado.
 
 #### Autoría
+
 `<meta name="author" content="Los Ramos">`: Declara a "Los Ramos" como el autor del contenido del sitio web.
 
 #### Favicon
+
 `<link rel="icon" href="img/oncontigologo.png">`: Especifica un ícono para la página, que se muestra en la pestaña del navegador.
 
 #### Estilos Externos
+
 `<link rel="stylesheet" href="styles.css">`: Vincula un archivo de hoja de estilos CSS externo para formatear la página web.
 
 #### Preconexión con Dominios Externos
+
 `<link rel="preconnect" href="https://fonts.googleapis.com">`: Optimiza el rendimiento de carga estableciendo una conexión temprana con Google Fonts.
 
 `<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>`: Similar al anterior, con el atributo `crossorigin` para recursos que serán utilizados en un contexto CORS.
 
 #### Importación de Fuentes Externas
+
 `<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">`: Importa la familia de fuentes "League Spartan" desde Google Fonts.
 
 #### Título de la Página
+
 `<title>OnContigo</title>`: Define el título de la página, visible en la pestaña del navegador y utilizado por los motores de búsqueda en los resultados.
 
 <img src="img/Chapter-4/information-architecture/meta-tags.png"/>
@@ -1662,20 +1331,19 @@ A continuación, se mostrarán los sistemas de búsqueda implementados para ayud
 usuarios a encontrar la información que están buscando.
 Para el Landing Page, no se ha implementado un sistema de búsqueda, ya que la información esta segmentada y enlaza con el menú principal. Por esto mismo, podrán buscar toda la información necesaria para poder identificar lo más importante de nuestra solución, como a que nos dedicamos o cuales son nuestros servicios o principalmente podrán buscar los contactos para que puedan comunicarse con nosotros.
 
-
 ### 4.2.5. Navigation Systems
 
-  A continuación, se mostrarán los sistemas de navegación que le permitirán a nuestros usuarios moverse a través de las distintas piezas de contenido o información.
-  Como se mencionó anteriormente en el Labeling Systems, contamos con cuatro “headings” en el Landing Page entre los cuales tenemos a About us, Members, Our Services, Plans y Testimonials. Estas secciones son ubicadas como un menú global horizontal a lo largo de la parte superior del Landing page, se dividió la información en estas cuatro secciones con la finalidad de que el cliente no estuviera recorriendo hacia abajo, a través de la barra de desplazamiento vertical, la inmensidad de información disponible. Esto le facilitaría movilizarse a través de nuestro contenido. Por supuesto, la estrategia es que revise primero el Home, dónde se encuentra la información más relevante y la que llamará más su atención, y luego viaje a través del resto del menú de izquierda a derecha
-  En caso de las herramientas de navegación para las aplicaciones, todas los enlaces importantes se encuentran dentro de las páginas principales para permitir un acceso fácil a cualquiera de las funcionalidades de los programas.
+A continuación, se mostrarán los sistemas de navegación que le permitirán a nuestros usuarios moverse a través de las distintas piezas de contenido o información.
+Como se mencionó anteriormente en el Labeling Systems, contamos con cuatro “headings” en el Landing Page entre los cuales tenemos a About us, Members, Our Services, Plans y Testimonials. Estas secciones son ubicadas como un menú global horizontal a lo largo de la parte superior del Landing page, se dividió la información en estas cuatro secciones con la finalidad de que el cliente no estuviera recorriendo hacia abajo, a través de la barra de desplazamiento vertical, la inmensidad de información disponible. Esto le facilitaría movilizarse a través de nuestro contenido. Por supuesto, la estrategia es que revise primero el Home, dónde se encuentra la información más relevante y la que llamará más su atención, y luego viaje a través del resto del menú de izquierda a derecha
+En caso de las herramientas de navegación para las aplicaciones, todas los enlaces importantes se encuentran dentro de las páginas principales para permitir un acceso fácil a cualquiera de las funcionalidades de los programas.
 
 ## 4.3. Landing Page UI Design
 
 ### 4.3.1. Landing Page Wireframe
 
- **Landing Page desktop**<br>
- Se presenta la landing page vista desde el desktop browser. Donde se muestran la mision,vision,integrantes,caracteristicas,planes, testimonios y por ultimo el footer.<br>
-      <img src="img/Chapter-4/Landingpage-Desktop-mobile/LandinpageDesktop.png"/><br>
+**Landing Page desktop**<br>
+Se presenta la landing page vista desde el desktop browser. Donde se muestran la mision,vision,integrantes,caracteristicas,planes, testimonios y por ultimo el footer.<br>
+<img src="img/Chapter-4/Landingpage-Desktop-mobile/LandinpageDesktop.png"/><br>
 **Landing pages Mobile**<br>
 Se presenta la landing page vista desde el mobile web browser. Incluye el diseño desktop browser, pero adaptados a las dimensiones del dispositivo móvil.
 <img src="img/Chapter-4/Landingpage-Desktop-mobile/LP1.png"/><br>
@@ -1703,8 +1371,8 @@ Desde la vista de un user mobile web browser codse logra ver el contenido de la 
 <img src="img/Chapter-4/LandingpageMc/LP7mc.png"/><br>
 <img src="img/Chapter-4/LandingpageMc/LP8mc.png"/><br>
 <img src="img/Chapter-4/LandingpageMc/LPfooter.png"/><br>
-      
-   </ul>
+
+</ul>
 
 ## 4.4. Mobile Applications UX/UI Design
 
@@ -1714,102 +1382,101 @@ Desde la vista de un user mobile web browser codse logra ver el contenido de la 
 
 El usuario escribe sus datos en esta sección para poder acceder a la aplicación.
 
-  <img src="img/Chapter-4/figma-mobile/WF1.png">
+<img src="img/Chapter-4/figma-mobile/WF1.png">
 
 **Pantalla Principal - Doctor**
 
 La pantalla inicial para los médicos mostrando las opciones principales.
 
-  <img src="img/Chapter-4/figma-mobile/WF9.png">
+<img src="img/Chapter-4/figma-mobile/WF9.png">
 
-  **Calendario - Doctor**
+**Calendario - Doctor**
 
 En esta pantalla se muestra la herramienta de calendario para los médicos, mostrando sus pacientes y las horas y días que tienen citas con ellos.
 
-  <img src="img/Chapter-4/figma-mobile/WF10.png">
+<img src="img/Chapter-4/figma-mobile/WF10.png">
 
-  **Lista de Pacientes**
+**Lista de Pacientes**
 
 Pantalla para los doctores que muestra una lista de todos sus pacientes, con botones para agregar más pacientes, ver detalles, etc.
 
-  <img src="img/Chapter-4/figma-mobile/WF11.png">
+<img src="img/Chapter-4/figma-mobile/WF11.png">
 
-  **Chat - Doctor a Paciente**
+**Chat - Doctor a Paciente**
 
 Pantalla para los doctores que muestra una pequeña lista de sus pacientes y un chat privado con cada uno de ellos.
 
-  <img src="img/Chapter-4/figma-mobile/WF12.png">
+<img src="img/Chapter-4/figma-mobile/WF12.png">
 
-  **Detalles de Tratamiento - Doctor**
+**Detalles de Tratamiento - Doctor**
 
 Pantalla con detalles del tratamiento y de los procedimientos de un paciente seleccionado.
 
-  <img src="img/Chapter-4/figma-mobile/WF8.png">
+<img src="img/Chapter-4/figma-mobile/WF8.png">
 
-  **Agregar Alarma - Doctor**
+**Agregar Alarma - Doctor**
 
 Pantalla con opciones para modificar y agregar alarmas y recordatorios para sus pacientes.
 
-  <img src="img/Chapter-4/figma-mobile/WF2.png">
+<img src="img/Chapter-4/figma-mobile/WF2.png">
 
-  **Detalles del Paciente**
+**Detalles del Paciente**
 
 Pantalla para el doctor con los detalles de un paciente seleccionado.
 
-  <img src="img/Chapter-4/figma-mobile/WF3.png">
+<img src="img/Chapter-4/figma-mobile/WF3.png">
 
-  **Eliminar Paciente**
+**Eliminar Paciente**
 
 Opción para el doctor para eliminar un paciente, usado al final de un tratamiento completo.
 
-  <img src="img/Chapter-4/figma-mobile/WF4.png">
+<img src="img/Chapter-4/figma-mobile/WF4.png">
 
-  **Agregar Paciente**
+**Agregar Paciente**
 
 Opción para el doctor para agregar un paciente nuevo escribiendo su DNI, con lo que el sistema lo agrega automáticamente.
 
-  <img src="img/Chapter-4/figma-mobile/WF5.png">
+<img src="img/Chapter-4/figma-mobile/WF5.png">
 
-  **Listado de Medicamentos para Paciente - Doctor**
+**Listado de Medicamentos para Paciente - Doctor**
 
 Muestra los medicamentos que un paciente toma, con opciones para agregar o eliminarlos.
 
-  <img src="img/Chapter-4/figma-mobile/WF6.png">
+<img src="img/Chapter-4/figma-mobile/WF6.png">
 
-  **Agregar Nueva Cita**
+**Agregar Nueva Cita**
 
 Pantalla para los doctores para agregar una cita en un horario específico en el calendario.
 
-  <img src="img/Chapter-4/figma-mobile/WF7.png">
+<img src="img/Chapter-4/figma-mobile/WF7.png">
 
-  **Pantalla Principal - Paciente**
+**Pantalla Principal - Paciente**
 
 Pantalla principal de los pacientes, mostrando los detalles más importantes para ellos y con acceso sencillo a las opciones.
 
-  <img src="img/Chapter-4/figma-mobile/WF13.png">
+<img src="img/Chapter-4/figma-mobile/WF13.png">
 
-  **Chat - Paciente a Doctor**
+**Chat - Paciente a Doctor**
 
 Pantalla de chat entre el paciente y un médico.
 
-  <img src="img/Chapter-4/figma-mobile/WF14.png">
+<img src="img/Chapter-4/figma-mobile/WF14.png">
 
-  **Calendario - Paciente**
+**Calendario - Paciente**
 
 Pantalla que muestra el calendario del paciente, mostrando las fechas y horas de procedimientos y citas con su médico.
 
-  <img src="img/Chapter-4/figma-mobile/WF15.png">
+<img src="img/Chapter-4/figma-mobile/WF15.png">
 
-  **Detalles de Doctor**
+**Detalles de Doctor**
 
 Pantalla que muestra los detalles del doctor para el paciente, con una opción para acceder directamente al chat.
 
-  <img src="img/Chapter-4/figma-mobile/WF16.png">
-
+<img src="img/Chapter-4/figma-mobile/WF16.png">
 
 ### 4.4.2. Mobile Applications Wireflow Diagrams
 
-  <img src="img/Chapter-4/figma-mobile/WFFlow.png">
+<img src="img/Chapter-4/figma-mobile/WFFlow.png">
 
 ### 4.4.3. Mobile Applications Mock-ups
 
@@ -1817,97 +1484,97 @@ Pantalla que muestra los detalles del doctor para el paciente, con una opción p
 
 El usuario escribe sus datos en esta sección para poder acceder a la aplicación.
 
-  <img src="img/Chapter-4/figma-mobile/MU1.png">
+<img src="img/Chapter-4/figma-mobile/MU1.png">
 
 **Pantalla Principal - Doctor**
 
 La pantalla inicial para los médicos mostrando las opciones principales.
 
-  <img src="img/Chapter-4/figma-mobile/MU9.png">
+<img src="img/Chapter-4/figma-mobile/MU9.png">
 
-  **Calendario - Doctor**
+**Calendario - Doctor**
 
 En esta pantalla se muestra la herramienta de calendario para los médicos, mostrando sus pacientes y las horas y días que tienen citas con ellos.
 
-  <img src="img/Chapter-4/figma-mobile/MU10.png">
+<img src="img/Chapter-4/figma-mobile/MU10.png">
 
-  **Lista de Pacientes**
+**Lista de Pacientes**
 
 Pantalla para los doctores que muestra una lista de todos sus pacientes, con botones para agregar más pacientes, ver detalles, etc.
 
-  <img src="img/Chapter-4/figma-mobile/MU11.png">
+<img src="img/Chapter-4/figma-mobile/MU11.png">
 
-  **Chat - Doctor a Paciente**
+**Chat - Doctor a Paciente**
 
 Pantalla para los doctores que muestra una pequeña lista de sus pacientes y un chat privado con cada uno de ellos.
 
-  <img src="img/Chapter-4/figma-mobile/MU12.png">
+<img src="img/Chapter-4/figma-mobile/MU12.png">
 
-  **Detalles de Tratamiento - Doctor**
+**Detalles de Tratamiento - Doctor**
 
 Pantalla con detalles del tratamiento y de los procedimientos de un paciente seleccionado.
 
-  <img src="img/Chapter-4/figma-mobile/MU8.png">
+<img src="img/Chapter-4/figma-mobile/MU8.png">
 
-  **Agregar Alarma - Doctor**
+**Agregar Alarma - Doctor**
 
 Pantalla con opciones para modificar y agregar alarmas y recordatorios para sus pacientes.
 
-  <img src="img/Chapter-4/figma-mobile/MU2.png">
+<img src="img/Chapter-4/figma-mobile/MU2.png">
 
-  **Detalles del Paciente**
+**Detalles del Paciente**
 
 Pantalla para el doctor con los detalles de un paciente seleccionado.
 
-  <img src="img/Chapter-4/figma-mobile/MU3.png">
+<img src="img/Chapter-4/figma-mobile/MU3.png">
 
-  **Eliminar Paciente**
+**Eliminar Paciente**
 
 Opción para el doctor para eliminar un paciente, usado al final de un tratamiento completo.
 
-  <img src="img/Chapter-4/figma-mobile/MU4.png">
+<img src="img/Chapter-4/figma-mobile/MU4.png">
 
-  **Agregar Paciente**
+**Agregar Paciente**
 
 Opción para el doctor para agregar un paciente nuevo escribiendo su DNI, con lo que el sistema lo agrega automáticamente.
 
-  <img src="img/Chapter-4/figma-mobile/MU5.png">
+<img src="img/Chapter-4/figma-mobile/MU5.png">
 
-  **Listado de Medicamentos para Paciente - Doctor**
+**Listado de Medicamentos para Paciente - Doctor**
 
 Muestra los medicamentos que un paciente toma, con opciones para agregar o eliminarlos.
 
-  <img src="img/Chapter-4/figma-mobile/MU6.png">
+<img src="img/Chapter-4/figma-mobile/MU6.png">
 
-  **Agregar Nueva Cita**
+**Agregar Nueva Cita**
 
 Pantalla para los doctores para agregar una cita en un horario específico en el calendario.
 
-  <img src="img/Chapter-4/figma-mobile/MU7.png">
+<img src="img/Chapter-4/figma-mobile/MU7.png">
 
-  **Pantalla Principal - Paciente**
+**Pantalla Principal - Paciente**
 
 Pantalla principal de los pacientes, mostrando los detalles más importantes para ellos y con acceso sencillo a las opciones.
 
-  <img src="img/Chapter-4/figma-mobile/MU13.png">
+<img src="img/Chapter-4/figma-mobile/MU13.png">
 
-  **Chat - Paciente a Doctor**
+**Chat - Paciente a Doctor**
 
 Pantalla de chat entre el paciente y un médico.
 
-  <img src="img/Chapter-4/figma-mobile/MU14.png">
+<img src="img/Chapter-4/figma-mobile/MU14.png">
 
-  **Calendario - Paciente**
+**Calendario - Paciente**
 
 Pantalla que muestra el calendario del paciente, mostrando las fechas y horas de procedimientos y citas con su médico.
 
-  <img src="img/Chapter-4/figma-mobile/MU15.png">
+<img src="img/Chapter-4/figma-mobile/MU15.png">
 
-  **Detalles de Doctor**
+**Detalles de Doctor**
 
 Pantalla que muestra los detalles del doctor para el paciente, con una opción para acceder directamente al chat.
 
-  <img src="img/Chapter-4/figma-mobile/MU16.png">
+<img src="img/Chapter-4/figma-mobile/MU16.png">
 
 ### 4.4.4. Mobile Applications User Flow Diagrams
 
@@ -1928,150 +1595,147 @@ Enlace del [Figma](https://www.figma.com/file/9fLXXyhFtxOwF2iFs8gBdM/Oncontigo-M
 **Iniciar sesión**<br>
 La siguiente imagen evidencia el wireframe de la sección de " inicio de sesion" desde la vista de desktop web browser. En ella, los usuario podra registrarse brindando sus credenciales necesarias para acceder a la aplicación.<br>
 
-   <img src="img/Chapter-4/figma/IniciarSesion.png"><br> 
+<img src="img/Chapter-4/figma/IniciarSesion.png"><br>
 
 **Menu Doctores**<br>
 La siguiente imagen muestra el wireframe de la seccion de "Menu de doctores" desde la vista de desktops web browser. En ella, el usuario medico podra acceder desde ahi a la lsita de pacientes y al calendario.<br>
 
-   <img src="img//Chapter-4/figma/MenuDoctores.png"><br> 
+<img src="img//Chapter-4/figma/MenuDoctores.png"><br>
 
 **Lista de Pacientes**<br>
 La siguiente imagen muestra el wireframe de la seccion de "Medico Alarma" . En ella el medico podra establecer una nota y la hora que se le envie la notificacion a su paciente.<br>
 
-   <img src="img//Chapter-4/figma/ListaPacientes.png"><br> 
+<img src="img//Chapter-4/figma/ListaPacientes.png"><br>
 
 **Agregar Paciente**<br>
 La imagen muestra la seccion "agregar paciente".En ella el medico puede registrar los datos de su paciente solo colocando su Dni.<br>
 
-
-   <img src="img//Chapter-4/figma/AgregarPaciente.png"><br> 
+<img src="img//Chapter-4/figma/AgregarPaciente.png"><br>
 
 **Eliminar Paciente**<br>
 La imagen se muestra la seccion " Eliminar Paciente". En ella el medico podra eliminar pacientes de su lista una ves ya seleccionado.<br>
 
-   <img src="img//Chapter-4/figma/EliminarPaciente.png"><br> 
+<img src="img//Chapter-4/figma/EliminarPaciente.png"><br>
 
 **Tratamiento/Procedimeinto**<br>
 La imagen muestra la seccion "Tratamiento/Procedimiento".En esta seccion el medico podra acceder a elejir y añadir los tratamiento y/o procedimientos que esta siguiendo su paciente.<br>
 
-   <img src="img//Chapter-4/figma/TRATAMIENTO.png"><br> 
+<img src="img//Chapter-4/figma/TRATAMIENTO.png"><br>
 
 **Recetar Medicamento** <br>
 La imagen muestra la seccion "Recetar medicamento". En ella el medico una vez presionado el boton correcto le mostrara para que añada, quite o describa el medicamento que deba optar el paciente<br>
 
-   <img src="img//Chapter-4/figma/Recmedicamento.png"><br> 
+<img src="img//Chapter-4/figma/Recmedicamento.png"><br>
 
 **Chat Medico**<br>
 La imagen muestra la seccion "Chat del medico". En ella el medico podra acceder a una comunicacion privada con su paciente.<br>
 
-   <img src="img//Chapter-4/figma/chatmedico.png"><br> 
+<img src="img//Chapter-4/figma/chatmedico.png"><br>
 
 **Medico alarma**<br>
 La imagen muestra la seccion "Medico Alarma". En ella el usuario medico podra acceder a una funcion de notificacion a su paciente con los medicament,tratamiento,procedimiento y proximas citas.
 
-   <img src="img//Chapter-4/figma/Alarma.png"><br> 
+<img src="img//Chapter-4/figma/Alarma.png"><br>
 
 ### 4.6.2. Web Applications Wireflow Diagrams
 
 Enlace del [Figma](https://www.figma.com/file/9fLXXyhFtxOwF2iFs8gBdM/Oncontigo-Mockups?type=design&node-id=23%3A12&mode=design&t=YK7yfbwo7EOjQ6o1-1)
 
 **User Goal: Acceder al chat con el médico**
-   
-   User Persona: Paciente con tratamientos oncológicos.
 
-   Explicación: Cuando el usuario haga click a "Mi Doctor", le aparecerá la interfaz con sus datos y un botón que dice "Chat". Cuando haga click en ese botón, ingresará al apartado de chat para que puedan comunicarse.
+User Persona: Paciente con tratamientos oncológicos.
 
-   <img src="img/Chapter-4/information-architecture/diagrams/wireflow/Acceder-Chat-Paciente.png"/><br>
+Explicación: Cuando el usuario haga click a "Mi Doctor", le aparecerá la interfaz con sus datos y un botón que dice "Chat". Cuando haga click en ese botón, ingresará al apartado de chat para que puedan comunicarse.
 
+<img src="img/Chapter-4/information-architecture/diagrams/wireflow/Acceder-Chat-Paciente.png"/><br>
 
 **User Goal: Acceder al Calendario**
 
-   User Persona: Paciente con tratamientos oncológicos.
+User Persona: Paciente con tratamientos oncológicos.
 
-   Explicación: Cuando el usuario se encuentre en la menú de inicio. Va aparecer en la izquierda una opción llamada "Calendario". Cuando haga click en ese botón lo redirigirá a la una interfaz con el calendario y las próximas citas o tratamientos a lo largo de la semana.
+Explicación: Cuando el usuario se encuentre en la menú de inicio. Va aparecer en la izquierda una opción llamada "Calendario". Cuando haga click en ese botón lo redirigirá a la una interfaz con el calendario y las próximas citas o tratamientos a lo largo de la semana.
 
-   <img src="img/Chapter-4/information-architecture/diagrams/wireflow/User Goal Calendario Paciente.png"/><br> 
+<img src="img/Chapter-4/information-architecture/diagrams/wireflow/User Goal Calendario Paciente.png"/><br>
 
-**User Goal: Poder agregar y/o eliminar a pacientes en la lista** 
+**User Goal: Poder agregar y/o eliminar a pacientes en la lista**
 
-   User Persona: Médico oncólogo
+User Persona: Médico oncólogo
 
-   Explicación: Cuando el usuario haga click en "Lista de pacientes", lo llevará a una tabla con sus pacientes y una lista de botones en la parte derecha. Si quiere agregar un paciente, tendrá que hacer click al botón "Agregar pacientes". Pero si quiere eliminarlo tendrá que escoger el último botón que dice "Eliminar paciente".
+Explicación: Cuando el usuario haga click en "Lista de pacientes", lo llevará a una tabla con sus pacientes y una lista de botones en la parte derecha. Si quiere agregar un paciente, tendrá que hacer click al botón "Agregar pacientes". Pero si quiere eliminarlo tendrá que escoger el último botón que dice "Eliminar paciente".
 
-   <img src="img/Chapter-4/information-architecture/diagrams/wireflow/Añadir o eliminar paciente Medico.png"/><br> 
+<img src="img/Chapter-4/information-architecture/diagrams/wireflow/Añadir o eliminar paciente Medico.png"/><br>
 
 **User Goal: Poder usar un chat privado con un paciente**
 
-   User Persona: Médico oncólogo
+User Persona: Médico oncólogo
 
-   Explicación: Cuando el usuario haga click en "Lista de pacientes", lo llevará a una tabla con sus pacientes y una lista de botones en la parte derecha. Tendrá que seleccionar un paciente y darle al botón "Ver detalles". Le aparecerá el perfil del paciente y un botón que dice "Chat". El usuario tendrá que pulsarlo para iniciar un chat con el paciente.
+Explicación: Cuando el usuario haga click en "Lista de pacientes", lo llevará a una tabla con sus pacientes y una lista de botones en la parte derecha. Tendrá que seleccionar un paciente y darle al botón "Ver detalles". Le aparecerá el perfil del paciente y un botón que dice "Chat". El usuario tendrá que pulsarlo para iniciar un chat con el paciente.
 
-   <img src="img/Chapter-4/information-architecture/diagrams/wireflow/Acceder-Chat-Medico.png"/><br> 
+<img src="img/Chapter-4/information-architecture/diagrams/wireflow/Acceder-Chat-Medico.png"/><br>
 
 **User Goal: Registrar medicamentos de un paciente**
 
-   User Persona: Médico oncólogo
+User Persona: Médico oncólogo
 
-   Explicación: El usuario deberá hacer click en "Lista de pacientes", lo dirigirá a una tabla con sus pacientes y una lista de botones en la parte derecha. Tendrá que seleccionar un paciente y darle al botón "Recetar medicamento". Después le aparecerá una ventana emergente donde colocará toda la información acerca del medicamento.
+Explicación: El usuario deberá hacer click en "Lista de pacientes", lo dirigirá a una tabla con sus pacientes y una lista de botones en la parte derecha. Tendrá que seleccionar un paciente y darle al botón "Recetar medicamento". Después le aparecerá una ventana emergente donde colocará toda la información acerca del medicamento.
 
-   <img src="img/Chapter-4/information-architecture/diagrams/wireflow/Registrar Medicamento a paciente Medico.png"/><br> 
+<img src="img/Chapter-4/information-architecture/diagrams/wireflow/Registrar Medicamento a paciente Medico.png"/><br>
 
 **User Goal: Registrar tratamiento y procedimiento de un paciente**
 
-   User Persona: Médico oncólogo
+User Persona: Médico oncólogo
 
-   Explicación: El usuario deberá hacer click en "Lista de pacientes", lo dirigirá a una tabla con sus pacientes y una lista de botones en la parte derecha. Tendrá que seleccionar un paciente y darle al botón "Tratamientos y Procedimientos". Después le aparecerá una ventana emergente donde habrá dos tablas para describir los procedimientos y tratamientos respectivamente.
+Explicación: El usuario deberá hacer click en "Lista de pacientes", lo dirigirá a una tabla con sus pacientes y una lista de botones en la parte derecha. Tendrá que seleccionar un paciente y darle al botón "Tratamientos y Procedimientos". Después le aparecerá una ventana emergente donde habrá dos tablas para describir los procedimientos y tratamientos respectivamente.
 
-   <img src="img/Chapter-4/information-architecture/diagrams/wireflow/Registrar procedimiento y tratamiento Medico.png"/><br> 
+<img src="img/Chapter-4/information-architecture/diagrams/wireflow/Registrar procedimiento y tratamiento Medico.png"/><br>
 
 **User Goal Enviar alarma como notificacion a mis pacientes:**
 
-   User Persona: Médico oncólogo
+User Persona: Médico oncólogo
 
-   Explicación: El usuario deberá hacer click en "Lista de pacientes", lo dirigirá a una tabla con sus pacientes.Cada paciente tiene un botón de alarma en la última columna. Cuando hace click a la alarma de un paciente, aparecerá una ventana donde el usuario tendrá que indicar la hora y el mensaje correspondiente que normalmente es un recordatorio.
+Explicación: El usuario deberá hacer click en "Lista de pacientes", lo dirigirá a una tabla con sus pacientes.Cada paciente tiene un botón de alarma en la última columna. Cuando hace click a la alarma de un paciente, aparecerá una ventana donde el usuario tendrá que indicar la hora y el mensaje correspondiente que normalmente es un recordatorio.
 
-   <img src="img/Chapter-4/information-architecture/diagrams/wireflow/Alarma para pacientes Medico.png"/><br> 
+<img src="img/Chapter-4/information-architecture/diagrams/wireflow/Alarma para pacientes Medico.png"/><br>
 
 **User goal: Registrar una nueva cita**
-   
-   User Persona: Médico oncólogo
 
-   Explicación: Cuando el usuario se encuentre en la menú de inicio. Va a hacer click en una opción llamada "Calendario". Después va a poder visualizar el calendario de las citas programadas. Finalmente tendrá que escoger un espacio libre en el calendario. Esto le dará acceso a una interfaz para elegir al paciente y escoger la modalidad de cita.
+User Persona: Médico oncólogo
 
-   <img src="img/Chapter-4/information-architecture/diagrams/wireflow/Registrar una nueva cita Medico.png"/><br>   
+Explicación: Cuando el usuario se encuentre en la menú de inicio. Va a hacer click en una opción llamada "Calendario". Después va a poder visualizar el calendario de las citas programadas. Finalmente tendrá que escoger un espacio libre en el calendario. Esto le dará acceso a una interfaz para elegir al paciente y escoger la modalidad de cita.
+
+<img src="img/Chapter-4/information-architecture/diagrams/wireflow/Registrar una nueva cita Medico.png"/><br>
 
 ### 4.6.3. Web Applications Mock-ups
 
 **Iniciar sesión**<br>
 La siguiente imagen se logra evidenciar el wireframe de la sección de " inicio de sesion" ya aplicado. En ella, los usuario podra registrarse brindando sus credenciales necesarias para acceder a la aplicación siempre y cuando posean con una cuenta previament creada.<br>
 
-<img src="img/Chapter-4/figma/IniciarSesionmc.png"/><br>   
+<img src="img/Chapter-4/figma/IniciarSesionmc.png"/><br>
 
 **Menu Doctores**<br>
 La siguiente imagen muestra el wireframe de la seccion de "Menu de doctores" desde la vista de desktops web browser. En ella, el usuario medico podra acceder desde ahi a la lista de pacientes y al calendario.<br>
 
-<img src="img/Chapter-4/figma/MenuDocmc.png"/><br>   
+<img src="img/Chapter-4/figma/MenuDocmc.png"/><br>
 
 **Lista de Pacientes**<br>
 La siguiente imagen evidencia el wireframe de la seccion de "Lista de Pacientes" . En ella el medico podra observar los detalles sobre citas proximas de sus pacientes ya añadidos.<br>
 
-<img src="img/Chapter-4/figma/Listapacientesmc.png"/><br>   
-
+<img src="img/Chapter-4/figma/Listapacientesmc.png"/><br>
 
 **Agregar Paciente**<br>
 La imagen evidencia la seccion "agregar paciente".En ella el medico puede registrar los datos de su paciente solo colocando su Dni.<br>
 
-<img src="img/Chapter-4/figma/AgregarPacientemc.png"/><br>   
+<img src="img/Chapter-4/figma/AgregarPacientemc.png"/><br>
 
 **Eliminar Paciente**<br>
 La imagen evidencia la seccion " Eliminar Paciente". En ella el medico podra eliminar pacientes de su lista una ves ya seleccionado.<br>
 
-<img src="img/Chapter-4/figma/EliminarPacientemc.png"/><br>  
+<img src="img/Chapter-4/figma/EliminarPacientemc.png"/><br>
 
 **Tratamiento/Procedimeinto**<br>
 La imagen evidencia la seccion "Tratamiento/Procedimiento".En esta seccion el medico podra acceder a elejir y añadir los tratamiento y/o procedimientos que esta siguiendo su paciente.<br>
 
-<img src="img/Chapter-4/figma/Tratamientomc.png"/><br>  
+<img src="img/Chapter-4/figma/Tratamientomc.png"/><br>
 
 **Recetar Medicamento** <br>
 La imagen evidencia la seccion "Recetar medicamento". En ella el medico una vez presionado el boton correcto le mostrara para que añada, quite o describa el medicamento que deba optar el paciente<br>
@@ -2091,38 +1755,37 @@ La imagen evidencia la sección "Medico Alarma" ya aplicada. En ella el usuario 
 
 **User Goal: Registrar una nueva cita**
 
-   User Persona: Médico oncólogo
+User Persona: Médico oncólogo
 
-   Explicación:Explicación: Cuando el usuario se encuentre en la menú de inicio. Va a hacer click en una opción llamada "Calendario". Después va a poder visualizar el calendario de las citas programadas. Finalmente tendrá que escoger un espacio libre en el calendario. Esto le dará acceso a una interfaz para elegir al paciente y escoger la modalidad de cita. En caso que haga click a un espacio lleno del calendario, solamente le mostrará los detalles de aquel horario ocupado.
+Explicación:Explicación: Cuando el usuario se encuentre en la menú de inicio. Va a hacer click en una opción llamada "Calendario". Después va a poder visualizar el calendario de las citas programadas. Finalmente tendrá que escoger un espacio libre en el calendario. Esto le dará acceso a una interfaz para elegir al paciente y escoger la modalidad de cita. En caso que haga click a un espacio lleno del calendario, solamente le mostrará los detalles de aquel horario ocupado.
 
-<img src="img/Chapter-4/information-architecture/diagrams/user-flow/Agendar cita Medico.jpeg"/><br> 
+<img src="img/Chapter-4/information-architecture/diagrams/user-flow/Agendar cita Medico.jpeg"/><br>
 
 **User Goal: Poder agregar y/o eliminar a pacientes en la lista**
 
-   User Persona: Médico oncólogo
+User Persona: Médico oncólogo
 
-   Explicación: Cuando el usuario esté en la página principal, va ir a la "Lista de Pacientes". Luego podrá seleccionar un paciente y eliminarlo con el botón "Eliminar Paciente"
+Explicación: Cuando el usuario esté en la página principal, va ir a la "Lista de Pacientes". Luego podrá seleccionar un paciente y eliminarlo con el botón "Eliminar Paciente"
 
-   <img src="img/Chapter-4/information-architecture/diagrams/user-flow/Agregar o eliminar pacientes Medico.jpeg"/><br> 
+<img src="img/Chapter-4/information-architecture/diagrams/user-flow/Agregar o eliminar pacientes Medico.jpeg"/><br>
 
 **User Goal: Poder usar un chat privado con un paciente**
 
-   User Persona: Médico oncólogo
+User Persona: Médico oncólogo
 
-   Explicación: Cuando el usuario haga click en "Lista de pacientes", lo llevará a una tabla con sus pacientes y una lista de botones en la parte derecha. Tendrá que seleccionar un paciente y darle al botón "Ver detalles". Le aparecerá el perfil del paciente y un botón que dice "Chat". El usuario tendrá que pulsarlo para iniciar un chat con el paciente.
+Explicación: Cuando el usuario haga click en "Lista de pacientes", lo llevará a una tabla con sus pacientes y una lista de botones en la parte derecha. Tendrá que seleccionar un paciente y darle al botón "Ver detalles". Le aparecerá el perfil del paciente y un botón que dice "Chat". El usuario tendrá que pulsarlo para iniciar un chat con el paciente.
 
-<img src="img/Chapter-4/information-architecture/diagrams/user-flow/Chat Medico.png"/><br> 
+<img src="img/Chapter-4/information-architecture/diagrams/user-flow/Chat Medico.png"/><br>
 
 **User Goal: Registrar medicamentos de un paciente**
 
-   User Persona: Médico oncólogo
+User Persona: Médico oncólogo
 
-   El usuario deberá hacer click en "Lista de pacientes", lo dirigirá a una tabla con sus pacientes y una lista de botones en la parte derecha. Tendrá que seleccionar un paciente y darle al botón "Recetar medicamento". Después le aparecerá una ventana emergente donde colocará toda la información acerca del medicamento. Si el usuario quiere crear un recordatorio, puede usar la alarma que se encuentra en la columna final de cada paciente.
+El usuario deberá hacer click en "Lista de pacientes", lo dirigirá a una tabla con sus pacientes y una lista de botones en la parte derecha. Tendrá que seleccionar un paciente y darle al botón "Recetar medicamento". Después le aparecerá una ventana emergente donde colocará toda la información acerca del medicamento. Si el usuario quiere crear un recordatorio, puede usar la alarma que se encuentra en la columna final de cada paciente.
 
-   <img src="img/Chapter-4/information-architecture/diagrams/user-flow/Asignar medicinas y su respectiva alarma.jpeg"/><br> 
+<img src="img/Chapter-4/information-architecture/diagrams/user-flow/Asignar medicinas y su respectiva alarma.jpeg"/><br>
 
-
-   </ul>
+</ul>
 
 ## 4.7. Web Applications Prototyping
 
@@ -2136,12 +1799,13 @@ https://www.figma.com/proto/9fLXXyhFtxOwF2iFs8gBdM/Oncontigo-Mockups?type=design
 ## 4.8. Domain-Driven Software Architecture
 
 En esta sección, se presentarán los respectivos diagramas correspondientes al diseño de software basados en lo que utilizará nuestra aplicación web. Para dichos diseños, hemos aplicado patrones tanto de alta como de bajo nivel siguiendo el enfoque del Domain-Driven; por lo que, de esta manera, podremos explayar de manera más concisa y eficiente la arquitectura la cual OnContigo está compuesta.
-   <ul>
+
+<ul>
 
 ### 4.8.1. Software Architecture Context Diagram
 
 Este apartado, mayormente se centra en la presentacion del diagrama de contexto del cual abarca nuestro software. Esto nos permite identificar el sistema y sus multiples relaciones con el mundo de su alrededor (en referencia a los usuarios con la aplicación), mostrando los principales puntos en su arquitectura:
- <img src="img/Chapter-4/software-architecture/context.png"/>
+<img src="img/Chapter-4/software-architecture/context.png"/>
 
 ### 4.8.2. Software Architecture Container Diagrams
 
@@ -2149,10 +1813,13 @@ A continuación, se mostrará el respectivo diagrama de contenedores lo cual est
 <img src="img/Chapter-4/software-architecture/container.png"/>
 
 ### 4.8.3. Software Architecture Components Diagrams
+
 En este último apartado, se presenta el diagrma de componentes de nuestra arquitectura de software en que se detallan los componentes de nuestros contenedores ya maquetados anteriormente; por consiguiente, se señalan sus responsabilidades y los detalles en veredicto al enlace tecnológico e
-implementación 
+implementación
+
 ##### Log-in Bounded Context
-   <img src="img/Chapter-4/software-architecture/log-in-bounded.png"/>
+
+<img src="img/Chapter-4/software-architecture/log-in-bounded.png"/>
    </ul>
 
 ## 4.9. Software Object-Oriented Design
@@ -2163,78 +1830,80 @@ implementación
 
 ### 4.9.2. Class Dictionary
 
-|Usuario| |
-|:----|:----|
-|La clase Usuario es la clase significativa, ya que representa a los usuarios de nuestra plataforma (pacientes y doctores oncólogos).| |
-|Atributo|Descripción|
-|string nombre|Almacena el nombre del usuario|
-|string apellido |Almacena el apellido del usuario|
-|string contrasenha|Almacena las contraseñas|
-|Paciente| |
-|La clase Paciente, que hereda de la clase Usuario. Representa a uno de los tipos de usuario.| |
-|Método|Descripción|
-|revisarHistorial(historialMedico)|Método para revisar el historial médico.|
-|agregarMedicament(nombreMedicamento)|Método para agregar medicamento.|
-| | |
-|Medico| |
-|La clase Medico, que hereda de la clase Usuario. Representa a uno de los tipos de usuario.| |
-|Atributo|Descripción|
-|string especializacion|Almacena las especializaciones de los médicos.|
-|Método|Descripción|
-|revisarHistorialPaciente(nombre,apellido)|Método para revisar el historial de un paciente.|
-|registarPaciente(nombre, apellido)|Método para registrar un paciente.|
-|asignarMedicamento(nombreMedicamento, nombre, apellido)|Método para asignar medicamentos al paciente.|
-|asignarTratamiento| |
-|asignarTratamientoPaciente(nombreTratamiento, nombre, apellido)|Método para asignar un tratamiento al paciente.|
-| | |
-|Tratamiento| |
-|En esta clase se podrá ampliar la información relacionada a los tratamientos.| |
-|Atributo|Descripción|
-|string nombreTratamiento|Almacena el nombre del tratamiento.|
-|string descripcionTratamiento|Almacena la descripción del tratamiento.|
-|string fechaInicio|Representa la fecha y hora de inicio del tratamiento.|
-|string fechaCierre|Representa la fecha y hora de cierre del tratamiento.|
-| | |
-|Procedimiento| |
-|En esta clase se podrá ampliar la información relacionada a los procedimientos.| |
-|Atributo|Descripción|
-|string nombreProcedimiento|Almacena el nombre del procedimiento.|
-|string descripcionProcedimiento|Almacena la descripción del procedimiento.|
-|string fecha|Almacena la fecha en la que se realizó o se realizará el procedimiento.|
-| | |
-|Aplicacion| |
-|En la clase Aplicacion se encuentran las acciones generales en la aplicación.| |
-|Métodos|Descripción|
-|iniciarSesion(nombre, apellido, contrasenha)|Método que permite iniciar sesión.|
-|comunicacionUsuarios(nombre, apellido, numeroTelefono)|Método que permite la comunicación entre los usuarios.|
-| | |
-|Medicamento| |
-|En la clase Medicamentos se encuentra toda la información de los medicamentos, incluyendo nombre, descripción, etc.| |
-|Atributo|Descripción|
-|string nombreMedicamento|Almacena el nombre del medicamento.|
-|string descripcion|Almacena la descripción acerca del medicamento.|
-|string fuentes|Almacena las fuentes de información del medicamento.|
-|float cantDosis |Almacena la dosis del medicamento.|
-| | |
-|Cita| |
-|La clase Cita se encuentra toda la información de las citas del paciente con el doctor.| |
-|Atributo|Descripción|
-|string fecha|Almacena la fecha de la cita.|
-|string hora|Almacena la hora de la cita|
-|string salaConsultas|Almacena la sala en que se realizará la consulta médica.|
-|string direccionClinica|Almacena la dirección de la clínica en la que la cita médica se llevará a cabo.|
-| | |
-|Calendario| |
-|La clase Calendario almacena información de todas las citas, los tratamientos, procedimientos, etc. que estén relacionados al paciente.| |
-| | |
-| | |
-|ListaMedicamentos| |
-|La clase ListaMedicamentos obtendrá información de la tabla Medicamento para que el doctor pueda asignarle las medicinas al paciente.| |
-| | |
-| | |
-|HistorialMedico| |
-|La clase HistorialMedico es la clase que obtendrá la información de las clases Tratamiento y Procedimiento para mantener informado al paciente y doctor.| |
-| | |
+
+| Usuario                                                                                                                                                    |                                                                                     |
+| :--------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------------------------------------------- |
+| La clase Usuario es la clase significativa, ya que representa a los usuarios de nuestra plataforma (pacientes y doctores oncólogos).                      |                                                                                     |
+| Atributo                                                                                                                                                   | Descripción                                                                        |
+| string nombre                                                                                                                                              | Almacena el nombre del usuario                                                      |
+| string apellido                                                                                                                                            | Almacena el apellido del usuario                                                    |
+| string contrasenha                                                                                                                                         | Almacena las contraseñas                                                           |
+| Paciente                                                                                                                                                   |                                                                                     |
+| La clase Paciente, que hereda de la clase Usuario. Representa a uno de los tipos de usuario.                                                               |                                                                                     |
+| Método                                                                                                                                                    | Descripción                                                                        |
+| revisarHistorial(historialMedico)                                                                                                                          | Método para revisar el historial médico.                                          |
+| agregarMedicament(nombreMedicamento)                                                                                                                       | Método para agregar medicamento.                                                   |
+|                                                                                                                                                            |                                                                                     |
+| Medico                                                                                                                                                     |                                                                                     |
+| La clase Medico, que hereda de la clase Usuario. Representa a uno de los tipos de usuario.                                                                 |                                                                                     |
+| Atributo                                                                                                                                                   | Descripción                                                                        |
+| string especializacion                                                                                                                                     | Almacena las especializaciones de los médicos.                                     |
+| Método                                                                                                                                                    | Descripción                                                                        |
+| revisarHistorialPaciente(nombre,apellido)                                                                                                                  | Método para revisar el historial de un paciente.                                   |
+| registarPaciente(nombre, apellido)                                                                                                                         | Método para registrar un paciente.                                                 |
+| asignarMedicamento(nombreMedicamento, nombre, apellido)                                                                                                    | Método para asignar medicamentos al paciente.                                      |
+| asignarTratamiento                                                                                                                                         |                                                                                     |
+| asignarTratamientoPaciente(nombreTratamiento, nombre, apellido)                                                                                            | Método para asignar un tratamiento al paciente.                                    |
+|                                                                                                                                                            |                                                                                     |
+| Tratamiento                                                                                                                                                |                                                                                     |
+| En esta clase se podrá ampliar la información relacionada a los tratamientos.                                                                            |                                                                                     |
+| Atributo                                                                                                                                                   | Descripción                                                                        |
+| string nombreTratamiento                                                                                                                                   | Almacena el nombre del tratamiento.                                                 |
+| string descripcionTratamiento                                                                                                                              | Almacena la descripción del tratamiento.                                           |
+| string fechaInicio                                                                                                                                         | Representa la fecha y hora de inicio del tratamiento.                               |
+| string fechaCierre                                                                                                                                         | Representa la fecha y hora de cierre del tratamiento.                               |
+|                                                                                                                                                            |                                                                                     |
+| Procedimiento                                                                                                                                              |                                                                                     |
+| En esta clase se podrá ampliar la información relacionada a los procedimientos.                                                                          |                                                                                     |
+| Atributo                                                                                                                                                   | Descripción                                                                        |
+| string nombreProcedimiento                                                                                                                                 | Almacena el nombre del procedimiento.                                               |
+| string descripcionProcedimiento                                                                                                                            | Almacena la descripción del procedimiento.                                         |
+| string fecha                                                                                                                                               | Almacena la fecha en la que se realizó o se realizará el procedimiento.           |
+|                                                                                                                                                            |                                                                                     |
+| Aplicacion                                                                                                                                                 |                                                                                     |
+| En la clase Aplicacion se encuentran las acciones generales en la aplicación.                                                                             |                                                                                     |
+| Métodos                                                                                                                                                   | Descripción                                                                        |
+| iniciarSesion(nombre, apellido, contrasenha)                                                                                                               | Método que permite iniciar sesión.                                                |
+| comunicacionUsuarios(nombre, apellido, numeroTelefono)                                                                                                     | Método que permite la comunicación entre los usuarios.                            |
+|                                                                                                                                                            |                                                                                     |
+| Medicamento                                                                                                                                                |                                                                                     |
+| En la clase Medicamentos se encuentra toda la información de los medicamentos, incluyendo nombre, descripción, etc.                                      |                                                                                     |
+| Atributo                                                                                                                                                   | Descripción                                                                        |
+| string nombreMedicamento                                                                                                                                   | Almacena el nombre del medicamento.                                                 |
+| string descripcion                                                                                                                                         | Almacena la descripción acerca del medicamento.                                    |
+| string fuentes                                                                                                                                             | Almacena las fuentes de información del medicamento.                               |
+| float cantDosis                                                                                                                                            | Almacena la dosis del medicamento.                                                  |
+|                                                                                                                                                            |                                                                                     |
+| Cita                                                                                                                                                       |                                                                                     |
+| La clase Cita se encuentra toda la información de las citas del paciente con el doctor.                                                                   |                                                                                     |
+| Atributo                                                                                                                                                   | Descripción                                                                        |
+| string fecha                                                                                                                                               | Almacena la fecha de la cita.                                                       |
+| string hora                                                                                                                                                | Almacena la hora de la cita                                                         |
+| string salaConsultas                                                                                                                                       | Almacena la sala en que se realizará la consulta médica.                          |
+| string direccionClinica                                                                                                                                    | Almacena la dirección de la clínica en la que la cita médica se llevará a cabo. |
+|                                                                                                                                                            |                                                                                     |
+| Calendario                                                                                                                                                 |                                                                                     |
+| La clase Calendario almacena información de todas las citas, los tratamientos, procedimientos, etc. que estén relacionados al paciente.                  |                                                                                     |
+|                                                                                                                                                            |                                                                                     |
+|                                                                                                                                                            |                                                                                     |
+| ListaMedicamentos                                                                                                                                          |                                                                                     |
+| La clase ListaMedicamentos obtendrá información de la tabla Medicamento para que el doctor pueda asignarle las medicinas al paciente.                    |                                                                                     |
+|                                                                                                                                                            |                                                                                     |
+|                                                                                                                                                            |                                                                                     |
+| HistorialMedico                                                                                                                                            |                                                                                     |
+| La clase HistorialMedico es la clase que obtendrá la información de las clases Tratamiento y Procedimiento para mantener informado al paciente y doctor. |                                                                                     |
+|                                                                                                                                                            |                                                                                     |
+
 </ul>
 
 ## 4.10. Database Design
@@ -2249,61 +1918,52 @@ implementación
 
 A continuación, se presentará un repositorio central y organizado que servirá como guía para el desarrollo enfocado y consistente de nuestra solución
 
-   <ul>
+<ul>
       <il><h3><a href="./content/chapter-5/chapter-5.md">5.1.1. Software Development Environment Configuration</a></h3></il>
-
 
 #### Requirements Management
 
 Es el proceso de garantizar que una organización documente, verifique y satisfaga las necesidades y expectativas de sus clientes con las partes interesadas internas o externas.
 
-- Trello: Plataforma de gestión de user stories, organización en epics y clasificación por puntaje. Permite compartir una vista en tiempo real del progreso del proyecto entre miembros del equipo.  
+- Trello: Plataforma de gestión de user stories, organización en epics y clasificación por puntaje. Permite compartir una vista en tiempo real del progreso del proyecto entre miembros del equipo.
 
 [https://trello.com/invite/b/gx5i8rKM/ATTI09d174300e2bf371f3e5625280ecdb95A762E269/product-backlog-oncontigo ](https://trello.com/invite/b/gx5i8rKM/ATTI09d174300e2bf371f3e5625280ecdb95A762E269/product-backlog-oncontigo )
 
-
 #### Product UX/UI Design
 
-- Uxpressia: Herramienta en línea para mapeo de trayectoria del cliente, creación de mapas de impacto y personas.  
-EMPATHY MAP(PACIENTES)[https://uxpressia.com/w/mDdvz/p/JzlFH](https://uxpressia.com/w/mDdvz/p/JzlFH)
-EMPATHY MAP(DOCTOR)[https://uxpressia.com/w/mDdvz/p/lg65v](https://uxpressia.com/w/mDdvz/p/lg65v)
-JOURNEY MAP(DOCTOR)[https://uxpressia.com/w/mDdvz/m/196Tw](https://uxpressia.com/w/mDdvz/m/196Tw)
-JOURNEY MAP(PACIENTE) [ https://uxpressia.com/w/mDdvz/m/FDtCu]( https://uxpressia.com/w/mDdvz/m/FDtCu)
-- Figma: Pizarra digital colaborativa en línea para investigación, ideación, lluvias de ideas y mapas mentales.  
-[https://www.figma.com/file/9fLXXyhFtxOwF2iFs8gBdM/Oncontigo-Mockups?type=design&node-id=0-1&mode=design&t=HkEWLTZnf3N6FtXp-0](https://www.figma.com/file/9fLXXyhFtxOwF2iFs8gBdM/Oncontigo-Mockups?type=design&node-id=0-1&mode=design&t=HkEWLTZnf3N6FtXp-0)
-
-- Structurizr: Herramienta de diseño que soporta el modelo C4 para visualizar arquitecturas de software.  
-[https://structurizr.com/](https://structurizr.com/)
-
-- Lucid Chart: Herramienta de diagramación en línea para la colaboración en tiempo real.  
-[https://lucid.app/lucidchart/84ff4b37-35d8-4d28-96f5-8e7fc2ef6c93/edit?viewport_loc=-10%2C-10%2C1813%2C789%2C0_0&invitationId=inv_f86e0e0e-cfe1-48c8-a60d-869b7a147a57](https://lucid.app/lucidchart/84ff4b37-35d8-4d28-96f5-8e7fc2ef6c93/edit?viewport_loc=-10%2C-10%2C1813%2C789%2C0_0&invitationId=inv_f86e0e0e-cfe1-48c8-a60d-869b7a147a57)
-
-- MIRO: Pizarra digital colaborativa en línea para diversas actividades colaborativas.  
-[https://miro.com/app/dashboard/](https://miro.com/app/dashboard/)
+- Uxpressia: Herramienta en línea para mapeo de trayectoria del cliente, creación de mapas de impacto y personas.
+  EMPATHY MAP(PACIENTES)[https://uxpressia.com/w/mDdvz/p/JzlFH](https://uxpressia.com/w/mDdvz/p/JzlFH)
+  EMPATHY MAP(DOCTOR)[https://uxpressia.com/w/mDdvz/p/lg65v](https://uxpressia.com/w/mDdvz/p/lg65v)
+  JOURNEY MAP(DOCTOR)[https://uxpressia.com/w/mDdvz/m/196Tw](https://uxpressia.com/w/mDdvz/m/196Tw)
+  JOURNEY MAP(PACIENTE) [ https://uxpressia.com/w/mDdvz/m/FDtCu](https://uxpressia.com/w/mDdvz/m/FDtCu)
+- Figma: Pizarra digital colaborativa en línea para investigación, ideación, lluvias de ideas y mapas mentales.
+  [https://www.figma.com/file/9fLXXyhFtxOwF2iFs8gBdM/Oncontigo-Mockups?type=design&node-id=0-1&mode=design&t=HkEWLTZnf3N6FtXp-0](https://www.figma.com/file/9fLXXyhFtxOwF2iFs8gBdM/Oncontigo-Mockups?type=design&node-id=0-1&mode=design&t=HkEWLTZnf3N6FtXp-0)
+- Structurizr: Herramienta de diseño que soporta el modelo C4 para visualizar arquitecturas de software.
+  [https://structurizr.com/](https://structurizr.com/)
+- Lucid Chart: Herramienta de diagramación en línea para la colaboración en tiempo real.
+  [https://lucid.app/lucidchart/84ff4b37-35d8-4d28-96f5-8e7fc2ef6c93/edit?viewport_loc=-10%2C-10%2C1813%2C789%2C0_0&invitationId=inv_f86e0e0e-cfe1-48c8-a60d-869b7a147a57](https://lucid.app/lucidchart/84ff4b37-35d8-4d28-96f5-8e7fc2ef6c93/edit?viewport_loc=-10%2C-10%2C1813%2C789%2C0_0&invitationId=inv_f86e0e0e-cfe1-48c8-a60d-869b7a147a57)
+- MIRO: Pizarra digital colaborativa en línea para diversas actividades colaborativas.
+  [https://miro.com/app/dashboard/](https://miro.com/app/dashboard/)
 
 #### Software Development
 
 Estructura aplicada al desarrollo de un producto de software.
 
-- Github: Repositorio comunitario para almacenar avances de proyectos colaborativos.  
-[https://github.com/OnContigo-upc](https://github.com/OnContigo-upc)
-
-- Web Storm: Entorno de desarrollo orientado en JavaScript, ofrece integración con lenguajes web como HTML, CSS y TypeScript.  
-[https://www.jetbrains.com/webstorm/promo/](https://www.jetbrains.com/webstorm/promo/)
-
-- Visual Studio Code: Editor de código que ofrece extensiones y funcionalidades para el desarrollo eficiente, utilizado para construir backend de aplicaciones web.  
-[https://code.visualstudio.com/](https://code.visualstudio.com/)
-
-- HTML: Lenguaje para el desarrollo de plataformas web, será utilizado para la documentación de la página web.  
-[https://www.jetbrains.com/help/webstorm/editing-html-files.html](https://www.jetbrains.com/help/webstorm/editing-html-files.html)
-
-- CSS: Lenguaje de diseño gráfico para la elaboración de interfaces de usuario.  
-[https://www.jetbrains.com/help/webstorm/style-sheets.html#ws_css_completion](https://www.jetbrains.com/help/webstorm/style-sheets.html#ws_css_completion)
+- Github: Repositorio comunitario para almacenar avances de proyectos colaborativos.
+  [https://github.com/OnContigo-upc](https://github.com/OnContigo-upc)
+- Web Storm: Entorno de desarrollo orientado en JavaScript, ofrece integración con lenguajes web como HTML, CSS y TypeScript.
+  [https://www.jetbrains.com/webstorm/promo/](https://www.jetbrains.com/webstorm/promo/)
+- Visual Studio Code: Editor de código que ofrece extensiones y funcionalidades para el desarrollo eficiente, utilizado para construir backend de aplicaciones web.
+  [https://code.visualstudio.com/](https://code.visualstudio.com/)
+- HTML: Lenguaje para el desarrollo de plataformas web, será utilizado para la documentación de la página web.
+  [https://www.jetbrains.com/help/webstorm/editing-html-files.html](https://www.jetbrains.com/help/webstorm/editing-html-files.html)
+- CSS: Lenguaje de diseño gráfico para la elaboración de interfaces de usuario.
+  [https://www.jetbrains.com/help/webstorm/style-sheets.html#ws_css_completion](https://www.jetbrains.com/help/webstorm/style-sheets.html#ws_css_completion)
 
 #### Software Deployment
 
-- Github pages: Servicio para alojar páginas web estáticas y aplicaciones web.  
-[https://pages.github.com/](https://pages.github.com/)
+- Github pages: Servicio para alojar páginas web estáticas y aplicaciones web.
+  [https://pages.github.com/](https://pages.github.com/)
 
 ### 5.1.2. Source Code Management
 
@@ -2311,148 +1971,161 @@ A continuación, se presenta la gestión de código fuente o como es conocido po
 
 #### Enlaces Importantes
 
-  - **Organización en GitHub**: [OnContigo](https://github.com/OnContigo-upc)
-    - **Repositorio del Landing Page**: [OnContigo Landing Page](https://github.com/OnContigo-upc/Landing-Page)
+- **Organización en GitHub**: [OnContigo](https://github.com/OnContigo-upc)
 
-    #### GitFlow
+  - **Repositorio del Landing Page**: [OnContigo Landing Page](https://github.com/OnContigo-upc/Landing-Page)
 
-    GitFlow es un flujo de trabajo de control de versiones que facilita la gestión de ramas durante el desarrollo:
+  #### GitFlow
 
-    #### Main Branches
+  GitFlow es un flujo de trabajo de control de versiones que facilita la gestión de ramas durante el desarrollo:
 
-    - `main`: Rama principal que contiene el historial de publicación oficial y todas las versiones.
-    - `develop`: Rama creada desde `main`, integra todas las funciones estables y prepara la próxima versión.
+  #### Main Branches
 
-    #### Support Branches
 
-    Estas ramas son temporales y se eliminan después de integrarse en sus ramas principales.
+  - `main`: Rama principal que contiene el historial de publicación oficial y todas las versiones.
+  - `develop`: Rama creada desde `main`, integra todas las funciones estables y prepara la próxima versión.
 
-    ##### Feature
+  #### Support Branches
 
-    - **Origen**: `develop`
-    - **Destino**: `develop`
-    - Se utilizan para el desarrollo de nuevas funcionalidades, existen mientras están en desarrollo y luego se integran a `develop`.
+  Estas ramas son temporales y se eliminan después de integrarse en sus ramas principales.
 
-    ##### Release
+  ##### Feature
 
-    - **Origen**: `develop`
-    - **Destino**: `develop` / `main`
-    - Preparan la nueva versión de producción, corrigen errores menores y preparan metadatos para el lanzamiento.
+  - **Origen**: `develop`
+  - **Destino**: `develop`
+  - Se utilizan para el desarrollo de nuevas funcionalidades, existen mientras están en desarrollo y luego se integran a `develop`.
 
-    #### Motivos para usar Gitflow
+  ##### Release
 
-    - Adecuado para proyectos con lanzamientos programados.
-    - Combina los beneficios de un flujo centralizado y descentralizado.
-    - Permite trabajo individual, ideal cuando el equipo tiene horarios diferentes.
-    - Requiere actualización constante en el repositorio central.
+  - **Origen**: `develop`
+  - **Destino**: `develop` / `main`
+  - Preparan la nueva versión de producción, corrigen errores menores y preparan metadatos para el lanzamiento.
 
-    
-  Cada miembro del equipo debe mantener su trabajo al día con el repositorio central en GitHub para garantizar la cohesión y el progreso del proyecto.
+  #### Motivos para usar Gitflow
+
+  - Adecuado para proyectos con lanzamientos programados.
+  - Combina los beneficios de un flujo centralizado y descentralizado.
+  - Permite trabajo individual, ideal cuando el equipo tiene horarios diferentes.
+  - Requiere actualización constante en el repositorio central.
+
+Cada miembro del equipo debe mantener su trabajo al día con el repositorio central en GitHub para garantizar la cohesión y el progreso del proyecto.
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
 #### Nomenclatura General
 
-  - Utilizaremos términos en inglés para nombrar variables, objetos, elementos y funciones que describan claramente su propósito.
-    - No se utilizarán mayúsculas arbitrarias para mantener la legibilidad del código.
+- Utilizaremos términos en inglés para nombrar variables, objetos, elementos y funciones que describan claramente su propósito.
 
-    Ejemplo de nomenclatura estándar:
+  - No se utilizarán mayúsculas arbitrarias para mantener la legibilidad del código.
+
+  Ejemplo de nomenclatura estándar:
+
+  ```css
+  .gallery {}
+  .video {}
+  .login {}
+  ```
+
+  #### Sangria
+
+
+  - En HTML, CSS y JavaScript, aplicaremos espacios antes de cada línea dentro de un bloque.
+  - Se recomienda usar dos espacios y evitar la tecla “Tabulación”.
+  - Ejemplo de sangría en HTML:
     ```css
-    .gallery {}
-    .video {}
-    .login {}
+    <table>
+    <tr>
+        <th>Name</th>
+        <th>Description</th>
+    </tr>
+    </table>
+    ```
+  - Ejemplo de sangría en CSS:
+    ```css
+    html {
+    background: #fff;
+    color: #404;
+    }
     ```
 
-    #### Sangria
-    - En HTML, CSS y JavaScript, aplicaremos espacios antes de cada línea dentro de un bloque.
-    - Se recomienda usar dos espacios y evitar la tecla “Tabulación”.
-    - Ejemplo de sangría en HTML:
-        ```css
-        <table>
-        <tr>
-            <th>Name</th>
-            <th>Description</th>
-        </tr>
-        </table>
-        ```
-    - Ejemplo de sangría en CSS:
-        ```css
-        html {
-        background: #fff;
-        color: #404;
-        }
-        ```
-    -Ejemplo de sangría en JavaScript:
-        ```css
-        function toCelsius(fahrenheit) {
-            return (5 / 9) * (fahrenheit - 32);
-        }
-        ```
+  -Ejemplo de sangría en JavaScript:
+  ```css function toCelsius(fahrenheit) { return (5 / 9) * (fahrenheit - 32); } ```
 
-    #### HTML
+  #### HTML
 
-    - Declare Document Type: Siempre declare el tipo de documento como HTML5 con <!DOCTYPE html>.
-    - Blank Lines: Deje líneas en blanco después de bloques de gran longitud.
+  - Declare Document Type: Siempre declare el tipo de documento como HTML5 con <!DOCTYPE html>.
+  - Blank Lines: Deje líneas en blanco después de bloques de gran longitud.
     Quote Attribute Values: Utilice comillas dobles alrededor de los valores de los atributos.
-    - Multimedia Fallback: Asegure acceso alternativo para multimedia y añada dimensiones a los elementos.
-    - Never Skip the <tittle> Element: El título de la página es crucial para SEO y se muestra en los resultados de búsqueda.
-    - HTML Line-Wrapping: Evite líneas de código extensas. Utilice espacios para diferenciar elementos hijos.
-    #### CSS
-    - Shorthand Properties: Utilice la menor cantidad de líneas posibles para declarar propiedades.
-    - Declaration Stops: Ponga un punto y coma después de cada declaración.
-    - Property Name Stops: Incluya un espacio después de los dos puntos en una declaración de propiedad.
-    - Declaration Block Separation: Separe el nombre de un selector y el inicio de un bloque con un espacio.
-    - CSS Quotation Marks: Utilice comillas simples para valores de atributos y selectores.
-    #### JavaScript
-    - Spaces around operators: Incluya un espacio alrededor de los operadores.
-    - Simple Statement’s End: Finalice las declaraciones simples con un punto y coma.
-    - Beginning and End of a Function: Coloque una llave al final de la primera línea de una función y la llave de cierre sola en la última línea.
-    #### Gherkin
-    - Discernible Given-When-Then Blocks: Utilice la sangría para identificar fácilmente los pasos de un escenario.
-    - Step with Tables: Para los pasos que requieran valores, utilice tablas.
-    - Reducing Noise: Use valores por defecto en los pasos y coloque valores "estándar" entre comillas simples.
-    - Scenarios Separator: Separe escenarios con saltos de línea y comentarios para facilitar la visualización.
-    #### TypeScript
-    - UpperCamelCase: Para clases, interfaces, tipos, enums y decoradores.
-    - lowerCamelCase: Para variables, parámetros, funciones, métodos y alias de módulo.
-    - CONSTANT_CASE: Para valores constantes globales, incluidos los valores de enumeración.
-    - Evite identificadores privados.
-    #### Vue.js
-    - Nombres de Componentes: Utilice camelCase y nombres en singular.
-    - Nombres de Servicios: Añada el sufijo "Service" y utilice mayúsculas al inicio de cada palabra.
-    - Nombres de Archivos de Pruebas Unitarias: Incluya ".spec" antes de ".vue".
-    - Declaración de Funciones: Especifique la visibilidad y evite el uso innecesario de "this".
-    - División de Líneas: Haga un salto de línea después de una coma y divida antes de un operador.
+  - Multimedia Fallback: Asegure acceso alternativo para multimedia y añada dimensiones a los elementos.
+  - Never Skip the <tittle> Element: El título de la página es crucial para SEO y se muestra en los resultados de búsqueda.
+  - HTML Line-Wrapping: Evite líneas de código extensas. Utilice espacios para diferenciar elementos hijos.
+
+  #### CSS
+
+  - Shorthand Properties: Utilice la menor cantidad de líneas posibles para declarar propiedades.
+  - Declaration Stops: Ponga un punto y coma después de cada declaración.
+  - Property Name Stops: Incluya un espacio después de los dos puntos en una declaración de propiedad.
+  - Declaration Block Separation: Separe el nombre de un selector y el inicio de un bloque con un espacio.
+  - CSS Quotation Marks: Utilice comillas simples para valores de atributos y selectores.
+
+  #### JavaScript
+
+  - Spaces around operators: Incluya un espacio alrededor de los operadores.
+  - Simple Statement’s End: Finalice las declaraciones simples con un punto y coma.
+  - Beginning and End of a Function: Coloque una llave al final de la primera línea de una función y la llave de cierre sola en la última línea.
+
+  #### Gherkin
+
+  - Discernible Given-When-Then Blocks: Utilice la sangría para identificar fácilmente los pasos de un escenario.
+  - Step with Tables: Para los pasos que requieran valores, utilice tablas.
+  - Reducing Noise: Use valores por defecto en los pasos y coloque valores "estándar" entre comillas simples.
+  - Scenarios Separator: Separe escenarios con saltos de línea y comentarios para facilitar la visualización.
+
+  #### TypeScript
+
+  - UpperCamelCase: Para clases, interfaces, tipos, enums y decoradores.
+  - lowerCamelCase: Para variables, parámetros, funciones, métodos y alias de módulo.
+  - CONSTANT_CASE: Para valores constantes globales, incluidos los valores de enumeración.
+  - Evite identificadores privados.
+
+  #### Vue.js
+
+  - Nombres de Componentes: Utilice camelCase y nombres en singular.
+  - Nombres de Servicios: Añada el sufijo "Service" y utilice mayúsculas al inicio de cada palabra.
+  - Nombres de Archivos de Pruebas Unitarias: Incluya ".spec" antes de ".vue".
+  - Declaración de Funciones: Especifique la visibilidad y evite el uso innecesario de "this".
+  - División de Líneas: Haga un salto de línea después de una coma y divida antes de un operador.
 
 ### 5.1.4. Software Deployment Configuration
 
 - Como ya se ha mencionado, la gestión de nuestro código fuente se realizará a través de GitHub. Asimismo, se utilizará GitHub Pages para la publicación y despliegue de la página. Cada sección del Landing Page que se ha creado deberá aparecer en el siguiente vínculo:
-https://oncontigo-upc.github.io/Landing-Page/
-<br>
+  https://oncontigo-upc.github.io/Landing-Page/
+  <br>
 - Para el desarrollo del Landing Page de OnContigo se han utilizado las siguientes herramientas:
-    - Html: Es el lenguaje de marcado que estructuro nuestro Landing Page.
-        Evidencia: Archivos HTML, el principal es index.html donde todos los integrantes juntaron el contenido
-        realizado en su rama individual.
-     - Css: Es aquel que nos ayudó con el diseño gráfico para que el Landing Page sea agradable e interactúale
-        Evidencia: Se presenta el file styles.css, donde el grupo implemento el diseño de toda la estructura realizada con html.
-    - JS: Nos ayudó a desarrollar la lógica necesaria para el Landing Page.
-        Evidencia: Se muestra el documento main.js.
-<br>
+
+  - Html: Es el lenguaje de marcado que estructuro nuestro Landing Page.
+    Evidencia: Archivos HTML, el principal es index.html donde todos los integrantes juntaron el contenido
+    realizado en su rama individual.
+  - Css: Es aquel que nos ayudó con el diseño gráfico para que el Landing Page sea agradable e interactúale
+    Evidencia: Se presenta el file styles.css, donde el grupo implemento el diseño de toda la estructura realizada con html.
+  - JS: Nos ayudó a desarrollar la lógica necesaria para el Landing Page.
+    Evidencia: Se muestra el documento main.js.
+    <br>
 - El despliegue del Landing Page de OnContigo no pudo ser posible sin utilizar las siguientes tecnologías:
-    - Git: Sistema de control de versiones que está pensado en la eficiencia y compatibilidad de versiones.
-El cual nos ayudó a trabajar en equipo durante el desarrollo del Landing Page
-    - Github: Plataforma de desarrollo colaborativo
-    - Git Flow:Nos permitió controlar el avance de cada uno de nuestros integrantes con respecto al
-desarrollo del Landing Page
-    -  Git Hub PagesServicio de Github que nos permitió alojar nuestra Landing page.
+
+  - Git: Sistema de control de versiones que está pensado en la eficiencia y compatibilidad de versiones.
+    El cual nos ayudó a trabajar en equipo durante el desarrollo del Landing Page
+  - Github: Plataforma de desarrollo colaborativo
+  - Git Flow:Nos permitió controlar el avance de cada uno de nuestros integrantes con respecto al
+    desarrollo del Landing Page
+  - Git Hub PagesServicio de Github que nos permitió alojar nuestra Landing page.
 - Asimismo, se han realizado los siguientes pasos:
-    - Dirigirse al repositorio de la página: Dado que se ha empleado Github, debemos ir al repositorio creado en este sitio web para publicar el Landing Page que ha desarrollado el equipo. Desde aquí, se podrá iniciar la configuración del vínculo de la página dirigiéndonos al apartado de Settings.
-    - Ir a la opción de páginas: Una vez presentes la configuración del repositorio, debemos dirigirnos a la sección de Pages. Esto se debe a que ahí se encuentran todas las opciones de configuración de publicación de la página en un link o vínculo
 
-    -   Elección de rama y carpeta de guardado: Dentro de pages, se debe seleccionar la rama o branch que se va a publicar en el vínculo. De la misma manera, se tiene que elegir la carpeta donde se localizará esta publicación a realizar. Finalmente podremos acceder a nuestra página con el link que aparece en la parte superior de este apartado de configuración
-
--   Siguiendo los pasos, obtenemos el siguiente enlace:
-https://oncontigo-upc.github.io/Landing-Page/
+  - Dirigirse al repositorio de la página: Dado que se ha empleado Github, debemos ir al repositorio creado en este sitio web para publicar el Landing Page que ha desarrollado el equipo. Desde aquí, se podrá iniciar la configuración del vínculo de la página dirigiéndonos al apartado de Settings.
+  - Ir a la opción de páginas: Una vez presentes la configuración del repositorio, debemos dirigirnos a la sección de Pages. Esto se debe a que ahí se encuentran todas las opciones de configuración de publicación de la página en un link o vínculo
+  - Elección de rama y carpeta de guardado: Dentro de pages, se debe seleccionar la rama o branch que se va a publicar en el vínculo. De la misma manera, se tiene que elegir la carpeta donde se localizará esta publicación a realizar. Finalmente podremos acceder a nuestra página con el link que aparece en la parte superior de este apartado de configuración
+- Siguiendo los pasos, obtenemos el siguiente enlace:
+  https://oncontigo-upc.github.io/Landing-Page/
 
 ## 5.2. Product Implementation & Deployment
 
@@ -2521,8 +2194,6 @@ https://oncontigo-upc.github.io/Landing-Page/
     <td>Luiggi Paredes</td>
     <td>Done</td>
   </tr>
- 
-</table>
 
 <il><h3>5.2.1.2. Sprint Backlog 2</a></h3></il>
          <table border="1">
@@ -2879,102 +2550,129 @@ https://oncontigo-upc.github.io/Landing-Page/
 ### 5.2.2. Implemented Landing Page Evidence
 
 #### Desktop Web Browser
- <img src="./img/execution-evidence/desktop.png"/>
 
- #### About us
- <img src="./img/execution-evidence/about-us.png"/>
+<img src="./img/execution-evidence/desktop.png"/>
 
- #### Services
- <img src="./img/execution-evidence/services.png"/>
+#### About us
 
- #### Plans
- <img src="./img/execution-evidence/plans.png "/>
+<img src="./img/execution-evidence/about-us.png"/>
 
-  #### Footer
- <img src="./img/execution-evidence/footer.png"/>
+#### Services
+
+<img src="./img/execution-evidence/services.png"/>
+
+#### Plans
+
+<img src="./img/execution-evidence/plans.png "/>
+
+#### Footer
+
+<img src="./img/execution-evidence/footer.png"/>
 
 ### 5.2.3. Implemented Frontend-Web Application Evidence
 
 #### Agregar Paciente
+
 <img src="./img/frontend-web/agregar-paciente.png"/>
 
 #### Alarma Paciente
+
 <img src="./img/frontend-web/alarma.png"/>
 
 #### Calendario Paciente
+
 <img src="./img/frontend-web/calendario-paciente.png"/>
 
 #### Crear Cuenta
+
 <img src="./img/frontend-web/crear-cuenta.png"/>
 
 #### Eliminar Paciente
+
 <img src="./img/frontend-web/eliminar-paciente.png"/>
 
 #### Iniciar sesion
+
 <img src="./img/frontend-web/iniciar-sesion.png"/>
 
-
 #### Medicamentos
+
 <img src="./img/frontend-web/medicamentos.png"/>
 
 #### Menu doctor
+
 <img src="./img/frontend-web/menu-doctor.png"/>
 
 #### Menu paciente
+
 <img src="./img/frontend-web/menu-paciente.png"/>
 
 #### Nueva cita
+
 <img src="./img/frontend-web/nueva-cita.png"/>
 
 #### Nueva cita
+
 <img src="./img/frontend-web/tabla-paciente.png"/>
 
 #### Implementacion de la Landing page en el FrontEnd<br>
+
 <img src="./img/frontend-web/lamding.png"/> <br>
 
 #### Responsive Modals<br>
+
 <img src="./img/frontend-web/modals.png"/> <br>
 
 #### SideBar del FrontEND <br>
+
 <img src="./img/frontend-web/side.png"/> <br>
 
 #### Lista y detalles de medicamentos<br>
+
 <img src="./img/frontend-web/medicamentos-new.png"/> <br>
 
 ### 5.2.4. Implemented Native-Mobile Application Evidence
 
 #### Registrar
+
 <img src="./img/frontend-mobile/register.jpg">
 
 #### Iniciar de sesión
+
 <img src="./img/frontend-mobile/login.jpg">
 
 #### Citas
+
 <img src="./img/frontend-mobile/appointments.jpg">
 
-#### Perfil 
+#### Perfil
+
 <img src="./img/frontend-mobile/profile-data.jpg">
 
 #### Barra de navegación
+
 <img src="./img/frontend-mobile/sidebar.jpg">
 
 #### Lista de pacientes
+
 <img src="./img/frontend-mobile/patient-list.jpg">
 
 #### Agregar paciente
+
 <img src="./img/frontend-mobile/add-patient.jpg">
 
 #### Detalles de paciente
+
 <img src="./img/frontend-mobile/patient-detail.jpg">
 
 #### Eliminar paciente
+
 <img src="./img/frontend-mobile/delete-patient.jpg">
 
 ### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
 
 <img src="./img/services/health.png"/> <br>
-<img src="./img/services/profiles.png"/> <br> 
-
+<img src="./img/services/profiles.png"/> <br>
 
 ### 5.2.6. RESTful API documentation
 
@@ -2999,8 +2697,24 @@ https://oncontigo-upc.github.io/Landing-Page/
 ### 6.1.2. Core Integration Tests
 
 ### 6.1.3. Core Behaviour-Driven Development
+<img src="./img/Chapter-6/BDD1.png">
+<img src="./img/Chapter-6/BDD2.png">
+<img src="./img/Chapter-6/BDD3.png">
+<img src="./img/Chapter-6/BDD4.png">
 
 ### 6.1.4. Core System Tests
+| US-02 | Iniciar Sesion | Given el usuario ingresa un correo o contraseña inválido When envía la solicitud de inicio de sesión Then el sistema muestra un mensaje de error |
+|-------|----------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
+<img src="./img/Chapter-6/CoreSystemTests1.png">
+
+| US-01 | Registro Usuario | Given el usuario ingresa un correo, contraseña y datos de perfil válidos  When envía la solicitud de registro Then el sistema crea una nueva cuenta y muestra un mensaje de bienvenida And el usuario es redirigido a la página principal |
+|-------|------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+<img src="./img/Chapter-6/CoreSystemTests2.png">
+
+| US-12 | Recordatorio de medicamentos | Given el usuario registra un medicamento con hora de toma  When llega la hora programada Then el sistema envía una notificación de recordatorio al usuario |
+|-------|------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
+<img src="./img/Chapter-6/CoreSystemTests3.png">
 
 # Capítulo VII: DevOps Practices
 
@@ -3032,7 +2746,7 @@ Además, podemos concluir en la utilidad que la realización de este proyecto te
 Finalmente, el desarrollo en equipo también es de gran ayuda laboral, puesto que la metodología ágil con Sprints es de gran utilidad para producir un proyecto de forma organizada y coherente, con avances continuos y la capacidad de revisar avances anteriores sin impedir el desarrollo en general. Las habilidades de comunicación como equipo también son de gran utilidad, ya que este tipo de metodología requiere una comunicación constante.<br>
 
 Como recomendaciones, reconocemos que podríamos haber realizado una mejor división de actividades en los primeros sprints realizados, debido que, como un grupo, aún no nos conocíamos tan bien. Recomendamos que, durante un desarrollo en sprints, cada miembro debe tener sus habilidades bien definidas. Además, damos a conocer que hay ciertas funcionalidades planeadas que no están disponibles en esta versión del proyecto, principalmente, la comunicación entre diferentes usuarios.
-  
+
 </p>
 
 # Bibliografía
