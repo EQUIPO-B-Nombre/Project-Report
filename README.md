@@ -2833,6 +2833,21 @@ prácticas clave que vamos a utilizar:
 
 ### 7.3.2. Production Deployment Pipeline Components
 
+Los componentes clave de un pipeline de despliegue en producción incluye:
+
+  - Compilación (Build): En esta etapa, el código fuente se compila y se generan los artefactos que se desplegarán en producción.
+
+  - Pruebas (Testing): Aquí se realizan pruebas automatizadas para garantizar que la aplicación cumple con los requisitos de calidad y que no se introduzcan nuevos errores.
+
+  - Entorno de Preproducción (Staging): Antes de desplegar en producción, se puede desplegar en un entorno de preproducción para realizar pruebas adicionales y validación por parte de usuarios beta.
+
+  - Despliegue en Producción (Production Deployment): En esta etapa, el código se despliega en el entorno de producción de manera automatizada.
+
+  - Monitoreo Continuo (Continuous Monitoring): Una vez en producción, se monitorea constantemente el rendimiento y la estabilidad de la aplicación, identificando y solucionando problemas en tiempo real.
+
+  - Reversión (Rollback): Si se detecta algún problema en producción, el pipeline debe permitir la reversión rápida a una versión anterior de la aplicación.
+
+
 # Conclusiones y recomendaciones
 
 <p>
