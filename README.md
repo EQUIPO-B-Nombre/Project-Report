@@ -979,6 +979,7 @@ Acceso Seguro: Asegurar que las consultas virtuales sean seguras y privadas, cum
     <td>Como paciente
 Quiero tener acceso a con mayor detalle mi información médica
 Para estar informado
+</table>
 
 ## 3.3. Product Backlog
 
@@ -2695,6 +2696,7 @@ Cada miembro del equipo debe mantener su trabajo al día con el repositorio cent
 ### 6.1.4. Core System Tests
 | US-02 | Iniciar Sesion | Given el usuario ingresa un correo o contraseña inválido When envía la solicitud de inicio de sesión Then el sistema muestra un mensaje de error |
 |-------|----------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
+
 <img src="./img/Chapter-6/CoreSystemTests1.png">
 
 | US-01 | Registro Usuario | Given el usuario ingresa un correo, contraseña y datos de perfil válidos  When envía la solicitud de registro Then el sistema crea una nueva cuenta y muestra un mensaje de bienvenida And el usuario es redirigido a la página principal |
@@ -2704,6 +2706,7 @@ Cada miembro del equipo debe mantener su trabajo al día con el repositorio cent
 
 | US-12 | Recordatorio de medicamentos | Given el usuario registra un medicamento con hora de toma  When llega la hora programada Then el sistema envía una notificación de recordatorio al usuario |
 |-------|------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
 <img src="./img/Chapter-6/CoreSystemTests3.png">
 
 # Capítulo VII: DevOps Practices
@@ -2712,13 +2715,93 @@ Cada miembro del equipo debe mantener su trabajo al día con el repositorio cent
 
 ### 7.1.1. Tools and Practices
 
+Hemos utilizado las siguientes herramientas y técnicas para validar de forma automática los cambios realizados por nuestro grupo antes de ser integrados directamente:
+
+- **Repositorios Independientes:** Cada uno de los componentes y partes principales de nuestra aplicación, como la aplicación web, móvil, back-end, etc., tiene su propio repositorio en GitHub, permitiendo revisar las versiones y los cambios.
+- **Ramas basadas en features:** Todo desarrollo principal se realiza en un rama /feature que luego se combina en la rama develop luego de validar los cambios.
+- **GitHub Actions:**  Se emplea esta herramienta como orquestador de CI en todos los repositorios. Cada push o pull request desencadena automáticamente workflows de validación.
+- **Validación de Dependencias:** Se usan acciones para asegurar que las dependencias estén actualizadas y libres de vulnerabilidades mediante escaneos automáticos.
+
 ### 7.1.2. Builds & Test Suite Pipeline Components
+
+- Frontend Web (React):
+
+  - Instalación de dependencias
+
+  - Validación de estilo con ESLint
+
+  - Ejecución de pruebas unitarias con Jest
+
+  - Construcción del proyecto (npm run build)
+
+- Frontend Móvil (Kotlin):
+
+  - Instalación de dependencias
+
+  - Validación de estilo con ESLint
+
+  - Ejecución de pruebas unitarias con Jest
+
+  - Construcción del proyecto
+
+- Backend (Node.js):
+
+  - Instalación de dependencias
+
+  - Ejecución de pruebas unitarias y de integración
+
+  - Validación de cobertura de pruebas (p. ej. con coverlet, pytest-cov, etc.)
+
+  - Validación de endpoints y contratos API mediante pruebas automatizadas
+
+- Documentación técnica (Markdown):
+
+  - Verificación de estructura y enlaces rotos
 
 ## 7.2. Continuous Delivery
 
 ### 7.2.1. Tools and Practices
 
+Usando las siguientes herramientas y prácticas para validar que nuestro software se encuentre desplegado:
+
+- **Entornos separados:** Se cuenta con entornos de desarrollo, staging (pre-producción) y producción.
+
+- **GitHub Actions + Workflows de CD:** Al integrarse a las ramas main o release, se dispara automáticamente un flujo de entrega continua.
+
+- **Notificaciones y revisión:** Al completar una entrega, notificamos a todos los miembros del grupo para validación manual o exploratoria en entornos intermedios.
+
 ### 7.2.2. Stages Deployment Pipeline Components
+
+Esta forma de entrega se realiza en múltiples etapas:
+
+#### 1. Build:
+
+  - Generación del artefacto (Docker image, archivo .apk / .ipa, bundle JS)
+
+  - Versionado automático del build
+
+#### 2. Test:
+
+  - Pruebas post-build (smoke tests, pruebas de regresión automatizadas)
+
+  - Pruebas E2E automatizadas en staging (p. ej., con Cypress o Playwright)
+
+#### 3. Deploy to Staging:
+
+  - Despliegue en entorno staging para validación de QA y stakeholders
+
+  - Se utilizan servicios como Azure App Service, Vercel o Firebase Hosting según el componente
+
+#### 4. Manual Approval:
+
+  - Validación funcional por el equipo (cuando es necesario) antes del paso a producción
+
+#### 5. Deploy to Production:
+
+  - Despliegue controlado en producción
+
+  - Estrategias como blue-green deployment o canary release para minimizar el riesgo
+
 
 ## 7.3. Continuous Deployment
 
