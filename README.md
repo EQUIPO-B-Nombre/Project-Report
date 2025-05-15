@@ -2805,6 +2805,14 @@ Esta forma de entrega se realiza en múltiples etapas:
 
 ## 7.3. Continuous Deployment
 
+El Continuous Deployment es la capacidad de entregar de manera continua y
+automatizada nuevas versiones de software a producción. Esto implica que cada
+vez que se realiza una modificación en el código de la aplicación, se lleva a cabo
+un proceso de prueba, y si pasa satisfactoriamente, se despliega
+automáticamente en un entorno de producción sin intervención manual. Esto
+permite la rápida iteración y entrega de nuevas características y correcciones de
+errores.
+
 ### 7.3.1. Tools and Practices
 
 ### 7.3.2. Production Deployment Pipeline Components
