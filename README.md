@@ -239,16 +239,6 @@ profesionales en situaciones de ingeniería y hacer juicios informados, que debe
 considerar el impacto de las soluciones de ingeniería en contextos globales, económicos,
 ambientales y sociales.
 
-<table>
-  <tr>
-    <th>Criterio específico</th>
-    <th>Acciones realizadas</th>
-    <th>Conclusiones</th>
-  </tr>
-  <tr>
-    <td><strong>4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software</strong></td>
-    <td>Matos Fernandez, Christian Andre
-
 # Capítulo 1: Introducción
 
 ## 1.1. Startup Profile
