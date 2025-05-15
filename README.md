@@ -2815,6 +2815,22 @@ errores.
 
 ### 7.3.1. Tools and Practices
 
+En el contexto del Continuous Deployment, existen varias herramientas y
+prácticas clave que vamos a utilizar:
+
+  - **Herramienta de Control de Versiones:** Usamos Git para rastrear y gestionar el código fuente de la aplicación.
+
+  - **Automatización de Pruebas:** Implementar pruebas automatizadas, que incluyen pruebas unitarias, pruebas de integración, pruebas de regresión, etc., para garantizar que el software cumpla con los estándares de calidad antes de su despliegue.
+
+  - **Entornos de Desarrollo y Pruebas:** Mantener entornos de desarrollo y pruebas que sean lo más similares posible al entorno de producción para minimizar las sorpresas durante el despliegue.
+  
+  - **Pipeline de Despliegue:** Crear un pipeline de despliegue automatizado que incluya etapas como compilación, pruebas, despliegue en entornos de preproducción y producción.
+
+  - **Monitoreo y Retroalimentación:** Implementar sistemas de monitoreo y
+    registro (logging) para rastrear el rendimiento y la estabilidad de la
+    aplicación en producción, lo que permite identificar problemas en tiempo real.
+
+
 ### 7.3.2. Production Deployment Pipeline Components
 
 # Conclusiones y recomendaciones
