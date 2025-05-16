@@ -2685,7 +2685,85 @@ Cada miembro del equipo debe mantener su trabajo al día con el repositorio cent
 
 ### 6.1.1. Core Entities Unit Tests
 
+Se implementaron pruebas unitarias dirigidas a las entidades clave del sistema, abarcando modelos de datos, clases de lógica de negocio y funciones utilitarias. Cada prueba se realizó de manera independiente para verificar que las funcionalidades individuales operen correctamente y cumplan con los requisitos establecidos. Se empleó el enfoque de desarrollo guiado por pruebas (TDD) para garantizar una adecuada cobertura desde las primeras fases del desarrollo.
+
+Entre las entidades evaluadas se incluyen:
+
+Resumen de pruebas unitarias en Agrotech API
+--
+
+Las pruebas desarrolladas en los diferentes módulos del proyecto se basan principalmente en JUnit 5 para la ejecución de los tests y en Mockito para simular dependencias externas como repositorios, servicios y entidades asociadas. Adicionalmente, en ciertos escenarios se utiliza Jakarta Validation para validaciones y se incorporan pruebas de eventos mediante Spring Boot Test.
+
+<img src="./img/unit_test.png">
+
+Pruebas de comandos y servicios de dominio
+----
+
+- **HealthTrackingCommandServiceImplTest**: Comprueban que las operaciones de creación de HealthTracking se realicen correctamente, cumpliendo con las reglas de negocio. Garantizan que no se permita crear un HealthTracking duplicado, lanzando una excepción si ya existe uno para el mismo paciente y doctor. Aseguran que se maneje adecuadamente el caso en que no se encuentre un doctor, lanzando una excepción correspondiente. Finalmente, verifican que un HealthTracking se cree exitosamente cuando los datos son válidos, interactuando correctamente con los repositorios y servicios externos.
+
+- **PrescriptionCommandServiceImplTest** : Verifican que las operaciones de creación, actualización y eliminación de recetas médicas se ejecuten correctamente, respetando las reglas de negocio. Aseguran que una receta se cree exitosamente cuando los datos son válidos, interactuando de forma adecuada con los repositorios y servicios externos. Garantizan que las actualizaciones reflejen los cambios esperados y que las eliminaciones se realicen de manera correcta 
+
+- **ProcedureCommandServiceImplTest**: Se comprueba que las operaciones de alta, modificación y baja de procedimientos se ejecuten conforme a las reglas de negocio. Se valida que un procedimiento se registre correctamente cuando los datos son válidos y que exista una interacción adecuada con los repositorios. Las actualizaciones deben aplicar los cambios deseados y las eliminaciones deben efectuarse sin errores. Además, se verifica que se arrojen las excepciones correctas cuando no se localizan recursos necesarios, como un procedimiento o un registro de HealthTracking.
+
+- **TreatmentCommandServiceImplTest**: Se valida que las acciones de crear, actualizar y eliminar tratamientos se realicen de forma correcta y conforme a las reglas de negocio definidas. Se comprueba que un tratamiento se registre exitosamente cuando los datos son válidos y se establece una interacción adecuada con los repositorios. También se garantiza que las modificaciones reflejen los cambios deseados y que las eliminaciones se lleven a cabo correctamente. Asimismo, se asegura que se generen las excepciones correspondientes cuando no se encuentren recursos como un tratamiento o un registro de HealthTracking.
+
+- **AppointmentCommandServiceImplTest**: Validan que las operaciones de creación, actualización y eliminación de citas se realicen correctamente, cumpliendo con las reglas de negocio, como verificar la existencia de un HealthTracking antes de crear una cita. Garantizan que los repositorios interactúen adecuadamente para guardar, buscar o eliminar entidades, y que se manejen errores lanzando excepciones apropiadas en casos excepcionales.
+
+Ejemplo: Prueba para el command service de healthtracking
+
+<img src="./img/healthtracking_test.png">
+
+Pruebas de modelo y validación
+----
+
+- RoleTest: Asegura la correcta conversión entre strings y enums para roles, validando tanto entradas válidas como inválidas (nulos), y que se lance la excepción adecuada ante errores.
+
+- UserTest: Verifica que al crear un usuario las colecciones internas se inicializan vacías y que la validación de formato de username (email) funciona correctamente, detectando violaciones cuando corresponde.
+
+Ejemplo: Prueba para el usuario
+
+<img src="./img/user_test.png">
+
+Pruebas de consulta y eventos
+----
+
+- RoleQueryServiceImplTest: Comprueba que la consulta de roles retorna todos los roles existentes, incluso cuando se recibe un parámetro nulo.
+
+- ApplicationReadyEventHandlerTest: Simula el evento de inicio de la aplicación para verificar que se llama al servicio encargado de crear roles iniciales (seed). También prueba la propagación correcta de excepciones en caso de error.
+
+Ejemplo: Prueba para ApplicationReadyEventHandler
+
+<img src="./img/application_test.png">
+
+Objetivos clave de las pruebas unitarias
+----
+
+Verificar que las entidades principales (healthtrackings, procedures, treatments, appointments, prescriptions, roles) se creen y almacenen correctamente. Comprobar que el sistema responde adecuadamente tanto a datos válidos como inválidos, incluyendo el manejo de excepciones. Asegurar la correcta integración y comunicación entre servicios, repositorios y eventos dentro de la aplicación. Evaluar la solidez y estabilidad del backend ante situaciones de error y escenarios límite. Gracias a estas pruebas, fue posible identificar y solucionar fallos lógicos en etapas tempranas del desarrollo.
+
 ### 6.1.2. Core Integration Tests
+
+Las pruebas de integración estuvieron orientadas a comprobar que los módulos del sistema funcionen correctamente en conjunto, evaluando las interacciones entre repositorios, servicios y controladores de los diferentes bounded contexts.
+
+Estas pruebas permitieron garantizar una comunicación adecuada entre las distintas partes del sistema, identificando posibles fallos de integración como errores en la validación o en el manejo de excepciones.
+
+En el bounded context de IAM, se llevaron a cabo pruebas de integración sobre los controladores de Authentication, User y Roles, verificando el correcto funcionamiento de los endpoints. Se validó la creación de usuarios, el proceso de inicio de sesión y la asignación de roles.
+
+<img src="./img/iam_test.png">
+
+Se verificó el proceso de registro de un nuevo usuario y su vinculación con un rol determinado, asegurando que los datos se guarden correctamente en la base de datos.
+
+<img src="./img/sing-up_test.png">
+
+Dentro del bounded context de HealthTracking, se realizaron pruebas de integración en los controladores HealthTracking, Procedure, Prescription, Treatment y Appointment, verificando que sus endpoints funcionen correctamente. Estas pruebas abarcaron las operaciones de creación, actualización, eliminación y consulta, asegurando que la lógica de negocio se aplique adecuadamente y que la interacción con los datos sea coherente.
+
+<img src="./img/integration_1.png">
+<img src="./img/integration_2.png">
+
+Se verificó el proceso de creación de un registro de seguimiento de salud para una persona, asegurando que los datos se guarden correctamente en la base de datos. Además, se configuraron datos iniciales para facilitar la ejecución de las pruebas, incluyendo la creación de un usuario, un granjero y un token de acceso, evitando así la necesidad de iniciar sesión manualmente en cada prueba.
+
+<img src="./img/health1.png">
+<img src="./img/health2.png">
+
 
 ### 6.1.3. Core Behaviour-Driven Development
 <img src="./img/Chapter-6/BDD1.png">
