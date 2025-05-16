@@ -68,6 +68,26 @@ span
         </ul>
       </td>
   </tr>
+  <tr>
+      <td><strong>TB2</strong></td>
+      <td>16/05/2025</td>
+      <td>
+        <ul>
+          <li>Mallma Quispe, Ruben Elias</li>
+          <li>Martinez Villanueva, Paolo Del Carmen</li>
+          <li>Matos Fernandez, Christian Andre</li>
+          <li>Paredes Zapata, Luiggi Gianfranco</li>
+          <li>Ramos Mendoza, Juan Pablo</li>
+        </ul>
+      </td>
+      <td>
+        Se ha incluido el avance de los siguientes capítulos:
+        <ul>
+          <li>Capítulo 6: Product Verification & Validation</li>
+          <li>Capítulo 7: DevOps Practices</li>
+        </ul>
+      </td>
+  </tr>
   </tbody>
 </table>
 
