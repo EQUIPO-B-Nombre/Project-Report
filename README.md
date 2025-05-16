@@ -2798,7 +2798,7 @@ Se implementaron pruebas unitarias dirigidas a las entidades clave del sistema, 
 
 Entre las entidades evaluadas se incluyen:
 
-Resumen de pruebas unitarias en Agrotech API
+Resumen de pruebas unitarias en Oncontigo API
 --
 
 Las pruebas desarrolladas en los diferentes módulos del proyecto se basan principalmente en JUnit 5 para la ejecución de los tests y en Mockito para simular dependencias externas como repositorios, servicios y entidades asociadas. Adicionalmente, en ciertos escenarios se utiliza Jakarta Validation para validaciones y se incorporan pruebas de eventos mediante Spring Boot Test.
