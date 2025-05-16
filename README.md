@@ -239,6 +239,79 @@ profesionales en situaciones de ingeniería y hacer juicios informados, que debe
 considerar el impacto de las soluciones de ingeniería en contextos globales, económicos,
 ambientales y sociales.
 
+<table>
+  <tr>
+    <th>Criterio específico</th>
+    <th>Acciones realizadas</th>
+    <th>Conclusiones</th>
+  </tr>
+  <tr>
+    <td><strong>4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software</strong></td>
+    <td>Matos Fernandez, Christian Andre
+
+TP1: En el desarrollo de OnContigo, trabajé de manera responsable asegurándome de que las funciones implementadas en la sección de perfil y consultas respetaran la privacidad y el correcto manejo de la información de los usuarios.
+
+
+
+Martinez Villanueva, Paolo Del Carmen
+
+TP1: Durante el desarrollo del proyecto, he investigado y aplicado principios éticos y profesionales, asegurando que el software respete la privacidad de los usuarios, promueva la equidad en el acceso y minimice riesgos potenciales derivados de su uso.
+
+
+
+
+Ramos Mendoza, Juan Pablo
+
+TP1: Para esta primera entrega he revisado las herramientas y técnicas para desarrollar wireframes y mockups al expandir el proyecto original con una aplicación móvil, además de repasar junto con mis compañeros los temas vistos previamente sobre la arquitectura de software y style guidelines.
+
+
+
+Paredes Zapata, Luiggi Gianfranco
+
+TP1: A lo largo del desarrollo de mi proyecto, identifiqué la importancia de la responsabilidad ética al asegurar la privacidad y la protección de los datos de los usuarios, siguiendo los principios de confidencialidad y transparencia en la implementación de funciones clave.
+
+
+
+
+Mallma Quispe, Ruben Elias
+
+TP1: Participé en la elaboración de entrevistas y el desarrollo del capítulo correspondiente. Esto me permitió fortalecer mis habilidades de investigación y aplicar conceptos clave sobre necesidades de usuario y estructura funcional para plataformas digitales. </td>
+<td>El equipo logró actualizar y aplicar conocimientos fundamentales durante el desarrollo del entregable TB1, fortaleciendo su formación profesional a través de actividades como la investigación de metodologías Lean UX, la elaboración de entrevistas, el análisis de usuarios, el diseño de hipótesis y la definición de requerimientos funcionales. Estas acciones permitieron comprender mejor las necesidades del usuario final y cómo diseñar soluciones digitales que respondan a esas necesidades. El trabajo colaborativo, la estructuración de contenidos por capítulos y el enfoque constante en la experiencia del usuario nos permitieron consolidar una base sólida para el desarrollo del proyecto, alineado a estándares profesionales y buenas prácticas de ingeniería de software. </td>
+  </tr>
+  <tr>
+    <td><strong>4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales</strong></td>
+    <td>Matos Fernandez, Christian Andre
+
+TP1: Durante el desarrollo, tomé decisiones considerando cómo las funcionalidades impactarían en la experiencia de pacientes y médicos, priorizando que la app fuera segura, accesible y de apoyo real en el proceso de tratamiento oncológico.
+
+
+
+Martinez Villanueva, Paolo Del Carmen
+
+TP1: He evaluado junto al equipo los posibles impactos sociales, económicos y ambientales de nuestra solución, priorizando decisiones de diseño que favorezcan la sostenibilidad, accesibilidad y adaptabilidad del software a diferentes realidades globales.
+
+
+
+
+Ramos Mendoza, Juan Pablo
+
+TP1: Tomé consideración en cada momento del desarrollo y uso de wireframes y mockups en todo momento para asegurar una base de gran utilidad durante el desarrollo de nuestra aplicación, además de seguir un buen orden durante el desarrollo de las entrevistas, permitiendo obtener resultados que sirvieron de base para nuestro proyecto de nuestros usuarios objetivo.
+
+
+
+Paredes Zapata, Luiggi Gianfranco
+
+TP1: Durante el proceso de desarrollo, evalué cómo las decisiones tecnológicas podían afectar a la sociedad y el medio ambiente, tomando en cuenta la accesibilidad de la aplicación, su impacto en el bienestar de los usuarios y su alineación con los objetivos económicos del proyecto.
+
+
+
+Mallma Quispe, Ruben Elias
+
+TP1: Identifiqué la importancia de mantenerme actualizado en metodologías ágiles y herramientas tecnológicas para mejorar mis competencias y aportar soluciones efectivas en el proyecto y en mi futuro profesional. </td>
+<td>El equipo logró actualizar y aplicar conocimientos fundamentales durante el desarrollo del entregable TB1, fortaleciendo su formación profesional a través de actividades como la investigación de metodologías Lean UX, la elaboración de entrevistas, el análisis de usuarios, el diseño de hipótesis y la definición de requerimientos funcionales. Estas acciones permitieron comprender mejor las necesidades del usuario final y cómo diseñar soluciones digitales que respondan a esas necesidades. El trabajo colaborativo, la estructuración de contenidos por capítulos y el enfoque constante en la experiencia del usuario nos permitieron consolidar una base sólida para el desarrollo del proyecto, alineado a estándares profesionales y buenas prácticas de ingeniería de software. </td>
+  </tr>
+</table>
+
 # Capítulo 1: Introducción
 
 ## 1.1. Startup Profile
