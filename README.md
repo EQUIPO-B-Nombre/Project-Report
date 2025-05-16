@@ -268,7 +268,7 @@ TP1: Para esta primera entrega he revisado las herramientas y técnicas para des
 
 Paredes Zapata, Luiggi Gianfranco
 
-TP1: A lo largo del desarrollo de mi proyecto, identifiqué la importancia de la responsabilidad ética al asegurar la privacidad y la protección de los datos de los usuarios, siguiendo los principios de confidencialidad y transparencia en la implementación de funciones clave.
+TP1: Durante el desarrollo del proyecto, implementé la metodología Core Behavior-Driven Development y Core System Tests con Cucumber y Selenium, asegurándome de que las decisiones de desarrollo fueran éticamente responsables, con especial énfasis en la privacidad, la seguridad de los datos y la transparencia de la información. Estos principios guiaron mi enfoque hacia la creación de una aplicación que no solo cumpla con los estándares técnicos, sino que también garantice el respeto por la privacidad de los usuarios y sus derechos.
 
 
 
@@ -301,7 +301,7 @@ TP1: Tomé consideración en cada momento del desarrollo y uso de wireframes y m
 
 Paredes Zapata, Luiggi Gianfranco
 
-TP1: Durante el proceso de desarrollo, evalué cómo las decisiones tecnológicas podían afectar a la sociedad y el medio ambiente, tomando en cuenta la accesibilidad de la aplicación, su impacto en el bienestar de los usuarios y su alineación con los objetivos económicos del proyecto.
+TP1: Durante el desarrollo de la aplicación, evalué el impacto global y social de las soluciones implementadas, tomando decisiones informadas sobre el uso de tecnologías que favorecieran la accesibilidad y sostenibilidad. A través de Core Behavior-Driven Development, garantizamos que las decisiones tecnológicas fueran conscientes de los impactos económicos, sociales y ambientales, priorizando la adaptabilidad y accesibilidad en diversas realidades.
 
 
 
@@ -311,6 +311,8 @@ TP1: Identifiqué la importancia de mantenerme actualizado en metodologías ági
 <td>El equipo logró actualizar y aplicar conocimientos fundamentales durante el desarrollo del entregable TB1, fortaleciendo su formación profesional a través de actividades como la investigación de metodologías Lean UX, la elaboración de entrevistas, el análisis de usuarios, el diseño de hipótesis y la definición de requerimientos funcionales. Estas acciones permitieron comprender mejor las necesidades del usuario final y cómo diseñar soluciones digitales que respondan a esas necesidades. El trabajo colaborativo, la estructuración de contenidos por capítulos y el enfoque constante en la experiencia del usuario nos permitieron consolidar una base sólida para el desarrollo del proyecto, alineado a estándares profesionales y buenas prácticas de ingeniería de software. </td>
   </tr>
 </table>
+
+
 
 # Capítulo 1: Introducción
 
