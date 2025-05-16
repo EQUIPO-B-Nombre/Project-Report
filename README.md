@@ -95,7 +95,21 @@ Link del Repositorio: [Repositorio](https://github.com/EQUIPO-B-Nombre/Project-R
 
 # Project Report Collaboration Insights
 
-En esta entrega cada uno de los integrantes realizo los siguientes puntos:
+En esta entrega para la TB1 cada uno de los integrantes realizo los siguientes puntos:
+
+- Mallma Quispe, Ruben Elias: Capítulo 7: DevOps Practices
+- Paredes Zapata, Luiggi Gianfranco: Capítulo 6: Product Verification & Validation
+- Matos Fernandez, Christian Andre: Capítulo 6: Product Verification & Validation
+- Ramos Mendoza, Juan Pablo: Capítulo 7: DevOps Practices
+- Martinez Villanueva, Paolo Del Carmen: Capítulo 7: DevOps Practices
+
+<img src="img/collaboration_insights_tb1.png" alt="Collaboration Insight tb1" >
+
+<img src="img/collaboration_tb1.png" alt="Collaboration Insight tb1" >
+
+-----
+
+En esta entrega para la TP1 cada uno de los integrantes realizo los siguientes puntos:
 
 - Mallma Quispe, Ruben Elias: Capítulo 1 Introducción
 - Paredes Zapata, Luiggi Gianfranco: Capítulo 2 Requirements Elicitation & Analysis
@@ -103,9 +117,9 @@ En esta entrega cada uno de los integrantes realizo los siguientes puntos:
 - Ramos Mendoza, Juan Pablo: Capítulo 4 Product Design
 - Martinez Villanueva, Paolo Del Carmen: Capítulo 5: Product Implementation
 
-<img src="img/collaboration_insights_tb1.png" alt="Collaboration Insight tb1" >
+<img src="img/collaboration_insights_tp1.png" alt="Collaboration Insight tp1" >
 
-<img src="img/collaboration_tb1.png" alt="Collaboration Insight tb1" >
+<img src="img/collaboration_tp1.png" alt="Collaboration Insight tp1" >
 
 # Tabla de Contenido
 
