@@ -2010,7 +2010,7 @@ implementación
 
 ### 4.10.1. Relational/Non-Relational Database Diagram
 
-<image src="img/Chapter-4/Database_Model.png"> <br>
+<image src="img/base_datos_oncontigo.png"> <br>
 
 # Capítulo V: Product Implementation
 
