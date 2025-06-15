@@ -3221,6 +3221,29 @@ Los componentes clave de un pipeline de despliegue en producción incluye:
 
 ### 8.1.5. Experiment Cards
 
+## 8.2 Experiment Design
+
+### 8.2.1 Hypotheses
+
+### 8.2.2 Measures
+
+### 8.2.3 Conditions
+
+### 8.2.4 Scale Calculation and Decisions
+
+### 8.2.5 Method Selection
+
+### 8.2.6 Data Analytics: Goals, KPIs and Metric Selection
+
+### 8.2.7 Web and Mobile Tracking Plan
+
+## 8.3 Experimentation
+
+### 8.3.1 To-Be User Stories
+
+### 8.3.2 To-Be Product Backlog
+
+
 # Conclusiones y recomendaciones
 
 <p>
