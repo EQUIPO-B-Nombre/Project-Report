@@ -3213,13 +3213,121 @@ Los componentes clave de un pipeline de despliegue en producción incluye:
 
 ### 8.1.1. As-Is Summary
 
+El proyecto OnContigo se encuentra mayormente en etapa funcional, con funcionalidades visibles en el front-end con datos en back-end usables de forma demostrativa para el proyecto completo, tanto en la aplicación web como en la aplicación móvil. 
+
+Además de las pruebas realizadas entre nuestro grupo y con las entrevistas de validación demostrativas, recibiendo comentarios positivos en la presentación pero con espacio de mejora continua, tanto por la parte del diseño (el uso de colores ligeramente distintos y el uso de imágenes), como algunas en la experiencia del usuario.
+Este proyecto sigue en mejora continua y, para ello, hemos realizado la planificación de ciertos experimentos para continuar esta mejora.
+
 ### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims
+
+- **Assumptions (Suposiciones)**
+
+  - Los pacientes prefieren tener un sistema de notificaciones en relación a los recordatorios de citas y procedimientos médicos.
+
+  - Los médicos necesitan tener una vista de sus calendarios eficiente para evitar cruces entre múltiples pacientes.
+
+  - Las interfaces actuales de las aplicaciones son adecuadas para pacientes mayores debido al uso de imágenes e íconos reconocibles.
+
+- **Knowledge Gaps (Brechas de Conocimiento)**
+
+  - ¿Qué tipo de notificaciones son más efectivas para los pacientes?
+
+  - ¿Cuál es la frecuencia óptima para enviar recordatorios?
+
+  - ¿Los médicos prefieren una vista semanal, diaria o personalizada?
+
+  - ¿Qué funcionalidades consideran críticas los pacientes y los médicos que aún no están implementadas?
+
+- **Ideas**
+
+  - Implementar una función de "vista diaria" para médicos con indicadores de prioridad.
+
+  - Incluir una sección de “estado de ánimo” para los pacientes antes de cada cita.
+
+  - Integrar con servicios de mensajería como WhatsApp o SMS para notificaciones.
+
+- **Claims (Afirmaciones)**
+
+  - Una mejora en la organización del calendario reducirá el ausentismo a citas.
+
+  - Los médicos reducirán el tiempo dedicado a la coordinación manual de citas con un sistema más visual.
+
+  - Los pacientes que usan la app durante al menos un mes mostrarán mejor adherencia al tratamiento.
 
 ### 8.1.3. Experiment-Ready Questions
 
+Se han preparado las siguientes preguntas para su validación a través de experimentos concretos:
+
+  - ¿El uso de notificaciones automáticas incrementa la asistencia a citas en un 20% o más?
+
+  - ¿Los pacientes prefieren recibir notificaciones por la app, por SMS o por correo electrónico?
+
+  - ¿Una vista de agenda semanal mejora la satisfacción y organización de los médicos respecto a una vista diaria?
+
+  - ¿Los pacientes de más de 50 años encuentran la interfaz lo suficientemente intuitiva sin asistencia?
+
 ### 8.1.4. Question Backlog
 
+Por otro lado, las siguientes preguntas requieren de experimentos con mayor preparación debido a sus funciones más profundas o de menor prioridad en comparación a las anteriores:
+
+  - ¿Qué nivel de detalle sobre los medicamentos es más útil para los pacientes?
+
+  - ¿Se incrementa la carga cognitiva de los médicos al tener que interactuar digitalmente con cada paciente?
+
+  - ¿La app puede integrarse con calendarios personales externos (Google Calendar, Outlook)?
+
+  - ¿El seguimiento emocional puede predecir ausencias a futuras citas?
+
+  - ¿Cuántos pasos interactivos son óptimos antes de confirmar una cita?
+
 ### 8.1.5. Experiment Cards
+
+Cada una de las siguientes cartas representa un experimento estructurado:
+
+<table>
+    
+    Experiment Card #1
+
+    Hypothesis: Las notificaciones automáticas aumentan la asistencia a citas médicas.
+
+    Method: Se divide a los pacientes en dos grupos (con y sin notificaciones) durante un mes.
+
+    Metrics: Tasa de asistencia.
+
+    Expected Result: El grupo con notificaciones tiene una asistencia al menos 20% mayor.
+
+    Status: Planificado.
+
+  </tr>
+    
+    Experiment Card #2
+    Hypothesis: Los médicos prefieren la vista semanal del calendario sobre la diaria.
+    Method: Se habilitan ambas vistas y se mide el uso y se hace una encuesta.
+    Metrics: Tiempo promedio en cada vista + preferencia reportada.
+    Expected Result: Al menos 60% de los médicos reportan preferencia por la vista semanal.
+    Status: En ejecución.
+
+  </tr>
+
+    Experiment Card #3
+    Hypothesis: Los pacientes mayores de 60 años encuentran difícil de usar la app sin guía.
+    Method: Se reclutan usuarios mayores para una prueba guiada y una sin guía.
+    Metrics: Tasa de éxito en tareas básicas, tiempo promedio y errores cometidos.
+    Expected Result: Más del 40% de los pacientes sin guía cometen errores en tareas clave.
+    Status: Diseñado.
+
+  </tr>
+
+    Experiment Card #4
+    Hypothesis: Integrar mensajes motivacionales diarios aumenta el uso de la app.
+    Method: Grupo A recibe mensajes personalizados; grupo B no.
+    Metrics: Frecuencia de uso diario.
+    Expected Result: Grupo A usa la app al menos 25% más.
+    Status: En evaluación.
+
+  </tr>
+  
+</table>
 
 ## 8.2 Experiment Design
 
