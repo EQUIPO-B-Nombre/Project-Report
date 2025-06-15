@@ -3287,15 +3287,10 @@ Cada una de las siguientes cartas representa un experimento estructurado:
 <table>
     
     Experiment Card #1
-
     Hypothesis: Las notificaciones automáticas aumentan la asistencia a citas médicas.
-
     Method: Se divide a los pacientes en dos grupos (con y sin notificaciones) durante un mes.
-
     Metrics: Tasa de asistencia.
-
     Expected Result: El grupo con notificaciones tiene una asistencia al menos 20% mayor.
-
     Status: Planificado.
 
   </tr>
