@@ -3001,6 +3001,34 @@ Se verificó el proceso de creación de un registro de seguimiento de salud para
 
 <img src="./img/Chapter-6/CoreSystemTests3.png">
 
+
+
+## 6.2. Static Testing & Verification
+### 6.2.1. Static Code Analysis
+#### 6.2.1.1. Coding Standard & Code Conventions
+
+Durante el desarrollo de la aplicación, se definieron y adoptaron estándares de codificación adaptados a cada una de las tecnologías empleadas. En el caso del frontend web desarrollado con Angular, se siguieron las convenciones ampliamente aceptadas en la comunidad de TypeScript, complementadas con herramientas como ESLint, que contribuyeron a mantener un estilo de código consistente, claro y fácil de mantener. Para la aplicación móvil escrita en Kotlin, se respetaron las guías oficiales de JetBrains, priorizando la legibilidad, la adecuada denominación de variables y funciones, así como una correcta indentación.
+
+En cuanto al backend implementado con Spring Boot, se aplicaron buenas prácticas de programación en Java, prestando atención a un uso apropiado de estructuras de control, una adecuada modularización y comentarios explicativos cuando fueron requeridos. Estas convenciones facilitaron la coherencia en el código entre los distintos miembros del equipo, optimizando tanto el proceso de revisión como el mantenimiento de la solución.
+
+Con el propósito de garantizar un código de alta calidad y minimizar posibles vulnerabilidades, se implementó un proceso continuo de análisis estático y revisión manual, apoyado por herramientas como ESLint. Estas herramientas facilitaron la detección de problemas como lógica duplicada, código innecesario, excesiva complejidad y otras malas prácticas que comprometen la mantenibilidad del sistema.
+
+#### 6.2.1.2. Code Quality & Code Security
+
+Durante el desarrollo se identificaron y abordaron diversas vulnerabilidades clave:
+
+- **Inyección SQL:** En el backend desarrollado con Spring Boot, se refactoraron las consultas para utilizar parámetros seguros mediante `PreparedStatement` y sentencias JPQL en los repositorios de JPA, evitando riesgos de inyección.
+
+- **Cross-Site Scripting (XSS):** En el frontend web con Angular, se detectaron puntos vulnerables al insertar contenido dinámico sin sanitización. Para mitigar este riesgo, se utilizó `DomSanitizer`, aprovechando sus capacidades de limpieza automática, y se evitó el uso innecesario de `innerHTML`.
+
+- **Manejo inseguro de autenticación y sesiones:** En la integración entre frontend, backend y aplicación móvil, se verificó que los tokens JWT se transmitían de forma segura a través del encabezado HTTP `Authorization`. Además, se definieron tiempos de expiración apropiados y se implementó un sistema controlado de renovación de sesión.
+
+Todas estas acciones contribuyeron a fortalecer la seguridad general del sistema y a reducir el riesgo frente a ataques comunes en aplicaciones web y móviles. Estas medidas seguirán aplicándose en futuras fases mediante herramientas automatizadas de análisis y validación integradas en el pipeline de integración continua.
+
+
+### 6.2.2. Reviews
+
+
 ## 6.3 Validation Interviews
 
 ### 6.3.1.Diseño de Entrevistas.
