@@ -3028,6 +3028,31 @@ Todas estas acciones contribuyeron a fortalecer la seguridad general del sistema
 
 ### 6.2.2. Reviews
 
+# Revisión de Código
+
+Las revisiones de código son esenciales para asegurar que el software cumpla con los estándares de calidad y las normativas establecidas. Este proceso combina evaluaciones manuales y automáticas, siguiendo lineamientos específicos.
+
+## Tipos de Revisión
+
+- **Revisión entre pares**: Un desarrollador examina el código de otro para verificar su claridad, cumplimiento de normas y facilidad de mantenimiento.  
+- **Revisión formal**: Se realiza en sesiones estructuradas, utilizando listas de verificación que ayudan al equipo a identificar errores de forma colectiva.  
+- **Revisión automatizada**: Herramientas como *ESLint* o *SonarQube* se emplean para detectar defectos y problemas de calidad de forma inmediata durante el desarrollo.
+
+## Flujo del Proceso de Revisión
+
+- **Creación del Pull Request (PR)**: El desarrollador debe generar un PR con una descripción detallada de los cambios y las pruebas realizadas.  
+- **Lista de verificación**: Se debe utilizar un *checklist* que cubra aspectos clave como legibilidad del código, pruebas implementadas y gestión adecuada de errores.  
+- **Comentarios y retroalimentación**: Los revisores deben brindar observaciones claras y constructivas. Cualquier hallazgo debe corregirse antes de la aprobación.  
+- **Aprobación del PR**: Es necesario que al menos otro desarrollador apruebe el PR antes de integrarlo a la rama principal.
+
+## Criterios de Aceptación
+
+- **Calidad y seguridad**: El código debe seguir los estándares definidos y no introducir vulnerabilidades.  
+- **Cobertura de pruebas**: Se debe alcanzar una cobertura mínima (por ejemplo, del 80%) para validar que las nuevas funcionalidades estén correctamente probadas.
+
+## Frecuencia
+
+Las revisiones deben realizarse de manera periódica, preferiblemente al finalizar cada *sprint* o en plazos establecidos, para evitar acumulación de cambios y mantener la calidad del proyecto.
 
 ## 6.3 Validation Interviews
 
