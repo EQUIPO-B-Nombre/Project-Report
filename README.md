@@ -2884,142 +2884,104 @@ Se verificó el proceso de creación de un registro de seguimiento de salud para
 
 # Capítulo VII: DevOps Practices
 
-## 7.1. Continuous Integration
+## 7.1 Continuous Integration (CI)
 
-### 7.1.1. Tools and Practices
+La integración continua asegura que cada cambio en el repositorio principal pase por un flujo automatizado de compilación y pruebas antes de fusionarse con la rama `develop/main`; así obtenemos *feedback* temprano y evitamos el temido *integration hell*.
 
-Hemos utilizado las siguientes herramientas y técnicas para validar de forma automática los cambios realizados por nuestro grupo antes de ser integrados directamente:
+### 7.1.1 Tools and Practices
 
-- **Repositorios Independientes:** Cada uno de los componentes y partes principales de nuestra aplicación, como la aplicación web, móvil, back-end, etc., tiene su propio repositorio en GitHub, permitiendo revisar las versiones y los cambios.
-- **Ramas basadas en features:** Todo desarrollo principal se realiza en un rama /feature que luego se combina en la rama develop luego de validar los cambios.
-- **GitHub Actions:**  Se emplea esta herramienta como orquestador de CI en todos los repositorios. Cada push o pull request desencadena automáticamente workflows de validación.
-- **Validación de Dependencias:** Se usan acciones para asegurar que las dependencias estén actualizadas y libres de vulnerabilidades mediante escaneos automáticos.
+| Práctica                                | Implementación en el proyecto                                                             |
+| --------------------------------------- | ----------------------------------------------------------------------------------------- |
+| **Repositorio Git multi‑componente**    | Web (React), Mobile (Kotlin) y Backend (Node.js) con ramas *feature* → *develop* → *main* |
+| **GitHub Actions como orquestador**     | Cada *push* dispara un workflow de CI con matriz por componente                           |
+| **Revisión automática de dependencias** | `npm audit`, `gradle --scan`, `npm‑audit‑action`                                          |
+| **Validadores de estilo**               | ESLint (web) y *ktlint* (mobile)                                                          |
+| **Pruebas automáticas**                 | Jest, JUnit 5, Mockito, SuperTest (API)                                                   |
 
-### 7.1.2. Builds & Test Suite Pipeline Components
+### 7.1.2 Build & Test Suite Pipeline Components
 
-- Frontend Web (React):
+1. **Checkout** del código
+2. **Instalación de dependencias** (`npm ci`, `./gradlew build`)
+3. **Build/Compile** – genera artefactos (bundle JS, APK, imagen Docker)
+4. **Unit Tests**
+5. **Integration Tests**
+6. **Code Analytics** (coverage + SonarCloud)
+7. **Publicación del artefacto** en el registry interno
 
-  - Instalación de dependencias
+---
 
-  - Validación de estilo con ESLint
+## 7.2 Continuous Delivery (CD)
 
-  - Ejecución de pruebas unitarias con Jest
+Con CD garantizamos que cada *build* validado esté siempre desplegado en un entorno **listo para ser promovido** a producción mediante aprobación humana.
 
-  - Construcción del proyecto (npm run build)
+### 7.2.1 Tools and Practices
 
-- Frontend Móvil (Kotlin):
+- **Entornos separados**: `dev` → `staging` → `prod`
+- **Workflows de CD** (GitHub Actions) que se disparan al fusionar ramas `release/*`
+- **Versionado semántico** automático (`1.0.0-beta+<hash>`)
+- **Notificaciones** en Slack/Teams para *smoke tests* y aprobaciones
 
-  - Instalación de dependencias
+### 7.2.2 Stages Deployment Pipeline Components
 
-  - Validación de estilo con ESLint
+1. **Build** – imagen Docker/APK con *tag* semántico
+2. **Test** – *smoke* + regresión (Cypress/Playwright)
+3. **Deploy to Staging** – Azure App Service / Firebase Hosting
+4. **Manual Approval** – revisión funcional del equipo
+5. **Deploy to Production** – *blue‑green* o *canary* según el riesgo
 
-  - Ejecución de pruebas unitarias con Jest
+---
 
-  - Construcción del proyecto
+## 7.3 Continuous Deployment (CDp)
 
-- Backend (Node.js):
+Para funcionalidades de bajo riesgo habilitamos **despliegue continuo**: si el pipeline pasa, la nueva versión llega automáticamente a producción.
 
-  - Instalación de dependencias
+### 7.3.1 Tools and Practices
 
-  - Ejecución de pruebas unitarias y de integración
+- Git + GitHub Actions
+- Pruebas automatizadas exhaustivas (unitarias, integración, e2e)
+- Entornos lo más *production‑like* posible
+- Pipeline de despliegue totalmente automatizado
+- Monitoreo y *feedback* inmediato tras cada *release*
 
-  - Validación de cobertura de pruebas (p. ej. con coverlet, pytest-cov, etc.)
+### 7.3.2 Production Deployment Pipeline Components
 
-  - Validación de endpoints y contratos API mediante pruebas automatizadas
+| Símbolo   | Etapa real            | Detalle                                                                              |
+| --------- | --------------------- | ------------------------------------------------------------------------------------ |
+| Luz verde | **Gate** de calidad   | Se publica el artefacto solo si la cobertura ≥ 90 % y los linters pasan              |
+| Canario   | **Canary release**    | < 5 % de tráfico; si los KPIs bajan → *rollback* automático                          |
+| Regla     | **Medición & mejora** | Prometheus + Grafana registran latencia y errores; cada sprint se revisan tendencias |
 
-- Documentación técnica (Markdown):
+---
 
-  - Verificación de estructura y enlaces rotos
+## 7.4 Continuous Monitoring (CM)
 
-## 7.2. Continuous Delivery
+El monitoreo continuo cierra el ciclo DevOps: convierte los datos de producción en aprendizaje accionable.
 
-### 7.2.1. Tools and Practices
+### 7.4.1 Tools and Practices
 
-Usando las siguientes herramientas y prácticas para validar que nuestro software se encuentre desplegado:
+- **Logging estructurado** → ElasticSearch / Loki
+- **Métricas** → Prometheus + Grafana (requests/sec, latencia p95, uso CPU)
+- **Tracing distribuido** → OpenTelemetry + Jaeger
+- **Alerting** → Alertmanager + notificaciones (Slack, correo)
+- **SLOs/SLIs** con *error budget* para priorizar deuda operativa
 
-- **Entornos separados:** Se cuenta con entornos de desarrollo, staging (pre-producción) y producción.
+### 7.4.2 Monitoring Pipeline Components
 
-- **GitHub Actions + Workflows de CD:** Al integrarse a las ramas main o release, se dispara automáticamente un flujo de entrega continua.
+1. **Recolección** – *exporters* y agentes
+2. **Almacenamiento** – base de series temporales (Prometheus)
+3. **Visualización** – dashboards de Grafana basados en SLA/SLO
+4. **Alerting** – reglas sobre umbrales → canales de soporte
+5. **Post‑mortem & mejora** – lecciones aprendidas alimentan el backlog técnico
 
-- **Notificaciones y revisión:** Al completar una entrega, notificamos a todos los miembros del grupo para validación manual o exploratoria en entornos intermedios.
+### 7.4.3 Alerting Pipeline Components
 
-### 7.2.2. Stages Deployment Pipeline Components
+- Alertas por latencia, errores 5xx, colas y consumo de cuota
+- Escalamiento por severidad (P1 → P3) con rotación *on‑call*
 
-Esta forma de entrega se realiza en múltiples etapas:
+### 7.4.4 Notification Pipeline Components
 
-#### 1. Build:
-
-  - Generación del artefacto (Docker image, archivo .apk / .ipa, bundle JS)
-
-  - Versionado automático del build
-
-#### 2. Test:
-
-  - Pruebas post-build (smoke tests, pruebas de regresión automatizadas)
-
-  - Pruebas E2E automatizadas en staging (p. ej., con Cypress o Playwright)
-
-#### 3. Deploy to Staging:
-
-  - Despliegue en entorno staging para validación de QA y stakeholders
-
-  - Se utilizan servicios como Azure App Service, Vercel o Firebase Hosting según el componente
-
-#### 4. Manual Approval:
-
-  - Validación funcional por el equipo (cuando es necesario) antes del paso a producción
-
-#### 5. Deploy to Production:
-
-  - Despliegue controlado en producción
-
-  - Estrategias como blue-green deployment o canary release para minimizar el riesgo
-
-
-## 7.3. Continuous Deployment
-
-El Continuous Deployment es la capacidad de entregar de manera continua y
-automatizada nuevas versiones de software a producción. Esto implica que cada
-vez que se realiza una modificación en el código de la aplicación, se lleva a cabo
-un proceso de prueba, y si pasa satisfactoriamente, se despliega
-automáticamente en un entorno de producción sin intervención manual. Esto
-permite la rápida iteración y entrega de nuevas características y correcciones de
-errores.
-
-### 7.3.1. Tools and Practices
-
-En el contexto del Continuous Deployment, existen varias herramientas y
-prácticas clave que vamos a utilizar:
-
-  - **Herramienta de Control de Versiones:** Usamos Git para rastrear y gestionar el código fuente de la aplicación.
-
-  - **Automatización de Pruebas:** Implementar pruebas automatizadas, que incluyen pruebas unitarias, pruebas de integración, pruebas de regresión, etc., para garantizar que el software cumpla con los estándares de calidad antes de su despliegue.
-
-  - **Entornos de Desarrollo y Pruebas:** Mantener entornos de desarrollo y pruebas que sean lo más similares posible al entorno de producción para minimizar las sorpresas durante el despliegue.
-  
-  - **Pipeline de Despliegue:** Crear un pipeline de despliegue automatizado que incluya etapas como compilación, pruebas, despliegue en entornos de preproducción y producción.
-
-  - **Monitoreo y Retroalimentación:** Implementar sistemas de monitoreo y
-    registro (logging) para rastrear el rendimiento y la estabilidad de la
-    aplicación en producción, lo que permite identificar problemas en tiempo real.
-
-
-### 7.3.2. Production Deployment Pipeline Components
-
-Los componentes clave de un pipeline de despliegue en producción incluye:
-
-  - Compilación (Build): En esta etapa, el código fuente se compila y se generan los artefactos que se desplegarán en producción.
-
-  - Pruebas (Testing): Aquí se realizan pruebas automatizadas para garantizar que la aplicación cumple con los requisitos de calidad y que no se introduzcan nuevos errores.
-
-  - Entorno de Preproducción (Staging): Antes de desplegar en producción, se puede desplegar en un entorno de preproducción para realizar pruebas adicionales y validación por parte de usuarios beta.
-
-  - Despliegue en Producción (Production Deployment): En esta etapa, el código se despliega en el entorno de producción de manera automatizada.
-
-  - Monitoreo Continuo (Continuous Monitoring): Una vez en producción, se monitorea constantemente el rendimiento y la estabilidad de la aplicación, identificando y solucionando problemas en tiempo real.
-
-  - Reversión (Rollback): Si se detecta algún problema en producción, el pipeline debe permitir la reversión rápida a una versión anterior de la aplicación.
-
+- Integración con Slack, Teams y correo institucional
+- Plantillas con contexto (trace ID, commit SHA, rama, autor) para acelerar el MTTR
 
 # Conclusiones y recomendaciones
 
