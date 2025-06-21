@@ -3486,17 +3486,114 @@ Cada una de las siguientes cartas representa un experimento estructurado:
 
 ### 8.2.1 Hypotheses
 
+### Hypothesis 1
+
+| **Question** | ¿Las notificaciones automáticas pueden mejorar la tasa de asistencia a citas médicas? |
+|--------------|------------------------------------------------------------------------------------------|
+| **Data Analyze** | Se ha identificado mediante entrevistas y pruebas internas que los usuarios valoran los recordatorios automatizados. Al revisar patrones de uso en versiones anteriores, se observó que varios pacientes olvidan sus citas. |
+| **Hypothesis** | Si se implementan notificaciones automáticas, la asistencia a citas aumentará en al menos un 20%, reduciendo la tasa de inasistencia por olvido. |
+
+---
+
+### Hypothesis 2 
+
+| **Question** | ¿La vista semanal del calendario facilita una mejor organización para los médicos que la vista diaria? |
+|--------------|----------------------------------------------------------------------------------------------|
+| **Data Analyze** | A partir de sesiones con prototipos funcionales, se observó que la mayoría de médicos prefieren una visualización semanal para planificar de forma más eficiente sus tiempos. |
+| **Hypothesis** | La vista semanal del calendario incrementará la eficiencia en la gestión de citas médicas, siendo preferida por al menos el 60% de los usuarios médicos. |
+
+---
+
+### Hypothesis 3 
+
+| **Question** | ¿La actual interfaz es lo suficientemente intuitiva para pacientes mayores de 60 años? |
+|--------------|-----------------------------------------------------------------------------------------|
+| **Data Analyze** | Se realizaron pruebas básicas de navegación con adultos mayores. Los resultados preliminares muestran que sin asistencia, algunos usuarios experimentan dificultades en tareas clave como agendar una cita. |
+| **Hypothesis** | Más del 40% de los usuarios mayores de 60 años requerirán asistencia o cometerán errores al utilizar la app, por lo que se necesita una versión con mejor accesibilidad. |
+
+---
+
+### Hypothesis 4 
+
+| **Question** | ¿El envío de mensajes motivacionales diarios mejora la frecuencia de uso de la app? |
+|--------------|-------------------------------------------------------------------------------------|
+| **Data Analyze** | En una prueba piloto se implementó el envío de mensajes motivadores a un grupo reducido. Los datos reflejaron un aumento sostenido en la apertura diaria de la app. |
+| **Hypothesis** | Los pacientes que reciben mensajes motivacionales personalizados utilizarán la aplicación al menos un 25% más que aquellos que no los reciben. |
+
+---
+
 ### 8.2.2 Measures
+
+Se definirán métricas cuantitativas y cualitativas para medir el impacto de las funcionalidades propuestas:
+
+1. **Tasa de asistencia a citas:** Porcentaje de citas confirmadas a las que el paciente asiste, con y sin notificaciones.
+2. **Uso por tipo de vista de calendario:** Registro de interacciones en la vista diaria vs. semanal.
+3. **Éxito en tareas básicas (usabilidad):** Tiempo promedio para agendar una cita, tasa de errores y necesidad de asistencia.
+4. **Frecuencia de uso de la app:** Número de sesiones por usuario con y sin mensajes motivacionales.
+
 
 ### 8.2.3 Conditions
 
+- **Público objetivo:** Pacientes adultos (de diversas edades) y profesionales de la salud que utilicen el sistema.
+- **Entorno de pruebas:** Versiones prototipo funcionales en ambiente de staging, tanto en web como en app móvil.
+- **Período de prueba:** 2 semanas para cada experimento, con seguimiento por parte del equipo.
+- **Segmentación:** Usuarios divididos en grupos de prueba (A/B) según el experimento.
+- **Consentimiento informado:** Todos los participantes completarán un formulario de consentimiento digital antes de participar.
+- **Variables controladas:** Se mantendrá constante el número de recordatorios manuales y la cantidad de pacientes por médico en las pruebas.
+
+
 ### 8.2.4 Scale Calculation and Decisions
+
+- **Muestra mínima viable:** Se establecerá una muestra inicial de al menos 30 usuarios por grupo experimental, suficiente para obtener tendencias claras.
+- **Escalamiento progresivo:** Si los resultados son estadísticamente favorables, las funciones se extenderán a toda la base de usuarios en un siguiente sprint.
+- **Evaluación continua:** Se revisarán las métricas semanalmente para detectar patrones y posibles desviaciones.
+- **Criterio de éxito:** Una función se considera exitosa si cumple con al menos el 80% del objetivo planteado en su hipótesis.
 
 ### 8.2.5 Method Selection
 
+Se emplearán los siguientes métodos para validar las hipótesis:
+
+- **Pruebas A/B:** Para comparar grupos con y sin la funcionalidad específica.
+- **Encuestas posteriores a la prueba:** Para recoger datos cualitativos sobre satisfacción y experiencia.
+- **Pruebas de usabilidad moderadas:** Con observación directa del comportamiento de usuarios representativos.
+- **Seguimiento de métricas automatizado:** A través de Firebase y herramientas analíticas del backend.
+
 ### 8.2.6 Data Analytics: Goals, KPIs and Metric Selection
 
+## Objetivos:
+
+- Validar el impacto de nuevas funcionalidades en el comportamiento del usuario.
+- Identificar oportunidades de mejora en la experiencia del usuario.
+- Asegurar que las nuevas funciones cumplen con los objetivos de producto y negocio.
+
+## KPIs definidos:
+
+| Métrica | KPI | Herramienta de medición |
+|--------|-----|--------------------------|
+| Tasa de asistencia | ≥ 20% de incremento | Firebase Events, logs internos |
+| Preferencia de vista semanal | ≥ 60% de uso sobre vista diaria | Registro de interacción por UI |
+| Usabilidad para mayores | ≤ 40% de errores sin ayuda | Pruebas moderadas y grabaciones |
+| Incremento en frecuencia de uso | ≥ 25% de sesiones más en grupo A | Firebase Analytics |
+
+
 ### 8.2.7 Web and Mobile Tracking Plan
+
+Para evaluar el impacto real de las funcionalidades, se implementará un sistema de seguimiento tanto en la app web como móvil:
+
+- **Eventos clave a rastrear:**
+  - Inicio de sesión.
+  - Apertura de notificaciones.
+  - Interacciones con vistas del calendario.
+  - Confirmación y asistencia a citas.
+  - Visualización de mensajes motivacionales.
+
+- **Herramientas utilizadas:**
+  - **Firebase Analytics**: Para capturar eventos personalizados.
+  - **Google Tag Manager** (web): Para rastreo sin redeploy.
+  - **Backend logging con timestamps**: Para análisis de comportamiento por sesión.
+
+- **Dashboard de seguimiento:**
+  - Se diseñará un panel de visualización (Google Data Studio o Looker) para visualizar el rendimiento de los experimentos en tiempo real.
 
 ## 8.3 Experimentation
 
