@@ -3599,7 +3599,61 @@ Para evaluar el impacto real de las funcionalidades, se implementará un sistema
 
 ### 8.3.1 To-Be User Stories
 
+<table>
+  <tr>
+    <th></th>
+    <th>To-Be User Story</th>
+    <th>Criterios de Aceptación</th>
+  </tr>
+  <tr>
+      <td>Notificaciones automáticas para citas</td>
+      <td><b>Como</b> paciente oncológico,
+      <br><b>quiero</b> recibir notificaciones automáticas antes de mis citas médicas,
+      <br><b>para</b> no olvidarlas y asistir puntualmente.</td>
+      <td> - El sistema envía notificaciones 24 y 2 horas antes de la cita. <br> - El paciente puede elegir el canal de notificación (app, SMS o correo).
+      <br> - Se registra si el usuario abrió la notificación.</td>
+  </tr>
+  <tr>
+      <td>Vista semanal para médicos</td>
+      <td><b>Como</b> médico oncólogo,
+      <br><b>quiero</b> ver el calendario de mis pacientes en una vista semanal,
+      <br><b>para</b> planificar mis tiempos de manera más eficiente.</td>
+      <td> - Se puede alternar entre vista diaria y semanal.
+      <br> - La vista semanal muestra color o íconos por tipo de cita.
+      <br> - Se registran eventos de uso para cada vista.</td>
+  </tr>
+  <tr>
+      <td>Modo accesible para adultos mayores</td>
+      <td><b>Como</b> paciente mayor de 60 años,
+      <br><b>quiero</b> una interfaz simplificada y accesible,
+      <br><b>para</b> poder usar la app sin asistencia.</td>
+      <td> - Modo accesible con íconos grandes, colores de alto contraste y texto ampliado.
+      <br> - Asistente paso a paso al agendar una cita.
+      <br> - Tiempo y errores de interacción reducidos en pruebas moderadas.</td>
+  </tr>
+  <tr>
+      <td>Mensajes motivacionales personalizados</td>
+      <td><b>Como</b> paciente en tratamiento,
+      <br><b>quiero</b> recibir mensajes motivacionales diarios personalizados,
+      <br><b>para</b> sentirme acompañado durante mi proceso.</td>
+      <td> - El sistema envía un mensaje diario diferente según el perfil del paciente.
+      <br> - El usuario puede valorar o reaccionar al mensaje.
+      <br> - Se registra si el mensaje fue abierto o leído.</td>
+  </tr>
+</table>
+
 ### 8.3.2 To-Be Product Backlog
+
+| Prioridad | Historia / Funcionalidad                             | Dependencia             | Tipo               | Sprint estimado |
+| --------- | ---------------------------------------------------- | ----------------------- | ------------------ | --------------- |
+| Alta      | Implementación de notificaciones automáticas         | Sistema de agenda       | Feature core       | Sprint 1        |
+| Alta      | Alternancia entre vista diaria/semanal para médicos  | UI calendario           | Mejora UX          | Sprint 2        |
+| Media     | Configuración de canal preferido de notificaciones   | Perfil del usuario      | Configuración UX   | Sprint 3        |
+| Alta      | Activación del modo accesible                        | Sistema de login/perfil | Inclusión / Acceso | Sprint 2        |
+| Media     | Registro de eventos de interacción con mensajes      | Backend + Analytics     | Observabilidad     | Sprint 3        |
+| Alta      | Generador de mensajes motivacionales personalizados  | Backend de contenido    | Feature core       | Sprint 2        |
+| Baja      | Asistente guiado para primera vez en app             | Sistema de tutoriales   | Onboarding         | Sprint 4        |
+| Media     | Registro detallado de errores en flujos de pacientes | Sistema de logs         | Observabilidad     | Sprint 3        |
 
 
 # Conclusiones y recomendaciones
