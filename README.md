@@ -390,11 +390,15 @@ ambientales y sociales.
 
 TP1: En el desarrollo de OnContigo, trabajé de manera responsable asegurándome de que las funciones implementadas en la sección de perfil y consultas respetaran la privacidad y el correcto manejo de la información de los usuarios.
 
+TB2: Durante el análisis estático y las revisiones de código, asumí una responsabilidad ética al seguir buenas prácticas y estándares. Me aseguré de que el código sea seguro y mantenible, priorizando siempre la calidad y el bienestar de los usuarios.
+
 
 
 Martinez Villanueva, Paolo Del Carmen
 
 TP1: Durante el desarrollo del proyecto, he investigado y aplicado principios éticos y profesionales, asegurando que el software respete la privacidad de los usuarios, promueva la equidad en el acceso y minimice riesgos potenciales derivados de su uso.
+
+TB2: Para esta entrega me enfoqué en demostrar responsabilidad profesional al diseñar un experimento riguroso que respeta la integridad de los datos, garantizar la privacidad de los usuarios y asegurar que las decisiones tomadas estén basadas en evidencia confiable y transparente. Se priorizó la ética en la recolección y análisis de datos, aplicando buenas prácticas experimentales.
 
 
 
@@ -403,18 +407,24 @@ Ramos Mendoza, Juan Pablo
 
 TP1: Para esta primera entrega he revisado las herramientas y técnicas para desarrollar wireframes y mockups al expandir el proyecto original con una aplicación móvil, además de repasar junto con mis compañeros los temas vistos previamente sobre la arquitectura de software y style guidelines.
 
+TB2: Para esta entrega, me enfoqué en realizar mis deberes de forma temprana, considerando los avances de mis compañeros para mantener un buen informe, además de presentar buenas prácticas al momento de realizar las entrevistas de manera formal y concisa, sin guiar a los entrevistados a respuestas cerradas.
+
+
 
 
 Paredes Zapata, Luiggi Gianfranco
 
-TP1: Durante el desarrollo del proyecto, implementé la metodología Core Behavior-Driven Development y Core System Tests con Cucumber y Selenium, asegurándome de que las decisiones de desarrollo fueran éticamente responsables, con especial énfasis en la privacidad, la seguridad de los datos y la transparencia de la información. Estos principios guiaron mi enfoque hacia la creación de una aplicación que no solo cumpla con los estándares técnicos, sino que también garantice el respeto por la privacidad de los usuarios y sus derechos.
-
+TP1: Durante el desarrollo del proyecto, implementé la metodología Core Behavior-Driven Development y Core System Tests con Cucumber y Selenium, asegurándome de que las decisiones de desarrollo fueran éticamente responsables, con especial énfasis en la privacidad, la seguridad de los datos y la transparencia de la información. Estos principios guiaron mi enfoque hacia la creación de una aplicación que no solo cumpla con los estándares técnicos, sino que también garantice el respeto por la privacidad de los usuarios y sus derechos. <br><br>
+TB2: Reconocí la importancia de aplicar principios éticos y profesionales al identificar diversos problemas en la plataforma evaluada, tales como la falta de accesibilidad y una usabilidad limitada para usuarios con discapacidad visual (imágenes sin contraste suficiente y carencia de texto alternativo). Proporcioné recomendaciones específicas para asegurar una experiencia inclusiva, demostrando un claro compromiso con la responsabilidad ética y profesional en la ingeniería de software.
 
 
 
 Mallma Quispe, Ruben Elias
 
-TP1: Participé en la elaboración de entrevistas y el desarrollo del capítulo correspondiente. Esto me permitió fortalecer mis habilidades de investigación y aplicar conceptos clave sobre necesidades de usuario y estructura funcional para plataformas digitales. </td>
+TP1: Participé en la elaboración de entrevistas y el desarrollo del capítulo correspondiente. Esto me permitió fortalecer mis habilidades de investigación y aplicar conceptos clave sobre necesidades de usuario y estructura funcional para plataformas digitales. 
+
+TB2: En la arquitectura DevOps descrita, asumi la responsabilidad ética de entregar software seguro y confiable: cada commit pasa por análisis de vulnerabilidades, pruebas automatizadas y revisiones que previenen la introducción de fallos críticos. Además, los "gates" de calidad (como la cobertura mínima y la protección de ramas) refuerzan la obligación profesional de mantener la integridad del sistema y proteger los datos de los usuarios.
+</td>
 <td>El equipo logró actualizar y aplicar conocimientos fundamentales durante el desarrollo del entregable TB1, fortaleciendo su formación profesional a través de actividades como la investigación de metodologías Lean UX, la elaboración de entrevistas, el análisis de usuarios, el diseño de hipótesis y la definición de requerimientos funcionales. Estas acciones permitieron comprender mejor las necesidades del usuario final y cómo diseñar soluciones digitales que respondan a esas necesidades. El trabajo colaborativo, la estructuración de contenidos por capítulos y el enfoque constante en la experiencia del usuario nos permitieron consolidar una base sólida para el desarrollo del proyecto, alineado a estándares profesionales y buenas prácticas de ingeniería de software. </td>
   </tr>
   <tr>
@@ -423,11 +433,15 @@ TP1: Participé en la elaboración de entrevistas y el desarrollo del capítulo 
 
 TP1: Durante el desarrollo, tomé decisiones considerando cómo las funcionalidades impactarían en la experiencia de pacientes y médicos, priorizando que la app fuera segura, accesible y de apoyo real en el proceso de tratamiento oncológico.
 
+TB2: Al evaluar la calidad y seguridad del código, consideré cómo las decisiones técnicas afectan el rendimiento, los costos y el impacto ambiental. Esto me permitió emitir juicios informados con una visión global y socialmente responsable.
+
 
 
 Martinez Villanueva, Paolo Del Carmen
 
 TP1: He evaluado junto al equipo los posibles impactos sociales, económicos y ambientales de nuestra solución, priorizando decisiones de diseño que favorezcan la sostenibilidad, accesibilidad y adaptabilidad del software a diferentes realidades globales.
+
+TB2: He elaborado un diseño experimental orientado a tomar decisiones fundamentadas sobre el comportamiento de los usuarios, seleccionando métricas y KPIs alineados con metas de impacto real. Consideré cómo los resultados influyen en la mejora del sistema desde una perspectiva accesible, sostenible y centrada en el usuario.
 
 
 
@@ -436,17 +450,23 @@ Ramos Mendoza, Juan Pablo
 
 TP1: Tomé consideración en cada momento del desarrollo y uso de wireframes y mockups en todo momento para asegurar una base de gran utilidad durante el desarrollo de nuestra aplicación, además de seguir un buen orden durante el desarrollo de las entrevistas, permitiendo obtener resultados que sirvieron de base para nuestro proyecto de nuestros usuarios objetivo.
 
+TB2: Mantuve el uso de buenas prácticas al momento de revisar el código, asegurando que mis compañeros siguieran una buena estructura.
+
 
 
 Paredes Zapata, Luiggi Gianfranco
 
-TP1: Durante el desarrollo de la aplicación, evalué el impacto global y social de las soluciones implementadas, tomando decisiones informadas sobre el uso de tecnologías que favorecieran la accesibilidad y sostenibilidad. A través de Core Behavior-Driven Development, garantizamos que las decisiones tecnológicas fueran conscientes de los impactos económicos, sociales y ambientales, priorizando la adaptabilidad y accesibilidad en diversas realidades.
-
+TP1: Durante el desarrollo de la aplicación, evalué el impacto global y social de las soluciones implementadas, tomando decisiones informadas sobre el uso de tecnologías que favorecieran la accesibilidad y sostenibilidad. A través de Core Behavior-Driven Development, garantizamos que las decisiones tecnológicas fueran conscientes de los impactos económicos, sociales y ambientales, priorizando la adaptabilidad y accesibilidad en diversas realidades.<br><br>
+TB2: Al realizar la auditoría UX, identifiqué cómo diversas deficiencias, como la responsividad inadecuada y problemas visuales en la interfaz, afectaban directamente a diferentes grupos de usuarios. Al proponer soluciones como la implementación de descripciones claras y mejoras en accesibilidad, consideré el impacto social, económico y global, reconociendo que una plataforma intuitiva y accesible contribuye positivamente al entorno digital inclusivo y a la satisfacción de usuarios diversos.
 
 
 Mallma Quispe, Ruben Elias
 
-TP1: Identifiqué la importancia de mantenerme actualizado en metodologías ágiles y herramientas tecnológicas para mejorar mis competencias y aportar soluciones efectivas en el proyecto y en mi futuro profesional. </td>
+TP1: Identifiqué la importancia de mantenerme actualizado en metodologías ágiles y herramientas tecnológicas para mejorar mis competencias y aportar soluciones efectivas en el proyecto y en mi futuro profesional. 
+
+TB2: Las decisiones del pipeline consideran su efecto global, económico y social: el despliegue canary limita el riesgo para la base de usuarios mundial, mientras que el monitoreo continuo permite reaccionar rápidamente para minimizar pérdidas operativas. Asimismo, la medición de métricas de eficiencia (latencia, uso de CPU) fomenta soluciones más sostenibles, y los post-mortems documentan lecciones que guían mejoras con un enfoque inclusivo y responsable en futuras iteraciones.
+
+</td>
 <td>El equipo logró actualizar y aplicar conocimientos fundamentales durante el desarrollo del entregable TB1, fortaleciendo su formación profesional a través de actividades como la investigación de metodologías Lean UX, la elaboración de entrevistas, el análisis de usuarios, el diseño de hipótesis y la definición de requerimientos funcionales. Estas acciones permitieron comprender mejor las necesidades del usuario final y cómo diseñar soluciones digitales que respondan a esas necesidades. El trabajo colaborativo, la estructuración de contenidos por capítulos y el enfoque constante en la experiencia del usuario nos permitieron consolidar una base sólida para el desarrollo del proyecto, alineado a estándares profesionales y buenas prácticas de ingeniería de software. </td>
   </tr>
 </table>
@@ -3001,8 +3021,6 @@ Se verificó el proceso de creación de un registro de seguimiento de salud para
 
 <img src="./img/Chapter-6/CoreSystemTests3.png">
 
-
-
 ## 6.2. Static Testing & Verification
 ### 6.2.1. Static Code Analysis
 #### 6.2.1.1. Coding Standard & Code Conventions
@@ -3226,7 +3244,80 @@ Reduzca el resalte del logo en el cuadro o colóquelo de manera más equilibrada
 
 **Recomendación**: Se sugiere enriquecer la sección "About Us" con videos informativos que presenten el producto y el equipo de desarrollo de la aplicación. Esto mejorará la visibilidad del estado del sistema y proporcionará a los usuarios una comprensión más completa, cumpliendo con el principio de "Visibilidad del estado del sistema."
 
+### 6.4. Auditoría de Experiencias de Usuario
+### 6.4.1. Auditoría realizada.
+#### 6.4.1.1. Información del grupo auditado.
+  - Nombre del responsable de auditoría: Grupo B
+  - Especialización: Especialistas en diseño de interfaces (UI), accesibilidad web y evaluación de experiencias inclusivas.
+  - Fecha de auditoría: 07/06/2025 - 14/06/2025	
+#### Herramientas utilizadas:
+  - Pruebas de usabilidad realizadas con usuarios reales para identificar fricciones en la experiencia. 
+  - Herramientas de análisis de comportamiento como Google Analytics y Hotjar, para observar el flujo de navegación y puntos críticos. 
+  - Evaluación heurística utilizando los 10 principios de usabilidad de Jakob Nielsen.
+#### 6.4.1.2. Cronograma de auditoría realizada.
+| Fecha      | Actividad                                                                | Responsable     |
+|------------|--------------------------------------------------------------------------|-----------------|
+| 07/06/2025 | Reunión inicial con el cliente para definir objetivos de la auditoría UX | Luiggi Paredes  |
+| 10/06/2025 | Ejecución de pruebas de usabilidad y recopilación de hallazgos           | Ruben Mallma    |
+| 12/06/2025 | Evaluación heurística y análisis de datos de comportamiento              | Paolo Martinez  |
+| 14/06/2025 | Elaboración de informe y presentación de recomendaciones                 | Christian Matos |
 
+#### 6.4.1.3. Contenido de auditoría realizada.
+| # | Problema                                                                                                                                             | Escala de severidad | Heurística/Principio violado(a)                                  |
+|---|------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------|------------------------------------------------------------------|
+| 1 | La responsividad de ciertas partes del Landing Page no es buena                                                                                      | 3                   | Inclusive Design: Estética y diseño minimalista.                 |
+| 2 | Falta una descripción para cada empresa en la pestaña Home                                                                                           | 2                   | Visibilidad del estado del sistema                               |
+| 3 | No hay mensaje de confirmación al eliminar un proyecto                                                                                               | 3                   | Prevención de errores y Control del usuario                      |
+| 4 | Paleta de colores poco armoniosa                                                                                                                     | 1                   | Estética y diseño minimalista y Consistencia y estándares        |
+| 5 | Foto de perfil mal presentada en la sección de edición                                                                                               | 2                   | Estética y diseño minimalista, Consistencia y estándares         |
+| 6 | Falta funcionalidad de reseñas (escribir y visualizar)                                                                                               | 3                   | Retroalimentación del usuario y Flexibilidad y eficiencia de uso |
+| 7 | Los remodeladores no pueden seleccionar proyectos. También, los botones de sign-in y sign-up no son dinámicos; falta de personalización de contenido | 4                   | Inclusive Design: Adaptabilidad y Flexibilidad                   |
+| 8 | Los contratistas no pueden acceder a sus proyectos                                                                                                   | 4                   | Usability: Control y libertad del usuario                        |
+
+### 6.4.2. Auditoría recibida.
+
+#### 6.4.2.1. Información del grupo auditor.
+- Nombre del responsable de auditoría: Estrellados
+- Especialización: Equipo multidisciplinario con experiencia en diseño centrado en el usuario (UX), pruebas de usabilidad, análisis de interacción y desarrollo de software.
+- Fecha de auditoría: 07/06/2025 - 14/06/2025
+#### 6.4.2.2. Cronograma de auditoría recibida.
+| Fecha      | Actividad                                                                | Responsable        |
+| ---------- | ------------------------------------------------------------------------ | ------------------ |
+| 07/06/2025 | Revisión del alcance del proyecto y planificación de la auditoría        | Mariana Chambi     |
+| 10/06/2025 | Aplicación de pruebas de usabilidad con usuarios                         | Ely Cortez         |
+| 12/06/2025 | Evaluación heurística según principios de Nielsen                        | Maria Diaz         |
+| 14/06/2025 | Análisis de resultados y redacción del informe preliminar                | Paolo Párraga      |
+| 14/06/2025 | Revisión cruzada del informe y validación de hallazgos                   | Stefano Valenzuela |
+| 14/06/2025 | Presentación de resultados y recomendaciones de mejora al equipo cliente | Joaquín Cortez     |
+
+#### 6.4.2.3. Contenido de auditoría recibida.
+
+| # | Problema                                                                                                                                                                | Escala de severidad | Heurística/Principio violado(a)                          |
+| - | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | -------------------------------------------------------- |
+| 1 | Varias imágenes tienen bajo contraste con el fondo, dificultando la identificación visual para usuarios con visión reducida.                                            | 3                   | Accesibilidad; Estética y diseño minimalista             |
+| 2 | El logo y los íconos grandes sobre imágenes en la home generan ruido visual, restando foco al mensaje principal.                                                        | 2                   | Estética y diseño minimalista; Consistencia y estándares |
+| 3 | No todas las imágenes decorativas cuentan con texto alternativo (alt), afectando el acceso de usuarios con lectores de pantalla.                                        | 4                   | Accesibilidad; Ayuda y documentación                     |
+| 4 | El uso inconsistente de fondos (algunas secciones con fondo azul, otras rosado) puede confundir sobre la jerarquía visual de la información.                            | 2                   | Consistencia y estándares                                |
+| 5 | Las fotos de perfil de los miembros tienen distintos estilos (algunos recortes irregulares, fondos diferentes), perdiendo armonía visual.                               | 2                   | Estética y diseño minimalista; Consistencia y estándares |
+| 6 | Algunas imágenes están estiradas o pixeladas (por ejemplo, iconos grandes), perdiendo calidad y profesionalismo.                                                        | 2                   | Estética y diseño minimalista                            |
+| 7 | El tamaño de las imágenes de servicios no es uniforme, provocando desbalance visual en la sección “Servicios”.                                                          | 1                   | Estética y diseño minimalista                            |
+| 8 | No hay mecanismo para ampliar imágenes relevantes (por ejemplo, testimonios o recursos informativos), limitando la experiencia para usuarios que necesitan más detalle. | 1                   | Flexibilidad y eficiencia de uso; Accesibilidad          |
+
+
+#### 6.4.2.4. Resumen de modificaciones para subsanar hallazgos.
+
+| # | Problema                                                                     | Subsanación                                                                                                 |
+| - | ---------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| 1 | La responsividad de ciertas partes del Landing Page no es buena              | Ajustar media queries y revisar CSS para asegurar que todos los elementos se adapten correctamente.         |
+| 2 | Falta una descripción para cada empresa en la pestaña Home                   | Incluir descripciones breves y claras para cada empresa visible en la pestaña Home.                         |
+| 3 | No hay mensaje de confirmación al eliminar un proyecto                       | Añadir cuadro de confirmación al intentar eliminar un proyecto, con botones de "Cancelar" y "Confirmar".    |
+| 4 | Paleta de colores poco armoniosa                                             | Unificar y armonizar los colores para mantener la consistencia visual y mejorar la experiencia del usuario. |
+| 5 | Foto de perfil mal presentada en la sección de edición                       | Desarrollar módulo de reseñas con opción para valorar y comentar experiencias previas.                      |
+| 6 | Los remodeladores no pueden seleccionar proyectos                            | Implementar página donde los remodeladores puedan visualizar y elegir proyectos disponibles.                |
+| 7 | Los contratistas no pueden acceder a sus proyectos                           | Habilitar una sección funcional para que los contratistas gestionen sus proyectos desde la plataforma.      |
+| 8 | Botones de sign-in/sign-up no dinámicos + falta personalización de contenido | Agregar animaciones CSS a los botones y lógica para mostrar contenido personalizado según preferencias.     |
+
+  
 # Capítulo VII: DevOps Practices
 
 ## 7.1. Continuous Integration
