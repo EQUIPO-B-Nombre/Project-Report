@@ -95,7 +95,21 @@ Link del Repositorio: [Repositorio](https://github.com/EQUIPO-B-Nombre/Project-R
 
 # Project Report Collaboration Insights
 
-En esta entrega cada uno de los integrantes realizo los siguientes puntos:
+En esta entrega para la TB1 cada uno de los integrantes realizo los siguientes puntos:
+
+- Mallma Quispe, Ruben Elias: Capítulo 7: DevOps Practices
+- Paredes Zapata, Luiggi Gianfranco: Capítulo 6: Product Verification & Validation
+- Matos Fernandez, Christian Andre: Capítulo 6: Product Verification & Validation
+- Ramos Mendoza, Juan Pablo: Capítulo 7: DevOps Practices
+- Martinez Villanueva, Paolo Del Carmen: Capítulo 7: DevOps Practices
+
+<img src="img/collaboration_insights_tb1.png" alt="Collaboration Insight tb1" >
+
+<img src="img/collaboration_tb1.png" alt="Collaboration Insight tb1" >
+
+-----
+
+En esta entrega para la TP1 cada uno de los integrantes realizo los siguientes puntos:
 
 - Mallma Quispe, Ruben Elias: Capítulo 1 Introducción
 - Paredes Zapata, Luiggi Gianfranco: Capítulo 2 Requirements Elicitation & Analysis
@@ -103,9 +117,9 @@ En esta entrega cada uno de los integrantes realizo los siguientes puntos:
 - Ramos Mendoza, Juan Pablo: Capítulo 4 Product Design
 - Martinez Villanueva, Paolo Del Carmen: Capítulo 5: Product Implementation
 
-<img src="img/collaboration_insights_tb1.png" alt="Collaboration Insight tb1" >
+<img src="img/collaboration_insights_tp1.png" alt="Collaboration Insight tp1" >
 
-<img src="img/collaboration_tb1.png" alt="Collaboration Insight tb1" >
+<img src="img/collaboration_tp1.png" alt="Collaboration Insight tp1" >
 
 # Tabla de Contenido
 
@@ -227,24 +241,129 @@ En esta entrega cada uno de los integrantes realizo los siguientes puntos:
     - [5.2.7. Team Collaboration Insights](#527-team-collaboration-insights)
   - [5.3. Video About-the-Product](#53-video-about-the-product)
   - [Conclusiones](#conclusiones)
-- [Capítulo VI: Product Verification & Validation](#capítulo-vi-product-verification--validation)
+- [Capítulo VI: Product Verification & Validation](#capítulo-vi-product-verification--validation)  
+  - [6.1. Testing Suites & Validation](#61-testing-suites--validation)  
+    - [6.1.1. Core Entities Unit Tests](#611-core-entities-unit-tests)  
+    - [6.1.2. Core Integration Tests](#612-core-integration-tests)  
+    - [6.1.3. Core Behavior-Driven Development](#613-core-behavior-driven-development)  
+    - [6.1.4. Core System Tests](#614-core-system-tests)  
+  - [6.2. Static Testing & Verification](#62-static-testing--verification)  
+    - [6.2.1. Static Code Analysis](#621-static-code-analysis)  
+      - [6.2.1.1. Coding Standard & Code Conventions](#6211-coding-standard--code-conventions)  
+      - [6.2.1.2. Code Quality & Code Security](#6212-code-quality--code-security)  
+    - [6.2.2. Reviews](#622-reviews)  
+  - [6.3. Validation Interviews](#63-validation-interviews)  
+    - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)  
+    - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)  
+    - [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)  
+  - [6.4. Auditoría de Experiencias de Usuario](#64-auditoría-de-experiencias-de-usuario)  
+    - [6.4.1. Auditoría Realizada](#641-auditoría-realizada)  
+      - [6.4.1.1. Información del Grupo Auditado](#6411-información-del-grupo-auditado)  
+      - [6.4.1.2. Cronograma de Auditoría Realizada](#6412-cronograma-de-auditoría-realizada)  
+      - [6.4.1.3. Contenido de Auditoría Realizada](#6413-contenido-de-auditoría-realizada)  
+    - [6.4.2. Auditoría Recibida](#642-auditoría-recibida)  
+      - [6.4.2.1. Información del Grupo Auditor](#6421-información-del-grupo-auditor)  
+      - [6.4.2.2. Cronograma de Auditoría Recibida](#6422-cronograma-de-auditoría-recibida)  
+      - [6.4.2.3. Contenido de Auditoría Recibida](#6423-contenido-de-auditoría-recibida)  
+      - [6.4.2.4. Resumen de Modificaciones para Subsanar Hallazgos](#6424-resumen-de-modificaciones-para-subsanar-hallazgos)  
 
-  - [6.1. Testing Suites & Validation](#61-testing-suites--validation)
-    - [6.1.1. Core Entities Unit Tests](#611-core-entities-unit-tests)
-    - [6.1.2. Core Integration Tests](#612-core-integration-tests)
-    - [6.1.3. Core Behaviour-Driven Development](#613-core-behaviour-driven-development)
-    - [6.1.4. Core System Tests](#614-core-system-tests)
-- [Capítulo VII: DevOps Practices](#capítulo-vii-devops-practices)
+- [Capítulo VII: DevOps Practices](#capítulo-vii-devops-practices)  
+  - [7.1. Continuous Integration](#71-continuous-integration)  
+    - [7.1.1. Tools and Practices](#711-tools-and-practices)  
+    - [7.1.2. Build & Test Suite Pipeline Components](#712-build--test-suite-pipeline-components)  
+  - [7.2. Continuous Delivery](#72-continuous-delivery)  
+    - [7.2.1. Tools and Practices](#721-tools-and-practices)  
+    - [7.2.2. Stages Deployment Pipeline Components](#722-stages-deployment-pipeline-components)  
+  - [7.3. Continuous Deployment](#73-continuous-deployment)  
+    - [7.3.1. Tools and Practices](#731-tools-and-practices)  
+    - [7.3.2. Production Deployment Pipeline Components](#732-production-deployment-pipeline-components)  
+  - [7.4. Continuous Monitoring](#74-continuous-monitoring)  
+    - [7.4.1. Tools and Practices](#741-tools-and-practices)  
+    - [7.4.2. Monitoring Pipeline Components](#742-monitoring-pipeline-components)  
+    - [7.4.3. Alerting Pipeline Components](#743-alerting-pipeline-components)  
+    - [7.4.4. Notification Pipeline Components](#744-notification-pipeline-components)  
 
-  - [7.1. Continuous Integration](#71-continuous-integration)
-    - [7.1.1. Tools and Practices](#711-tools-and-practices)
-    - [7.1.2. Builds & Test Suite Pipeline Components](#712-builds--test-suite-pipeline-components)
-  - [7.2. Continuous Delivery](#72-continuous-delivery)
-    - [7.2.1. Tools and Practices](#721-tools-and-practices)
-    - [7.2.2. Stages Deployment Pipeline Components](#722-stages-deployment-pipeline-components)
-  - [7.3. Continuous Deployment](#73-continuous-deployment)
-    - [7.3.1. Tools and Practices](#731-tools-and-practices)
-    - [7.3.2. Production Deployment Pipeline Components](#732-production-deployment-pipeline-components)
+- [Capítulo VI: Product Verification & Validation](#capítulo-vi-product-verification--validation)  
+  - [6.1. Testing Suites & Validation](#61-testing-suites--validation)  
+    - [6.1.1. Core Entities Unit Tests](#611-core-entities-unit-tests)  
+    - [6.1.2. Core Integration Tests](#612-core-integration-tests)  
+    - [6.1.3. Core Behavior-Driven Development](#613-core-behavior-driven-development)  
+    - [6.1.4. Core System Tests](#614-core-system-tests)  
+  - [6.2. Static Testing & Verification](#62-static-testing--verification)  
+    - [6.2.1. Static Code Analysis](#621-static-code-analysis)  
+      - [6.2.1.1. Coding Standard & Code Conventions](#6211-coding-standard--code-conventions)  
+      - [6.2.1.2. Code Quality & Code Security](#6212-code-quality--code-security)  
+    - [6.2.2. Reviews](#622-reviews)  
+  - [6.3. Validation Interviews](#63-validation-interviews)  
+    - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)  
+    - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)  
+    - [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)  
+  - [6.4. Auditoría de Experiencias de Usuario](#64-auditoría-de-experiencias-de-usuario)  
+    - [6.4.1. Auditoría Realizada](#641-auditoría-realizada)  
+      - [6.4.1.1. Información del Grupo Auditado](#6411-información-del-grupo-auditado)  
+      - [6.4.1.2. Cronograma de Auditoría Realizada](#6412-cronograma-de-auditoría-realizada)  
+      - [6.4.1.3. Contenido de Auditoría Realizada](#6413-contenido-de-auditoría-realizada)  
+    - [6.4.2. Auditoría Recibida](#642-auditoría-recibida)  
+      - [6.4.2.1. Información del Grupo Auditor](#6421-información-del-grupo-auditor)  
+      - [6.4.2.2. Cronograma de Auditoría Recibida](#6422-cronograma-de-auditoría-recibida)  
+      - [6.4.2.3. Contenido de Auditoría Recibida](#6423-contenido-de-auditoría-recibida)  
+      - [6.4.2.4. Resumen de Modificaciones para Subsanar Hallazgos](#6424-resumen-de-modificaciones-para-subsanar-hallazgos)  
+
+- [Capítulo VII: DevOps Practices](#capítulo-vii-devops-practices)  
+  - [7.1. Continuous Integration](#71-continuous-integration)  
+    - [7.1.1. Tools and Practices](#711-tools-and-practices)  
+    - [7.1.2. Build & Test Suite Pipeline Components](#712-build--test-suite-pipeline-components)  
+  - [7.2. Continuous Delivery](#72-continuous-delivery)  
+    - [7.2.1. Tools and Practices](#721-tools-and-practices)  
+    - [7.2.2. Stages Deployment Pipeline Components](#722-stages-deployment-pipeline-components)  
+  - [7.3. Continuous Deployment](#73-continuous-deployment)  
+    - [7.3.1. Tools and Practices](#731-tools-and-practices)  
+    - [7.3.2. Production Deployment Pipeline Components](#732-production-deployment-pipeline-components)  
+  - [7.4. Continuous Monitoring](#74-continuous-monitoring)  
+    - [7.4.1. Tools and Practices](#741-tools-and-practices)  
+    - [7.4.2. Monitoring Pipeline Components](#742-monitoring-pipeline-components)  
+    - [7.4.3. Alerting Pipeline Components](#743-alerting-pipeline-components)  
+    - [7.4.4. Notification Pipeline Components](#744-notification-pipeline-components)
+
+- [Part III: Experiment-Driven Lifecycle](#part-iii-experiment-driven-lifecycle)  
+
+- [Capítulo VIII: Experiment-Driven Development](#capítulo-viii-experiment-driven-development)  
+  - [8.1. Experiment Planning](#81-experiment-planning)  
+    - [8.1.1. As-Is Summary](#811-as-is-summary)  
+    - [8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims](#812-raw-material-assumptions-knowledge-gaps-ideas-claims)  
+    - [8.1.3. Experiment-Ready Questions](#813-experiment-ready-questions)  
+    - [8.1.4. Question Backlog](#814-question-backlog)  
+    - [8.1.5. Experiment Cards](#815-experiment-cards)  
+  - [8.2. Experiment Design](#82-experiment-design)  
+    - [8.2.1. Hypotheses](#821-hypotheses)  
+    - [8.2.2. Measures](#822-measures)  
+    - [8.2.3. Conditions](#823-conditions)  
+    - [8.2.4. Scale Calculations and Decisions](#824-scale-calculations-and-decisions)  
+    - [8.2.5. Methods Selection](#825-methods-selection)  
+    - [8.2.6. Data Analytics: Goals, KPIs and Metrics Selection](#826-data-analytics-goals-kpis-and-metrics-selection)  
+    - [8.2.7. Web and Mobile Tracking Plan](#827-web-and-mobile-tracking-plan)  
+  - [8.3. Experimentation](#83-experimentation)  
+    - [8.3.1. To-Be User Stories](#831-to-be-user-stories)  
+    - [8.3.2. To-Be Product Backlog](#832-to-be-product-backlog)  
+    - [8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle](#833-pipeline-supported-experiment-driven-to-be-software-platform-lifecycle)  
+      - [8.3.3.1. To-Be Sprint Backlogs](#8331-to-be-sprint-backlogs)  
+      - [8.3.3.2. Implemented To-Be Landing Page Evidence](#8332-implemented-to-be-landing-page-evidence)  
+      - [8.3.3.3. Implemented To-Be Frontend-Web Application Evidence](#8333-implemented-to-be-frontend-web-application-evidence)  
+      - [8.3.3.4. Implemented To-Be Native-Mobile Application Evidence](#8334-implemented-to-be-native-mobile-application-evidence)  
+      - [8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence](#8335-implemented-to-be-restful-api-andor-serverless-backend-evidence)  
+      - [8.3.3.6. Team Collaboration Insights](#8336-team-collaboration-insights)  
+    - [8.3.4. To-Be Validation Interviews](#834-to-be-validation-interviews)  
+      - [8.3.4.1. Diseño de Entrevistas](#8341-diseño-de-entrevistas)  
+      - [8.3.4.2. Registro de Entrevistas](#8342-registro-de-entrevistas)  
+  - [8.4. Experiment Aftermath & Analysis](#84-experiment-aftermath--analysis)  
+    - [8.4.1. Analysis and Interpretation of Results](#841-analysis-and-interpretation-of-results)  
+    - [8.4.2. Re-scored and Re-prioritized Question Backlog](#842-re-scored-and-re-prioritized-question-backlog)  
+  - [8.5. Continuous Learning](#85-continuous-learning)  
+    - [8.5.1. Shareback Session Artifacts: Learning Workflow](#851-shareback-session-artifacts-learning-workflow)  
+  - [8.6. To-Be Software Platform Pre-launch](#86-to-be-software-platform-pre-launch)  
+    - [8.6.1. About-the-Product Intro Video](#861-about-the-product-intro-video)
+
+
 
 [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
 
@@ -271,11 +390,15 @@ ambientales y sociales.
 
 TP1: En el desarrollo de OnContigo, trabajé de manera responsable asegurándome de que las funciones implementadas en la sección de perfil y consultas respetaran la privacidad y el correcto manejo de la información de los usuarios.
 
+TB2: Durante el análisis estático y las revisiones de código, asumí una responsabilidad ética al seguir buenas prácticas y estándares. Me aseguré de que el código sea seguro y mantenible, priorizando siempre la calidad y el bienestar de los usuarios.
+
 
 
 Martinez Villanueva, Paolo Del Carmen
 
 TP1: Durante el desarrollo del proyecto, he investigado y aplicado principios éticos y profesionales, asegurando que el software respete la privacidad de los usuarios, promueva la equidad en el acceso y minimice riesgos potenciales derivados de su uso.
+
+TB2: Para esta entrega me enfoqué en demostrar responsabilidad profesional al diseñar un experimento riguroso que respeta la integridad de los datos, garantizar la privacidad de los usuarios y asegurar que las decisiones tomadas estén basadas en evidencia confiable y transparente. Se priorizó la ética en la recolección y análisis de datos, aplicando buenas prácticas experimentales.
 
 
 
@@ -284,18 +407,24 @@ Ramos Mendoza, Juan Pablo
 
 TP1: Para esta primera entrega he revisado las herramientas y técnicas para desarrollar wireframes y mockups al expandir el proyecto original con una aplicación móvil, además de repasar junto con mis compañeros los temas vistos previamente sobre la arquitectura de software y style guidelines.
 
+TB2: Para esta entrega, me enfoqué en realizar mis deberes de forma temprana, considerando los avances de mis compañeros para mantener un buen informe, además de presentar buenas prácticas al momento de realizar las entrevistas de manera formal y concisa, sin guiar a los entrevistados a respuestas cerradas.
+
+
 
 
 Paredes Zapata, Luiggi Gianfranco
 
-TP1: Durante el desarrollo del proyecto, implementé la metodología Core Behavior-Driven Development y Core System Tests con Cucumber y Selenium, asegurándome de que las decisiones de desarrollo fueran éticamente responsables, con especial énfasis en la privacidad, la seguridad de los datos y la transparencia de la información. Estos principios guiaron mi enfoque hacia la creación de una aplicación que no solo cumpla con los estándares técnicos, sino que también garantice el respeto por la privacidad de los usuarios y sus derechos.
-
+TP1: Durante el desarrollo del proyecto, implementé la metodología Core Behavior-Driven Development y Core System Tests con Cucumber y Selenium, asegurándome de que las decisiones de desarrollo fueran éticamente responsables, con especial énfasis en la privacidad, la seguridad de los datos y la transparencia de la información. Estos principios guiaron mi enfoque hacia la creación de una aplicación que no solo cumpla con los estándares técnicos, sino que también garantice el respeto por la privacidad de los usuarios y sus derechos. <br><br>
+TB2: Reconocí la importancia de aplicar principios éticos y profesionales al identificar diversos problemas en la plataforma evaluada, tales como la falta de accesibilidad y una usabilidad limitada para usuarios con discapacidad visual (imágenes sin contraste suficiente y carencia de texto alternativo). Proporcioné recomendaciones específicas para asegurar una experiencia inclusiva, demostrando un claro compromiso con la responsabilidad ética y profesional en la ingeniería de software.
 
 
 
 Mallma Quispe, Ruben Elias
 
-TP1: Participé en la elaboración de entrevistas y el desarrollo del capítulo correspondiente. Esto me permitió fortalecer mis habilidades de investigación y aplicar conceptos clave sobre necesidades de usuario y estructura funcional para plataformas digitales. </td>
+TP1: Participé en la elaboración de entrevistas y el desarrollo del capítulo correspondiente. Esto me permitió fortalecer mis habilidades de investigación y aplicar conceptos clave sobre necesidades de usuario y estructura funcional para plataformas digitales. 
+
+TB2: En la arquitectura DevOps descrita, asumi la responsabilidad ética de entregar software seguro y confiable: cada commit pasa por análisis de vulnerabilidades, pruebas automatizadas y revisiones que previenen la introducción de fallos críticos. Además, los "gates" de calidad (como la cobertura mínima y la protección de ramas) refuerzan la obligación profesional de mantener la integridad del sistema y proteger los datos de los usuarios.
+</td>
 <td>El equipo logró actualizar y aplicar conocimientos fundamentales durante el desarrollo del entregable TB1, fortaleciendo su formación profesional a través de actividades como la investigación de metodologías Lean UX, la elaboración de entrevistas, el análisis de usuarios, el diseño de hipótesis y la definición de requerimientos funcionales. Estas acciones permitieron comprender mejor las necesidades del usuario final y cómo diseñar soluciones digitales que respondan a esas necesidades. El trabajo colaborativo, la estructuración de contenidos por capítulos y el enfoque constante en la experiencia del usuario nos permitieron consolidar una base sólida para el desarrollo del proyecto, alineado a estándares profesionales y buenas prácticas de ingeniería de software. </td>
   </tr>
   <tr>
@@ -304,11 +433,15 @@ TP1: Participé en la elaboración de entrevistas y el desarrollo del capítulo 
 
 TP1: Durante el desarrollo, tomé decisiones considerando cómo las funcionalidades impactarían en la experiencia de pacientes y médicos, priorizando que la app fuera segura, accesible y de apoyo real en el proceso de tratamiento oncológico.
 
+TB2: Al evaluar la calidad y seguridad del código, consideré cómo las decisiones técnicas afectan el rendimiento, los costos y el impacto ambiental. Esto me permitió emitir juicios informados con una visión global y socialmente responsable.
+
 
 
 Martinez Villanueva, Paolo Del Carmen
 
 TP1: He evaluado junto al equipo los posibles impactos sociales, económicos y ambientales de nuestra solución, priorizando decisiones de diseño que favorezcan la sostenibilidad, accesibilidad y adaptabilidad del software a diferentes realidades globales.
+
+TB2: He elaborado un diseño experimental orientado a tomar decisiones fundamentadas sobre el comportamiento de los usuarios, seleccionando métricas y KPIs alineados con metas de impacto real. Consideré cómo los resultados influyen en la mejora del sistema desde una perspectiva accesible, sostenible y centrada en el usuario.
 
 
 
@@ -317,17 +450,23 @@ Ramos Mendoza, Juan Pablo
 
 TP1: Tomé consideración en cada momento del desarrollo y uso de wireframes y mockups en todo momento para asegurar una base de gran utilidad durante el desarrollo de nuestra aplicación, además de seguir un buen orden durante el desarrollo de las entrevistas, permitiendo obtener resultados que sirvieron de base para nuestro proyecto de nuestros usuarios objetivo.
 
+TB2: Mantuve el uso de buenas prácticas al momento de revisar el código, asegurando que mis compañeros siguieran una buena estructura.
+
 
 
 Paredes Zapata, Luiggi Gianfranco
 
-TP1: Durante el desarrollo de la aplicación, evalué el impacto global y social de las soluciones implementadas, tomando decisiones informadas sobre el uso de tecnologías que favorecieran la accesibilidad y sostenibilidad. A través de Core Behavior-Driven Development, garantizamos que las decisiones tecnológicas fueran conscientes de los impactos económicos, sociales y ambientales, priorizando la adaptabilidad y accesibilidad en diversas realidades.
-
+TP1: Durante el desarrollo de la aplicación, evalué el impacto global y social de las soluciones implementadas, tomando decisiones informadas sobre el uso de tecnologías que favorecieran la accesibilidad y sostenibilidad. A través de Core Behavior-Driven Development, garantizamos que las decisiones tecnológicas fueran conscientes de los impactos económicos, sociales y ambientales, priorizando la adaptabilidad y accesibilidad en diversas realidades.<br><br>
+TB2: Al realizar la auditoría UX, identifiqué cómo diversas deficiencias, como la responsividad inadecuada y problemas visuales en la interfaz, afectaban directamente a diferentes grupos de usuarios. Al proponer soluciones como la implementación de descripciones claras y mejoras en accesibilidad, consideré el impacto social, económico y global, reconociendo que una plataforma intuitiva y accesible contribuye positivamente al entorno digital inclusivo y a la satisfacción de usuarios diversos.
 
 
 Mallma Quispe, Ruben Elias
 
-TP1: Identifiqué la importancia de mantenerme actualizado en metodologías ágiles y herramientas tecnológicas para mejorar mis competencias y aportar soluciones efectivas en el proyecto y en mi futuro profesional. </td>
+TP1: Identifiqué la importancia de mantenerme actualizado en metodologías ágiles y herramientas tecnológicas para mejorar mis competencias y aportar soluciones efectivas en el proyecto y en mi futuro profesional. 
+
+TB2: Las decisiones del pipeline consideran su efecto global, económico y social: el despliegue canary limita el riesgo para la base de usuarios mundial, mientras que el monitoreo continuo permite reaccionar rápidamente para minimizar pérdidas operativas. Asimismo, la medición de métricas de eficiencia (latencia, uso de CPU) fomenta soluciones más sostenibles, y los post-mortems documentan lecciones que guían mejoras con un enfoque inclusivo y responsable en futuras iteraciones.
+
+</td>
 <td>El equipo logró actualizar y aplicar conocimientos fundamentales durante el desarrollo del entregable TB1, fortaleciendo su formación profesional a través de actividades como la investigación de metodologías Lean UX, la elaboración de entrevistas, el análisis de usuarios, el diseño de hipótesis y la definición de requerimientos funcionales. Estas acciones permitieron comprender mejor las necesidades del usuario final y cómo diseñar soluciones digitales que respondan a esas necesidades. El trabajo colaborativo, la estructuración de contenidos por capítulos y el enfoque constante en la experiencia del usuario nos permitieron consolidar una base sólida para el desarrollo del proyecto, alineado a estándares profesionales y buenas prácticas de ingeniería de software. </td>
   </tr>
 </table>
@@ -1996,7 +2135,7 @@ implementación
 
 ### 4.10.1. Relational/Non-Relational Database Diagram
 
-<image src="img/Chapter-4/Database_Model.png"> <br>
+<image src="img/base_datos_oncontigo.png"> <br>
 
 # Capítulo V: Product Implementation
 
@@ -2784,7 +2923,7 @@ Se implementaron pruebas unitarias dirigidas a las entidades clave del sistema, 
 
 Entre las entidades evaluadas se incluyen:
 
-Resumen de pruebas unitarias en Agrotech API
+Resumen de pruebas unitarias en Oncontigo API
 --
 
 Las pruebas desarrolladas en los diferentes módulos del proyecto se basan principalmente en JUnit 5 para la ejecución de los tests y en Mockito para simular dependencias externas como repositorios, servicios y entidades asociadas. Adicionalmente, en ciertos escenarios se utiliza Jakarta Validation para validaciones y se incorporan pruebas de eventos mediante Spring Boot Test.
@@ -2882,6 +3021,303 @@ Se verificó el proceso de creación de un registro de seguimiento de salud para
 
 <img src="./img/Chapter-6/CoreSystemTests3.png">
 
+## 6.2. Static Testing & Verification
+### 6.2.1. Static Code Analysis
+#### 6.2.1.1. Coding Standard & Code Conventions
+
+Durante el desarrollo de la aplicación, se definieron y adoptaron estándares de codificación adaptados a cada una de las tecnologías empleadas. En el caso del frontend web desarrollado con Angular, se siguieron las convenciones ampliamente aceptadas en la comunidad de TypeScript, complementadas con herramientas como ESLint, que contribuyeron a mantener un estilo de código consistente, claro y fácil de mantener. Para la aplicación móvil escrita en Kotlin, se respetaron las guías oficiales de JetBrains, priorizando la legibilidad, la adecuada denominación de variables y funciones, así como una correcta indentación.
+
+En cuanto al backend implementado con Spring Boot, se aplicaron buenas prácticas de programación en Java, prestando atención a un uso apropiado de estructuras de control, una adecuada modularización y comentarios explicativos cuando fueron requeridos. Estas convenciones facilitaron la coherencia en el código entre los distintos miembros del equipo, optimizando tanto el proceso de revisión como el mantenimiento de la solución.
+
+Con el propósito de garantizar un código de alta calidad y minimizar posibles vulnerabilidades, se implementó un proceso continuo de análisis estático y revisión manual, apoyado por herramientas como ESLint. Estas herramientas facilitaron la detección de problemas como lógica duplicada, código innecesario, excesiva complejidad y otras malas prácticas que comprometen la mantenibilidad del sistema.
+
+#### 6.2.1.2. Code Quality & Code Security
+
+Durante el desarrollo se identificaron y abordaron diversas vulnerabilidades clave:
+
+- **Inyección SQL:** En el backend desarrollado con Spring Boot, se refactoraron las consultas para utilizar parámetros seguros mediante `PreparedStatement` y sentencias JPQL en los repositorios de JPA, evitando riesgos de inyección.
+
+- **Cross-Site Scripting (XSS):** En el frontend web con Angular, se detectaron puntos vulnerables al insertar contenido dinámico sin sanitización. Para mitigar este riesgo, se utilizó `DomSanitizer`, aprovechando sus capacidades de limpieza automática, y se evitó el uso innecesario de `innerHTML`.
+
+- **Manejo inseguro de autenticación y sesiones:** En la integración entre frontend, backend y aplicación móvil, se verificó que los tokens JWT se transmitían de forma segura a través del encabezado HTTP `Authorization`. Además, se definieron tiempos de expiración apropiados y se implementó un sistema controlado de renovación de sesión.
+
+Todas estas acciones contribuyeron a fortalecer la seguridad general del sistema y a reducir el riesgo frente a ataques comunes en aplicaciones web y móviles. Estas medidas seguirán aplicándose en futuras fases mediante herramientas automatizadas de análisis y validación integradas en el pipeline de integración continua.
+
+
+### 6.2.2. Reviews
+
+# Revisión de Código
+
+Las revisiones de código son esenciales para asegurar que el software cumpla con los estándares de calidad y las normativas establecidas. Este proceso combina evaluaciones manuales y automáticas, siguiendo lineamientos específicos.
+
+## Tipos de Revisión
+
+- **Revisión entre pares**: Un desarrollador examina el código de otro para verificar su claridad, cumplimiento de normas y facilidad de mantenimiento.  
+- **Revisión formal**: Se realiza en sesiones estructuradas, utilizando listas de verificación que ayudan al equipo a identificar errores de forma colectiva.  
+- **Revisión automatizada**: Herramientas como *ESLint* o *SonarQube* se emplean para detectar defectos y problemas de calidad de forma inmediata durante el desarrollo.
+
+## Flujo del Proceso de Revisión
+
+- **Creación del Pull Request (PR)**: El desarrollador debe generar un PR con una descripción detallada de los cambios y las pruebas realizadas.  
+- **Lista de verificación**: Se debe utilizar un *checklist* que cubra aspectos clave como legibilidad del código, pruebas implementadas y gestión adecuada de errores.  
+- **Comentarios y retroalimentación**: Los revisores deben brindar observaciones claras y constructivas. Cualquier hallazgo debe corregirse antes de la aprobación.  
+- **Aprobación del PR**: Es necesario que al menos otro desarrollador apruebe el PR antes de integrarlo a la rama principal.
+
+## Criterios de Aceptación
+
+- **Calidad y seguridad**: El código debe seguir los estándares definidos y no introducir vulnerabilidades.  
+- **Cobertura de pruebas**: Se debe alcanzar una cobertura mínima (por ejemplo, del 80%) para validar que las nuevas funcionalidades estén correctamente probadas.
+
+## Frecuencia
+
+Las revisiones deben realizarse de manera periódica, preferiblemente al finalizar cada *sprint* o en plazos establecidos, para evitar acumulación de cambios y mantener la calidad del proyecto.
+
+## 6.3 Validation Interviews
+
+### 6.3.1.Diseño de Entrevistas.
+
+*¿Podría presentarse con su nombre completo, edad, distrito de residencia y ocupación?*
+
+*Sobre el landing page, ¿la considera llamativa y visualmente interesante?*
+
+*¿Considera que la información proporcionada comunica de forma correcta las funciones de nuestra aplicación?*
+
+*¿Hay algo que considere deberíamos cambiar o eliminar en la página?*
+
+*Sobre la aplicación, ¿las herramientas son claras y de fácil lectura?*
+
+*¿Cree que nuestra aplicación le hubiera ayudado a tener mayor orden durante el proceso oncológico?*
+
+*¿Qué cambios propondría para mejorar los elementos visuales de nuestra aplicación?*
+
+*Si es que usara esta aplicación por primera vez sin una guía, ¿le parecería claro cómo utilizarla, o hay herramientas que no tienen un uso claro a simple vista?*
+
+*¿Hay alguna opción o herramienta que cree que le falta a nuestra aplicación?*
+
+*¿Recomendaría esta aplicación hacia médicos u otros pacientes oncológicos?*
+
+
+**Médicos:**
+*¿Considera que las herramientas brindadas mejorarían su orden con los pacientes?*
+ 
+*¿Utilizaría la aplicación para organizar los procesos médicos de cada uno de sus pacientes?*
+### 6.3.2.Registro de Entrevistas.
+
+
+Entrevista 1: Verónica Mendoza, 52, Chorrillos, profesora de tiempo completo en la upc ; familiar de paciente oncológico
+<img src="./img/Chapter-6/juan1.png"/>
+<br>https://drive.google.com/file/d/1aMSpnoVOVk1TBoXqOUFQYVw73LOTRLD1/view?usp=sharing
+
+Resumen:
+
+La entrevistada tuvo una buena experiencia con el landing page, considerándolo bastante llamativo de forma visual pero con información clara, permitiendo conocer el objetivo y función de nuestra startup y aplicación realizada. El único detalle que sugirió como cambio es que nuestro logo sea más visible, quizás aumentando su tamaño o colocándolo en más lugares.
+Sobre la aplicación, la entrevistada también tuvo una buena experiencia con ella. Consideró que cada botón y enlace mostrado era bastante claro en su función, por lo que incluso podría utilizarla de forma correcta sin necesidad de una guía. Los únicos cambios que realizaría sobre la aplicación es que el calendario muestre más detalles sobre el mes y semana en la que se realizarán las citas, una sección que presenta noticias sobre tratamientos oncológicos recientes y simplemente que nuestro logo aparezca más visible.
+La entrevistada consideró que nuestra aplicación sería de mucha ayuda para personas pasando por los procesos oncológicos, además de que las herramientas para los médicos les ayudarían a mejorar su eficiencia y organización, además de que le hubiera gustado mucho tener esta aplicación mientras que su pariente se encontró en el proceso oncológico.
+
+<br>
+Entrevista 2: Manuel Luis Ramos, 52, San Luis, posición administrativa en resocentro ; familiar de paciente oncológico
+<img src="./img/Chapter-6/juan2.png"/>
+<br>https://drive.google.com/file/d/1uc8FAaD1ArRYNPcP5_7kGPWF3bItJdF_/view?usp=sharing <br>
+
+Resumen:
+
+El entrevistado consideró la landing page impactante de forma visual, con la información en ella explicando claramente nuestra aplicación y objetivo al realizarla. Los únicos cambios que considera importantes son el uso de lazos de más colores, ya que solo utilizar un lazo rosado está vinculado a un solo tipo de cáncer y podría hacer creer a un usuario que solo nos enfocamos en ese tipo. Otro cambio que considera es cambiar el título de "Trabajando por tu salud" a uno más enfocado al cáncer y tratamientos oncológicos.
+Para la aplicación, el entrevistado considera que todo está claro y conciso y de fácil entendimiento, por lo que sí podría utilizarla aunque no tuviera a alguien que le explique como usarla. El único cambio que considera de gran importancia es que las aplicaciones no estén completamente vinculadas entre médicos y pacientes, es decir, si es que el médico no tenga la aplicación descargada, entonces el paciente debería poder registrar citas en su calendario personal. A parte de esto, la aplicación le parece de gran utilidad al entrevistado.
+
+<br>
+Entrevista 3: Eduard Travezaño, 20, San Juan de Lurigancho, Estudiante universitario ; familiar de paciente
+<img src="./img/Chapter-6/juan3.png"/>
+<br>https://drive.google.com/file/d/13l0HOKYB5VeZ4CLpG4pVyeep5gKchQea/view?usp=sharing<br>
+
+Resumen:
+
+El entrevistado tuvo una buena experiencia con nuestro landing page, pareciéndole única y llamativa con los tonos de colores rosados y con información no abrumadora que cause confusión visual. La página muestra información que comunica fácilmente el uso de la aplicación, aunque desearía que nos enfocáramos a la salud en general, no solamente a tratamientos y médicos oncológicos, aunque entiende nuestra misión de enfocarnos en ellos.
+En términos de la aplicación, todo le parece entendible y claro al entrevistado y le agrada el calendario, aunque desearía que hubiera más información sobre las citas y pacientes o médicos además de su nombre y fecha, cosas como especialidad o razón de cita.
+Además, el entrevistado considera que la aplicación está bastante completa, pero una lista de visitas al paciente si es que estuviera internado sería de gran ayuda.
+### 6.3.3.Evaluaciones según heurísticas.
+
+**SITE o APP A EVALUAR**
+
+Meta: El propósito general de la evaluación es encontrar problemas existentes en la aplicación web "OnContigo".
+
+Cómo: Los hallazgos del sitio web se llevarán a cabo utilizando la Lista Heurística de Nielsen, inicialmente investigada y creada por Jakob Nielsen.
+
+**TAREAS A EVALUAR:**
+
+**Desktop landing page**
+
+Información y descripción de la aplicación y sus funcionalidades.
+Visualización de planes de pago de la aplicación.
+Header y footer apropiado para la landing page.
+Interacción del landing page con la aplicación.
+Redes sociales asociadas al startup.
+Videos de about the product y about the team.
+
+**Web Application**
+
+Inicio de sesión con usuario existente de paciente y doctor.
+Visualización de los planes para el registro del paciente.
+Iconografía comprensible y consistente con el mundo real.
+Mensajes de error que reflejen el registro de datos incorrectos.
+Acciones de retroceso dentro de la aplicación.
+Evaluar existencia de patrones de diseño o navegación.
+Elementos de la interfaz de usuario consistentes.
+Pestañas de navegación dentro de la aplicación.
+Botones interactivos y de uso intuitivo.
+Navegación y orientación dentro de la aplicación.
+Visualización de perfil del paciente.
+Visualización del perfil de la doctor.
+Visualización del buscar doctor en la aplicación del paciente.
+Visualización del perfil del doctor en la aplicación del paciente.
+Estética general de la interfaz atractiva y agradable visualmente.
+
+**No están incluidas en esta versión de la evaluación las siguientes tareas:**
+
+**Desktop landing page**
+Política de privacidad y condiciones de uso.
+
+**Web Application**
+Registro de un nuevo usuario.
+Recuperación de contraseña.
+Compra de los planes.
+Solicitar cita a un doctor.
+Acceso a recursos de ayuda dentro de la aplicación.
+Actualizar la información del paciente y doctor.
+Plan de paciente en la aplicación del doctor.
+Política de privacidad y condiciones de uso.
+
+**ESCALA DE SEVERIDAD:**
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad 
+
+|Nivel|Descripción |
+| :- | :- |
+|1|<p>Problema superficial: puede ser fácilmente superador por el usuario ó ocurre con muy poco </p><p>frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.</p>|
+|2|<p>Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de </p><p>superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente </p><p>reléase</p>|
+|3|<p>Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es </p><p>importante que sean corregidos y se les debe asignar una prioridad alta.</p>|
+|4|<p>Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de </p><p>la herramienta. Es imperativo que sea corregido antes del lanzamiento.</p>|
+
+
+
+**TABLA RESUMEN:**
+
+**Desktop landing page**
+
+|<a name="_hlk149818153"></a>**#**|**Problema**|**Escala de severidad**|**Heurística/Principio violada(o)**|
+| :- | :- | :- | :- |
+|1|<a name="_hlk149816674"></a>El logo de la aplicación esta muy resaltado en un cuadro |3|Usability: Coincidencia entre el sistema y el mundo real|
+|2|En el contenido del meet us las letras no son fácil de visualizar, el color no es lo adecuado.|2|Usability: Coincidencia entre el sistema y el mundo real|
+|3| No hay videos acerca del producto y del equipo en "About Us"..|2|Usabilidad: Visibilidad del estado del sistema.|
+
+
+
+**PROBLEMA #01**:  El logo de la aplicación está muy resaltado en un cuadro
+
+**Escala de severidad:3**
+
+**Principio violado:** Usabilidad: Coincidencia entre el sistema y el mundo real**.**
+
+**Descripción del problema:** El logo de la aplicación se destaca excesivamente en un cuadro, lo que puede distraer a los usuarios de otros elementos o contenido importante en la página de inicio. Esta falta de alineación con las expectativas de los usuarios y la convención del mundo real puede dificultar la comprensión de la interfaz y la navegación.
+
+
+**Recomendación:**
+Reduzca el resalte del logo en el cuadro o colóquelo de manera más equilibrada en la página de inicio para que no sea el elemento dominante. Asegúrese de que la página de inicio tenga un equilibrio visual adecuado y que los elementos esenciales sean fácilmente identificables sin distraer a los usuarios. Esto mejorará la experiencia del usuario y la alineación con el principio de "Coincidencia entre el sistema y el mundo real".
+
+**PROBLEMA #02:** En el contenido del "Meet Us," las letras no son fáciles de visualizar y el color no es el adecuado.
+
+**Escala de severidad:** 2
+
+**Principio violado:** Coincidencia entre el sistema y el mundo real
+
+**Descripción del problema:** El contenido de la sección "Meet Us" presenta dificultades en la legibilidad debido a la elección de colores y fuentes. Las letras pueden no ser fáciles de visualizar debido a problemas de contraste o elección de color inapropiado, lo que puede dificultar la comprensión del contenido.
+
+
+
+**Recomendación:** Se recomienda mejorar la legibilidad del contenido en la sección "Meet Us" ajustando la elección de colores y fuentes para garantizar un contraste adecuado y una fácil visualización. Esto cumplirá con el principio de "Coincidencia entre el sistema y el mundo real" al facilitar la lectura del contenido.
+
+**PROBLEMA #03**: No hay videos acerca del producto y del equipo en "About Us".
+**Escala de severidad**: 2
+
+**Principio violado**: Usabilidad: Visibilidad del estado del sistema.
+
+**Descripción del problema**: En la sección "About Us," no se incluyen videos informativos sobre el producto o el equipo detrás de la aplicación. La falta de contenido multimedia puede limitar la comprensión y la visibilidad del estado del sistema. Los usuarios pueden esperar encontrar información más detallada y visual en esta sección.
+
+**Recomendación**: Se sugiere enriquecer la sección "About Us" con videos informativos que presenten el producto y el equipo de desarrollo de la aplicación. Esto mejorará la visibilidad del estado del sistema y proporcionará a los usuarios una comprensión más completa, cumpliendo con el principio de "Visibilidad del estado del sistema."
+
+### 6.4. Auditoría de Experiencias de Usuario
+### 6.4.1. Auditoría realizada.
+#### 6.4.1.1. Información del grupo auditado.
+  - Nombre del responsable de auditoría: Grupo B
+  - Especialización: Especialistas en diseño de interfaces (UI), accesibilidad web y evaluación de experiencias inclusivas.
+  - Fecha de auditoría: 07/06/2025 - 14/06/2025	
+#### Herramientas utilizadas:
+  - Pruebas de usabilidad realizadas con usuarios reales para identificar fricciones en la experiencia. 
+  - Herramientas de análisis de comportamiento como Google Analytics y Hotjar, para observar el flujo de navegación y puntos críticos. 
+  - Evaluación heurística utilizando los 10 principios de usabilidad de Jakob Nielsen.
+#### 6.4.1.2. Cronograma de auditoría realizada.
+| Fecha      | Actividad                                                                | Responsable     |
+|------------|--------------------------------------------------------------------------|-----------------|
+| 07/06/2025 | Reunión inicial con el cliente para definir objetivos de la auditoría UX | Luiggi Paredes  |
+| 10/06/2025 | Ejecución de pruebas de usabilidad y recopilación de hallazgos           | Ruben Mallma    |
+| 12/06/2025 | Evaluación heurística y análisis de datos de comportamiento              | Paolo Martinez  |
+| 14/06/2025 | Elaboración de informe y presentación de recomendaciones                 | Christian Matos |
+
+#### 6.4.1.3. Contenido de auditoría realizada.
+| # | Problema                                                                                                                                             | Escala de severidad | Heurística/Principio violado(a)                                  |
+|---|------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------|------------------------------------------------------------------|
+| 1 | La responsividad de ciertas partes del Landing Page no es buena                                                                                      | 3                   | Inclusive Design: Estética y diseño minimalista.                 |
+| 2 | Falta una descripción para cada empresa en la pestaña Home                                                                                           | 2                   | Visibilidad del estado del sistema                               |
+| 3 | No hay mensaje de confirmación al eliminar un proyecto                                                                                               | 3                   | Prevención de errores y Control del usuario                      |
+| 4 | Paleta de colores poco armoniosa                                                                                                                     | 1                   | Estética y diseño minimalista y Consistencia y estándares        |
+| 5 | Foto de perfil mal presentada en la sección de edición                                                                                               | 2                   | Estética y diseño minimalista, Consistencia y estándares         |
+| 6 | Falta funcionalidad de reseñas (escribir y visualizar)                                                                                               | 3                   | Retroalimentación del usuario y Flexibilidad y eficiencia de uso |
+| 7 | Los remodeladores no pueden seleccionar proyectos. También, los botones de sign-in y sign-up no son dinámicos; falta de personalización de contenido | 4                   | Inclusive Design: Adaptabilidad y Flexibilidad                   |
+| 8 | Los contratistas no pueden acceder a sus proyectos                                                                                                   | 4                   | Usability: Control y libertad del usuario                        |
+
+### 6.4.2. Auditoría recibida.
+
+#### 6.4.2.1. Información del grupo auditor.
+- Nombre del responsable de auditoría: Estrellados
+- Especialización: Equipo multidisciplinario con experiencia en diseño centrado en el usuario (UX), pruebas de usabilidad, análisis de interacción y desarrollo de software.
+- Fecha de auditoría: 07/06/2025 - 14/06/2025
+#### 6.4.2.2. Cronograma de auditoría recibida.
+| Fecha      | Actividad                                                                | Responsable        |
+| ---------- | ------------------------------------------------------------------------ | ------------------ |
+| 07/06/2025 | Revisión del alcance del proyecto y planificación de la auditoría        | Mariana Chambi     |
+| 10/06/2025 | Aplicación de pruebas de usabilidad con usuarios                         | Ely Cortez         |
+| 12/06/2025 | Evaluación heurística según principios de Nielsen                        | Maria Diaz         |
+| 14/06/2025 | Análisis de resultados y redacción del informe preliminar                | Paolo Párraga      |
+| 14/06/2025 | Revisión cruzada del informe y validación de hallazgos                   | Stefano Valenzuela |
+| 14/06/2025 | Presentación de resultados y recomendaciones de mejora al equipo cliente | Joaquín Cortez     |
+
+#### 6.4.2.3. Contenido de auditoría recibida.
+
+| # | Problema                                                                                                                                                                | Escala de severidad | Heurística/Principio violado(a)                          |
+| - | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | -------------------------------------------------------- |
+| 1 | Varias imágenes tienen bajo contraste con el fondo, dificultando la identificación visual para usuarios con visión reducida.                                            | 3                   | Accesibilidad; Estética y diseño minimalista             |
+| 2 | El logo y los íconos grandes sobre imágenes en la home generan ruido visual, restando foco al mensaje principal.                                                        | 2                   | Estética y diseño minimalista; Consistencia y estándares |
+| 3 | No todas las imágenes decorativas cuentan con texto alternativo (alt), afectando el acceso de usuarios con lectores de pantalla.                                        | 4                   | Accesibilidad; Ayuda y documentación                     |
+| 4 | El uso inconsistente de fondos (algunas secciones con fondo azul, otras rosado) puede confundir sobre la jerarquía visual de la información.                            | 2                   | Consistencia y estándares                                |
+| 5 | Las fotos de perfil de los miembros tienen distintos estilos (algunos recortes irregulares, fondos diferentes), perdiendo armonía visual.                               | 2                   | Estética y diseño minimalista; Consistencia y estándares |
+| 6 | Algunas imágenes están estiradas o pixeladas (por ejemplo, iconos grandes), perdiendo calidad y profesionalismo.                                                        | 2                   | Estética y diseño minimalista                            |
+| 7 | El tamaño de las imágenes de servicios no es uniforme, provocando desbalance visual en la sección “Servicios”.                                                          | 1                   | Estética y diseño minimalista                            |
+| 8 | No hay mecanismo para ampliar imágenes relevantes (por ejemplo, testimonios o recursos informativos), limitando la experiencia para usuarios que necesitan más detalle. | 1                   | Flexibilidad y eficiencia de uso; Accesibilidad          |
+
+
+#### 6.4.2.4. Resumen de modificaciones para subsanar hallazgos.
+
+| # | Problema                                                                     | Subsanación                                                                                                 |
+| - | ---------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| 1 | La responsividad de ciertas partes del Landing Page no es buena              | Ajustar media queries y revisar CSS para asegurar que todos los elementos se adapten correctamente.         |
+| 2 | Falta una descripción para cada empresa en la pestaña Home                   | Incluir descripciones breves y claras para cada empresa visible en la pestaña Home.                         |
+| 3 | No hay mensaje de confirmación al eliminar un proyecto                       | Añadir cuadro de confirmación al intentar eliminar un proyecto, con botones de "Cancelar" y "Confirmar".    |
+| 4 | Paleta de colores poco armoniosa                                             | Unificar y armonizar los colores para mantener la consistencia visual y mejorar la experiencia del usuario. |
+| 5 | Foto de perfil mal presentada en la sección de edición                       | Desarrollar módulo de reseñas con opción para valorar y comentar experiencias previas.                      |
+| 6 | Los remodeladores no pueden seleccionar proyectos                            | Implementar página donde los remodeladores puedan visualizar y elegir proyectos disponibles.                |
+| 7 | Los contratistas no pueden acceder a sus proyectos                           | Habilitar una sección funcional para que los contratistas gestionen sus proyectos desde la plataforma.      |
+| 8 | Botones de sign-in/sign-up no dinámicos + falta personalización de contenido | Agregar animaciones CSS a los botones y lógica para mostrar contenido personalizado según preferencias.     |
+
+  
 # Capítulo VII: DevOps Practices
 
 ## 7.1 Continuous Integration (CI)
@@ -2982,6 +3418,297 @@ El monitoreo continuo cierra el ciclo DevOps: convierte los datos de producción
 
 - Integración con Slack, Teams y correo institucional
 - Plantillas con contexto (trace ID, commit SHA, rama, autor) para acelerar el MTTR
+
+# Capítulo VIII: Experiment-Driven Development
+
+## 8.1. Experiment Planning
+
+### 8.1.1. As-Is Summary
+
+El proyecto OnContigo se encuentra mayormente en etapa funcional, con funcionalidades visibles en el front-end con datos en back-end usables de forma demostrativa para el proyecto completo, tanto en la aplicación web como en la aplicación móvil. 
+
+Además de las pruebas realizadas entre nuestro grupo y con las entrevistas de validación demostrativas, recibiendo comentarios positivos en la presentación pero con espacio de mejora continua, tanto por la parte del diseño (el uso de colores ligeramente distintos y el uso de imágenes), como algunas en la experiencia del usuario.
+Este proyecto sigue en mejora continua y, para ello, hemos realizado la planificación de ciertos experimentos para continuar esta mejora.
+
+### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims
+
+- **Assumptions (Suposiciones)**
+
+  - Los pacientes prefieren tener un sistema de notificaciones en relación a los recordatorios de citas y procedimientos médicos.
+
+  - Los médicos necesitan tener una vista de sus calendarios eficiente para evitar cruces entre múltiples pacientes.
+
+  - Las interfaces actuales de las aplicaciones son adecuadas para pacientes mayores debido al uso de imágenes e íconos reconocibles.
+
+- **Knowledge Gaps (Brechas de Conocimiento)**
+
+  - ¿Qué tipo de notificaciones son más efectivas para los pacientes?
+
+  - ¿Cuál es la frecuencia óptima para enviar recordatorios?
+
+  - ¿Los médicos prefieren una vista semanal, diaria o personalizada?
+
+  - ¿Qué funcionalidades consideran críticas los pacientes y los médicos que aún no están implementadas?
+
+- **Ideas**
+
+  - Implementar una función de "vista diaria" para médicos con indicadores de prioridad.
+
+  - Incluir una sección de “estado de ánimo” para los pacientes antes de cada cita.
+
+  - Integrar con servicios de mensajería como WhatsApp o SMS para notificaciones.
+
+- **Claims (Afirmaciones)**
+
+  - Una mejora en la organización del calendario reducirá el ausentismo a citas.
+
+  - Los médicos reducirán el tiempo dedicado a la coordinación manual de citas con un sistema más visual.
+
+  - Los pacientes que usan la app durante al menos un mes mostrarán mejor adherencia al tratamiento.
+
+### 8.1.3. Experiment-Ready Questions
+
+Se han preparado las siguientes preguntas para su validación a través de experimentos concretos:
+
+  - ¿El uso de notificaciones automáticas incrementa la asistencia a citas en un 20% o más?
+
+  - ¿Los pacientes prefieren recibir notificaciones por la app, por SMS o por correo electrónico?
+
+  - ¿Una vista de agenda semanal mejora la satisfacción y organización de los médicos respecto a una vista diaria?
+
+  - ¿Los pacientes de más de 50 años encuentran la interfaz lo suficientemente intuitiva sin asistencia?
+
+### 8.1.4. Question Backlog
+
+Por otro lado, las siguientes preguntas requieren de experimentos con mayor preparación debido a sus funciones más profundas o de menor prioridad en comparación a las anteriores:
+
+  - ¿Qué nivel de detalle sobre los medicamentos es más útil para los pacientes?
+
+  - ¿Se incrementa la carga cognitiva de los médicos al tener que interactuar digitalmente con cada paciente?
+
+  - ¿La app puede integrarse con calendarios personales externos (Google Calendar, Outlook)?
+
+  - ¿El seguimiento emocional puede predecir ausencias a futuras citas?
+
+  - ¿Cuántos pasos interactivos son óptimos antes de confirmar una cita?
+
+### 8.1.5. Experiment Cards
+
+Cada una de las siguientes cartas representa un experimento estructurado:
+
+<table>
+    
+    Experiment Card #1
+    Hypothesis: Las notificaciones automáticas aumentan la asistencia a citas médicas.
+    Method: Se divide a los pacientes en dos grupos (con y sin notificaciones) durante un mes.
+    Metrics: Tasa de asistencia.
+    Expected Result: El grupo con notificaciones tiene una asistencia al menos 20% mayor.
+    Status: Planificado.
+
+  </tr>
+    
+    Experiment Card #2
+    Hypothesis: Los médicos prefieren la vista semanal del calendario sobre la diaria.
+    Method: Se habilitan ambas vistas y se mide el uso y se hace una encuesta.
+    Metrics: Tiempo promedio en cada vista + preferencia reportada.
+    Expected Result: Al menos 60% de los médicos reportan preferencia por la vista semanal.
+    Status: En ejecución.
+
+  </tr>
+
+    Experiment Card #3
+    Hypothesis: Los pacientes mayores de 60 años encuentran difícil de usar la app sin guía.
+    Method: Se reclutan usuarios mayores para una prueba guiada y una sin guía.
+    Metrics: Tasa de éxito en tareas básicas, tiempo promedio y errores cometidos.
+    Expected Result: Más del 40% de los pacientes sin guía cometen errores en tareas clave.
+    Status: Diseñado.
+
+  </tr>
+
+    Experiment Card #4
+    Hypothesis: Integrar mensajes motivacionales diarios aumenta el uso de la app.
+    Method: Grupo A recibe mensajes personalizados; grupo B no.
+    Metrics: Frecuencia de uso diario.
+    Expected Result: Grupo A usa la app al menos 25% más.
+    Status: En evaluación.
+
+  </tr>
+  
+</table>
+
+## 8.2 Experiment Design
+
+### 8.2.1 Hypotheses
+
+### Hypothesis 1
+
+| **Question** | ¿Las notificaciones automáticas pueden mejorar la tasa de asistencia a citas médicas? |
+|--------------|------------------------------------------------------------------------------------------|
+| **Data Analyze** | Se ha identificado mediante entrevistas y pruebas internas que los usuarios valoran los recordatorios automatizados. Al revisar patrones de uso en versiones anteriores, se observó que varios pacientes olvidan sus citas. |
+| **Hypothesis** | Si se implementan notificaciones automáticas, la asistencia a citas aumentará en al menos un 20%, reduciendo la tasa de inasistencia por olvido. |
+
+---
+
+### Hypothesis 2 
+
+| **Question** | ¿La vista semanal del calendario facilita una mejor organización para los médicos que la vista diaria? |
+|--------------|----------------------------------------------------------------------------------------------|
+| **Data Analyze** | A partir de sesiones con prototipos funcionales, se observó que la mayoría de médicos prefieren una visualización semanal para planificar de forma más eficiente sus tiempos. |
+| **Hypothesis** | La vista semanal del calendario incrementará la eficiencia en la gestión de citas médicas, siendo preferida por al menos el 60% de los usuarios médicos. |
+
+---
+
+### Hypothesis 3 
+
+| **Question** | ¿La actual interfaz es lo suficientemente intuitiva para pacientes mayores de 60 años? |
+|--------------|-----------------------------------------------------------------------------------------|
+| **Data Analyze** | Se realizaron pruebas básicas de navegación con adultos mayores. Los resultados preliminares muestran que sin asistencia, algunos usuarios experimentan dificultades en tareas clave como agendar una cita. |
+| **Hypothesis** | Más del 40% de los usuarios mayores de 60 años requerirán asistencia o cometerán errores al utilizar la app, por lo que se necesita una versión con mejor accesibilidad. |
+
+---
+
+### Hypothesis 4 
+
+| **Question** | ¿El envío de mensajes motivacionales diarios mejora la frecuencia de uso de la app? |
+|--------------|-------------------------------------------------------------------------------------|
+| **Data Analyze** | En una prueba piloto se implementó el envío de mensajes motivadores a un grupo reducido. Los datos reflejaron un aumento sostenido en la apertura diaria de la app. |
+| **Hypothesis** | Los pacientes que reciben mensajes motivacionales personalizados utilizarán la aplicación al menos un 25% más que aquellos que no los reciben. |
+
+---
+
+### 8.2.2 Measures
+
+Se definirán métricas cuantitativas y cualitativas para medir el impacto de las funcionalidades propuestas:
+
+1. **Tasa de asistencia a citas:** Porcentaje de citas confirmadas a las que el paciente asiste, con y sin notificaciones.
+2. **Uso por tipo de vista de calendario:** Registro de interacciones en la vista diaria vs. semanal.
+3. **Éxito en tareas básicas (usabilidad):** Tiempo promedio para agendar una cita, tasa de errores y necesidad de asistencia.
+4. **Frecuencia de uso de la app:** Número de sesiones por usuario con y sin mensajes motivacionales.
+
+
+### 8.2.3 Conditions
+
+- **Público objetivo:** Pacientes adultos (de diversas edades) y profesionales de la salud que utilicen el sistema.
+- **Entorno de pruebas:** Versiones prototipo funcionales en ambiente de staging, tanto en web como en app móvil.
+- **Período de prueba:** 2 semanas para cada experimento, con seguimiento por parte del equipo.
+- **Segmentación:** Usuarios divididos en grupos de prueba (A/B) según el experimento.
+- **Consentimiento informado:** Todos los participantes completarán un formulario de consentimiento digital antes de participar.
+- **Variables controladas:** Se mantendrá constante el número de recordatorios manuales y la cantidad de pacientes por médico en las pruebas.
+
+
+### 8.2.4 Scale Calculation and Decisions
+
+- **Muestra mínima viable:** Se establecerá una muestra inicial de al menos 30 usuarios por grupo experimental, suficiente para obtener tendencias claras.
+- **Escalamiento progresivo:** Si los resultados son estadísticamente favorables, las funciones se extenderán a toda la base de usuarios en un siguiente sprint.
+- **Evaluación continua:** Se revisarán las métricas semanalmente para detectar patrones y posibles desviaciones.
+- **Criterio de éxito:** Una función se considera exitosa si cumple con al menos el 80% del objetivo planteado en su hipótesis.
+
+### 8.2.5 Method Selection
+
+Se emplearán los siguientes métodos para validar las hipótesis:
+
+- **Pruebas A/B:** Para comparar grupos con y sin la funcionalidad específica.
+- **Encuestas posteriores a la prueba:** Para recoger datos cualitativos sobre satisfacción y experiencia.
+- **Pruebas de usabilidad moderadas:** Con observación directa del comportamiento de usuarios representativos.
+- **Seguimiento de métricas automatizado:** A través de Firebase y herramientas analíticas del backend.
+
+### 8.2.6 Data Analytics: Goals, KPIs and Metric Selection
+
+## Objetivos:
+
+- Validar el impacto de nuevas funcionalidades en el comportamiento del usuario.
+- Identificar oportunidades de mejora en la experiencia del usuario.
+- Asegurar que las nuevas funciones cumplen con los objetivos de producto y negocio.
+
+## KPIs definidos:
+
+| Métrica | KPI | Herramienta de medición |
+|--------|-----|--------------------------|
+| Tasa de asistencia | ≥ 20% de incremento | Firebase Events, logs internos |
+| Preferencia de vista semanal | ≥ 60% de uso sobre vista diaria | Registro de interacción por UI |
+| Usabilidad para mayores | ≤ 40% de errores sin ayuda | Pruebas moderadas y grabaciones |
+| Incremento en frecuencia de uso | ≥ 25% de sesiones más en grupo A | Firebase Analytics |
+
+
+### 8.2.7 Web and Mobile Tracking Plan
+
+Para evaluar el impacto real de las funcionalidades, se implementará un sistema de seguimiento tanto en la app web como móvil:
+
+- **Eventos clave a rastrear:**
+  - Inicio de sesión.
+  - Apertura de notificaciones.
+  - Interacciones con vistas del calendario.
+  - Confirmación y asistencia a citas.
+  - Visualización de mensajes motivacionales.
+
+- **Herramientas utilizadas:**
+  - **Firebase Analytics**: Para capturar eventos personalizados.
+  - **Google Tag Manager** (web): Para rastreo sin redeploy.
+  - **Backend logging con timestamps**: Para análisis de comportamiento por sesión.
+
+- **Dashboard de seguimiento:**
+  - Se diseñará un panel de visualización (Google Data Studio o Looker) para visualizar el rendimiento de los experimentos en tiempo real.
+
+## 8.3 Experimentation
+
+### 8.3.1 To-Be User Stories
+
+<table>
+  <tr>
+    <th></th>
+    <th>To-Be User Story</th>
+    <th>Criterios de Aceptación</th>
+  </tr>
+  <tr>
+      <td>Notificaciones automáticas para citas</td>
+      <td><b>Como</b> paciente oncológico,
+      <br><b>quiero</b> recibir notificaciones automáticas antes de mis citas médicas,
+      <br><b>para</b> no olvidarlas y asistir puntualmente.</td>
+      <td> - El sistema envía notificaciones 24 y 2 horas antes de la cita. <br> - El paciente puede elegir el canal de notificación (app, SMS o correo).
+      <br> - Se registra si el usuario abrió la notificación.</td>
+  </tr>
+  <tr>
+      <td>Vista semanal para médicos</td>
+      <td><b>Como</b> médico oncólogo,
+      <br><b>quiero</b> ver el calendario de mis pacientes en una vista semanal,
+      <br><b>para</b> planificar mis tiempos de manera más eficiente.</td>
+      <td> - Se puede alternar entre vista diaria y semanal.
+      <br> - La vista semanal muestra color o íconos por tipo de cita.
+      <br> - Se registran eventos de uso para cada vista.</td>
+  </tr>
+  <tr>
+      <td>Modo accesible para adultos mayores</td>
+      <td><b>Como</b> paciente mayor de 60 años,
+      <br><b>quiero</b> una interfaz simplificada y accesible,
+      <br><b>para</b> poder usar la app sin asistencia.</td>
+      <td> - Modo accesible con íconos grandes, colores de alto contraste y texto ampliado.
+      <br> - Asistente paso a paso al agendar una cita.
+      <br> - Tiempo y errores de interacción reducidos en pruebas moderadas.</td>
+  </tr>
+  <tr>
+      <td>Mensajes motivacionales personalizados</td>
+      <td><b>Como</b> paciente en tratamiento,
+      <br><b>quiero</b> recibir mensajes motivacionales diarios personalizados,
+      <br><b>para</b> sentirme acompañado durante mi proceso.</td>
+      <td> - El sistema envía un mensaje diario diferente según el perfil del paciente.
+      <br> - El usuario puede valorar o reaccionar al mensaje.
+      <br> - Se registra si el mensaje fue abierto o leído.</td>
+  </tr>
+</table>
+
+### 8.3.2 To-Be Product Backlog
+
+| Prioridad | Historia / Funcionalidad                             | Dependencia             | Tipo               | Sprint estimado |
+| --------- | ---------------------------------------------------- | ----------------------- | ------------------ | --------------- |
+| Alta      | Implementación de notificaciones automáticas         | Sistema de agenda       | Feature core       | Sprint 1        |
+| Alta      | Alternancia entre vista diaria/semanal para médicos  | UI calendario           | Mejora UX          | Sprint 2        |
+| Media     | Configuración de canal preferido de notificaciones   | Perfil del usuario      | Configuración UX   | Sprint 3        |
+| Alta      | Activación del modo accesible                        | Sistema de login/perfil | Inclusión / Acceso | Sprint 2        |
+| Media     | Registro de eventos de interacción con mensajes      | Backend + Analytics     | Observabilidad     | Sprint 3        |
+| Alta      | Generador de mensajes motivacionales personalizados  | Backend de contenido    | Feature core       | Sprint 2        |
+| Baja      | Asistente guiado para primera vez en app             | Sistema de tutoriales   | Onboarding         | Sprint 4        |
+| Media     | Registro detallado de errores en flujos de pacientes | Sistema de logs         | Observabilidad     | Sprint 3        |
+
 
 # Conclusiones y recomendaciones
 
