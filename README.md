@@ -279,6 +279,8 @@ Martinez Villanueva, Paolo Del Carmen
 
 TP1: Durante el desarrollo del proyecto, he investigado y aplicado principios éticos y profesionales, asegurando que el software respete la privacidad de los usuarios, promueva la equidad en el acceso y minimice riesgos potenciales derivados de su uso.
 
+TB2: Para esta entrega me enfoqué en demostrar responsabilidad profesional al diseñar un experimento riguroso que respeta la integridad de los datos, garantizar la privacidad de los usuarios y asegurar que las decisiones tomadas estén basadas en evidencia confiable y transparente. Se priorizó la ética en la recolección y análisis de datos, aplicando buenas prácticas experimentales.
+
 
 
 
@@ -319,6 +321,8 @@ TB2: Al evaluar la calidad y seguridad del código, consideré cómo las decisio
 Martinez Villanueva, Paolo Del Carmen
 
 TP1: He evaluado junto al equipo los posibles impactos sociales, económicos y ambientales de nuestra solución, priorizando decisiones de diseño que favorezcan la sostenibilidad, accesibilidad y adaptabilidad del software a diferentes realidades globales.
+
+TB2: He elaborado un diseño experimental orientado a tomar decisiones fundamentadas sobre el comportamiento de los usuarios, seleccionando métricas y KPIs alineados con metas de impacto real. Consideré cómo los resultados influyen en la mejora del sistema desde una perspectiva accesible, sostenible y centrada en el usuario.
 
 
 
