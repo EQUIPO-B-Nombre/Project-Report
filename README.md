@@ -2882,6 +2882,89 @@ Se verificó el proceso de creación de un registro de seguimiento de salud para
 
 <img src="./img/Chapter-6/CoreSystemTests3.png">
 
+## 6.2. Static testing & Verification
+### 6.2.1. Static Code Analysis
+### 6.2.1.1. Coding standard & Code conventions.
+### 6.2.1.2. Code Quality & Code Security.
+### 6.2.2. Reviews
+## 6.3. Validation Interviews.
+### 6.3.1. Diseño de Entrevistas.
+### 6.3.2. Registro de Entrevistas.
+### 6.3.3. Evaluaciones según heurísticas.
+### 6.4. Auditoría de Experiencias de Usuario
+### 6.4.1. Auditoría realizada.
+#### 6.4.1.1. Información del grupo auditado.
+  - Nombre del responsable de auditoría: Grupo B
+  - Especialización: Especialistas en diseño de interfaces (UI), accesibilidad web y evaluación de experiencias inclusivas.
+  - Fecha de auditoría: 07/06/2025 - 14/06/2025	
+#### Herramientas utilizadas:
+  - Pruebas de usabilidad realizadas con usuarios reales para identificar fricciones en la experiencia. 
+  - Herramientas de análisis de comportamiento como Google Analytics y Hotjar, para observar el flujo de navegación y puntos críticos. 
+  - Evaluación heurística utilizando los 10 principios de usabilidad de Jakob Nielsen.
+#### 6.4.1.2. Cronograma de auditoría realizada.
+| Fecha      | Actividad                                                                | Responsable     |
+|------------|--------------------------------------------------------------------------|-----------------|
+| 07/06/2025 | Reunión inicial con el cliente para definir objetivos de la auditoría UX | Luiggi Paredes  |
+| 10/06/2025 | Ejecución de pruebas de usabilidad y recopilación de hallazgos           | Ruben Mallma    |
+| 12/06/2025 | Evaluación heurística y análisis de datos de comportamiento              | Paolo Martinez  |
+| 14/06/2025 | Elaboración de informe y presentación de recomendaciones                 | Christian Matos |
+
+#### 6.4.1.3. Contenido de auditoría realizada.
+| # | Problema                                                                                                                                             | Escala de severidad | Heurística/Principio violado(a)                                  |
+|---|------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------|------------------------------------------------------------------|
+| 1 | La responsividad de ciertas partes del Landing Page no es buena                                                                                      | 3                   | Inclusive Design: Estética y diseño minimalista.                 |
+| 2 | Falta una descripción para cada empresa en la pestaña Home                                                                                           | 2                   | Visibilidad del estado del sistema                               |
+| 3 | No hay mensaje de confirmación al eliminar un proyecto                                                                                               | 3                   | Prevención de errores y Control del usuario                      |
+| 4 | Paleta de colores poco armoniosa                                                                                                                     | 1                   | Estética y diseño minimalista y Consistencia y estándares        |
+| 5 | Foto de perfil mal presentada en la sección de edición                                                                                               | 2                   | Estética y diseño minimalista, Consistencia y estándares         |
+| 6 | Falta funcionalidad de reseñas (escribir y visualizar)                                                                                               | 3                   | Retroalimentación del usuario y Flexibilidad y eficiencia de uso |
+| 7 | Los remodeladores no pueden seleccionar proyectos. También, los botones de sign-in y sign-up no son dinámicos; falta de personalización de contenido | 4                   | Inclusive Design: Adaptabilidad y Flexibilidad                   |
+| 8 | Los contratistas no pueden acceder a sus proyectos                                                                                                   | 4                   | Usability: Control y libertad del usuario                        |
+
+### 6.4.2. Auditoría recibida.
+
+#### 6.4.2.1. Información del grupo auditor.
+- Nombre del responsable de auditoría: Estrellados
+- Especialización: Equipo multidisciplinario con experiencia en diseño centrado en el usuario (UX), pruebas de usabilidad, análisis de interacción y desarrollo de software.
+- Fecha de auditoría: 07/06/2025 - 14/06/2025
+#### 6.4.2.2. Cronograma de auditoría recibida.
+| Fecha      | Actividad                                                                | Responsable        |
+| ---------- | ------------------------------------------------------------------------ | ------------------ |
+| 07/06/2025 | Revisión del alcance del proyecto y planificación de la auditoría        | Mariana Chambi     |
+| 10/06/2025 | Aplicación de pruebas de usabilidad con usuarios                         | Ely Cortez         |
+| 12/06/2025 | Evaluación heurística según principios de Nielsen                        | Maria Diaz         |
+| 14/06/2025 | Análisis de resultados y redacción del informe preliminar                | Paolo Párraga      |
+| 14/06/2025 | Revisión cruzada del informe y validación de hallazgos                   | Stefano Valenzuela |
+| 14/06/2025 | Presentación de resultados y recomendaciones de mejora al equipo cliente | Joaquín Cortez     |
+
+#### 6.4.2.3. Contenido de auditoría recibida.
+
+| # | Problema                                                                                                                                                                | Escala de severidad | Heurística/Principio violado(a)                          |
+| - | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | -------------------------------------------------------- |
+| 1 | Varias imágenes tienen bajo contraste con el fondo, dificultando la identificación visual para usuarios con visión reducida.                                            | 3                   | Accesibilidad; Estética y diseño minimalista             |
+| 2 | El logo y los íconos grandes sobre imágenes en la home generan ruido visual, restando foco al mensaje principal.                                                        | 2                   | Estética y diseño minimalista; Consistencia y estándares |
+| 3 | No todas las imágenes decorativas cuentan con texto alternativo (alt), afectando el acceso de usuarios con lectores de pantalla.                                        | 4                   | Accesibilidad; Ayuda y documentación                     |
+| 4 | El uso inconsistente de fondos (algunas secciones con fondo azul, otras rosado) puede confundir sobre la jerarquía visual de la información.                            | 2                   | Consistencia y estándares                                |
+| 5 | Las fotos de perfil de los miembros tienen distintos estilos (algunos recortes irregulares, fondos diferentes), perdiendo armonía visual.                               | 2                   | Estética y diseño minimalista; Consistencia y estándares |
+| 6 | Algunas imágenes están estiradas o pixeladas (por ejemplo, iconos grandes), perdiendo calidad y profesionalismo.                                                        | 2                   | Estética y diseño minimalista                            |
+| 7 | El tamaño de las imágenes de servicios no es uniforme, provocando desbalance visual en la sección “Servicios”.                                                          | 1                   | Estética y diseño minimalista                            |
+| 8 | No hay mecanismo para ampliar imágenes relevantes (por ejemplo, testimonios o recursos informativos), limitando la experiencia para usuarios que necesitan más detalle. | 1                   | Flexibilidad y eficiencia de uso; Accesibilidad          |
+
+
+#### 6.4.2.4. Resumen de modificaciones para subsanar hallazgos.
+
+| # | Problema                                                                     | Subsanación                                                                                                 |
+| - | ---------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| 1 | La responsividad de ciertas partes del Landing Page no es buena              | Ajustar media queries y revisar CSS para asegurar que todos los elementos se adapten correctamente.         |
+| 2 | Falta una descripción para cada empresa en la pestaña Home                   | Incluir descripciones breves y claras para cada empresa visible en la pestaña Home.                         |
+| 3 | No hay mensaje de confirmación al eliminar un proyecto                       | Añadir cuadro de confirmación al intentar eliminar un proyecto, con botones de "Cancelar" y "Confirmar".    |
+| 4 | Paleta de colores poco armoniosa                                             | Unificar y armonizar los colores para mantener la consistencia visual y mejorar la experiencia del usuario. |
+| 5 | Foto de perfil mal presentada en la sección de edición                       | Desarrollar módulo de reseñas con opción para valorar y comentar experiencias previas.                      |
+| 6 | Los remodeladores no pueden seleccionar proyectos                            | Implementar página donde los remodeladores puedan visualizar y elegir proyectos disponibles.                |
+| 7 | Los contratistas no pueden acceder a sus proyectos                           | Habilitar una sección funcional para que los contratistas gestionen sus proyectos desde la plataforma.      |
+| 8 | Botones de sign-in/sign-up no dinámicos + falta personalización de contenido | Agregar animaciones CSS a los botones y lógica para mostrar contenido personalizado según preferencias.     |
+
+
 # Capítulo VII: DevOps Practices
 
 ## 7.1. Continuous Integration
