@@ -271,6 +271,8 @@ ambientales y sociales.
 
 TP1: En el desarrollo de OnContigo, trabajé de manera responsable asegurándome de que las funciones implementadas en la sección de perfil y consultas respetaran la privacidad y el correcto manejo de la información de los usuarios.
 
+TB2: Durante el análisis estático y las revisiones de código, asumí una responsabilidad ética al seguir buenas prácticas y estándares. Me aseguré de que el código sea seguro y mantenible, priorizando siempre la calidad y el bienestar de los usuarios.
+
 
 
 Martinez Villanueva, Paolo Del Carmen
@@ -284,6 +286,9 @@ Ramos Mendoza, Juan Pablo
 
 TP1: Para esta primera entrega he revisado las herramientas y técnicas para desarrollar wireframes y mockups al expandir el proyecto original con una aplicación móvil, además de repasar junto con mis compañeros los temas vistos previamente sobre la arquitectura de software y style guidelines.
 
+TB2: Para esta entrega, me enfoqué en realizar mis deberes de forma temprana, considerando los avances de mis compañeros para mantener un buen informe, además de presentar buenas prácticas al momento de realizar las entrevistas de manera formal y concisa, sin guiar a los entrevistados a respuestas cerradas.
+
+
 
 
 Paredes Zapata, Luiggi Gianfranco
@@ -295,7 +300,10 @@ TP1: Durante el desarrollo del proyecto, implementé la metodología Core Behavi
 
 Mallma Quispe, Ruben Elias
 
-TP1: Participé en la elaboración de entrevistas y el desarrollo del capítulo correspondiente. Esto me permitió fortalecer mis habilidades de investigación y aplicar conceptos clave sobre necesidades de usuario y estructura funcional para plataformas digitales. </td>
+TP1: Participé en la elaboración de entrevistas y el desarrollo del capítulo correspondiente. Esto me permitió fortalecer mis habilidades de investigación y aplicar conceptos clave sobre necesidades de usuario y estructura funcional para plataformas digitales. 
+
+TB2: En la arquitectura DevOps descrita, asumi la responsabilidad ética de entregar software seguro y confiable: cada commit pasa por análisis de vulnerabilidades, pruebas automatizadas y revisiones que previenen la introducción de fallos críticos. Además, los "gates" de calidad (como la cobertura mínima y la protección de ramas) refuerzan la obligación profesional de mantener la integridad del sistema y proteger los datos de los usuarios.
+</td>
 <td>El equipo logró actualizar y aplicar conocimientos fundamentales durante el desarrollo del entregable TB1, fortaleciendo su formación profesional a través de actividades como la investigación de metodologías Lean UX, la elaboración de entrevistas, el análisis de usuarios, el diseño de hipótesis y la definición de requerimientos funcionales. Estas acciones permitieron comprender mejor las necesidades del usuario final y cómo diseñar soluciones digitales que respondan a esas necesidades. El trabajo colaborativo, la estructuración de contenidos por capítulos y el enfoque constante en la experiencia del usuario nos permitieron consolidar una base sólida para el desarrollo del proyecto, alineado a estándares profesionales y buenas prácticas de ingeniería de software. </td>
   </tr>
   <tr>
@@ -303,6 +311,8 @@ TP1: Participé en la elaboración de entrevistas y el desarrollo del capítulo 
     <td>Matos Fernandez, Christian Andre
 
 TP1: Durante el desarrollo, tomé decisiones considerando cómo las funcionalidades impactarían en la experiencia de pacientes y médicos, priorizando que la app fuera segura, accesible y de apoyo real en el proceso de tratamiento oncológico.
+
+TB2: Al evaluar la calidad y seguridad del código, consideré cómo las decisiones técnicas afectan el rendimiento, los costos y el impacto ambiental. Esto me permitió emitir juicios informados con una visión global y socialmente responsable.
 
 
 
@@ -317,6 +327,8 @@ Ramos Mendoza, Juan Pablo
 
 TP1: Tomé consideración en cada momento del desarrollo y uso de wireframes y mockups en todo momento para asegurar una base de gran utilidad durante el desarrollo de nuestra aplicación, además de seguir un buen orden durante el desarrollo de las entrevistas, permitiendo obtener resultados que sirvieron de base para nuestro proyecto de nuestros usuarios objetivo.
 
+TB2: Mantuve el uso de buenas prácticas al momento de revisar el código, asegurando que mis compañeros siguieran una buena estructura.
+
 
 
 Paredes Zapata, Luiggi Gianfranco
@@ -327,7 +339,11 @@ TP1: Durante el desarrollo de la aplicación, evalué el impacto global y social
 
 Mallma Quispe, Ruben Elias
 
-TP1: Identifiqué la importancia de mantenerme actualizado en metodologías ágiles y herramientas tecnológicas para mejorar mis competencias y aportar soluciones efectivas en el proyecto y en mi futuro profesional. </td>
+TP1: Identifiqué la importancia de mantenerme actualizado en metodologías ágiles y herramientas tecnológicas para mejorar mis competencias y aportar soluciones efectivas en el proyecto y en mi futuro profesional. 
+
+TB2: Las decisiones del pipeline consideran su efecto global, económico y social: el despliegue canary limita el riesgo para la base de usuarios mundial, mientras que el monitoreo continuo permite reaccionar rápidamente para minimizar pérdidas operativas. Asimismo, la medición de métricas de eficiencia (latencia, uso de CPU) fomenta soluciones más sostenibles, y los post-mortems documentan lecciones que guían mejoras con un enfoque inclusivo y responsable en futuras iteraciones.
+
+</td>
 <td>El equipo logró actualizar y aplicar conocimientos fundamentales durante el desarrollo del entregable TB1, fortaleciendo su formación profesional a través de actividades como la investigación de metodologías Lean UX, la elaboración de entrevistas, el análisis de usuarios, el diseño de hipótesis y la definición de requerimientos funcionales. Estas acciones permitieron comprender mejor las necesidades del usuario final y cómo diseñar soluciones digitales que respondan a esas necesidades. El trabajo colaborativo, la estructuración de contenidos por capítulos y el enfoque constante en la experiencia del usuario nos permitieron consolidar una base sólida para el desarrollo del proyecto, alineado a estándares profesionales y buenas prácticas de ingeniería de software. </td>
   </tr>
 </table>
