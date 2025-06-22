@@ -293,8 +293,8 @@ TB2: Para esta entrega, me enfoqué en realizar mis deberes de forma temprana, c
 
 Paredes Zapata, Luiggi Gianfranco
 
-TP1: Durante el desarrollo del proyecto, implementé la metodología Core Behavior-Driven Development y Core System Tests con Cucumber y Selenium, asegurándome de que las decisiones de desarrollo fueran éticamente responsables, con especial énfasis en la privacidad, la seguridad de los datos y la transparencia de la información. Estos principios guiaron mi enfoque hacia la creación de una aplicación que no solo cumpla con los estándares técnicos, sino que también garantice el respeto por la privacidad de los usuarios y sus derechos.
-
+TP1: Durante el desarrollo del proyecto, implementé la metodología Core Behavior-Driven Development y Core System Tests con Cucumber y Selenium, asegurándome de que las decisiones de desarrollo fueran éticamente responsables, con especial énfasis en la privacidad, la seguridad de los datos y la transparencia de la información. Estos principios guiaron mi enfoque hacia la creación de una aplicación que no solo cumpla con los estándares técnicos, sino que también garantice el respeto por la privacidad de los usuarios y sus derechos. <br><br>
+TB2: Reconocí la importancia de aplicar principios éticos y profesionales al identificar diversos problemas en la plataforma evaluada, tales como la falta de accesibilidad y una usabilidad limitada para usuarios con discapacidad visual (imágenes sin contraste suficiente y carencia de texto alternativo). Proporcioné recomendaciones específicas para asegurar una experiencia inclusiva, demostrando un claro compromiso con la responsabilidad ética y profesional en la ingeniería de software.
 
 
 
@@ -333,8 +333,8 @@ TB2: Mantuve el uso de buenas prácticas al momento de revisar el código, asegu
 
 Paredes Zapata, Luiggi Gianfranco
 
-TP1: Durante el desarrollo de la aplicación, evalué el impacto global y social de las soluciones implementadas, tomando decisiones informadas sobre el uso de tecnologías que favorecieran la accesibilidad y sostenibilidad. A través de Core Behavior-Driven Development, garantizamos que las decisiones tecnológicas fueran conscientes de los impactos económicos, sociales y ambientales, priorizando la adaptabilidad y accesibilidad en diversas realidades.
-
+TP1: Durante el desarrollo de la aplicación, evalué el impacto global y social de las soluciones implementadas, tomando decisiones informadas sobre el uso de tecnologías que favorecieran la accesibilidad y sostenibilidad. A través de Core Behavior-Driven Development, garantizamos que las decisiones tecnológicas fueran conscientes de los impactos económicos, sociales y ambientales, priorizando la adaptabilidad y accesibilidad en diversas realidades.<br><br>
+TB2: Al realizar la auditoría UX, identifiqué cómo diversas deficiencias, como la responsividad inadecuada y problemas visuales en la interfaz, afectaban directamente a diferentes grupos de usuarios. Al proponer soluciones como la implementación de descripciones claras y mejoras en accesibilidad, consideré el impacto social, económico y global, reconociendo que una plataforma intuitiva y accesible contribuye positivamente al entorno digital inclusivo y a la satisfacción de usuarios diversos.
 
 
 Mallma Quispe, Ruben Elias
