@@ -978,12 +978,9 @@ En esta sección, se presentan personajes ficticios, uno para cada segmento obje
 
 Segmento objetivo: Pacientes y familiares
 
-Link de UXPressia: https://uxpressia.com/w/mDdvz/p/tViVP
 <img src="/img/chapter-2/user-persona/User-persona-paciente.png" >
 
 Segmento objetivo: Oncólogos
-
-Link de UXPressia: https://uxpressia.com/w/mDdvz/p/mxqb4
 
 <img src="/img/chapter-2/user-persona/User-persona-doctor.png" >
 
@@ -1075,8 +1072,6 @@ Link de UXPressia: https://uxpressia.com/w/mDdvz/p/mxqb4
 En el proceso de desarrollo de OnContigo, realizamos un detallado user journey mapping para comprender las experiencias y necesidades tanto de pacientes oncológicos como de médicos oncólogos. Exploramos cada etapa, desde el diagnóstico hasta el tratamiento continuo, identificando obstáculos y oportunidades de mejora. Este enfoque nos permitió diseñar una aplicación que se integra de manera efectiva en la vida diaria de los usuarios, mejorando la calidad de la atención médica en el sector de la salud peruano.
 Segmento objetivo: Pacientes y familiares
 
-Link de UXPressia: https://uxpressia.com/w/mDdvz/m/FDtCu
-
 <img src="/img/chapter-2/user-journeymap/user-journey-map-paciente.png" >
 
 Segmento objetivo: Oncólogos
@@ -1091,11 +1086,9 @@ En esta parte, se exhibirán los Empathy maps basados en los user personas cread
 
 Segmento objetivo: Pacientes y familiares
 
-Link de UXPressia: https://uxpressia.com/w/mDdvz/p/JzlFH
 <img src="/img/chapter-2/empathymap/Empathy-map-paciente.png" >
 Segmento objetivo: Oncólogos
 
-Link de UXPressia: https://uxpressia.com/w/mDdvz/p/lg65v
 <img src="/img/chapter-2/empathymap/Empathy-map-doctor.png" >
 
 ### 2.3.5. As-is Scenario Mapping
@@ -1217,7 +1210,6 @@ Para estar informado
 
 ## 3.3. Product Backlog
 
-Link del trello:  https://trello.com/invite/b/gx5i8rKM/ATTI09d174300e2bf371f3e5625280ecdb95A762E269/product-backlog-oncontigo
 
 <table border="1">
     <tr>
@@ -1390,13 +1382,10 @@ Segmento objetivo: Pacientes y familiares
 
 **Segmento#1**: Pacientes Oncologicos
 
-Link de UXPressia: https://uxpressia.com/w/mDdvz/i/qzusH
 
 <img src="img/impact_mapping_pacientes.png" alt="Impact Mapping Pacientes Oncologicos" >
 
 **Segmento#2**: Médicos Oncologicos
-
-Link de UXPressia: https://uxpressia.com/w/mDdvz/i/f0s3H
 
 <img src="img/impact_mapping_medicos.png" alt="To-be Scenario Mapping Medicos Oncologicos" >
 
@@ -2152,17 +2141,13 @@ Es el proceso de garantizar que una organización documente, verifique y satisfa
 
 - Trello: Plataforma de gestión de user stories, organización en epics y clasificación por puntaje. Permite compartir una vista en tiempo real del progreso del proyecto entre miembros del equipo.
 
-[https://trello.com/invite/b/gx5i8rKM/ATTI09d174300e2bf371f3e5625280ecdb95A762E269/product-backlog-oncontigo ](https://trello.com/invite/b/gx5i8rKM/ATTI09d174300e2bf371f3e5625280ecdb95A762E269/product-backlog-oncontigo )
 
 #### Product UX/UI Design
 
 - Uxpressia: Herramienta en línea para mapeo de trayectoria del cliente, creación de mapas de impacto y personas.
-  EMPATHY MAP(PACIENTES)[https://uxpressia.com/w/mDdvz/p/JzlFH](https://uxpressia.com/w/mDdvz/p/JzlFH)
-  EMPATHY MAP(DOCTOR)[https://uxpressia.com/w/mDdvz/p/lg65v](https://uxpressia.com/w/mDdvz/p/lg65v)
-  JOURNEY MAP(DOCTOR)[https://uxpressia.com/w/mDdvz/m/196Tw](https://uxpressia.com/w/mDdvz/m/196Tw)
-  JOURNEY MAP(PACIENTE) [ https://uxpressia.com/w/mDdvz/m/FDtCu](https://uxpressia.com/w/mDdvz/m/FDtCu)
+  
 - Figma: Pizarra digital colaborativa en línea para investigación, ideación, lluvias de ideas y mapas mentales.
-  [https://www.figma.com/file/9fLXXyhFtxOwF2iFs8gBdM/Oncontigo-Mockups?type=design&node-id=0-1&mode=design&t=HkEWLTZnf3N6FtXp-0](https://www.figma.com/file/9fLXXyhFtxOwF2iFs8gBdM/Oncontigo-Mockups?type=design&node-id=0-1&mode=design&t=HkEWLTZnf3N6FtXp-0)
+
 - Structurizr: Herramienta de diseño que soporta el modelo C4 para visualizar arquitecturas de software.
   [https://structurizr.com/](https://structurizr.com/)
 - Lucid Chart: Herramienta de diagramación en línea para la colaboración en tiempo real.
@@ -2175,7 +2160,7 @@ Es el proceso de garantizar que una organización documente, verifique y satisfa
 Estructura aplicada al desarrollo de un producto de software.
 
 - Github: Repositorio comunitario para almacenar avances de proyectos colaborativos.
-  [https://github.com/OnContigo-upc](https://github.com/OnContigo-upc)
+  [https://github.com/EQUIPO-B-Nombre/](https://github.com/EQUIPO-B-Nombre/)
 - Web Storm: Entorno de desarrollo orientado en JavaScript, ofrece integración con lenguajes web como HTML, CSS y TypeScript.
   [https://www.jetbrains.com/webstorm/promo/](https://www.jetbrains.com/webstorm/promo/)
 - Visual Studio Code: Editor de código que ofrece extensiones y funcionalidades para el desarrollo eficiente, utilizado para construir backend de aplicaciones web.
@@ -2196,9 +2181,15 @@ A continuación, se presenta la gestión de código fuente o como es conocido po
 
 #### Enlaces Importantes
 
-- **Organización en GitHub**: [OnContigo](https://github.com/OnContigo-upc)
+- **Organización en GitHub**: [OnContigo](https://github.com/EQUIPO-B-Nombre/)
 
-  - **Repositorio del Landing Page**: [OnContigo Landing Page](https://github.com/OnContigo-upc/Landing-Page)
+  - **Repositorio del Landing Page**: [OnContigo Landing Page](https://github.com/EQUIPO-B-Nombre/Landing-Page)
+
+  - **Repositorio de la Mobile App**: [OnContigo Mobile App](https://github.com/EQUIPO-B-Nombre/native-mobile-application)
+
+  - **Repositorio de la Web App**: [OnContigo Web App](https://github.com/EQUIPO-B-Nombre/Frontend)
+
+  - **Repositorio del Back End**: [OnContigo Back End](https://github.com/EQUIPO-B-Nombre/Web-Services)
 
   #### GitFlow
 
@@ -2324,7 +2315,7 @@ Cada miembro del equipo debe mantener su trabajo al día con el repositorio cent
 ### 5.1.4. Software Deployment Configuration
 
 - Como ya se ha mencionado, la gestión de nuestro código fuente se realizará a través de GitHub. Asimismo, se utilizará GitHub Pages para la publicación y despliegue de la página. Cada sección del Landing Page que se ha creado deberá aparecer en el siguiente vínculo:
-  https://oncontigo-upc.github.io/Landing-Page/
+  https://github.com/EQUIPO-B-Nombre/Landing-Page
   <br>
 - Para el desarrollo del Landing Page de OnContigo se han utilizado las siguientes herramientas:
 
@@ -2350,7 +2341,7 @@ Cada miembro del equipo debe mantener su trabajo al día con el repositorio cent
   - Ir a la opción de páginas: Una vez presentes la configuración del repositorio, debemos dirigirnos a la sección de Pages. Esto se debe a que ahí se encuentran todas las opciones de configuración de publicación de la página en un link o vínculo
   - Elección de rama y carpeta de guardado: Dentro de pages, se debe seleccionar la rama o branch que se va a publicar en el vínculo. De la misma manera, se tiene que elegir la carpeta donde se localizará esta publicación a realizar. Finalmente podremos acceder a nuestra página con el link que aparece en la parte superior de este apartado de configuración
 - Siguiendo los pasos, obtenemos el siguiente enlace:
-  https://oncontigo-upc.github.io/Landing-Page/
+  https://github.com/EQUIPO-B-Nombre/Landing-Page
 
 ## 5.2. Product Implementation & Deployment
 
