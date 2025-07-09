@@ -3701,6 +3701,12 @@ Para evaluar el impacto real de las funcionalidades, se implementará un sistema
 | Media     | Registro detallado de errores en flujos de pacientes | Sistema de logs         | Observabilidad     | Sprint 3        |
 
 
+## 8.6 To-Be Software Platform Pre-launch
+
+### 8.6.1 About-The-Product Intro Video
+
+Enlace al video: https://drive.google.com/file/d/1zx1qneKrzgJC5Br-DWL7jFf_ftBINpcA/view?usp=sharing
+
 # Conclusiones y recomendaciones
 
 <p>
