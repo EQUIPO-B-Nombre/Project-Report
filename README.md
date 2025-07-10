@@ -3700,6 +3700,18 @@ Para evaluar el impacto real de las funcionalidades, se implementará un sistema
 | Baja      | Asistente guiado para primera vez en app             | Sistema de tutoriales   | Onboarding         | Sprint 4        |
 | Media     | Registro detallado de errores en flujos de pacientes | Sistema de logs         | Observabilidad     | Sprint 3        |
 
+### 8.3.3.3 Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
+
+#### 8.3.3.2 Implemented To-Be Landing Page Evidence
+
+#### 8.3.3.3 Implemented To-Be Frontend-Web Application Evidence
+
+#### 8.3.3.4 Implemented To-Be Native-Mobile Application Evidence
+
+#### 8.3.3.5 Implemented To-Be RESTful API and/or Serverless Backend Evidence
+
+#### 8.3.3.6 Team Collaboration Insights
+
 ## 8.4. Experiment Aftermath & Analysis
 
 ### 8.4.1. Analysis and Interpretation of Results
