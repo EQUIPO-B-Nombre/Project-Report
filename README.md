@@ -95,7 +95,21 @@ Link del Repositorio: [Repositorio](https://github.com/EQUIPO-B-Nombre/Project-R
 
 # Project Report Collaboration Insights
 
-En esta entrega cada uno de los integrantes realizo los siguientes puntos:
+En esta entrega para la TB1 cada uno de los integrantes realizo los siguientes puntos:
+
+- Mallma Quispe, Ruben Elias: Capítulo 7: DevOps Practices
+- Paredes Zapata, Luiggi Gianfranco: Capítulo 6: Product Verification & Validation
+- Matos Fernandez, Christian Andre: Capítulo 6: Product Verification & Validation
+- Ramos Mendoza, Juan Pablo: Capítulo 7: DevOps Practices
+- Martinez Villanueva, Paolo Del Carmen: Capítulo 7: DevOps Practices
+
+<img src="img/collaboration_insights_tb1.png" alt="Collaboration Insight tb1" >
+
+<img src="img/collaboration_tb1.png" alt="Collaboration Insight tb1" >
+
+-----
+
+En esta entrega para la TP1 cada uno de los integrantes realizo los siguientes puntos:
 
 - Mallma Quispe, Ruben Elias: Capítulo 1 Introducción
 - Paredes Zapata, Luiggi Gianfranco: Capítulo 2 Requirements Elicitation & Analysis
@@ -103,9 +117,9 @@ En esta entrega cada uno de los integrantes realizo los siguientes puntos:
 - Ramos Mendoza, Juan Pablo: Capítulo 4 Product Design
 - Martinez Villanueva, Paolo Del Carmen: Capítulo 5: Product Implementation
 
-<img src="img/collaboration_insights_tb1.png" alt="Collaboration Insight tb1" >
+<img src="img/collaboration_insights_tp1.png" alt="Collaboration Insight tp1" >
 
-<img src="img/collaboration_tb1.png" alt="Collaboration Insight tb1" >
+<img src="img/collaboration_tp1.png" alt="Collaboration Insight tp1" >
 
 # Tabla de Contenido
 
@@ -227,24 +241,129 @@ En esta entrega cada uno de los integrantes realizo los siguientes puntos:
     - [5.2.7. Team Collaboration Insights](#527-team-collaboration-insights)
   - [5.3. Video About-the-Product](#53-video-about-the-product)
   - [Conclusiones](#conclusiones)
-- [Capítulo VI: Product Verification & Validation](#capítulo-vi-product-verification--validation)
+- [Capítulo VI: Product Verification & Validation](#capítulo-vi-product-verification--validation)  
+  - [6.1. Testing Suites & Validation](#61-testing-suites--validation)  
+    - [6.1.1. Core Entities Unit Tests](#611-core-entities-unit-tests)  
+    - [6.1.2. Core Integration Tests](#612-core-integration-tests)  
+    - [6.1.3. Core Behavior-Driven Development](#613-core-behavior-driven-development)  
+    - [6.1.4. Core System Tests](#614-core-system-tests)  
+  - [6.2. Static Testing & Verification](#62-static-testing--verification)  
+    - [6.2.1. Static Code Analysis](#621-static-code-analysis)  
+      - [6.2.1.1. Coding Standard & Code Conventions](#6211-coding-standard--code-conventions)  
+      - [6.2.1.2. Code Quality & Code Security](#6212-code-quality--code-security)  
+    - [6.2.2. Reviews](#622-reviews)  
+  - [6.3. Validation Interviews](#63-validation-interviews)  
+    - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)  
+    - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)  
+    - [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)  
+  - [6.4. Auditoría de Experiencias de Usuario](#64-auditoría-de-experiencias-de-usuario)  
+    - [6.4.1. Auditoría Realizada](#641-auditoría-realizada)  
+      - [6.4.1.1. Información del Grupo Auditado](#6411-información-del-grupo-auditado)  
+      - [6.4.1.2. Cronograma de Auditoría Realizada](#6412-cronograma-de-auditoría-realizada)  
+      - [6.4.1.3. Contenido de Auditoría Realizada](#6413-contenido-de-auditoría-realizada)  
+    - [6.4.2. Auditoría Recibida](#642-auditoría-recibida)  
+      - [6.4.2.1. Información del Grupo Auditor](#6421-información-del-grupo-auditor)  
+      - [6.4.2.2. Cronograma de Auditoría Recibida](#6422-cronograma-de-auditoría-recibida)  
+      - [6.4.2.3. Contenido de Auditoría Recibida](#6423-contenido-de-auditoría-recibida)  
+      - [6.4.2.4. Resumen de Modificaciones para Subsanar Hallazgos](#6424-resumen-de-modificaciones-para-subsanar-hallazgos)  
 
-  - [6.1. Testing Suites & Validation](#61-testing-suites--validation)
-    - [6.1.1. Core Entities Unit Tests](#611-core-entities-unit-tests)
-    - [6.1.2. Core Integration Tests](#612-core-integration-tests)
-    - [6.1.3. Core Behaviour-Driven Development](#613-core-behaviour-driven-development)
-    - [6.1.4. Core System Tests](#614-core-system-tests)
-- [Capítulo VII: DevOps Practices](#capítulo-vii-devops-practices)
+- [Capítulo VII: DevOps Practices](#capítulo-vii-devops-practices)  
+  - [7.1. Continuous Integration](#71-continuous-integration)  
+    - [7.1.1. Tools and Practices](#711-tools-and-practices)  
+    - [7.1.2. Build & Test Suite Pipeline Components](#712-build--test-suite-pipeline-components)  
+  - [7.2. Continuous Delivery](#72-continuous-delivery)  
+    - [7.2.1. Tools and Practices](#721-tools-and-practices)  
+    - [7.2.2. Stages Deployment Pipeline Components](#722-stages-deployment-pipeline-components)  
+  - [7.3. Continuous Deployment](#73-continuous-deployment)  
+    - [7.3.1. Tools and Practices](#731-tools-and-practices)  
+    - [7.3.2. Production Deployment Pipeline Components](#732-production-deployment-pipeline-components)  
+  - [7.4. Continuous Monitoring](#74-continuous-monitoring)  
+    - [7.4.1. Tools and Practices](#741-tools-and-practices)  
+    - [7.4.2. Monitoring Pipeline Components](#742-monitoring-pipeline-components)  
+    - [7.4.3. Alerting Pipeline Components](#743-alerting-pipeline-components)  
+    - [7.4.4. Notification Pipeline Components](#744-notification-pipeline-components)  
 
-  - [7.1. Continuous Integration](#71-continuous-integration)
-    - [7.1.1. Tools and Practices](#711-tools-and-practices)
-    - [7.1.2. Builds & Test Suite Pipeline Components](#712-builds--test-suite-pipeline-components)
-  - [7.2. Continuous Delivery](#72-continuous-delivery)
-    - [7.2.1. Tools and Practices](#721-tools-and-practices)
-    - [7.2.2. Stages Deployment Pipeline Components](#722-stages-deployment-pipeline-components)
-  - [7.3. Continuous Deployment](#73-continuous-deployment)
-    - [7.3.1. Tools and Practices](#731-tools-and-practices)
-    - [7.3.2. Production Deployment Pipeline Components](#732-production-deployment-pipeline-components)
+- [Capítulo VI: Product Verification & Validation](#capítulo-vi-product-verification--validation)  
+  - [6.1. Testing Suites & Validation](#61-testing-suites--validation)  
+    - [6.1.1. Core Entities Unit Tests](#611-core-entities-unit-tests)  
+    - [6.1.2. Core Integration Tests](#612-core-integration-tests)  
+    - [6.1.3. Core Behavior-Driven Development](#613-core-behavior-driven-development)  
+    - [6.1.4. Core System Tests](#614-core-system-tests)  
+  - [6.2. Static Testing & Verification](#62-static-testing--verification)  
+    - [6.2.1. Static Code Analysis](#621-static-code-analysis)  
+      - [6.2.1.1. Coding Standard & Code Conventions](#6211-coding-standard--code-conventions)  
+      - [6.2.1.2. Code Quality & Code Security](#6212-code-quality--code-security)  
+    - [6.2.2. Reviews](#622-reviews)  
+  - [6.3. Validation Interviews](#63-validation-interviews)  
+    - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)  
+    - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)  
+    - [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)  
+  - [6.4. Auditoría de Experiencias de Usuario](#64-auditoría-de-experiencias-de-usuario)  
+    - [6.4.1. Auditoría Realizada](#641-auditoría-realizada)  
+      - [6.4.1.1. Información del Grupo Auditado](#6411-información-del-grupo-auditado)  
+      - [6.4.1.2. Cronograma de Auditoría Realizada](#6412-cronograma-de-auditoría-realizada)  
+      - [6.4.1.3. Contenido de Auditoría Realizada](#6413-contenido-de-auditoría-realizada)  
+    - [6.4.2. Auditoría Recibida](#642-auditoría-recibida)  
+      - [6.4.2.1. Información del Grupo Auditor](#6421-información-del-grupo-auditor)  
+      - [6.4.2.2. Cronograma de Auditoría Recibida](#6422-cronograma-de-auditoría-recibida)  
+      - [6.4.2.3. Contenido de Auditoría Recibida](#6423-contenido-de-auditoría-recibida)  
+      - [6.4.2.4. Resumen de Modificaciones para Subsanar Hallazgos](#6424-resumen-de-modificaciones-para-subsanar-hallazgos)  
+
+- [Capítulo VII: DevOps Practices](#capítulo-vii-devops-practices)  
+  - [7.1. Continuous Integration](#71-continuous-integration)  
+    - [7.1.1. Tools and Practices](#711-tools-and-practices)  
+    - [7.1.2. Build & Test Suite Pipeline Components](#712-build--test-suite-pipeline-components)  
+  - [7.2. Continuous Delivery](#72-continuous-delivery)  
+    - [7.2.1. Tools and Practices](#721-tools-and-practices)  
+    - [7.2.2. Stages Deployment Pipeline Components](#722-stages-deployment-pipeline-components)  
+  - [7.3. Continuous Deployment](#73-continuous-deployment)  
+    - [7.3.1. Tools and Practices](#731-tools-and-practices)  
+    - [7.3.2. Production Deployment Pipeline Components](#732-production-deployment-pipeline-components)  
+  - [7.4. Continuous Monitoring](#74-continuous-monitoring)  
+    - [7.4.1. Tools and Practices](#741-tools-and-practices)  
+    - [7.4.2. Monitoring Pipeline Components](#742-monitoring-pipeline-components)  
+    - [7.4.3. Alerting Pipeline Components](#743-alerting-pipeline-components)  
+    - [7.4.4. Notification Pipeline Components](#744-notification-pipeline-components)
+
+- [Part III: Experiment-Driven Lifecycle](#part-iii-experiment-driven-lifecycle)  
+
+- [Capítulo VIII: Experiment-Driven Development](#capítulo-viii-experiment-driven-development)  
+  - [8.1. Experiment Planning](#81-experiment-planning)  
+    - [8.1.1. As-Is Summary](#811-as-is-summary)  
+    - [8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims](#812-raw-material-assumptions-knowledge-gaps-ideas-claims)  
+    - [8.1.3. Experiment-Ready Questions](#813-experiment-ready-questions)  
+    - [8.1.4. Question Backlog](#814-question-backlog)  
+    - [8.1.5. Experiment Cards](#815-experiment-cards)  
+  - [8.2. Experiment Design](#82-experiment-design)  
+    - [8.2.1. Hypotheses](#821-hypotheses)  
+    - [8.2.2. Measures](#822-measures)  
+    - [8.2.3. Conditions](#823-conditions)  
+    - [8.2.4. Scale Calculations and Decisions](#824-scale-calculations-and-decisions)  
+    - [8.2.5. Methods Selection](#825-methods-selection)  
+    - [8.2.6. Data Analytics: Goals, KPIs and Metrics Selection](#826-data-analytics-goals-kpis-and-metrics-selection)  
+    - [8.2.7. Web and Mobile Tracking Plan](#827-web-and-mobile-tracking-plan)  
+  - [8.3. Experimentation](#83-experimentation)  
+    - [8.3.1. To-Be User Stories](#831-to-be-user-stories)  
+    - [8.3.2. To-Be Product Backlog](#832-to-be-product-backlog)  
+    - [8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle](#833-pipeline-supported-experiment-driven-to-be-software-platform-lifecycle)  
+      - [8.3.3.1. To-Be Sprint Backlogs](#8331-to-be-sprint-backlogs)  
+      - [8.3.3.2. Implemented To-Be Landing Page Evidence](#8332-implemented-to-be-landing-page-evidence)  
+      - [8.3.3.3. Implemented To-Be Frontend-Web Application Evidence](#8333-implemented-to-be-frontend-web-application-evidence)  
+      - [8.3.3.4. Implemented To-Be Native-Mobile Application Evidence](#8334-implemented-to-be-native-mobile-application-evidence)  
+      - [8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence](#8335-implemented-to-be-restful-api-andor-serverless-backend-evidence)  
+      - [8.3.3.6. Team Collaboration Insights](#8336-team-collaboration-insights)  
+    - [8.3.4. To-Be Validation Interviews](#834-to-be-validation-interviews)  
+      - [8.3.4.1. Diseño de Entrevistas](#8341-diseño-de-entrevistas)  
+      - [8.3.4.2. Registro de Entrevistas](#8342-registro-de-entrevistas)  
+  - [8.4. Experiment Aftermath & Analysis](#84-experiment-aftermath--analysis)  
+    - [8.4.1. Analysis and Interpretation of Results](#841-analysis-and-interpretation-of-results)  
+    - [8.4.2. Re-scored and Re-prioritized Question Backlog](#842-re-scored-and-re-prioritized-question-backlog)  
+  - [8.5. Continuous Learning](#85-continuous-learning)  
+    - [8.5.1. Shareback Session Artifacts: Learning Workflow](#851-shareback-session-artifacts-learning-workflow)  
+  - [8.6. To-Be Software Platform Pre-launch](#86-to-be-software-platform-pre-launch)  
+    - [8.6.1. About-the-Product Intro Video](#861-about-the-product-intro-video)
+
+
 
 [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
 
@@ -2016,7 +2135,7 @@ implementación
 
 ### 4.10.1. Relational/Non-Relational Database Diagram
 
-<image src="img/Chapter-4/Database_Model.png"> <br>
+<image src="img/base_datos_oncontigo.png"> <br>
 
 # Capítulo V: Product Implementation
 
@@ -2804,7 +2923,7 @@ Se implementaron pruebas unitarias dirigidas a las entidades clave del sistema, 
 
 Entre las entidades evaluadas se incluyen:
 
-Resumen de pruebas unitarias en Agrotech API
+Resumen de pruebas unitarias en Oncontigo API
 --
 
 Las pruebas desarrolladas en los diferentes módulos del proyecto se basan principalmente en JUnit 5 para la ejecución de los tests y en Mockito para simular dependencias externas como repositorios, servicios y entidades asociadas. Adicionalmente, en ciertos escenarios se utiliza Jakarta Validation para validaciones y se incorporan pruebas de eventos mediante Spring Boot Test.
@@ -2902,15 +3021,229 @@ Se verificó el proceso de creación de un registro de seguimiento de salud para
 
 <img src="./img/Chapter-6/CoreSystemTests3.png">
 
-## 6.2. Static testing & Verification
+## 6.2. Static Testing & Verification
 ### 6.2.1. Static Code Analysis
-### 6.2.1.1. Coding standard & Code conventions.
-### 6.2.1.2. Code Quality & Code Security.
+#### 6.2.1.1. Coding Standard & Code Conventions
+
+Durante el desarrollo de la aplicación, se definieron y adoptaron estándares de codificación adaptados a cada una de las tecnologías empleadas. En el caso del frontend web desarrollado con Angular, se siguieron las convenciones ampliamente aceptadas en la comunidad de TypeScript, complementadas con herramientas como ESLint, que contribuyeron a mantener un estilo de código consistente, claro y fácil de mantener. Para la aplicación móvil escrita en Kotlin, se respetaron las guías oficiales de JetBrains, priorizando la legibilidad, la adecuada denominación de variables y funciones, así como una correcta indentación.
+
+En cuanto al backend implementado con Spring Boot, se aplicaron buenas prácticas de programación en Java, prestando atención a un uso apropiado de estructuras de control, una adecuada modularización y comentarios explicativos cuando fueron requeridos. Estas convenciones facilitaron la coherencia en el código entre los distintos miembros del equipo, optimizando tanto el proceso de revisión como el mantenimiento de la solución.
+
+Con el propósito de garantizar un código de alta calidad y minimizar posibles vulnerabilidades, se implementó un proceso continuo de análisis estático y revisión manual, apoyado por herramientas como ESLint. Estas herramientas facilitaron la detección de problemas como lógica duplicada, código innecesario, excesiva complejidad y otras malas prácticas que comprometen la mantenibilidad del sistema.
+
+#### 6.2.1.2. Code Quality & Code Security
+
+Durante el desarrollo se identificaron y abordaron diversas vulnerabilidades clave:
+
+- **Inyección SQL:** En el backend desarrollado con Spring Boot, se refactoraron las consultas para utilizar parámetros seguros mediante `PreparedStatement` y sentencias JPQL en los repositorios de JPA, evitando riesgos de inyección.
+
+- **Cross-Site Scripting (XSS):** En el frontend web con Angular, se detectaron puntos vulnerables al insertar contenido dinámico sin sanitización. Para mitigar este riesgo, se utilizó `DomSanitizer`, aprovechando sus capacidades de limpieza automática, y se evitó el uso innecesario de `innerHTML`.
+
+- **Manejo inseguro de autenticación y sesiones:** En la integración entre frontend, backend y aplicación móvil, se verificó que los tokens JWT se transmitían de forma segura a través del encabezado HTTP `Authorization`. Además, se definieron tiempos de expiración apropiados y se implementó un sistema controlado de renovación de sesión.
+
+Todas estas acciones contribuyeron a fortalecer la seguridad general del sistema y a reducir el riesgo frente a ataques comunes en aplicaciones web y móviles. Estas medidas seguirán aplicándose en futuras fases mediante herramientas automatizadas de análisis y validación integradas en el pipeline de integración continua.
+
+
 ### 6.2.2. Reviews
-## 6.3. Validation Interviews.
-### 6.3.1. Diseño de Entrevistas.
-### 6.3.2. Registro de Entrevistas.
-### 6.3.3. Evaluaciones según heurísticas.
+
+# Revisión de Código
+
+Las revisiones de código son esenciales para asegurar que el software cumpla con los estándares de calidad y las normativas establecidas. Este proceso combina evaluaciones manuales y automáticas, siguiendo lineamientos específicos.
+
+## Tipos de Revisión
+
+- **Revisión entre pares**: Un desarrollador examina el código de otro para verificar su claridad, cumplimiento de normas y facilidad de mantenimiento.  
+- **Revisión formal**: Se realiza en sesiones estructuradas, utilizando listas de verificación que ayudan al equipo a identificar errores de forma colectiva.  
+- **Revisión automatizada**: Herramientas como *ESLint* o *SonarQube* se emplean para detectar defectos y problemas de calidad de forma inmediata durante el desarrollo.
+
+## Flujo del Proceso de Revisión
+
+- **Creación del Pull Request (PR)**: El desarrollador debe generar un PR con una descripción detallada de los cambios y las pruebas realizadas.  
+- **Lista de verificación**: Se debe utilizar un *checklist* que cubra aspectos clave como legibilidad del código, pruebas implementadas y gestión adecuada de errores.  
+- **Comentarios y retroalimentación**: Los revisores deben brindar observaciones claras y constructivas. Cualquier hallazgo debe corregirse antes de la aprobación.  
+- **Aprobación del PR**: Es necesario que al menos otro desarrollador apruebe el PR antes de integrarlo a la rama principal.
+
+## Criterios de Aceptación
+
+- **Calidad y seguridad**: El código debe seguir los estándares definidos y no introducir vulnerabilidades.  
+- **Cobertura de pruebas**: Se debe alcanzar una cobertura mínima (por ejemplo, del 80%) para validar que las nuevas funcionalidades estén correctamente probadas.
+
+## Frecuencia
+
+Las revisiones deben realizarse de manera periódica, preferiblemente al finalizar cada *sprint* o en plazos establecidos, para evitar acumulación de cambios y mantener la calidad del proyecto.
+
+## 6.3 Validation Interviews
+
+### 6.3.1.Diseño de Entrevistas.
+
+*¿Podría presentarse con su nombre completo, edad, distrito de residencia y ocupación?*
+
+*Sobre el landing page, ¿la considera llamativa y visualmente interesante?*
+
+*¿Considera que la información proporcionada comunica de forma correcta las funciones de nuestra aplicación?*
+
+*¿Hay algo que considere deberíamos cambiar o eliminar en la página?*
+
+*Sobre la aplicación, ¿las herramientas son claras y de fácil lectura?*
+
+*¿Cree que nuestra aplicación le hubiera ayudado a tener mayor orden durante el proceso oncológico?*
+
+*¿Qué cambios propondría para mejorar los elementos visuales de nuestra aplicación?*
+
+*Si es que usara esta aplicación por primera vez sin una guía, ¿le parecería claro cómo utilizarla, o hay herramientas que no tienen un uso claro a simple vista?*
+
+*¿Hay alguna opción o herramienta que cree que le falta a nuestra aplicación?*
+
+*¿Recomendaría esta aplicación hacia médicos u otros pacientes oncológicos?*
+
+
+**Médicos:**
+*¿Considera que las herramientas brindadas mejorarían su orden con los pacientes?*
+ 
+*¿Utilizaría la aplicación para organizar los procesos médicos de cada uno de sus pacientes?*
+### 6.3.2.Registro de Entrevistas.
+
+
+Entrevista 1: Verónica Mendoza, 52, Chorrillos, profesora de tiempo completo en la upc ; familiar de paciente oncológico
+<img src="./img/Chapter-6/juan1.png"/>
+<br>https://drive.google.com/file/d/1aMSpnoVOVk1TBoXqOUFQYVw73LOTRLD1/view?usp=sharing
+
+Resumen:
+
+La entrevistada tuvo una buena experiencia con el landing page, considerándolo bastante llamativo de forma visual pero con información clara, permitiendo conocer el objetivo y función de nuestra startup y aplicación realizada. El único detalle que sugirió como cambio es que nuestro logo sea más visible, quizás aumentando su tamaño o colocándolo en más lugares.
+Sobre la aplicación, la entrevistada también tuvo una buena experiencia con ella. Consideró que cada botón y enlace mostrado era bastante claro en su función, por lo que incluso podría utilizarla de forma correcta sin necesidad de una guía. Los únicos cambios que realizaría sobre la aplicación es que el calendario muestre más detalles sobre el mes y semana en la que se realizarán las citas, una sección que presenta noticias sobre tratamientos oncológicos recientes y simplemente que nuestro logo aparezca más visible.
+La entrevistada consideró que nuestra aplicación sería de mucha ayuda para personas pasando por los procesos oncológicos, además de que las herramientas para los médicos les ayudarían a mejorar su eficiencia y organización, además de que le hubiera gustado mucho tener esta aplicación mientras que su pariente se encontró en el proceso oncológico.
+
+<br>
+Entrevista 2: Manuel Luis Ramos, 52, San Luis, posición administrativa en resocentro ; familiar de paciente oncológico
+<img src="./img/Chapter-6/juan2.png"/>
+<br>https://drive.google.com/file/d/1uc8FAaD1ArRYNPcP5_7kGPWF3bItJdF_/view?usp=sharing <br>
+
+Resumen:
+
+El entrevistado consideró la landing page impactante de forma visual, con la información en ella explicando claramente nuestra aplicación y objetivo al realizarla. Los únicos cambios que considera importantes son el uso de lazos de más colores, ya que solo utilizar un lazo rosado está vinculado a un solo tipo de cáncer y podría hacer creer a un usuario que solo nos enfocamos en ese tipo. Otro cambio que considera es cambiar el título de "Trabajando por tu salud" a uno más enfocado al cáncer y tratamientos oncológicos.
+Para la aplicación, el entrevistado considera que todo está claro y conciso y de fácil entendimiento, por lo que sí podría utilizarla aunque no tuviera a alguien que le explique como usarla. El único cambio que considera de gran importancia es que las aplicaciones no estén completamente vinculadas entre médicos y pacientes, es decir, si es que el médico no tenga la aplicación descargada, entonces el paciente debería poder registrar citas en su calendario personal. A parte de esto, la aplicación le parece de gran utilidad al entrevistado.
+
+<br>
+Entrevista 3: Eduard Travezaño, 20, San Juan de Lurigancho, Estudiante universitario ; familiar de paciente
+<img src="./img/Chapter-6/juan3.png"/>
+<br>https://drive.google.com/file/d/13l0HOKYB5VeZ4CLpG4pVyeep5gKchQea/view?usp=sharing<br>
+
+Resumen:
+
+El entrevistado tuvo una buena experiencia con nuestro landing page, pareciéndole única y llamativa con los tonos de colores rosados y con información no abrumadora que cause confusión visual. La página muestra información que comunica fácilmente el uso de la aplicación, aunque desearía que nos enfocáramos a la salud en general, no solamente a tratamientos y médicos oncológicos, aunque entiende nuestra misión de enfocarnos en ellos.
+En términos de la aplicación, todo le parece entendible y claro al entrevistado y le agrada el calendario, aunque desearía que hubiera más información sobre las citas y pacientes o médicos además de su nombre y fecha, cosas como especialidad o razón de cita.
+Además, el entrevistado considera que la aplicación está bastante completa, pero una lista de visitas al paciente si es que estuviera internado sería de gran ayuda.
+### 6.3.3.Evaluaciones según heurísticas.
+
+**SITE o APP A EVALUAR**
+
+Meta: El propósito general de la evaluación es encontrar problemas existentes en la aplicación web "OnContigo".
+
+Cómo: Los hallazgos del sitio web se llevarán a cabo utilizando la Lista Heurística de Nielsen, inicialmente investigada y creada por Jakob Nielsen.
+
+**TAREAS A EVALUAR:**
+
+**Desktop landing page**
+
+Información y descripción de la aplicación y sus funcionalidades.
+Visualización de planes de pago de la aplicación.
+Header y footer apropiado para la landing page.
+Interacción del landing page con la aplicación.
+Redes sociales asociadas al startup.
+Videos de about the product y about the team.
+
+**Web Application**
+
+Inicio de sesión con usuario existente de paciente y doctor.
+Visualización de los planes para el registro del paciente.
+Iconografía comprensible y consistente con el mundo real.
+Mensajes de error que reflejen el registro de datos incorrectos.
+Acciones de retroceso dentro de la aplicación.
+Evaluar existencia de patrones de diseño o navegación.
+Elementos de la interfaz de usuario consistentes.
+Pestañas de navegación dentro de la aplicación.
+Botones interactivos y de uso intuitivo.
+Navegación y orientación dentro de la aplicación.
+Visualización de perfil del paciente.
+Visualización del perfil de la doctor.
+Visualización del buscar doctor en la aplicación del paciente.
+Visualización del perfil del doctor en la aplicación del paciente.
+Estética general de la interfaz atractiva y agradable visualmente.
+
+**No están incluidas en esta versión de la evaluación las siguientes tareas:**
+
+**Desktop landing page**
+Política de privacidad y condiciones de uso.
+
+**Web Application**
+Registro de un nuevo usuario.
+Recuperación de contraseña.
+Compra de los planes.
+Solicitar cita a un doctor.
+Acceso a recursos de ayuda dentro de la aplicación.
+Actualizar la información del paciente y doctor.
+Plan de paciente en la aplicación del doctor.
+Política de privacidad y condiciones de uso.
+
+**ESCALA DE SEVERIDAD:**
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad 
+
+|Nivel|Descripción |
+| :- | :- |
+|1|<p>Problema superficial: puede ser fácilmente superador por el usuario ó ocurre con muy poco </p><p>frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.</p>|
+|2|<p>Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de </p><p>superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente </p><p>reléase</p>|
+|3|<p>Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es </p><p>importante que sean corregidos y se les debe asignar una prioridad alta.</p>|
+|4|<p>Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de </p><p>la herramienta. Es imperativo que sea corregido antes del lanzamiento.</p>|
+
+
+
+**TABLA RESUMEN:**
+
+**Desktop landing page**
+
+|<a name="_hlk149818153"></a>**#**|**Problema**|**Escala de severidad**|**Heurística/Principio violada(o)**|
+| :- | :- | :- | :- |
+|1|<a name="_hlk149816674"></a>El logo de la aplicación esta muy resaltado en un cuadro |3|Usability: Coincidencia entre el sistema y el mundo real|
+|2|En el contenido del meet us las letras no son fácil de visualizar, el color no es lo adecuado.|2|Usability: Coincidencia entre el sistema y el mundo real|
+|3| No hay videos acerca del producto y del equipo en "About Us"..|2|Usabilidad: Visibilidad del estado del sistema.|
+
+
+
+**PROBLEMA #01**:  El logo de la aplicación está muy resaltado en un cuadro
+
+**Escala de severidad:3**
+
+**Principio violado:** Usabilidad: Coincidencia entre el sistema y el mundo real**.**
+
+**Descripción del problema:** El logo de la aplicación se destaca excesivamente en un cuadro, lo que puede distraer a los usuarios de otros elementos o contenido importante en la página de inicio. Esta falta de alineación con las expectativas de los usuarios y la convención del mundo real puede dificultar la comprensión de la interfaz y la navegación.
+
+
+**Recomendación:**
+Reduzca el resalte del logo en el cuadro o colóquelo de manera más equilibrada en la página de inicio para que no sea el elemento dominante. Asegúrese de que la página de inicio tenga un equilibrio visual adecuado y que los elementos esenciales sean fácilmente identificables sin distraer a los usuarios. Esto mejorará la experiencia del usuario y la alineación con el principio de "Coincidencia entre el sistema y el mundo real".
+
+**PROBLEMA #02:** En el contenido del "Meet Us," las letras no son fáciles de visualizar y el color no es el adecuado.
+
+**Escala de severidad:** 2
+
+**Principio violado:** Coincidencia entre el sistema y el mundo real
+
+**Descripción del problema:** El contenido de la sección "Meet Us" presenta dificultades en la legibilidad debido a la elección de colores y fuentes. Las letras pueden no ser fáciles de visualizar debido a problemas de contraste o elección de color inapropiado, lo que puede dificultar la comprensión del contenido.
+
+
+
+**Recomendación:** Se recomienda mejorar la legibilidad del contenido en la sección "Meet Us" ajustando la elección de colores y fuentes para garantizar un contraste adecuado y una fácil visualización. Esto cumplirá con el principio de "Coincidencia entre el sistema y el mundo real" al facilitar la lectura del contenido.
+
+**PROBLEMA #03**: No hay videos acerca del producto y del equipo en "About Us".
+**Escala de severidad**: 2
+
+**Principio violado**: Usabilidad: Visibilidad del estado del sistema.
+
+**Descripción del problema**: En la sección "About Us," no se incluyen videos informativos sobre el producto o el equipo detrás de la aplicación. La falta de contenido multimedia puede limitar la comprensión y la visibilidad del estado del sistema. Los usuarios pueden esperar encontrar información más detallada y visual en esta sección.
+
+**Recomendación**: Se sugiere enriquecer la sección "About Us" con videos informativos que presenten el producto y el equipo de desarrollo de la aplicación. Esto mejorará la visibilidad del estado del sistema y proporcionará a los usuarios una comprensión más completa, cumpliendo con el principio de "Visibilidad del estado del sistema."
+
 ### 6.4. Auditoría de Experiencias de Usuario
 ### 6.4.1. Auditoría realizada.
 #### 6.4.1.1. Información del grupo auditado.
@@ -2984,144 +3317,397 @@ Se verificó el proceso de creación de un registro de seguimiento de salud para
 | 7 | Los contratistas no pueden acceder a sus proyectos                           | Habilitar una sección funcional para que los contratistas gestionen sus proyectos desde la plataforma.      |
 | 8 | Botones de sign-in/sign-up no dinámicos + falta personalización de contenido | Agregar animaciones CSS a los botones y lógica para mostrar contenido personalizado según preferencias.     |
 
-
+  
 # Capítulo VII: DevOps Practices
 
-## 7.1. Continuous Integration
+## 7.1 Continuous Integration (CI)
 
-### 7.1.1. Tools and Practices
+La integración continua asegura que cada cambio en el repositorio principal pase por un flujo automatizado de compilación y pruebas antes de fusionarse con la rama `develop/main`; así obtenemos *feedback* temprano y evitamos el temido *integration hell*.
 
-Hemos utilizado las siguientes herramientas y técnicas para validar de forma automática los cambios realizados por nuestro grupo antes de ser integrados directamente:
+### 7.1.1 Tools and Practices
 
-- **Repositorios Independientes:** Cada uno de los componentes y partes principales de nuestra aplicación, como la aplicación web, móvil, back-end, etc., tiene su propio repositorio en GitHub, permitiendo revisar las versiones y los cambios.
-- **Ramas basadas en features:** Todo desarrollo principal se realiza en un rama /feature que luego se combina en la rama develop luego de validar los cambios.
-- **GitHub Actions:**  Se emplea esta herramienta como orquestador de CI en todos los repositorios. Cada push o pull request desencadena automáticamente workflows de validación.
-- **Validación de Dependencias:** Se usan acciones para asegurar que las dependencias estén actualizadas y libres de vulnerabilidades mediante escaneos automáticos.
+| Práctica                                | Implementación en el proyecto                                                             |
+| --------------------------------------- | ----------------------------------------------------------------------------------------- |
+| **Repositorio Git multi‑componente**    | Web (React), Mobile (Kotlin) y Backend (Node.js) con ramas *feature* → *develop* → *main* |
+| **GitHub Actions como orquestador**     | Cada *push* dispara un workflow de CI con matriz por componente                           |
+| **Revisión automática de dependencias** | `npm audit`, `gradle --scan`, `npm‑audit‑action`                                          |
+| **Validadores de estilo**               | ESLint (web) y *ktlint* (mobile)                                                          |
+| **Pruebas automáticas**                 | Jest, JUnit 5, Mockito, SuperTest (API)                                                   |
 
-### 7.1.2. Builds & Test Suite Pipeline Components
+### 7.1.2 Build & Test Suite Pipeline Components
 
-- Frontend Web (React):
+1. **Checkout** del código
+2. **Instalación de dependencias** (`npm ci`, `./gradlew build`)
+3. **Build/Compile** – genera artefactos (bundle JS, APK, imagen Docker)
+4. **Unit Tests**
+5. **Integration Tests**
+6. **Code Analytics** (coverage + SonarCloud)
+7. **Publicación del artefacto** en el registry interno
 
-  - Instalación de dependencias
+---
 
-  - Validación de estilo con ESLint
+## 7.2 Continuous Delivery (CD)
 
-  - Ejecución de pruebas unitarias con Jest
+Con CD garantizamos que cada *build* validado esté siempre desplegado en un entorno **listo para ser promovido** a producción mediante aprobación humana.
 
-  - Construcción del proyecto (npm run build)
+### 7.2.1 Tools and Practices
 
-- Frontend Móvil (Kotlin):
+- **Entornos separados**: `dev` → `staging` → `prod`
+- **Workflows de CD** (GitHub Actions) que se disparan al fusionar ramas `release/*`
+- **Versionado semántico** automático (`1.0.0-beta+<hash>`)
+- **Notificaciones** en Slack/Teams para *smoke tests* y aprobaciones
 
-  - Instalación de dependencias
+### 7.2.2 Stages Deployment Pipeline Components
 
-  - Validación de estilo con ESLint
+1. **Build** – imagen Docker/APK con *tag* semántico
+2. **Test** – *smoke* + regresión (Cypress/Playwright)
+3. **Deploy to Staging** – Azure App Service / Firebase Hosting
+4. **Manual Approval** – revisión funcional del equipo
+5. **Deploy to Production** – *blue‑green* o *canary* según el riesgo
 
-  - Ejecución de pruebas unitarias con Jest
+---
 
-  - Construcción del proyecto
+## 7.3 Continuous Deployment (CDp)
 
-- Backend (Node.js):
+Para funcionalidades de bajo riesgo habilitamos **despliegue continuo**: si el pipeline pasa, la nueva versión llega automáticamente a producción.
 
-  - Instalación de dependencias
+### 7.3.1 Tools and Practices
 
-  - Ejecución de pruebas unitarias y de integración
+- Git + GitHub Actions
+- Pruebas automatizadas exhaustivas (unitarias, integración, e2e)
+- Entornos lo más *production‑like* posible
+- Pipeline de despliegue totalmente automatizado
+- Monitoreo y *feedback* inmediato tras cada *release*
 
-  - Validación de cobertura de pruebas (p. ej. con coverlet, pytest-cov, etc.)
+### 7.3.2 Production Deployment Pipeline Components
 
-  - Validación de endpoints y contratos API mediante pruebas automatizadas
+| Símbolo   | Etapa real            | Detalle                                                                              |
+| --------- | --------------------- | ------------------------------------------------------------------------------------ |
+| Luz verde | **Gate** de calidad   | Se publica el artefacto solo si la cobertura ≥ 90 % y los linters pasan              |
+| Canario   | **Canary release**    | < 5 % de tráfico; si los KPIs bajan → *rollback* automático                          |
+| Regla     | **Medición & mejora** | Prometheus + Grafana registran latencia y errores; cada sprint se revisan tendencias |
 
-- Documentación técnica (Markdown):
+---
 
-  - Verificación de estructura y enlaces rotos
+## 7.4 Continuous Monitoring (CM)
 
-## 7.2. Continuous Delivery
+El monitoreo continuo cierra el ciclo DevOps: convierte los datos de producción en aprendizaje accionable.
 
-### 7.2.1. Tools and Practices
+### 7.4.1 Tools and Practices
 
-Usando las siguientes herramientas y prácticas para validar que nuestro software se encuentre desplegado:
+- **Logging estructurado** → ElasticSearch / Loki
+- **Métricas** → Prometheus + Grafana (requests/sec, latencia p95, uso CPU)
+- **Tracing distribuido** → OpenTelemetry + Jaeger
+- **Alerting** → Alertmanager + notificaciones (Slack, correo)
+- **SLOs/SLIs** con *error budget* para priorizar deuda operativa
 
-- **Entornos separados:** Se cuenta con entornos de desarrollo, staging (pre-producción) y producción.
+### 7.4.2 Monitoring Pipeline Components
 
-- **GitHub Actions + Workflows de CD:** Al integrarse a las ramas main o release, se dispara automáticamente un flujo de entrega continua.
+1. **Recolección** – *exporters* y agentes
+2. **Almacenamiento** – base de series temporales (Prometheus)
+3. **Visualización** – dashboards de Grafana basados en SLA/SLO
+4. **Alerting** – reglas sobre umbrales → canales de soporte
+5. **Post‑mortem & mejora** – lecciones aprendidas alimentan el backlog técnico
 
-- **Notificaciones y revisión:** Al completar una entrega, notificamos a todos los miembros del grupo para validación manual o exploratoria en entornos intermedios.
+### 7.4.3 Alerting Pipeline Components
 
-### 7.2.2. Stages Deployment Pipeline Components
+- Alertas por latencia, errores 5xx, colas y consumo de cuota
+- Escalamiento por severidad (P1 → P3) con rotación *on‑call*
 
-Esta forma de entrega se realiza en múltiples etapas:
+### 7.4.4 Notification Pipeline Components
 
-#### 1. Build:
+- Integración con Slack, Teams y correo institucional
+- Plantillas con contexto (trace ID, commit SHA, rama, autor) para acelerar el MTTR
 
-  - Generación del artefacto (Docker image, archivo .apk / .ipa, bundle JS)
+# Capítulo VIII: Experiment-Driven Development
 
-  - Versionado automático del build
+## 8.1. Experiment Planning
 
-#### 2. Test:
+### 8.1.1. As-Is Summary
 
-  - Pruebas post-build (smoke tests, pruebas de regresión automatizadas)
+El proyecto OnContigo se encuentra mayormente en etapa funcional, con funcionalidades visibles en el front-end con datos en back-end usables de forma demostrativa para el proyecto completo, tanto en la aplicación web como en la aplicación móvil. 
 
-  - Pruebas E2E automatizadas en staging (p. ej., con Cypress o Playwright)
+Además de las pruebas realizadas entre nuestro grupo y con las entrevistas de validación demostrativas, recibiendo comentarios positivos en la presentación pero con espacio de mejora continua, tanto por la parte del diseño (el uso de colores ligeramente distintos y el uso de imágenes), como algunas en la experiencia del usuario.
+Este proyecto sigue en mejora continua y, para ello, hemos realizado la planificación de ciertos experimentos para continuar esta mejora.
 
-#### 3. Deploy to Staging:
+### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims
 
-  - Despliegue en entorno staging para validación de QA y stakeholders
+- **Assumptions (Suposiciones)**
 
-  - Se utilizan servicios como Azure App Service, Vercel o Firebase Hosting según el componente
+  - Los pacientes prefieren tener un sistema de notificaciones en relación a los recordatorios de citas y procedimientos médicos.
 
-#### 4. Manual Approval:
+  - Los médicos necesitan tener una vista de sus calendarios eficiente para evitar cruces entre múltiples pacientes.
 
-  - Validación funcional por el equipo (cuando es necesario) antes del paso a producción
+  - Las interfaces actuales de las aplicaciones son adecuadas para pacientes mayores debido al uso de imágenes e íconos reconocibles.
 
-#### 5. Deploy to Production:
+- **Knowledge Gaps (Brechas de Conocimiento)**
 
-  - Despliegue controlado en producción
+  - ¿Qué tipo de notificaciones son más efectivas para los pacientes?
 
-  - Estrategias como blue-green deployment o canary release para minimizar el riesgo
+  - ¿Cuál es la frecuencia óptima para enviar recordatorios?
 
+  - ¿Los médicos prefieren una vista semanal, diaria o personalizada?
 
-## 7.3. Continuous Deployment
+  - ¿Qué funcionalidades consideran críticas los pacientes y los médicos que aún no están implementadas?
 
-El Continuous Deployment es la capacidad de entregar de manera continua y
-automatizada nuevas versiones de software a producción. Esto implica que cada
-vez que se realiza una modificación en el código de la aplicación, se lleva a cabo
-un proceso de prueba, y si pasa satisfactoriamente, se despliega
-automáticamente en un entorno de producción sin intervención manual. Esto
-permite la rápida iteración y entrega de nuevas características y correcciones de
-errores.
+- **Ideas**
 
-### 7.3.1. Tools and Practices
+  - Implementar una función de "vista diaria" para médicos con indicadores de prioridad.
 
-En el contexto del Continuous Deployment, existen varias herramientas y
-prácticas clave que vamos a utilizar:
+  - Incluir una sección de “estado de ánimo” para los pacientes antes de cada cita.
 
-  - **Herramienta de Control de Versiones:** Usamos Git para rastrear y gestionar el código fuente de la aplicación.
+  - Integrar con servicios de mensajería como WhatsApp o SMS para notificaciones.
 
-  - **Automatización de Pruebas:** Implementar pruebas automatizadas, que incluyen pruebas unitarias, pruebas de integración, pruebas de regresión, etc., para garantizar que el software cumpla con los estándares de calidad antes de su despliegue.
+- **Claims (Afirmaciones)**
 
-  - **Entornos de Desarrollo y Pruebas:** Mantener entornos de desarrollo y pruebas que sean lo más similares posible al entorno de producción para minimizar las sorpresas durante el despliegue.
+  - Una mejora en la organización del calendario reducirá el ausentismo a citas.
+
+  - Los médicos reducirán el tiempo dedicado a la coordinación manual de citas con un sistema más visual.
+
+  - Los pacientes que usan la app durante al menos un mes mostrarán mejor adherencia al tratamiento.
+
+### 8.1.3. Experiment-Ready Questions
+
+Se han preparado las siguientes preguntas para su validación a través de experimentos concretos:
+
+  - ¿El uso de notificaciones automáticas incrementa la asistencia a citas en un 20% o más?
+
+  - ¿Los pacientes prefieren recibir notificaciones por la app, por SMS o por correo electrónico?
+
+  - ¿Una vista de agenda semanal mejora la satisfacción y organización de los médicos respecto a una vista diaria?
+
+  - ¿Los pacientes de más de 50 años encuentran la interfaz lo suficientemente intuitiva sin asistencia?
+
+### 8.1.4. Question Backlog
+
+Por otro lado, las siguientes preguntas requieren de experimentos con mayor preparación debido a sus funciones más profundas o de menor prioridad en comparación a las anteriores:
+
+  - ¿Qué nivel de detalle sobre los medicamentos es más útil para los pacientes?
+
+  - ¿Se incrementa la carga cognitiva de los médicos al tener que interactuar digitalmente con cada paciente?
+
+  - ¿La app puede integrarse con calendarios personales externos (Google Calendar, Outlook)?
+
+  - ¿El seguimiento emocional puede predecir ausencias a futuras citas?
+
+  - ¿Cuántos pasos interactivos son óptimos antes de confirmar una cita?
+
+### 8.1.5. Experiment Cards
+
+Cada una de las siguientes cartas representa un experimento estructurado:
+
+<table>
+    
+    Experiment Card #1
+    Hypothesis: Las notificaciones automáticas aumentan la asistencia a citas médicas.
+    Method: Se divide a los pacientes en dos grupos (con y sin notificaciones) durante un mes.
+    Metrics: Tasa de asistencia.
+    Expected Result: El grupo con notificaciones tiene una asistencia al menos 20% mayor.
+    Status: Planificado.
+
+  </tr>
+    
+    Experiment Card #2
+    Hypothesis: Los médicos prefieren la vista semanal del calendario sobre la diaria.
+    Method: Se habilitan ambas vistas y se mide el uso y se hace una encuesta.
+    Metrics: Tiempo promedio en cada vista + preferencia reportada.
+    Expected Result: Al menos 60% de los médicos reportan preferencia por la vista semanal.
+    Status: En ejecución.
+
+  </tr>
+
+    Experiment Card #3
+    Hypothesis: Los pacientes mayores de 60 años encuentran difícil de usar la app sin guía.
+    Method: Se reclutan usuarios mayores para una prueba guiada y una sin guía.
+    Metrics: Tasa de éxito en tareas básicas, tiempo promedio y errores cometidos.
+    Expected Result: Más del 40% de los pacientes sin guía cometen errores en tareas clave.
+    Status: Diseñado.
+
+  </tr>
+
+    Experiment Card #4
+    Hypothesis: Integrar mensajes motivacionales diarios aumenta el uso de la app.
+    Method: Grupo A recibe mensajes personalizados; grupo B no.
+    Metrics: Frecuencia de uso diario.
+    Expected Result: Grupo A usa la app al menos 25% más.
+    Status: En evaluación.
+
+  </tr>
   
-  - **Pipeline de Despliegue:** Crear un pipeline de despliegue automatizado que incluya etapas como compilación, pruebas, despliegue en entornos de preproducción y producción.
+</table>
 
-  - **Monitoreo y Retroalimentación:** Implementar sistemas de monitoreo y
-    registro (logging) para rastrear el rendimiento y la estabilidad de la
-    aplicación en producción, lo que permite identificar problemas en tiempo real.
+## 8.2 Experiment Design
+
+### 8.2.1 Hypotheses
+
+### Hypothesis 1
+
+| **Question** | ¿Las notificaciones automáticas pueden mejorar la tasa de asistencia a citas médicas? |
+|--------------|------------------------------------------------------------------------------------------|
+| **Data Analyze** | Se ha identificado mediante entrevistas y pruebas internas que los usuarios valoran los recordatorios automatizados. Al revisar patrones de uso en versiones anteriores, se observó que varios pacientes olvidan sus citas. |
+| **Hypothesis** | Si se implementan notificaciones automáticas, la asistencia a citas aumentará en al menos un 20%, reduciendo la tasa de inasistencia por olvido. |
+
+---
+
+### Hypothesis 2 
+
+| **Question** | ¿La vista semanal del calendario facilita una mejor organización para los médicos que la vista diaria? |
+|--------------|----------------------------------------------------------------------------------------------|
+| **Data Analyze** | A partir de sesiones con prototipos funcionales, se observó que la mayoría de médicos prefieren una visualización semanal para planificar de forma más eficiente sus tiempos. |
+| **Hypothesis** | La vista semanal del calendario incrementará la eficiencia en la gestión de citas médicas, siendo preferida por al menos el 60% de los usuarios médicos. |
+
+---
+
+### Hypothesis 3 
+
+| **Question** | ¿La actual interfaz es lo suficientemente intuitiva para pacientes mayores de 60 años? |
+|--------------|-----------------------------------------------------------------------------------------|
+| **Data Analyze** | Se realizaron pruebas básicas de navegación con adultos mayores. Los resultados preliminares muestran que sin asistencia, algunos usuarios experimentan dificultades en tareas clave como agendar una cita. |
+| **Hypothesis** | Más del 40% de los usuarios mayores de 60 años requerirán asistencia o cometerán errores al utilizar la app, por lo que se necesita una versión con mejor accesibilidad. |
+
+---
+
+### Hypothesis 4 
+
+| **Question** | ¿El envío de mensajes motivacionales diarios mejora la frecuencia de uso de la app? |
+|--------------|-------------------------------------------------------------------------------------|
+| **Data Analyze** | En una prueba piloto se implementó el envío de mensajes motivadores a un grupo reducido. Los datos reflejaron un aumento sostenido en la apertura diaria de la app. |
+| **Hypothesis** | Los pacientes que reciben mensajes motivacionales personalizados utilizarán la aplicación al menos un 25% más que aquellos que no los reciben. |
+
+---
+
+### 8.2.2 Measures
+
+Se definirán métricas cuantitativas y cualitativas para medir el impacto de las funcionalidades propuestas:
+
+1. **Tasa de asistencia a citas:** Porcentaje de citas confirmadas a las que el paciente asiste, con y sin notificaciones.
+2. **Uso por tipo de vista de calendario:** Registro de interacciones en la vista diaria vs. semanal.
+3. **Éxito en tareas básicas (usabilidad):** Tiempo promedio para agendar una cita, tasa de errores y necesidad de asistencia.
+4. **Frecuencia de uso de la app:** Número de sesiones por usuario con y sin mensajes motivacionales.
 
 
-### 7.3.2. Production Deployment Pipeline Components
+### 8.2.3 Conditions
 
-Los componentes clave de un pipeline de despliegue en producción incluye:
+- **Público objetivo:** Pacientes adultos (de diversas edades) y profesionales de la salud que utilicen el sistema.
+- **Entorno de pruebas:** Versiones prototipo funcionales en ambiente de staging, tanto en web como en app móvil.
+- **Período de prueba:** 2 semanas para cada experimento, con seguimiento por parte del equipo.
+- **Segmentación:** Usuarios divididos en grupos de prueba (A/B) según el experimento.
+- **Consentimiento informado:** Todos los participantes completarán un formulario de consentimiento digital antes de participar.
+- **Variables controladas:** Se mantendrá constante el número de recordatorios manuales y la cantidad de pacientes por médico en las pruebas.
 
-  - Compilación (Build): En esta etapa, el código fuente se compila y se generan los artefactos que se desplegarán en producción.
 
-  - Pruebas (Testing): Aquí se realizan pruebas automatizadas para garantizar que la aplicación cumple con los requisitos de calidad y que no se introduzcan nuevos errores.
+### 8.2.4 Scale Calculation and Decisions
 
-  - Entorno de Preproducción (Staging): Antes de desplegar en producción, se puede desplegar en un entorno de preproducción para realizar pruebas adicionales y validación por parte de usuarios beta.
+- **Muestra mínima viable:** Se establecerá una muestra inicial de al menos 30 usuarios por grupo experimental, suficiente para obtener tendencias claras.
+- **Escalamiento progresivo:** Si los resultados son estadísticamente favorables, las funciones se extenderán a toda la base de usuarios en un siguiente sprint.
+- **Evaluación continua:** Se revisarán las métricas semanalmente para detectar patrones y posibles desviaciones.
+- **Criterio de éxito:** Una función se considera exitosa si cumple con al menos el 80% del objetivo planteado en su hipótesis.
 
-  - Despliegue en Producción (Production Deployment): En esta etapa, el código se despliega en el entorno de producción de manera automatizada.
+### 8.2.5 Method Selection
 
-  - Monitoreo Continuo (Continuous Monitoring): Una vez en producción, se monitorea constantemente el rendimiento y la estabilidad de la aplicación, identificando y solucionando problemas en tiempo real.
+Se emplearán los siguientes métodos para validar las hipótesis:
 
-  - Reversión (Rollback): Si se detecta algún problema en producción, el pipeline debe permitir la reversión rápida a una versión anterior de la aplicación.
+- **Pruebas A/B:** Para comparar grupos con y sin la funcionalidad específica.
+- **Encuestas posteriores a la prueba:** Para recoger datos cualitativos sobre satisfacción y experiencia.
+- **Pruebas de usabilidad moderadas:** Con observación directa del comportamiento de usuarios representativos.
+- **Seguimiento de métricas automatizado:** A través de Firebase y herramientas analíticas del backend.
+
+### 8.2.6 Data Analytics: Goals, KPIs and Metric Selection
+
+## Objetivos:
+
+- Validar el impacto de nuevas funcionalidades en el comportamiento del usuario.
+- Identificar oportunidades de mejora en la experiencia del usuario.
+- Asegurar que las nuevas funciones cumplen con los objetivos de producto y negocio.
+
+## KPIs definidos:
+
+| Métrica | KPI | Herramienta de medición |
+|--------|-----|--------------------------|
+| Tasa de asistencia | ≥ 20% de incremento | Firebase Events, logs internos |
+| Preferencia de vista semanal | ≥ 60% de uso sobre vista diaria | Registro de interacción por UI |
+| Usabilidad para mayores | ≤ 40% de errores sin ayuda | Pruebas moderadas y grabaciones |
+| Incremento en frecuencia de uso | ≥ 25% de sesiones más en grupo A | Firebase Analytics |
+
+
+### 8.2.7 Web and Mobile Tracking Plan
+
+Para evaluar el impacto real de las funcionalidades, se implementará un sistema de seguimiento tanto en la app web como móvil:
+
+- **Eventos clave a rastrear:**
+  - Inicio de sesión.
+  - Apertura de notificaciones.
+  - Interacciones con vistas del calendario.
+  - Confirmación y asistencia a citas.
+  - Visualización de mensajes motivacionales.
+
+- **Herramientas utilizadas:**
+  - **Firebase Analytics**: Para capturar eventos personalizados.
+  - **Google Tag Manager** (web): Para rastreo sin redeploy.
+  - **Backend logging con timestamps**: Para análisis de comportamiento por sesión.
+
+- **Dashboard de seguimiento:**
+  - Se diseñará un panel de visualización (Google Data Studio o Looker) para visualizar el rendimiento de los experimentos en tiempo real.
+
+## 8.3 Experimentation
+
+### 8.3.1 To-Be User Stories
+
+<table>
+  <tr>
+    <th></th>
+    <th>To-Be User Story</th>
+    <th>Criterios de Aceptación</th>
+  </tr>
+  <tr>
+      <td>Notificaciones automáticas para citas</td>
+      <td><b>Como</b> paciente oncológico,
+      <br><b>quiero</b> recibir notificaciones automáticas antes de mis citas médicas,
+      <br><b>para</b> no olvidarlas y asistir puntualmente.</td>
+      <td> - El sistema envía notificaciones 24 y 2 horas antes de la cita. <br> - El paciente puede elegir el canal de notificación (app, SMS o correo).
+      <br> - Se registra si el usuario abrió la notificación.</td>
+  </tr>
+  <tr>
+      <td>Vista semanal para médicos</td>
+      <td><b>Como</b> médico oncólogo,
+      <br><b>quiero</b> ver el calendario de mis pacientes en una vista semanal,
+      <br><b>para</b> planificar mis tiempos de manera más eficiente.</td>
+      <td> - Se puede alternar entre vista diaria y semanal.
+      <br> - La vista semanal muestra color o íconos por tipo de cita.
+      <br> - Se registran eventos de uso para cada vista.</td>
+  </tr>
+  <tr>
+      <td>Modo accesible para adultos mayores</td>
+      <td><b>Como</b> paciente mayor de 60 años,
+      <br><b>quiero</b> una interfaz simplificada y accesible,
+      <br><b>para</b> poder usar la app sin asistencia.</td>
+      <td> - Modo accesible con íconos grandes, colores de alto contraste y texto ampliado.
+      <br> - Asistente paso a paso al agendar una cita.
+      <br> - Tiempo y errores de interacción reducidos en pruebas moderadas.</td>
+  </tr>
+  <tr>
+      <td>Mensajes motivacionales personalizados</td>
+      <td><b>Como</b> paciente en tratamiento,
+      <br><b>quiero</b> recibir mensajes motivacionales diarios personalizados,
+      <br><b>para</b> sentirme acompañado durante mi proceso.</td>
+      <td> - El sistema envía un mensaje diario diferente según el perfil del paciente.
+      <br> - El usuario puede valorar o reaccionar al mensaje.
+      <br> - Se registra si el mensaje fue abierto o leído.</td>
+  </tr>
+</table>
+
+### 8.3.2 To-Be Product Backlog
+
+| Prioridad | Historia / Funcionalidad                             | Dependencia             | Tipo               | Sprint estimado |
+| --------- | ---------------------------------------------------- | ----------------------- | ------------------ | --------------- |
+| Alta      | Implementación de notificaciones automáticas         | Sistema de agenda       | Feature core       | Sprint 1        |
+| Alta      | Alternancia entre vista diaria/semanal para médicos  | UI calendario           | Mejora UX          | Sprint 2        |
+| Media     | Configuración de canal preferido de notificaciones   | Perfil del usuario      | Configuración UX   | Sprint 3        |
+| Alta      | Activación del modo accesible                        | Sistema de login/perfil | Inclusión / Acceso | Sprint 2        |
+| Media     | Registro de eventos de interacción con mensajes      | Backend + Analytics     | Observabilidad     | Sprint 3        |
+| Alta      | Generador de mensajes motivacionales personalizados  | Backend de contenido    | Feature core       | Sprint 2        |
+| Baja      | Asistente guiado para primera vez en app             | Sistema de tutoriales   | Onboarding         | Sprint 4        |
+| Media     | Registro detallado de errores en flujos de pacientes | Sistema de logs         | Observabilidad     | Sprint 3        |
 
 ## 8.4. Experiment Aftermath & Analysis
 
