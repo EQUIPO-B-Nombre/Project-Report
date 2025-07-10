@@ -3667,8 +3667,15 @@ Para evaluar el impacto real de las funcionalidades, se implementará un sistema
       <td><b>Como</b> paciente oncológico,
       <br><b>quiero</b> recibir notificaciones automáticas antes de mis citas médicas,
       <br><b>para</b> no olvidarlas y asistir puntualmente.</td>
-      <td> - El sistema envía notificaciones 24 y 2 horas antes de la cita. <br> - El paciente puede elegir el canal de notificación (app, SMS o correo).
-      <br> - Se registra si el usuario abrió la notificación.</td>
+      <td> - <b>Given</b> que un paciente tiene una cita agendada,
+      <br> <b>When</b> faltan 24 o 2 horas para la cita,
+      <br> <b>Then</b> el sistema envía una notificación automáticamente.
+      <br> - <b>Given</b> que un paciente configura su perfil,
+      <br> <b>When</b> selecciona el canal preferido (app, SMS o correo),
+      <br> <b>Then</b> las notificaciones se envían por ese canal.
+      <br> - <b>Given</b> que una notificación es enviada,
+      <br> <b>When</b> el paciente la abre,
+      <br> <b>Then</b> se registra el evento de apertura.</td>
   </tr>
   <tr>
       <td>EP05 - TBUS02</td>
@@ -3676,9 +3683,15 @@ Para evaluar el impacto real de las funcionalidades, se implementará un sistema
       <td><b>Como</b> médico oncólogo,
       <br><b>quiero</b> ver el calendario de mis pacientes en una vista semanal,
       <br><b>para</b> planificar mis tiempos de manera más eficiente.</td>
-      <td> - Se puede alternar entre vista diaria y semanal.
-      <br> - La vista semanal muestra color o íconos por tipo de cita.
-      <br> - Se registran eventos de uso para cada vista.</td>
+      <td> - <b>Given</b> que estoy en el calendario de citas,
+      <br> <b>When</b> selecciono la opción de vista semanal o diaria,
+      <br> <b>Then</b> el calendario cambia a la vista correspondiente. 
+      <br> - <b>Given</b> que estoy visualizando la vista semanal,
+      <br> <b>When</b> reviso el calendario,
+      <br> <b>Then</b> veo colores o íconos que indican el tipo de cita. 
+      <br> - <b>Given</b> que un usuario cambia de vista,
+      <br> <b>When</b> interactúa con el calendario,
+      <br> <b>Then</b> se registra un evento de uso para análisis.</td>
   </tr>
   <tr>
       <td>EP02 - TBUS03</td>
@@ -3686,9 +3699,15 @@ Para evaluar el impacto real de las funcionalidades, se implementará un sistema
       <td><b>Como</b> paciente mayor de 60 años,
       <br><b>quiero</b> una interfaz simplificada y accesible,
       <br><b>para</b> poder usar la app sin asistencia.</td>
-      <td> - Modo accesible con íconos grandes, colores de alto contraste y texto ampliado.
-      <br> - Asistente paso a paso al agendar una cita.
-      <br> - Tiempo y errores de interacción reducidos en pruebas moderadas.</td>
+      <td> - <b>Given</b> que un usuario activa el modo accesible,
+      <br> <b>When</b> navega por la app,
+      <br> <b>Then</b> se muestran íconos grandes, colores de alto contraste y texto ampliado. 
+      <br> - <b>Given</b> que un usuario está agendando una cita,
+      <br> <b>When</b> usa el modo accesible,
+      <br> <b>Then</b> un asistente lo guía paso a paso. 
+      <br> - <b>Given</b> que se realizan pruebas moderadas,
+      <br> <b>When</b> un adulto mayor interactúa con la app,
+      <br> <b>Then</b> se registra menor tiempo de tarea y menos errores.</td>
   </tr>
   <tr>
       <td>EP02 - TBUS04</td>
@@ -3696,24 +3715,90 @@ Para evaluar el impacto real de las funcionalidades, se implementará un sistema
       <td><b>Como</b> paciente en tratamiento,
       <br><b>quiero</b> recibir mensajes motivacionales diarios personalizados,
       <br><b>para</b> sentirme acompañado durante mi proceso.</td>
-      <td> - El sistema envía un mensaje diario diferente según el perfil del paciente.
-      <br> - El usuario puede valorar o reaccionar al mensaje.
-      <br> - Se registra si el mensaje fue abierto o leído.</td>
+      <td> - <b>Given</b> que un paciente tiene un perfil configurado,
+      <br> <b>When</b> comienza un nuevo día,
+      <br> <b>Then</b> el sistema envía un mensaje motivacional personalizado. 
+      <br> - <b>Given</b> que un mensaje es enviado,
+      <br> <b>When</b> el paciente lo abre o lee,
+      <br> <b>Then</b> se registra ese evento para análisis de uso.</td>
   </tr>
 </table>
 
 ### 8.3.2 To-Be Product Backlog
 
-| Prioridad | Historia / Funcionalidad                             | Dependencia             | Tipo               | Sprint estimado |
-| --------- | ---------------------------------------------------- | ----------------------- | ------------------ | --------------- |
-| Alta      | Implementación de notificaciones automáticas         | Sistema de agenda       | Feature core       | Sprint 1        |
-| Alta      | Alternancia entre vista diaria/semanal para médicos  | UI calendario           | Mejora UX          | Sprint 2        |
-| Media     | Configuración de canal preferido de notificaciones   | Perfil del usuario      | Configuración UX   | Sprint 3        |
-| Alta      | Activación del modo accesible                        | Sistema de login/perfil | Inclusión / Acceso | Sprint 2        |
-| Media     | Registro de eventos de interacción con mensajes      | Backend + Analytics     | Observabilidad     | Sprint 3        |
-| Alta      | Generador de mensajes motivacionales personalizados  | Backend de contenido    | Feature core       | Sprint 2        |
-| Baja      | Asistente guiado para primera vez en app             | Sistema de tutoriales   | Onboarding         | Sprint 4        |
-| Media     | Registro detallado de errores en flujos de pacientes | Sistema de logs         | Observabilidad     | Sprint 3        |
+<table border="1">
+    <tr>
+        <th>#Orden</th>
+        <th>User Story Id</th>
+        <th>Título</th>
+        <th>Description</th>
+        <th>Story Points (1/2/3/5/8)</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>EP06 - TBUS01</td>
+        <td>Implementación de notificaciones automáticas</td>
+        <td><b>Como</b> paciente oncológico,
+        <br><b>quiero</b> recibir notificaciones automáticas antes de mis citas médicas,
+        <br><b>para</b> no olvidarlas y asistir puntualmente.</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>EP05 - TBUS02</td>
+        <td>Alternancia entre vista diaria/semanal para médicos</td>
+        <td><b>Como</b> médico oncólogo,
+        <br><b>quiero</b> ver el calendario de mis pacientes en una vista semanal,
+        <br><b>para</b> planificar mis tiempos de manera más eficiente.</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>EP06 - TBUS01</td>
+        <td>Configuración de canal preferido de notificaciones</td>
+        <td><b>Como</b> paciente oncológico,
+        <br><b>quiero</b> poder elegir el canal por el que recibiré las notificaciones (app, SMS o correo),
+        <br><b>para</b> recibir los recordatorios por mi medio preferido.</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>EP02 - TBUS03</td>
+        <td>Activación del modo accesible</td>
+        <td><b>Como</b> paciente mayor de 60 años,
+        <br><b>quiero</b> una interfaz simplificada con íconos grandes y colores de alto contraste,
+        <br><b>para</b> poder usar la app sin asistencia.</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>EP03-US08</td>
+        <td>Generador de mensajes motivacionales personalizados</td>
+        <td><b>Como</b> paciente en tratamiento,
+        <br><b>quiero</b> recibir mensajes motivacionales diarios personalizados,
+        <br><b>para</b> sentirme acompañado durante mi proceso.</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>EP02 - TBUS03</td>
+        <td>Asistente guiado para primera vez en app</td>
+        <td><b>Como</b> paciente mayor de 60 años,
+        <br><b>quiero</b> tener un asistente paso a paso al agendar mi primera cita,
+        <br><b>para</b> poder completar el proceso sin dificultad.</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>EP02 - TBUS04</td>
+        <td>Registro detallado de errores en flujos de pacientes</td>
+        <td><b>Como</b> administrador del sistema, 
+        <br><b>quiero</b> registrar los errores de interacción que cometen los pacientes,
+        <br><b>para</b> identificar mejoras de accesibilidad en la interfaz.</td>
+        <td>3</td>
+    </tr>
+</table>
+
 
 ### 8.3.3.3 Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
 
