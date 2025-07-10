@@ -2779,7 +2779,7 @@ Cada miembro del equipo debe mantener su trabajo al día con el repositorio cent
 
 #### Plans
 
-<img src="./img/execution-evidence/plans.png "/>
+<img src="./img/execution-evidence/plans.png"/>
 
 #### Footer
 
@@ -3703,14 +3703,137 @@ Para evaluar el impacto real de las funcionalidades, se implementará un sistema
 ### 8.3.3.3 Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
 
 #### 8.3.3.2 Implemented To-Be Landing Page Evidence
+#### Desktop Web Browser
+
+<img src="./img/execution-evidence/desktop.png"/>
+
+#### About us
+
+<img src="./img/execution-evidence/about-us.png"/>
+
+#### Services
+
+<img src="./img/execution-evidence/services.png"/>
+
+#### Plans
+
+<img src="./img/execution-evidence/plans.png"/>
+
+#### Footer
+
+<img src="./img/execution-evidence/footer.png"/>
 
 #### 8.3.3.3 Implemented To-Be Frontend-Web Application Evidence
 
+#### Agregar Paciente
+
+<img src="./img/frontend-web/agregar-paciente.png"/>
+
+#### Alarma Paciente
+
+<img src="./img/frontend-web/alarma.png"/>
+
+#### Calendario Paciente
+
+<img src="./img/frontend-web/calendario-paciente.png"/>
+
+#### Crear Cuenta
+
+<img src="./img/frontend-web/crear-cuenta.png"/>
+
+#### Eliminar Paciente
+
+<img src="./img/frontend-web/eliminar-paciente.png"/>
+
+#### Iniciar sesion
+
+<img src="./img/frontend-web/iniciar-sesion.png"/>
+
+#### Medicamentos
+
+<img src="./img/frontend-web/medicamentos.png"/>
+
+#### Menu doctor
+
+<img src="./img/frontend-web/menu-doctor.png"/>
+
+#### Menu paciente
+
+<img src="./img/frontend-web/menu-paciente.png"/>
+
+#### Nueva cita
+
+<img src="./img/frontend-web/nueva-cita.png"/>
+
+#### Nueva cita
+
+<img src="./img/frontend-web/tabla-paciente.png"/>
+
+#### Implementacion de la Landing page en el FrontEnd<br>
+
+<img src="./img/frontend-web/lamding.png"/> <br>
+
+#### Responsive Modals<br>
+
+<img src="./img/frontend-web/modals.png"/> <br>
+
+#### SideBar del FrontEND <br>
+
+<img src="./img/frontend-web/side.png"/> <br>
+
+#### Lista y detalles de medicamentos<br>
+
+<img src="./img/frontend-web/medicamentos-new.png"/> <br>
+
 #### 8.3.3.4 Implemented To-Be Native-Mobile Application Evidence
+
+#### Registrar
+
+<img src="./img/frontend-mobile/register.jpg">
+
+#### Iniciar de sesión
+
+<img src="./img/frontend-mobile/login.jpg">
+
+#### Citas
+
+<img src="./img/frontend-mobile/appointments.jpg">
+
+#### Perfil
+
+<img src="./img/frontend-mobile/profile-data.jpg">
+
+#### Barra de navegación
+
+<img src="./img/frontend-mobile/sidebar.jpg">
+
+#### Lista de pacientes
+
+<img src="./img/frontend-mobile/patient-list.jpg">
+
+#### Agregar paciente
+
+<img src="./img/frontend-mobile/add-patient.jpg">
+
+#### Detalles de paciente
+
+<img src="./img/frontend-mobile/patient-detail.jpg">
+
+#### Eliminar paciente
+
+<img src="./img/frontend-mobile/delete-patient.jpg">
 
 #### 8.3.3.5 Implemented To-Be RESTful API and/or Serverless Backend Evidence
 
+<img src="./img/services/health.png"/> 
+
+<img src="./img/services/profiles.png"/> 
+
+<img src="./img/services/swagger.png">
+
 #### 8.3.3.6 Team Collaboration Insights
+
+<img src="./img/overview.jpg">
 
 ## 8.4. Experiment Aftermath & Analysis
 
@@ -3750,9 +3873,6 @@ El enfoque de desarrollo component-first resultó efectivo para crear una base s
 **BAJA PRIORIDAD (Futuro):**
 7. Features Avanzadas (Score: 4/10) - DEGRADADO
 8. Integraciones Terceros (Score: 3/10) - MANTENIDO
-
-
-
 
 ## 8.6 To-Be Software Platform Pre-launch
 
