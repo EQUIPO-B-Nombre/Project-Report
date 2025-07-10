@@ -1205,7 +1205,9 @@ Acceso Seguro: Asegurar que las consultas virtuales sean seguras y privadas, cum
     <td>Gestión de información médica para pacientes</td>
     <td>Como paciente
 Quiero tener acceso a con mayor detalle mi información médica
-Para estar informado
+Para estar informado</td>
+<td></td>
+<td>EP07</td>
 </table>
 
 ## 3.3. Product Backlog
@@ -2348,8 +2350,8 @@ Cada miembro del equipo debe mantener su trabajo al día con el repositorio cent
 ### 5.2.1. Sprint Backlogs
 
 <ul>
-         <il><h3>5.2.1.1. Sprint Backlog 1</a></h3></il>
-         <table border="1">
+<il><h3>5.2.1.1. Sprint Backlog 1</a></h3></il>
+  <table border="1">
   <tr>
     <th>Sprint #</th>
     <th>User Story</th>
@@ -2410,6 +2412,7 @@ Cada miembro del equipo debe mantener su trabajo al día con el repositorio cent
     <td>Luiggi Paredes</td>
     <td>Done</td>
   </tr>
+</table>
 
 <il><h3>5.2.1.2. Sprint Backlog 2</a></h3></il>
          <table border="1">
@@ -2635,7 +2638,7 @@ Cada miembro del equipo debe mantener su trabajo al día con el repositorio cent
 </table>
 
 <il><h3>5.2.1.3. Sprint Backlog 3</a></h3></il>
-         <table border="1">
+  <table border="1">
   <tr>
     <th>Sprint #</th>
     <th>User Story</th>
@@ -3535,17 +3538,20 @@ Cada una de las siguientes cartas representa un experimento estructurado:
 
 | **Question** | ¿Las notificaciones automáticas pueden mejorar la tasa de asistencia a citas médicas? |
 |--------------|------------------------------------------------------------------------------------------|
-| **Data Analyze** | Se ha identificado mediante entrevistas y pruebas internas que los usuarios valoran los recordatorios automatizados. Al revisar patrones de uso en versiones anteriores, se observó que varios pacientes olvidan sus citas. |
+| **Data Analisis** | Se ha identificado mediante entrevistas y pruebas internas que los usuarios valoran los recordatorios automatizados. Al revisar patrones de uso en versiones anteriores, se observó que varios pacientes olvidan sus citas. |
 | **Hypothesis** | Si se implementan notificaciones automáticas, la asistencia a citas aumentará en al menos un 20%, reduciendo la tasa de inasistencia por olvido. |
-
+| **Null Hypothesis** | Las notificaciones automáticas no tienen un efecto significativo en la asistencia a las citas médicas (el aumento es menor al 20% o inexistente). |
+| **Alternative Hypothesis** | Las marcas en el calendario producidas por las notificaciones son suficientes para recordar al paciente, aumentando la asistencia de citas médicas por al menos un 20%. |
 ---
 
 ### Hypothesis 2 
 
 | **Question** | ¿La vista semanal del calendario facilita una mejor organización para los médicos que la vista diaria? |
 |--------------|----------------------------------------------------------------------------------------------|
-| **Data Analyze** | A partir de sesiones con prototipos funcionales, se observó que la mayoría de médicos prefieren una visualización semanal para planificar de forma más eficiente sus tiempos. |
+| **Data Analisis** | A partir de sesiones con prototipos funcionales, se observó que la mayoría de médicos prefieren una visualización semanal para planificar de forma más eficiente sus tiempos. |
 | **Hypothesis** | La vista semanal del calendario incrementará la eficiencia en la gestión de citas médicas, siendo preferida por al menos el 60% de los usuarios médicos. |
+| **Null Hypothesis** | La vista semanal del calendario no es significativamente más preferida ni mejora la eficiencia en la organización médica respecto a la vista diaria (preferencia ≤ 60%). |
+| **Alternative Hypothesis** | Una vista semanal no es prefererida, pero una vista mensual donde se visualicen más días aumenta la organización de al menos el 60% de usuarios médicos. |
 
 ---
 
@@ -3553,8 +3559,10 @@ Cada una de las siguientes cartas representa un experimento estructurado:
 
 | **Question** | ¿La actual interfaz es lo suficientemente intuitiva para pacientes mayores de 60 años? |
 |--------------|-----------------------------------------------------------------------------------------|
-| **Data Analyze** | Se realizaron pruebas básicas de navegación con adultos mayores. Los resultados preliminares muestran que sin asistencia, algunos usuarios experimentan dificultades en tareas clave como agendar una cita. |
+| **Data Analisis** | Se realizaron pruebas básicas de navegación con adultos mayores. Los resultados preliminares muestran que sin asistencia, algunos usuarios experimentan dificultades en tareas clave como agendar una cita. |
 | **Hypothesis** | Más del 40% de los usuarios mayores de 60 años requerirán asistencia o cometerán errores al utilizar la app, por lo que se necesita una versión con mejor accesibilidad. |
+| **Null Hypothesis** | El porcentaje de usuarios mayores de 60 años que requieren asistencia o cometen errores al usar la app es 40% o menos. |
+| **Alternative Hypothesis** | Más del 30% de usuarios menores de 60 años igualmente requieren de asistencia para realizar ciertas tareas, requiriendo una mejor interfaz. |
 
 ---
 
@@ -3562,8 +3570,10 @@ Cada una de las siguientes cartas representa un experimento estructurado:
 
 | **Question** | ¿El envío de mensajes motivacionales diarios mejora la frecuencia de uso de la app? |
 |--------------|-------------------------------------------------------------------------------------|
-| **Data Analyze** | En una prueba piloto se implementó el envío de mensajes motivadores a un grupo reducido. Los datos reflejaron un aumento sostenido en la apertura diaria de la app. |
+| **Data Analisis** | En una prueba piloto se implementó el envío de mensajes motivadores a un grupo reducido. Los datos reflejaron un aumento sostenido en la apertura diaria de la app. |
 | **Hypothesis** | Los pacientes que reciben mensajes motivacionales personalizados utilizarán la aplicación al menos un 25% más que aquellos que no los reciben. |
+| **Null Hypothesis** | El envío de mensajes motivacionales no incrementa significativamente el uso de la app (el aumento es menor al 25% o nulo). |
+| **Alternative Hypothesis** | Al menos un 25% de pacientes que reciben los mensajes prefieren obtener información distinta, necesitando la implementación del mismo sistema pero con diferentes mensajes. |
 
 ---
 
@@ -3646,11 +3656,13 @@ Para evaluar el impacto real de las funcionalidades, se implementará un sistema
 
 <table>
   <tr>
-    <th></th>
+    <th>User Story Id</th>
+    <th>Nombre</th>
     <th>To-Be User Story</th>
     <th>Criterios de Aceptación</th>
   </tr>
   <tr>
+      <td>EP06 - TBUS01</td>
       <td>Notificaciones automáticas para citas</td>
       <td><b>Como</b> paciente oncológico,
       <br><b>quiero</b> recibir notificaciones automáticas antes de mis citas médicas,
@@ -3659,6 +3671,7 @@ Para evaluar el impacto real de las funcionalidades, se implementará un sistema
       <br> - Se registra si el usuario abrió la notificación.</td>
   </tr>
   <tr>
+      <td>EP05 - TBUS02</td>
       <td>Vista semanal para médicos</td>
       <td><b>Como</b> médico oncólogo,
       <br><b>quiero</b> ver el calendario de mis pacientes en una vista semanal,
@@ -3668,6 +3681,7 @@ Para evaluar el impacto real de las funcionalidades, se implementará un sistema
       <br> - Se registran eventos de uso para cada vista.</td>
   </tr>
   <tr>
+      <td>EP02 - TBUS03</td>
       <td>Modo accesible para adultos mayores</td>
       <td><b>Como</b> paciente mayor de 60 años,
       <br><b>quiero</b> una interfaz simplificada y accesible,
@@ -3677,6 +3691,7 @@ Para evaluar el impacto real de las funcionalidades, se implementará un sistema
       <br> - Tiempo y errores de interacción reducidos en pruebas moderadas.</td>
   </tr>
   <tr>
+      <td>EP02 - TBUS04</td>
       <td>Mensajes motivacionales personalizados</td>
       <td><b>Como</b> paciente en tratamiento,
       <br><b>quiero</b> recibir mensajes motivacionales diarios personalizados,
