@@ -388,42 +388,53 @@ ambientales y sociales.
     <td><strong>4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software</strong></td>
     <td>Matos Fernandez, Christian Andre
 
+TB1: Durante el desarrollo de OnContigo, asumí un enfoque responsable al implementar las funcionalidades de la sección de perfil y consultas, garantizando la protección de la privacidad y el manejo adecuado de la información personal de los usuarios.
+
 TP1: En el desarrollo de OnContigo, trabajé de manera responsable asegurándome de que las funciones implementadas en la sección de perfil y consultas respetaran la privacidad y el correcto manejo de la información de los usuarios.
 
 TB2: Durante el análisis estático y las revisiones de código, asumí una responsabilidad ética al seguir buenas prácticas y estándares. Me aseguré de que el código sea seguro y mantenible, priorizando siempre la calidad y el bienestar de los usuarios.
 
-
+TF1: Durante el desarrollo de OnContigo, asumí un enfoque responsable al implementar las funcionalidades de la sección de perfil y consultas, cuidando especialmente la privacidad y el manejo adecuado de la información personal de los usuarios. Estas decisiones fueron respaldadas por los hallazgos obtenidos en entrevistas con usuarios, donde identificamos preocupaciones clave relacionadas con la confidencialidad y la seguridad de sus datos, lo que nos permitió validar la importancia de estas medidas.
 
 Martinez Villanueva, Paolo Del Carmen
+
+TB1: Durante esta entrega, asumí responsabilidad ética y profesional en la definición de la problemática, el análisis de usuarios y la especificación de requisitos, asegurando que la solución propuesta respondiera a necesidades reales con enfoque en la accesibilidad, equidad y privacidad. Al diseñar la arquitectura, los prototipos y el backlog, prioricé prácticas responsables que promovieran la sostenibilidad del sistema y el bienestar de los usuarios. Asimismo, en la configuración del entorno de desarrollo, control de versiones y despliegue, apliqué criterios técnicos que garantizan la calidad, trazabilidad y confiabilidad del software en un entorno colaborativo.
 
 TP1: Durante el desarrollo del proyecto, he investigado y aplicado principios éticos y profesionales, asegurando que el software respete la privacidad de los usuarios, promueva la equidad en el acceso y minimice riesgos potenciales derivados de su uso.
 
 TB2: Para esta entrega me enfoqué en demostrar responsabilidad profesional al diseñar un experimento riguroso que respeta la integridad de los datos, garantizar la privacidad de los usuarios y asegurar que las decisiones tomadas estén basadas en evidencia confiable y transparente. Se priorizó la ética en la recolección y análisis de datos, aplicando buenas prácticas experimentales.
 
-
-
+TF1: Durante el trabajo final, asumí responsabilidad ética y profesional en la definición y priorización de las historias de usuario, asegurando la privacidad y seguridad en la plataforma. Participé en la implementación de la solución web, móvil y backend, aplicando buenas prácticas de desarrollo responsable. En el diseño y realización de las entrevistas de validación, respeté la confidencialidad y analicé los resultados con rigor y transparencia. Además, promoví el aprendizaje continuo y la colaboración dentro del equipo durante todo el ciclo experimental y el pre-lanzamiento del producto.
 
 Ramos Mendoza, Juan Pablo
+
+TB1: Para esta primera entrega, identifiqué el problema principal a enfocarnos como base en el desarrollo de nuestro proyecto, manteniendo mis responsabilidades en el grupo para un correcto desarrollo de las aplicaciones
 
 TP1: Para esta primera entrega he revisado las herramientas y técnicas para desarrollar wireframes y mockups al expandir el proyecto original con una aplicación móvil, además de repasar junto con mis compañeros los temas vistos previamente sobre la arquitectura de software y style guidelines.
 
 TB2: Para esta entrega, me enfoqué en realizar mis deberes de forma temprana, considerando los avances de mis compañeros para mantener un buen informe, además de presentar buenas prácticas al momento de realizar las entrevistas de manera formal y concisa, sin guiar a los entrevistados a respuestas cerradas.
 
-
-
+TF1: Como entrega final, me aseguré de revisar que tanto el proyecto en sí como el informe del trabajo se encuentren en el mejor estado posible y mantengan los estándares pedidos en el enunciado y rúbrica.
 
 Paredes Zapata, Luiggi Gianfranco
 
+TB1: Durante el desarrollo de OnContigo, asumí la responsabilidad ética de garantizar que la información presentada en el capítulo de introducción fuera precisa y relevante, evitando cualquier sesgo o información engañosa. Esto incluyó investigar y presentar datos verificados sobre el cáncer y su tratamiento, así como las necesidades de los pacientes y médicos.
+
 TP1: Durante el desarrollo del proyecto, implementé la metodología Core Behavior-Driven Development y Core System Tests con Cucumber y Selenium, asegurándome de que las decisiones de desarrollo fueran éticamente responsables, con especial énfasis en la privacidad, la seguridad de los datos y la transparencia de la información. Estos principios guiaron mi enfoque hacia la creación de una aplicación que no solo cumpla con los estándares técnicos, sino que también garantice el respeto por la privacidad de los usuarios y sus derechos. <br><br>
+
 TB2: Reconocí la importancia de aplicar principios éticos y profesionales al identificar diversos problemas en la plataforma evaluada, tales como la falta de accesibilidad y una usabilidad limitada para usuarios con discapacidad visual (imágenes sin contraste suficiente y carencia de texto alternativo). Proporcioné recomendaciones específicas para asegurar una experiencia inclusiva, demostrando un claro compromiso con la responsabilidad ética y profesional en la ingeniería de software.
 
-
+TF1: Durante el desarrollo de OnContigo, reconocí mi responsabilidad ética al manejar datos médicos sensibles, implementando medidas de seguridad robustas y siguiendo principios de privacidad por diseño. Como estudiante de ingeniería de software, comprendo que mi trabajo impacta directamente la confianza de pacientes vulnerables y la integridad del sistema de salud, por lo que cada decisión técnica debe ser evaluada no solo por su funcionalidad, sino por sus implicaciones éticas y profesionales.
 
 Mallma Quispe, Ruben Elias
+
+TB1: En el desarrollo de OnContigo, asumí la responsabilidad ética de garantizar que la información presentada en el capítulo de introducción fuera precisa y relevante, evitando cualquier sesgo o información engañosa. Esto incluyó investigar y presentar datos verificados sobre el cáncer y su tratamiento, así como las necesidades de los pacientes y médicos.
 
 TP1: Participé en la elaboración de entrevistas y el desarrollo del capítulo correspondiente. Esto me permitió fortalecer mis habilidades de investigación y aplicar conceptos clave sobre necesidades de usuario y estructura funcional para plataformas digitales. 
 
 TB2: En la arquitectura DevOps descrita, asumi la responsabilidad ética de entregar software seguro y confiable: cada commit pasa por análisis de vulnerabilidades, pruebas automatizadas y revisiones que previenen la introducción de fallos críticos. Además, los "gates" de calidad (como la cobertura mínima y la protección de ramas) refuerzan la obligación profesional de mantener la integridad del sistema y proteger los datos de los usuarios.
+
+TF1: Finalmente, en el trabajo final, asumí la responsabilidad ética de garantizar que la información presentada en el capítulo de introducción fuera precisa y relevante, evitando cualquier sesgo o información engañosa. Esto incluyó investigar y presentar datos verificados sobre el cáncer y su tratamiento, así como las necesidades de los pacientes y médicos. Además, al participar en la elaboración de entrevistas y el desarrollo del capítulo correspondiente, fortalecí mis habilidades de investigación y apliqué conceptos clave sobre necesidades de usuario y estructura funcional para plataformas digitales. Estas acciones reflejan mi compromiso con la ética profesional en ingeniería de software.
 </td>
 <td>El equipo logró actualizar y aplicar conocimientos fundamentales durante el desarrollo del entregable TB1, fortaleciendo su formación profesional a través de actividades como la investigación de metodologías Lean UX, la elaboración de entrevistas, el análisis de usuarios, el diseño de hipótesis y la definición de requerimientos funcionales. Estas acciones permitieron comprender mejor las necesidades del usuario final y cómo diseñar soluciones digitales que respondan a esas necesidades. El trabajo colaborativo, la estructuración de contenidos por capítulos y el enfoque constante en la experiencia del usuario nos permitieron consolidar una base sólida para el desarrollo del proyecto, alineado a estándares profesionales y buenas prácticas de ingeniería de software. </td>
   </tr>
@@ -431,40 +442,53 @@ TB2: En la arquitectura DevOps descrita, asumi la responsabilidad ética de entr
     <td><strong>4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales</strong></td>
     <td>Matos Fernandez, Christian Andre
 
+TB1: A lo largo del desarrollo, procuré que cada decisión técnica estuviera alineada con mejorar la experiencia tanto de pacientes como de médicos. Me aseguré de priorizar aspectos como la seguridad, la accesibilidad y la utilidad real de la aplicación como acompañamiento durante el tratamiento contra el cáncer.
+
 TP1: Durante el desarrollo, tomé decisiones considerando cómo las funcionalidades impactarían en la experiencia de pacientes y médicos, priorizando que la app fuera segura, accesible y de apoyo real en el proceso de tratamiento oncológico.
 
-TB2: Al evaluar la calidad y seguridad del código, consideré cómo las decisiones técnicas afectan el rendimiento, los costos y el impacto ambiental. Esto me permitió emitir juicios informados con una visión global y socialmente responsable.
+TB2: Al evaluar la calidad y seguridad del código, consideré cómo las decisiones técnicas afectan el rendimiento, los costos y el impacto ambiental. Esto me permitió emitir juicios informados con una visión global y socialmente responsable.
 
-
+TF1: Durante el desarrollo, me enfoqué en que cada decisión técnica contribuyera positivamente a la experiencia de pacientes y médicos. Priorizamos la seguridad, la accesibilidad y la utilidad real de la aplicación como soporte en el tratamiento oncológico. Estas prioridades fueron validadas a través de entrevistas, donde los usuarios destacaron la importancia de contar con una herramienta confiable, fácil de usar y que realmente les ofreciera acompañamiento en su proceso de atención médica.
 
 Martinez Villanueva, Paolo Del Carmen
 
-TP1: He evaluado junto al equipo los posibles impactos sociales, económicos y ambientales de nuestra solución, priorizando decisiones de diseño que favorezcan la sostenibilidad, accesibilidad y adaptabilidad del software a diferentes realidades globales.
+TB1: Durante esta entrega, emití juicios informados considerando el impacto de la solución en distintos contextos. En la definición del problema, análisis de competidores y entrevistas, tomé en cuenta realidades sociales y económicas diversas. Al diseñar la arquitectura, los prototipos y los flujos de usuario, prioricé decisiones que favorezcan la accesibilidad, la sostenibilidad técnica y la adaptabilidad a distintos entornos globales.
+
+TP1: He evaluado junto al equipo los posibles impactos sociales, económicos y ambientales de nuestra solución, priorizando decisiones de diseño que favorezcan la sostenibilidad, accesibilidad y adaptabilidad del software a diferentes realidades globales.
 
 TB2: He elaborado un diseño experimental orientado a tomar decisiones fundamentadas sobre el comportamiento de los usuarios, seleccionando métricas y KPIs alineados con metas de impacto real. Consideré cómo los resultados influyen en la mejora del sistema desde una perspectiva accesible, sostenible y centrada en el usuario.
 
-
-
+TF1: Durante el trabajo final, evalué el impacto social, económico y ambiental de nuestra solución, tomando decisiones informadas que priorizaron la sostenibilidad, accesibilidad y adaptabilidad del software a diferentes contextos globales. Consideré cómo las funcionalidades y el diseño afectan a diversos usuarios, buscando un equilibrio entre eficiencia técnica y responsabilidad social. Esta perspectiva me permitió emitir juicios fundamentados para mejorar la solución con un enfoque integral y consciente de su entorno.
 
 Ramos Mendoza, Juan Pablo
 
+TB1: Me enfoqué en mis conocimientos anteriores para la creación de una buena base para la cuál se pudiera realizar un buen trabajo de forma grupal a través de los modelos canvas y entrevistas que he realizado, encontrando el problema y la mejor forma de solucionarlo usando una solución de ingeniería de software.
+
 TP1: Tomé consideración en cada momento del desarrollo y uso de wireframes y mockups en todo momento para asegurar una base de gran utilidad durante el desarrollo de nuestra aplicación, además de seguir un buen orden durante el desarrollo de las entrevistas, permitiendo obtener resultados que sirvieron de base para nuestro proyecto de nuestros usuarios objetivo.
 
-TB2: Mantuve el uso de buenas prácticas al momento de revisar el código, asegurando que mis compañeros siguieran una buena estructura.
+TB2: Mantuve el uso de buenas prácticas al momento de revisar el código, asegurando que mis compañeros siguieran una buena estructura.
 
-
+TF1: Al haber realizado las entrevistas de validación, he podido confirmar que los avances realizados por nuestro programa realmente tendrían un efecto positivo para estos grupos tan delicados e importantes de la sociedad que serían las personas que requieren de tratamientos muy delicados, y los médicos que realizan dichos tratamientos.
 
 Paredes Zapata, Luiggi Gianfranco
 
+TB1: En esta entrega, me enfoqué en aplicar principios éticos y profesionales al diseñar la arquitectura del software, asegurando que las decisiones tomadas consideraran el impacto global y social de las soluciones implementadas. Utilicé Core Behavior-Driven Development para garantizar que las decisiones tecnológicas fueran responsables y conscientes de los impactos económicos, sociales y ambientales, priorizando la adaptabilidad para todas las personas ya que nos enfocamos en el sector salud.<br><br>
+
 TP1: Durante el desarrollo de la aplicación, evalué el impacto global y social de las soluciones implementadas, tomando decisiones informadas sobre el uso de tecnologías que favorecieran la accesibilidad y sostenibilidad. A través de Core Behavior-Driven Development, garantizamos que las decisiones tecnológicas fueran conscientes de los impactos económicos, sociales y ambientales, priorizando la adaptabilidad y accesibilidad en diversas realidades.<br><br>
+
 TB2: Al realizar la auditoría UX, identifiqué cómo diversas deficiencias, como la responsividad inadecuada y problemas visuales en la interfaz, afectaban directamente a diferentes grupos de usuarios. Al proponer soluciones como la implementación de descripciones claras y mejoras en accesibilidad, consideré el impacto social, económico y global, reconociendo que una plataforma intuitiva y accesible contribuye positivamente al entorno digital inclusivo y a la satisfacción de usuarios diversos.
 
+TF1: Al diseñar OnContigo, evalué cómo una plataforma de salud digital puede democratizar el acceso médico en contextos socioeconómicos diversos, reducir costos del sistema de salud, y minimizar el impacto ambiental al disminuir desplazamientos innecesarios. Reconozco que las soluciones tecnológicas en salud deben balancear eficiencia económica con equidad social, considerando que la brecha digital puede excluir poblaciones vulnerables, por lo que mis decisiones de diseño priorizaron accesibilidad y adaptabilidad cultural global.
 
 Mallma Quispe, Ruben Elias
+
+TB1: Investigué y presenté información relevante sobre el cáncer y su tratamiento, asegurando que el contenido del capítulo de introducción fuera preciso y útil para los usuarios. Esto incluyó considerar el impacto social de la enfermedad y cómo OnContigo puede contribuir a mejorar la calidad de vida de pacientes y médicos.
 
 TP1: Identifiqué la importancia de mantenerme actualizado en metodologías ágiles y herramientas tecnológicas para mejorar mis competencias y aportar soluciones efectivas en el proyecto y en mi futuro profesional. 
 
 TB2: Las decisiones del pipeline consideran su efecto global, económico y social: el despliegue canary limita el riesgo para la base de usuarios mundial, mientras que el monitoreo continuo permite reaccionar rápidamente para minimizar pérdidas operativas. Asimismo, la medición de métricas de eficiencia (latencia, uso de CPU) fomenta soluciones más sostenibles, y los post-mortems documentan lecciones que guían mejoras con un enfoque inclusivo y responsable en futuras iteraciones.
+
+TF1: Para la entrega  final, investigué y presenté información relevante sobre el cáncer y su tratamiento, asegurando que el contenido del capítulo de introducción fuera preciso y útil para los usuarios. Esto incluyó considerar el impacto social de la enfermedad y cómo OnContigo puede contribuir a mejorar la calidad de vida de pacientes y médicos. Además, al participar en la elaboración de entrevistas y el desarrollo del capítulo correspondiente, fortalecí mis habilidades de investigación y apliqué conceptos clave sobre necesidades de usuario y estructura funcional para plataformas digitales. Estas acciones reflejan mi compromiso con la ética profesional en ingeniería de software.
 
 </td>
 <td>El equipo logró actualizar y aplicar conocimientos fundamentales durante el desarrollo del entregable TB1, fortaleciendo su formación profesional a través de actividades como la investigación de metodologías Lean UX, la elaboración de entrevistas, el análisis de usuarios, el diseño de hipótesis y la definición de requerimientos funcionales. Estas acciones permitieron comprender mejor las necesidades del usuario final y cómo diseñar soluciones digitales que respondan a esas necesidades. El trabajo colaborativo, la estructuración de contenidos por capítulos y el enfoque constante en la experiencia del usuario nos permitieron consolidar una base sólida para el desarrollo del proyecto, alineado a estándares profesionales y buenas prácticas de ingeniería de software. </td>
