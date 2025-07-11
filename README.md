@@ -3974,11 +3974,35 @@ El enfoque de desarrollo component-first resultó efectivo para crear una base s
 7. Features Avanzadas (Score: 4/10) - DEGRADADO
 8. Integraciones Terceros (Score: 3/10) - MANTENIDO
 
+# 8.5. Continuous Learning
+
+## 8.5.1. Shareback Session Artifacts: Learning Workflow
+
+Durante las sesiones de retroalimentación, el equipo expuso los aprendizajes obtenidos a lo largo del desarrollo y validación del producto. Se abordaron las métricas de éxito, así como los resultados recopilados en entrevistas y encuestas aplicadas durante los experimentos.
+
+Para esta presentación, se utilizó un flujo de trabajo organizado que incluyó los siguientes pasos:
+
+### Revisión de funcionalidades
+Se analizaron las versiones finales de los entregables: la landing page, la aplicación web, la aplicación móvil y el backend. 
+
+### Exposición de artefactos
+Se mostraron los resultados obtenidos en entrevistas y encuestas, destacando visualizaciones y gráficos extraídos de Google Forms que reflejaban las respuestas de los usuarios.
+
+### Análisis de resultados
+Se debatieron los hallazgos alcanzados. Cada integrante del equipo compartió su perspectiva sobre el proceso de desarrollo y propuso oportunidades de mejora.
+
+### Síntesis y conclusiones
+Se conectaron los resultados con las hipótesis iniciales del proyecto. Finalmente, se actualizó el *question backlog*, priorizando y reformulando preguntas según los nuevos aprendizajes.
+
+
+
 ## 8.6 To-Be Software Platform Pre-launch
 
 ### 8.6.1 About-The-Product Intro Video
 
 Enlace al video: https://drive.google.com/file/d/1zx1qneKrzgJC5Br-DWL7jFf_ftBINpcA/view?usp=sharing
+
+
 
 # Conclusiones y recomendaciones
 
